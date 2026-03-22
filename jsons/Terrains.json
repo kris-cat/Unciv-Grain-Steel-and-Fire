@@ -43,6 +43,7 @@
 	{
 		"name": "Grassland","type": "Land","food": 2,"movementCost": 1,"RGB": [31, 156, 67],
         "uniques": [
+			
 		]
     },
     {
@@ -52,7 +53,7 @@
 					"Considered [Desirable] when determining start locations"],
 	},
     {
-		"name": "Mountain","type": "Land","impassable": true,"defenceBonus": 0.50,"RGB": [102, 102, 102],
+		"name": "Mountain","type": "Land","production": 1,"impassable": true,"defenceBonus": 0.50,"RGB": [102, 102, 102],
 		"uniques": ["Rough terrain",
             "Has an elevation of [2] for visibility calculations",
             "Occurs in chains at high elevations",
