@@ -1,0 +1,14 @@
+[
+    {
+         "name": "Civilian",
+         "movementType": "Land"
+    },
+    {
+        "name": "Scouting",
+        "movementType": "Land"
+    },
+    {
+        "name": "Pre-Gunpowder Land Melee",
+        "movementType": "Land"
+    },
+]
