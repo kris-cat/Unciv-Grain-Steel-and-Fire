@@ -23,8 +23,8 @@
 		"uniques": [
             "Occurs at temperature between [-0.9] and [-0.8] and humidity between [0.7] and [1]",
 			"Occurs at temperature between [-0.8] and [-0.7] and humidity between [0.4] and [1]",
-			"Occurs at temperature between [-0.7] and [-0.6] and humidity between [0] and [0.7]",
-			"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0] and [0.5]",
+			"Occurs at temperature between [-0.7] and [-0.6] and humidity between [0] and [1]",
+			"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0] and [0.7]",
 			"Occurs at temperature between [-0.5] and [-0.4] and humidity between [0] and [0.4]",
             "Always Fertility [-1] for Map Generation",
             "Considered [Undesirable] when determining start locations",]
@@ -32,11 +32,10 @@
 	{
 		"name": "Continental","type": "Land","food": 1,"production": 1,"movementCost": 1,"RGB": [29, 117, 92], 
 		"uniques": [
-            "Occurs at temperature between [-0.7] and [-0.6] and humidity between [0.7] and [1]",
-			"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0.5] and [1]",
+            "Occurs at temperature between [-0.6] and [-0.5] and humidity between [0.7] and [1]",
 			"Occurs at temperature between [-0.5] and [-0.4] and humidity between [0.4] and [1]",
 			"Occurs at temperature between [-0.4] and [-0.3] and humidity between [0] and [0.7]",
-			"Occurs at temperature between [-0.3] and [-0.2] and humidity between [0] and [0.5]",
+			"Occurs at temperature between [-0.3] and [-0.1] and humidity between [0] and [0.5]",
             "Always Fertility [-1] for Map Generation",
             "Considered [Undesirable] when determining start locations",]
 	},
@@ -44,59 +43,53 @@
 		"name": "Grassland","type": "Land","food": 2,"movementCost": 1,"RGB": [31, 156, 67],
         "uniques": [
 			"Occurs at temperature between [-0.4] and [-0.3] and humidity between [0.7] and [1]",
-			"Occurs at temperature between [-0.3] and [-0.2] and humidity between [0.5] and [1]",
-			"Occurs at temperature between [-0.2] and [0] and humidity between [0.4] and [1]",
-			"Occurs at temperature between [0] and [0.3] and humidity between [0.5] and [1]",
-			"Occurs at temperature between [0.3] and [0.4] and humidity between [0.6] and [0.9]",
-			"Occurs at temperature between [0.4] and [0.5] and humidity between [0.6] and [0.8]",
+			"Occurs at temperature between [-0.3] and [-0.1] and humidity between [0.5] and [1]",
+			"Occurs at temperature between [-0.1] and [0.3] and humidity between [0.4] and [1]",
+			"Occurs at temperature between [0.3] and [0.4] and humidity between [0.6 and [1]",
+			"Occurs at temperature between [0.4] and [0.5] and humidity between [0.6] and [0.9]",
+			"Occurs at temperature between [0.5] and [0.6] and humidity between [0.6] and [0.8]",
+			"Occurs at temperature between [0.6] and [0.7] and humidity between [0.6] and [0.7]",
 		]
     },
 	{
 		"name": "Semi-Arid","type": "Land","food": 1,"movementCost": 1,"RGB": [175, 208, 149],
         "uniques": [
-			"Occurs at temperature between [-0.2] and [0] and humidity between [0] and [0.4]",
-			"Occurs at temperature between [0] and [0.1] and humidity between [0.2] and [0.5]",
-			"Occurs at temperature between [0.1] and [0.2] and humidity between [0.3] and [0.5]",
-			"Occurs at temperature between [0.2] and [0.3] and humidity between [0.4] and [0.5]",
+			"Occurs at temperature between [-0.1] and [0.2] and humidity between [0] and [0.4]",
+			"Occurs at temperature between [0.2] and [0.3] and humidity between [0.2] and [0.4]",
 			"Occurs at temperature between [0.3] and [0.4] and humidity between [0.4] and [0.6]",
-			"Occurs at temperature between [0.4] and [0.5] and humidity between [0.5] and [0.6]",
-			"Occurs at temperature between [0.6] and [0.7] and humidity between [0.4] and [0.6]",
-			"Occurs at temperature between [0.7] and [0.8] and humidity between [0.3] and [0.6]",
+			"Occurs at temperature between [0.4] and [0.7] and humidity between [0.5] and [0.6]",
+			"Occurs at temperature between [0.7] and [0.8] and humidity between [0.4] and [0.6]",
 			"Occurs at temperature between [0.8] and [0.9] and humidity between [0.2] and [0.4]",
 		]
     },
 	{
 		"name": "Arid","type": "Land","movementCost": 1,"RGB": [245, 223, 166],
         "uniques": [
-			"Occurs at temperature between [0] and [0.1] and humidity between [0] and [0.2]",
-			"Occurs at temperature between [0.1] and [0.2] and humidity between [0] and [0.3]",
-			"Occurs at temperature between [0.2] and [0.4] and humidity between [0] and [0.4]",
-			"Occurs at temperature between [0.4] and [0.5] and humidity between [0] and [0.5]",
-			"Occurs at temperature between [0.5] and [0.6] and humidity between [0] and [0.6]",
-			"Occurs at temperature between [0.6] and [0.7] and humidity between [0] and [0.4]",
-			"Occurs at temperature between [0.7] and [0.8] and humidity between [0] and [0.3]",
+			"Occurs at temperature between [0.2] and [0.3] and humidity between [0] and [0.2]",
+			"Occurs at temperature between [0.3] and [0.4] and humidity between [0] and [0.4]",
+			"Occurs at temperature between [0.4] and [0.7] and humidity between [0] and [0.5]",
+			"Occurs at temperature between [0.7] and [0.8] and humidity between [0] and [0.4]",
 			"Occurs at temperature between [0.8] and [0.9] and humidity between [0] and [0.2]",
 		]
     },
 	{
 		"name": "Subtropical","type": "Land","food": 1,"production": 1,"movementCost": 1,"RGB": [163, 236, 105],
         "uniques": [
-			"Occurs at temperature between [0.3] and [0.4] and humidity between [0.9] and [1]",
-			"Occurs at temperature between [0.4] and [0.5] and humidity between [0.8] and [1]",
-			"Occurs at temperature between [0.5] and [0.6] and humidity between [0.6] and [0.9]",
-			"Occurs at temperature between [0.6] and [0.7] and humidity between [0.6] and [0.8]",
-			"Occurs at temperature between [0.7] and [0.8] and humidity between [0.6] and [0.7]",
-			"Occurs at temperature between [0.8] and [0.9] and humidity between [0.4] and [0.6]",
+			"Occurs at temperature between [0.4] and [0.5] and humidity between [0.9] and [1]",
+			"Occurs at temperature between [0.5] and [0.6] and humidity between [0.8] and [1]",
+			"Occurs at temperature between [0.6] and [0.7] and humidity between [0.7] and [0.9]",
+			"Occurs at temperature between [0.7] and [0.8] and humidity between [0.6] and [0.8]",
+			"Occurs at temperature between [0.8] and [0.9] and humidity between [0.4] and [0.7]",
 			"Occurs at temperature between [0.9] and [1] and humidity between [0] and [0.6]",
 		]
     },
 	{
 		"name": "Tropical","type": "Land","food": 2,"movementCost": 1,"RGB": [111, 181, 56],
         "uniques": [
-			"Occurs at temperature between [0.5] and [0.6] and humidity between [0.9] and [1]",
-			"Occurs at temperature between [0.6] and [0.7] and humidity between [0.8] and [1]",
-			"Occurs at temperature between [0.7] and [0.8] and humidity between [0.7] and [1]",
-			"Occurs at temperature between [0.8] and [1] and humidity between [0.6] and [1]",
+			"Occurs at temperature between [0.6] and [0.7] and humidity between [0.9] and [1]",
+			"Occurs at temperature between [0.7] and [0.8] and humidity between [0.8] and [1]",
+			"Occurs at temperature between [0.8] and [0.9] and humidity between [0.7] and [1]",
+			"Occurs at temperature between [0.9] and [1] and humidity between [0.6] and [1]",
 		]
     },
     {
