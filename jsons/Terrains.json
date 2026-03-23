@@ -67,13 +67,12 @@
 		"name": "Subtropical","type": "Land","food": 1,"production": 1,"movementCost": 1,"RGB": [163, 236, 105],
         "uniques": [
 			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.5] and [1]",
-			"Occurs at temperature between [0.8] and [0.9] and humidity between [0.5] and [0.7]",
 		]
     },
 	{
 		"name": "Tropical","type": "Land","food": 2,"movementCost": 1,"RGB": [111, 181, 56],
         "uniques": [
-			"Occurs at temperature between [0.8] and [0.9] and humidity between [0.7] and [1]",
+			"Occurs at temperature between [0.8] and [0.9] and humidity between [0.5] and [1]",
 			"Occurs at temperature between [0.9] and [1] and humidity between [0.1] and [1]",
 		]
     },
