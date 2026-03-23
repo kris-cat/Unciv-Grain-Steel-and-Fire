@@ -230,7 +230,7 @@
 		"movementCost": 1,
 		"unbuildable": true,
 		"defenceBonus": -0.1,
-		"occursOn": ["Semiarid"],
+		"occursOn": ["Semi-Arid"],
 		"uniques": [
 			"Fresh water", "Rare feature",		
 			"Always Fertility [4] for Map Generation",		
