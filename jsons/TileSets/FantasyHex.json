@@ -1,0 +1,34 @@
+{
+    "useColorAsBaseTerrain": "false",
+    "fallbackTileSet": null,
+    "ruleVariants": {
+		// River pseudo-tile used in Civilopedia display only
+		"Grassland+River": ["Plains","River-BottomLeft","River-Bottom","River-BottomRight"],
+
+        //Legacy hill support
+        "Hill": ["Grassland","Hill"],
+        "Hill+Forest+Uranium": ["Grassland","Hill","Uranium","Forest"],
+        "Hill+Forest+Furs": ["Grassland","Hill","Furs","HillForest"],
+        "Hill+Forest+Deer": ["Grassland","Hill","Deer","HillForest"],
+
+        //Open Tiles
+        "Grassland": ["Grassland","GrasslandOpenOverlay"]
+        "Snow": ["Grassland","SnowOpenOverlay"]
+        "Subarctic": ["Subarctic","SubarcticOpenOverlay"]
+        "Continental": ["Continental","ContinentalOpenOverlay"]
+        "Semi-Arid": ["Semi-Arid","Semi-AridOpenOverlay"]
+        "Arid": ["Arid","AridOpenOverlay"]
+        "Subtropical": ["Subtropical","SubtropicalOpenOverlay"]
+        "Tropical": ["Tropical","TropicalOpenOverlay"]
+
+        //Hill Tiles
+        "Grassland+Hill": ["Grassland","GrasslandHill"],
+        "Snow+Hill": ["Snow","SnowHill"],
+        "Subarctic+Hill": ["Subarctic","SubarcticHill"],
+        "Continental+Hill": ["Continental","ContinentalHill"],
+        "Semi-Arid+Hill": ["Semi-Arid","Semi-AridHill"],
+        "Arid+Hill": ["Arid","AridHill"],
+        "Subtropical+Hill": ["Subtropical","SubtropiclHill"],
+        "Tropical+Hill": ["Tropical","TropicalHill"],
+    }
+}
