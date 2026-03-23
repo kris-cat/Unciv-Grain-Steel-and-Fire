@@ -207,6 +207,92 @@
 			"[25]% Chance to be destroyed by nukes",
 			"Considered [Food] when determining start locations",]
 	},
+	// Rare Terrain Features
+	{
+		"name": "Oasis",
+		"type": "TerrainFeature",
+		"food": 3,
+		"gold": 1,
+		"movementCost": 1,
+		"unbuildable": true,
+		"defenceBonus": -0.1,
+		"occursOn": ["Arid"],
+		"uniques": [
+			"Fresh water", "Rare feature",		
+			"Always Fertility [4] for Map Generation",		
+			"Considered [Food] when determining start locations",		
+			"Considered [Desirable] when determining start locations"]
+	},
+	{
+		"name": "Waterhole",
+		"type": "TerrainFeature",
+		"food": 2,
+		"movementCost": 1,
+		"unbuildable": true,
+		"defenceBonus": -0.1,
+		"occursOn": ["Semiarid"],
+		"uniques": [
+			"Fresh water", "Rare feature",		
+			"Always Fertility [4] for Map Generation",		
+			"Considered [Food] when determining start locations",		
+			"Considered [Desirable] when determining start locations"]
+	},
+	{
+		"name": "Marsh",
+		"type": "TerrainFeature",
+		"food": 1,
+		"movementCost": 3,
+		"unbuildable": true,
+		"defenceBonus": -0.15,
+		"occursOn": ["Grassland","Continental"],
+		"uniques": [
+			"Rare feature",
+			"Always Fertility [4] for Map Generation",]
+	},
+	{
+		"name": "Tundra Bog",
+		"type": "TerrainFeature",
+		"food": 2,
+		"faith": 1,
+		"movementCost": 1,
+		"unbuildable": true,
+		"defenceBonus": -0.1,
+		"occursOn": ["Subarctic"],
+		"uniques": [
+			"Rare feature",		
+			"Always Fertility [4] for Map Generation",		
+			"Considered [Food] when determining start locations",		
+			"Considered [Desirable] when determining start locations"]
+	},
+	{
+		"name": "Geothermal Fissure",
+		"type": "TerrainFeature",
+		"science": 1,
+		"movementCost": 1,
+		"unbuildable": true,
+		"occursOn": ["Snow","Subarctic","Continental","Grassland","Semi-Arid","Arid","Subtropical","Tropical"],
+		"uniques": [
+			"Rare feature",
+			"Considered [Desirable] when determining start locations"]
+	},
+	{
+		"name": "Reef",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"food": 1,
+		"production": 1,
+		"occursOn": ["Coast"],
+		"uniques": ["Rare feature"]
+	},
+	{
+		"name": "Atoll",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"food": 2,
+		"production": 1,
+		"occursOn": ["Ocean"],
+		"uniques": ["Rare feature"]
+	},
 	// Special Terrain Features
 	{
 		"name": "Floodplain",
