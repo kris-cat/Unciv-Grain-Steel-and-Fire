@@ -13,7 +13,7 @@
 
         //Open Tiles
         "Grassland": ["Grassland","GrasslandOpenOverlay"]
-        "Snow": ["Grassland","SnowOpenOverlay"]
+        "Snow": ["Snow","SnowOpenOverlay"]
         "Subarctic": ["Subarctic","SubarcticOpenOverlay"]
         "Continental": ["Continental","ContinentalOpenOverlay"]
         "Semi-Arid": ["Semi-Arid","Semi-AridOpenOverlay"]
