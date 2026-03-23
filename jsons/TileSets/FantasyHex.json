@@ -28,7 +28,7 @@
         "Continental+Hill": ["Continental","ContinentalHill"],
         "Semi-Arid+Hill": ["Semi-Arid","Semi-AridHill"],
         "Arid+Hill": ["Arid","AridHill"],
-        "Subtropical+Hill": ["Subtropical","SubtropiclHill"],
+        "Subtropical+Hill": ["Subtropical","SubtropicalHill"],
         "Tropical+Hill": ["Tropical","TropicalHill"],
     }
 }
