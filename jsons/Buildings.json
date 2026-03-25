@@ -40,7 +40,7 @@
 			"Provides [1] [Specialisation Slot] <in this city>",
             "Provides [1] [Infrastructure Slot] <in this city>",
             "Provides [1] [Industry Slot] <in this city>",
-			"Only available <in cities with at least [13 [Population]>",
+			"Only available <in cities with at least [13] [Population]>",
             "Remove [Population Milestone - 13] [in this city] <in cities with less than [13] [Population]>",
 			"Automatically built in all cities where it is buildable",
 			"Destroyed when the city is captured"
@@ -52,7 +52,7 @@
 			"Provides [1] [Specialisation Slot] <in this city>",
             "Provides [1] [Infrastructure Slot] <in this city>",
             "Provides [1] [Industry Slot] <in this city>",
-			"Only available <in cities with at least [19 [Population]>",
+			"Only available <in cities with at least [19] [Population]>",
             "Remove [Population Milestone - 19] [in this city] <in cities with less than [19] [Population]>",
 			"Automatically built in all cities where it is buildable",
 			"Destroyed when the city is captured"
@@ -64,7 +64,7 @@
 			"Provides [1] [Specialisation Slot] <in this city>",
             "Provides [1] [Infrastructure Slot] <in this city>",
             "Provides [1] [Industry Slot] <in this city>",
-			"Only available <in cities with at least [26 [Population]>",
+			"Only available <in cities with at least [26] [Population]>",
             "Remove [Population Milestone - 26] [in this city] <in cities with less than [26] [Population]>",
 			"Automatically built in all cities where it is buildable",
 			"Destroyed when the city is captured"
