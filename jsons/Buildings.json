@@ -82,7 +82,8 @@
 		"cost": 0,
 		"uniques": [
 			"Indicates the capital city",
-			"Provides [3] [Manpower] <in this city>"
+			"Provides [3] [Manpower] <in this city>",
+			"Consumes [1] [Manpower] <for every [10] [Manpower]>"
 		]
 	},
 ]
