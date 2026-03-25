@@ -1,0 +1,28 @@
+[
+    //Ancient Era
+	{
+        "columnNumber": 0,"era": "Ancient Era","techCost": 20,"buildingCost": 40,"wonderCost": 185,"techs": 
+        [
+            {
+                "name": "Fishing","row": 2,
+				"uniques": []
+			},
+            {
+                "name": "Agriculture","row": 3,
+				"uniques": []
+			},
+            {
+                "name": "Hunting","row":6,
+				"uniques": []
+			},
+            {
+                "name": "Carpentry","row": 8,
+				"uniques": []
+			},
+            {
+                "name": "Mining","row": 10,
+				"uniques": []
+			},
+		]
+    }
+]
