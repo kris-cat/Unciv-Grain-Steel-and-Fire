@@ -1,0 +1,87 @@
+[
+    // Mechanics - Population Milestones
+    {
+		"name": "Population Milestone - 1","cost": 0,"maintenance": 0,
+		"uniques": [
+			"Provides [1] [Specialisation Slot] <in this city>",
+            "Provides [1] [Infrastructure Slot] <in this city>",
+            "Provides [1] [Industry Slot] <in this city>",
+			"Automatically built in all cities where it is buildable",
+			"Destroyed when the city is captured"
+		]
+	},
+    {
+		"name": "Population Milestone - 4","cost": 0,"maintenance": 0,
+		"uniques": [
+			"Provides [1] [Specialisation Slot] <in this city>",
+            "Provides [1] [Infrastructure Slot] <in this city>",
+            "Provides [1] [Industry Slot] <in this city>",
+			"Only available <in cities with at least [4] [Population]>",
+            "Remove [Population Milestone - 5] [in this city] <in cities with less than [5] [Population]>",
+			"Automatically built in all cities where it is buildable",
+			"Destroyed when the city is captured"
+		]
+	},
+    {
+		"name": "Population Milestone - 8","cost": 0,"maintenance": 0,
+		"uniques": [
+			"Provides [1] [Specialisation Slot] <in this city>",
+            "Provides [1] [Infrastructure Slot] <in this city>",
+            "Provides [1] [Industry Slot] <in this city>",
+			"Only available <in cities with at least [8] [Population]>",
+            "Remove [Population Milestone - 10] [in this city] <in cities with less than [8] [Population]>",
+			"Automatically built in all cities where it is buildable",
+			"Destroyed when the city is captured"
+		]
+	},
+    {
+		"name": "Population Milestone - 13","cost": 0,"maintenance": 0,
+		"uniques": [
+			"Provides [1] [Specialisation Slot] <in this city>",
+            "Provides [1] [Infrastructure Slot] <in this city>",
+            "Provides [1] [Industry Slot] <in this city>",
+			"Only available <in cities with at least [13 [Population]>",
+            "Remove [Population Milestone - 13] [in this city] <in cities with less than [13] [Population]>",
+			"Automatically built in all cities where it is buildable",
+			"Destroyed when the city is captured"
+		]
+	},
+    {
+		"name": "Population Milestone - 19","cost": 0,"maintenance": 0,
+		"uniques": [
+			"Provides [1] [Specialisation Slot] <in this city>",
+            "Provides [1] [Infrastructure Slot] <in this city>",
+            "Provides [1] [Industry Slot] <in this city>",
+			"Only available <in cities with at least [19 [Population]>",
+            "Remove [Population Milestone - 19] [in this city] <in cities with less than [19] [Population]>",
+			"Automatically built in all cities where it is buildable",
+			"Destroyed when the city is captured"
+		]
+	},
+    {
+		"name": "Population Milestone - 26","cost": 0,"maintenance": 0,
+		"uniques": [
+			"Provides [1] [Specialisation Slot] <in this city>",
+            "Provides [1] [Infrastructure Slot] <in this city>",
+            "Provides [1] [Industry Slot] <in this city>",
+			"Only available <in cities with at least [26 [Population]>",
+            "Remove [Population Milestone - 26] [in this city] <in cities with less than [26] [Population]>",
+			"Automatically built in all cities where it is buildable",
+			"Destroyed when the city is captured"
+		]
+	},
+	// Palace buildings
+	{
+		"name": "Palace",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2.5,
+		"cost": 0,
+		"uniques": [
+			"Indicates the capital city",
+			"Provides [3] [Manpower] <in this city>"
+		]
+	},
