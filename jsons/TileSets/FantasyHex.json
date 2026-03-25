@@ -30,5 +30,14 @@
         "Arid+Hill": ["Arid","AridHill"],
         "Subtropical+Hill": ["Subtropical","SubtropicalHill"],
         "Tropical+Hill": ["Tropical","TropicalHill"],
-    }
+
+		//Vegetation Variants
+		"Grassland+Coniferous Forest": ["Grassland","Coniferous ForestGrassland"],
+		"Continental+Coniferous Forest": ["Continental","Coniferous ForestContinental"]
+
+		//Vegetation on Hill Tiles
+		"Grassland+Hill+Deciduous Forest": ["Grassland","GrasslandHill","Deciduous Forest"],
+		"Grassland+Hill+Coniferous Forest": ["Grassland","GrasslandHill","Coniferous ForestGrassland"],
+		"Continental+Hill+Coniferous Forest": ["Continental","ContinentalHill","Coniferous ForestContinental"]
+	}
 }
