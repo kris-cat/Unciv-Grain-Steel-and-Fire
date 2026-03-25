@@ -17,7 +17,7 @@
             "Provides [1] [Infrastructure Slot] <in this city>",
             "Provides [1] [Industry Slot] <in this city>",
 			"Only available <in cities with at least [4] [Population]>",
-            "Remove [Population Milestone - 5] [in this city] <in cities with less than [5] [Population]>",
+            "Remove [Population Milestone - 4] [in this city] <in cities with less than [5] [Population]>",
 			"Automatically built in all cities where it is buildable",
 			"Destroyed when the city is captured"
 		]
@@ -29,7 +29,7 @@
             "Provides [1] [Infrastructure Slot] <in this city>",
             "Provides [1] [Industry Slot] <in this city>",
 			"Only available <in cities with at least [8] [Population]>",
-            "Remove [Population Milestone - 10] [in this city] <in cities with less than [8] [Population]>",
+            "Remove [Population Milestone - 8] [in this city] <in cities with less than [8] [Population]>",
 			"Automatically built in all cities where it is buildable",
 			"Destroyed when the city is captured"
 		]
