@@ -29,6 +29,9 @@
         "columnNumber": 1,"era": "Ancient Era","techCost": 40,"buildingCost": 60,"wonderCost": 185,
 		"techs": 
         [
+			{
+				"name": "Sailing","row": 1,"prerequisites": ["Fishing"],
+			},
             {
 				"name": "Pottery","row": 2,"prerequisites": ["Fishing","Agriculture"],
 			},
@@ -39,7 +42,7 @@
 				"name": "Archery","row": 6,"prerequisites": ["Hunting","Carpentry"],
 			},
 			{
-				"name": "The Wheel","row": 8,"prerequisites": ["Carpentry","Mining"],
+				"name": "Construction","row": 8,"prerequisites": ["Carpentry","Mining"],
 			},
 		]
     },
@@ -48,24 +51,19 @@
 		"techs": 
         [
             {
-				"name": "Sailing",
-				"row": 1,
-                "prerequisites": ["Fishing","Pottery"],
+				"name": "Astrology","row": 1,"prerequisites": ["Sailing","Pottery"],
 			},
             {
-				"name": "Irrigation",
-				"row": 3,
-                "prerequisites": ["Pottery","Animal Husbandry"],
+				"name": "Irrigation","row": 3,"prerequisites": ["Pottery","Animal Husbandry"],
 			},
 			{
-				"name": "Bronze Working",
-				"row": 8,
-                "prerequisites": ["Pottery","Mining"],
+				"name": "The Wheel","row": 4,"prerequisites": ["Animal Husbandry","Construction"],
 			},
 			{
-				"name": "Masonry",
-				"row": 9,
-                "prerequisites": ["The Wheel"],
+				"name": "Masonry","row": 8,"prerequisites": ["Construction"],
+			},
+			{
+				"name": "Bronze Working","row": 9,"prerequisites": ["Pottery","Mining"],
 			},
 		]
     },
