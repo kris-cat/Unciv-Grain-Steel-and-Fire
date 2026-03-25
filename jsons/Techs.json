@@ -26,8 +26,7 @@
 		]
     },
 	{
-        "columnNumber": 1,"era": "Ancient Era","techCost": 40,"buildingCost": 60,"wonderCost": 185,
-		"techs": 
+        "columnNumber": 1,"era": "Ancient Era","techCost": 40,"buildingCost": 60,"wonderCost": 185,"techs": 
         [
 			{
 				"name": "Sailing","row": 1,"prerequisites": ["Fishing"],
@@ -42,13 +41,12 @@
 				"name": "Archery","row": 6,"prerequisites": ["Hunting","Carpentry"],
 			},
 			{
-				"name": "Construction","row": 8,"prerequisites": ["Carpentry","Mining"],
+				"name": "Masonry","row": 8,"prerequisites": ["Carpentry","Mining"],
 			},
 		]
     },
 	{
-    	"columnNumber": 2,"era": "Ancient Era","techCost": 65,"buildingCost": 80,"wonderCost": 185,
-		"techs": 
+    	"columnNumber": 2,"era": "Ancient Era","techCost": 65,"buildingCost": 80,"wonderCost": 185,"techs": 
         [
             {
 				"name": "Astrology","row": 1,"prerequisites": ["Sailing","Pottery"],
@@ -64,6 +62,20 @@
 			},
 			{
 				"name": "Bronze Working","row": 9,"prerequisites": ["Pottery","Mining"],
+			},
+		]
+    },
+	{
+    	"columnNumber": 3,"era": "Ancient Era","techCost": 90,"buildingCost": 40,"wonderCost": 185,"techs": 
+        [
+            {
+				"name": "Calendar","row": 3,"prerequisites": ["Astrology","Irrigation"],
+			},
+            {
+				"name": "Currency","row": 4,"prerequisites": ["Irrigation","The Wheel"],
+			},
+            {
+				"name": "Sailing","row": 5,"prerequisites": ["Astrology","Fishing"],
 			},
 		]
     },
