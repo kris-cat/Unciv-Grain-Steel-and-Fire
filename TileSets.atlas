@@ -32,156 +32,184 @@ TileSets/FantasyHex/Tiles/Coniferous Forest
   orig: 32, 32
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Coniferous ForestContinental
+  rotate: false
+  xy: 44, 184
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Coniferous ForestGrassland
+  rotate: false
+  xy: 84, 220
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Continental
-  rotate: false
-  xy: 44, 188
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/ContinentalHill
-  rotate: false
-  xy: 84, 224
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/ContinentalOpenOverlay
   rotate: false
   xy: 4, 112
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Deciduous Forest
-  rotate: false
-  xy: 44, 149
-  size: 32, 31
-  orig: 32, 31
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Grassland
-  rotate: false
-  xy: 84, 188
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/GrasslandHill
+TileSets/FantasyHex/Tiles/ContinentalHill
   rotate: false
   xy: 124, 224
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/GrasslandOpenOverlay
+TileSets/FantasyHex/Tiles/ContinentalOpenOverlay
   rotate: false
   xy: 4, 76
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Semi-Arid
+TileSets/FantasyHex/Tiles/Deciduous Forest
   rotate: false
-  xy: 44, 113
-  size: 32, 28
-  orig: 32, 28
+  xy: 4, 37
+  size: 32, 31
+  orig: 32, 31
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Semi-AridHill
-  rotate: false
-  xy: 84, 152
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Semi-AridOpenOverlay
-  rotate: false
-  xy: 124, 188
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Snow
+TileSets/FantasyHex/Tiles/Geothermal Fissure
   rotate: false
   xy: 164, 224
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/SnowHill
-  rotate: false
-  xy: 4, 40
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/SnowOpenOverlay
-  rotate: false
-  xy: 4, 4
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Subarctic
-  rotate: false
-  xy: 44, 77
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/SubarcticHill
-  rotate: false
-  xy: 84, 116
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/SubarcticOpenOverlay
-  rotate: false
-  xy: 124, 152
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Subtropical
-  rotate: false
-  xy: 164, 188
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/SubtropicalHill
+TileSets/FantasyHex/Tiles/Grassland
   rotate: false
   xy: 204, 224
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/SubtropicalOpenOverlay
+TileSets/FantasyHex/Tiles/GrasslandHill
   rotate: false
-  xy: 44, 41
+  xy: 124, 188
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Tropical
+TileSets/FantasyHex/Tiles/GrasslandOpenOverlay
   rotate: false
-  xy: 84, 80
+  xy: 164, 188
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/TropicalHill
+TileSets/FantasyHex/Tiles/Semi-Arid
+  rotate: false
+  xy: 204, 188
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Semi-AridHill
+  rotate: false
+  xy: 124, 152
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Semi-AridOpenOverlay
+  rotate: false
+  xy: 164, 152
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Snow
+  rotate: false
+  xy: 204, 152
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/SnowHill
   rotate: false
   xy: 124, 116
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/SnowOpenOverlay
+  rotate: false
+  xy: 164, 116
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Subarctic
+  rotate: false
+  xy: 204, 116
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/SubarcticHill
+  rotate: false
+  xy: 164, 80
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/SubarcticOpenOverlay
+  rotate: false
+  xy: 44, 112
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Subtropical
+  rotate: false
+  xy: 44, 76
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/SubtropicalHill
+  rotate: false
+  xy: 44, 40
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/SubtropicalOpenOverlay
+  rotate: false
+  xy: 44, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Tropical
+  rotate: false
+  xy: 84, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/TropicalHill
+  rotate: false
+  xy: 124, 80
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/TropicalOpenOverlay
   rotate: false
-  xy: 164, 152
+  xy: 84, 112
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Tundra Bog
+  rotate: false
+  xy: 124, 44
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
