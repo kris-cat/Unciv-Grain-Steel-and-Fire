@@ -64,7 +64,7 @@
 				"name": "Metal Casting","row": 7,"prerequisites": ["Pottery","Masonry"],
 			},
 			{
-				"name": "City Defences","row": 8,"prerequisites": ["Masonry"],
+				"name": "City Defences","row": 8,"prerequisites": ["Archery","Masonry"],
 			},
 			{
 				"name": "Bronze Working","row": 9,"prerequisites": ["Masonry","Mining"],
@@ -72,22 +72,37 @@
 		]
     },
 	{
-    	"columnNumber": 3,"era": "Ancient Era","techCost": 90,"buildingCost": 40,"wonderCost": 185,"techs": 
+    	"columnNumber": 3,"era": "Ancient Era","techCost": 100,"buildingCost": 40,"wonderCost": 185,"techs": 
         [
             {
-				"name": "Calendar","row": 3,"prerequisites": ["Writing","Astrology","Irrigation"],
+				"name": "Calendar","row": 2,"prerequisites": ["Writing","Astrology","Irrigation"],
 			},
             {
 				"name": "Currency","row": 4,"prerequisites": ["Irrigation","The Wheel","Metal Casting"],
 			},
 			{
-				"name": "Organised Warfare","row": 9,"prerequisites": ["Metal Casting","City Defences","Bronze Working"],
+				"name": "Organised Warfare","row": 7,"prerequisites": ["Metal Casting","City Defences","Bronze Working"],
 			},
 		]
     },
 	{
-    	"columnNumber": 4,"era": "Classical Era","techCost": 90,"buildingCost": 40,"wonderCost": 185,"techs": 
+    	"columnNumber": 4,"era": "Classical Era","techCost": 130,"buildingCost": 40,"wonderCost": 185,"techs": 
         [
+			{
+				"name": "Optics","row": 1,"prerequisites": ["Calendar"],
+			},
+			{
+				"name": "Craftsmanship","row": 3,"prerequisites": ["Calendar","Currency"],
+			},
+			{
+				"name": "Mathematics","row": 3,"prerequisites": ["Calendar","Currency"],
+			},
+			{
+				"name": "Trade Networks","row": 8,"prerequisites": ["Currency","Organised Warfare"],
+			},
+			{
+				"name": "Horseback Riding","row": 8,"prerequisites": ["Organised Warfare"],
+			},
 		]
     },
 ]
