@@ -43,6 +43,9 @@
 			{
 				"name": "Masonry","row": 8,"prerequisites": ["Carpentry","Mining"],
 			},
+			{
+				"name": "Metal Casting","row": 9,"prerequisites": ["Pottery","Mining"],
+			},
 		]
     },
 	{
@@ -58,10 +61,10 @@
 				"name": "The Wheel","row": 4,"prerequisites": ["Animal Husbandry","Construction"],
 			},
 			{
-				"name": "Masonry","row": 8,"prerequisites": ["Construction"],
+				"name": "Hydrology","row": 8,"prerequisites": ["Masonry"],
 			},
 			{
-				"name": "Bronze Working","row": 9,"prerequisites": ["Pottery","Mining"],
+				"name": "Bronze Working","row": 9,"prerequisites": ["Metal Casting"],
 			},
 		]
     },
@@ -73,9 +76,6 @@
 			},
             {
 				"name": "Currency","row": 4,"prerequisites": ["Irrigation","The Wheel"],
-			},
-            {
-				"name": "Sailing","row": 5,"prerequisites": ["Astrology","Fishing"],
 			},
 		]
     },
