@@ -130,7 +130,7 @@
 			"Provides [1] [Basic Construction Material]<when above [1] [Timber]><hidden from users>","Consumes [1] [Timber]<when above [1] [Timber]><hidden from users>",
 			"Provides [1] [Basic Construction Material]<when above [0] [Stone1]><hidden from users>","Consumes [1] [Stone1]<when above [0] [Stone1]><hidden from users>",
 			"Provides [1] [Basic Construction Material]<when above [1] [Stone1]><hidden from users>","Consumes [1] [Stone1]<when above [1] [Stone1]><hidden from users>",
-			"Comment [Produces 1 [Basic Construction Material] for every: 1 [Timber] and 1 [Stone1]. Can produce a maximum of 2 [Basic Construction Material].]","Unbuildable <without [Timber]>","Unbuildable <without [Stone1]>"
+			"Comment [Produces 1 [Basic Construction Material] for every: 1 [Timber] and 1 [Stone1]. Can produce a maximum of 2 [Basic Construction Material].]",
 		],
 		"requiredResource": "Industry Slot",
 	},
