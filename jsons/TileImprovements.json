@@ -29,7 +29,7 @@
 		"name": "Farm","terrainsCanBeBuiltOn": ["Grassland","Continental","Subtropical","Tropical","Semi-Arid"],
 		"food": 1,"turnsToBuild": 2,"techRequired": "Agriculture",
 		"uniques": [
-			"Costs [10] [Basic Construction Material]",
+			"Costs [10] [Basic Construction Material]","Unbuildable <when below [10] [Basic Construction Material]>",
 			"Can also be built on tiles adjacent to fresh water",
             "Pillaging this improvement yields approximately [+25 Gold]",
 			"Cannot be built on [Water] tiles"
@@ -40,7 +40,7 @@
 		"name": "Irrigation Farm","terrainsCanBeBuiltOn": ["Floodplain"],
 		"food": 1,"gold": 1,"turnsToBuild": 3,"techRequired": "Irrigation",
 		"uniques": [
-			"Costs [15] [Basic Construction Material]",
+			"Costs [15] [Basic Construction Material]","Unbuildable <when below [15] [Basic Construction Material]>",
             "Pillaging this improvement yields approximately [+25 Gold]",
 			"Cannot be built on [Water] tiles"
 		],
@@ -50,7 +50,7 @@
 		"name": "Oasis Farm","terrainsCanBeBuiltOn": ["Oasis"],
 		"food": 2,"gold": 1,"turnsToBuild": 5,"techRequired": "Irrigation",
 		"uniques": [
-			"Costs [25] [Basic Construction Material]",
+			"Costs [25] [Basic Construction Material]","Unbuildable <when below [25] [Basic Construction Material]>",
             "Pillaging this improvement yields approximately [+25 Gold]",
 			"Cannot be built on [Water] tiles"
 		],
@@ -61,7 +61,7 @@
 		"name": "Lumber mill","terrainsCanBeBuiltOn": ["Taiga","Coniferous Forest","Deciduous Forest","Rainforest","Savannah"],
 		"production": 1,"turnsToBuild": 3,"techRequired": "Carpentry",
 		"uniques": [
-			"Costs [15] [Basic Construction Material]",
+			"Costs [15] [Basic Construction Material]","Unbuildable <when below [15] [Basic Construction Material]>",
 			"Pillaging this improvement yields approximately [+10 Gold]",
 			"Provides [3] [Timber]"
 		],
@@ -71,7 +71,7 @@
 		"name": "Mine","terrainsCanBeBuiltOn": ["Hill"],
 		"production": 1,"turnsToBuild": 3,"techRequired": "Mining",
 		"uniques": [
-			"Costs [15] [Basic Construction Material]",
+			"Costs [15] [Basic Construction Material]","Unbuildable <when below [15] [Basic Construction Material]>",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		],
 		"shortcutKey": "M"
