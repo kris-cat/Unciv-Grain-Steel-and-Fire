@@ -61,7 +61,7 @@
 				"name": "The Wheel","row": 4,"prerequisites": ["Animal Husbandry","Construction"],
 			},
 			{
-				"name": "Hydrology","row": 8,"prerequisites": ["Masonry"],
+				"name": "City Defences","row": 8,"prerequisites": ["Masonry"],
 			},
 			{
 				"name": "Bronze Working","row": 9,"prerequisites": ["Metal Casting"],
@@ -76,6 +76,9 @@
 			},
             {
 				"name": "Currency","row": 4,"prerequisites": ["Irrigation","The Wheel"],
+			},
+			{
+				"name": "Organised Warfare","row": 9,"prerequisites": ["City Defences","The Wheel"],
 			},
 		]
     },
