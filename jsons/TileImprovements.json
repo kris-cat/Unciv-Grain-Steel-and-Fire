@@ -25,4 +25,55 @@
 	},
     // Remove Terrain Features
     // Farming Improvements
+    {
+		"name": "Farm","terrainsCanBeBuiltOn": ["Temperate","Continental","Subtropical","Tropical","Semi-Arid"],
+		"food": 1,"techRequired": "Agriculture",
+		"uniques": [
+			"Costs [50] [Basic Construction Material]",
+			"Can also be built on tiles adjacent to fresh water",
+            "Pillaging this improvement yields approximately [+25 Gold]",
+			"Cannot be built on [Water] tiles"
+		],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Irrigation Farm","terrainsCanBeBuiltOn": ["Floodplain"],
+		"food": 1,"gold": 1,"techRequired": "Irrigation",
+		"uniques": [
+			"Costs [75] [Basic Construction Material]",
+            "Pillaging this improvement yields approximately [+25 Gold]",
+			"Cannot be built on [Water] tiles"
+		],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Oasis Farm","terrainsCanBeBuiltOn": ["Oasis"],
+		"food": 2,"gold": 1,"techRequired": "Irrigation",
+		"uniques": [
+			"Costs [100] [Basic Construction Material]",
+            "Pillaging this improvement yields approximately [+25 Gold]",
+			"Cannot be built on [Water] tiles"
+		],
+		"shortcutKey": "F"
+	},
+	//Labourer
+	{
+		"name": "Lumber mill","terrainsCanBeBuiltOn": ["Taiga","Coniferous Forest","Deciduous Forest","Rainforest","Savannah"],
+		"production": 1,"techRequired": "Carpentry",
+		"uniques": [
+			"Costs [50] [Basic Construction Material]",
+			"Pillaging this improvement yields approximately [+10 Gold]",
+			"Provides [3] [Timber]"
+		],
+		"shortcutKey": "L"
+	},
+	{
+		"name": "Mine","terrainsCanBeBuiltOn": ["Hill"],
+		"production": 1,"techRequired": "Mining",
+		"uniques": [
+			"Costs [50] [Basic Construction Material]",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		],
+		"shortcutKey": "M"
+	},
 ]
