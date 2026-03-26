@@ -106,22 +106,48 @@
 		]
     },
 	{
-    	"columnNumber": 5,"era": "Classical Era","techCost": 160,"buildingCost": 40,"wonderCost": 185,"techs": 
+    	"columnNumber": 5,"era": "Classical Era","techCost": 155,"buildingCost": 40,"wonderCost": 185,"techs": 
         [
 			{
 				"name": "Optics","row": 1,"prerequisites": ["Shipbuilding","Mathematics"],
 			},
 			{
-				"name": "Construction","row": 2,"prerequisites": ["Mathematics","Craftsmanship"],
+				"name": "Philosophy","row": 2,"prerequisites": ["Mathematics"],
 			},
 			{
-				"name": "Philosophy","row": 3,"prerequisites": ["Mathematics"],
+				"name": "Construction","row": 4,"prerequisites": ["Mathematics","Craftsmanship"],
 			},
 			{
 				"name": "Iron Working","row": 5,"prerequisites": ["Craftsmanship","Trade Networks"],
 			},
 			{
 				"name": "Fortifications","row": 8,"prerequisites": ["Trade Networks","Horseback Riding"],
+			},
+		]
+    },
+	{
+    	"columnNumber": 6,"era": "Classical Era","techCost": 190,"buildingCost": 40,"wonderCost": 185,"techs": 
+        [
+			{
+				"name": "Code of Laws","row": 2,"prerequisites": ["Philosophy"],
+			},
+			{
+				"name": "Aesthetics","row": 3,"prerequisites": ["Philosophy"],
+			},
+			{
+				"name": "Engineering","row": 4,"prerequisites": ["Construction","Iron Working"],
+			},
+			{
+				"name": "Urban Infrastructure","row": 5,"prerequisites": ["Construction","Iron Working"],
+			},
+			{
+				"name": "Hydrology","row": 6,"prerequisites": ["Construction","Iron Working"],
+			},
+			{
+				"name": "Military Training","row": 8,"prerequisites": ["Iron Working","Fortifications"],
+			},
+			{
+				"name": "Siege Tactics","row": 9,"prerequisites": ["Fortifications"],
 			},
 		]
     },
