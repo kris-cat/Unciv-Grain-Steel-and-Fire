@@ -5,8 +5,8 @@
 		"cost": 70
 	},
 	{
-		"name": "Labourer","unitType": "Civilian","movement": 2,"requiredTech": "Agriculture",
-		"uniques": ["Can instantly construct a [Lumber Mill] improvement", "Can instantly construct a [Mine] improvement", "Automation is a primary action"],
+		"name": "Labourer","unitType": "Civilian","movement": 2,"requiredTech": "Carpentry",
+		"uniques": ["Can instantly construct a [Lumber mill] improvement", "Can instantly construct a [Mine] improvement", "Automation is a primary action"],
 		"cost": 70
 	},
 	{
