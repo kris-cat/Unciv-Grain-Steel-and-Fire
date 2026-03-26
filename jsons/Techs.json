@@ -51,6 +51,9 @@
             {
 				"name": "Astrology","row": 1,"prerequisites": ["Sailing","Pottery"],
 			},
+			{
+				"name": "Writing","row": 2,"prerequisites": ["Pottery",],
+			},
             {
 				"name": "Irrigation","row": 3,"prerequisites": ["Pottery","Animal Husbandry"],
 			},
@@ -72,10 +75,10 @@
     	"columnNumber": 3,"era": "Ancient Era","techCost": 90,"buildingCost": 40,"wonderCost": 185,"techs": 
         [
             {
-				"name": "Calendar","row": 3,"prerequisites": ["Astrology","Irrigation"],
+				"name": "Calendar","row": 3,"prerequisites": ["Writing","Astrology","Irrigation"],
 			},
             {
-				"name": "Currency","row": 4,"prerequisites": ["Irrigation","The Wheel"],
+				"name": "Currency","row": 4,"prerequisites": ["Irrigation","The Wheel","Metal Casting"],
 			},
 			{
 				"name": "Organised Warfare","row": 9,"prerequisites": ["Metal Casting","City Defences","Bronze Working"],
@@ -83,11 +86,8 @@
 		]
     },
 	{
-    	"columnNumber": 4,"era": "Ancient Era","techCost": 90,"buildingCost": 40,"wonderCost": 185,"techs": 
+    	"columnNumber": 4,"era": "Classical Era","techCost": 90,"buildingCost": 40,"wonderCost": 185,"techs": 
         [
-            {
-				"name": "Writing","row": 5,"prerequisites": ["Calendar","Currency"],
-			},
 		]
     },
 ]
