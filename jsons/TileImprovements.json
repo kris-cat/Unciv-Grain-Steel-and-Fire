@@ -127,7 +127,8 @@
 		"production": 1,"turnsToBuild": 3,"techRequired": "Mining",
 		"uniques": [
 			"Costs [15] [Basic Construction Material]","Unbuildable <when below [15] [Basic Construction Material]>",
-			"Pillaging this improvement yields approximately [+20 Gold]"
+			"Pillaging this improvement yields approximately [+20 Gold]",
+			"Provides [3] [Stone1]"
 		],
 		"shortcutKey": "M"
 	},
