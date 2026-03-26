@@ -26,7 +26,7 @@
     // Remove Terrain Features
     // Farming Improvements
     {
-		"name": "Farm","terrainsCanBeBuiltOn": ["Temperate","Continental","Subtropical","Tropical","Semi-Arid"],
+		"name": "Farm","terrainsCanBeBuiltOn": ["Grassland","Continental","Subtropical","Tropical","Semi-Arid"],
 		"food": 1,"techRequired": "Agriculture",
 		"uniques": [
 			"Costs [50] [Basic Construction Material]",
