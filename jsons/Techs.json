@@ -95,10 +95,10 @@
 				"name": "Craftsmanship","row": 3,"prerequisites": ["Calendar","Currency"],
 			},
 			{
-				"name": "Mathematics","row": 3,"prerequisites": ["Calendar","Currency"],
+				"name": "Mathematics","row": 4,"prerequisites": ["Currency"],
 			},
 			{
-				"name": "Trade Networks","row": 8,"prerequisites": ["Currency","Organised Warfare"],
+				"name": "Trade Networks","row": 6,"prerequisites": ["Currency","Organised Warfare"],
 			},
 			{
 				"name": "Horseback Riding","row": 8,"prerequisites": ["Organised Warfare"],
