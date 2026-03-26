@@ -89,19 +89,39 @@
     	"columnNumber": 4,"era": "Classical Era","techCost": 130,"buildingCost": 40,"wonderCost": 185,"techs": 
         [
 			{
-				"name": "Optics","row": 1,"prerequisites": ["Calendar"],
+				"name": "Shipbuilding","row": 1,"prerequisites": ["Calendar"],
 			},
 			{
-				"name": "Craftsmanship","row": 3,"prerequisites": ["Calendar","Currency"],
+				"name": "Mathematics","row": 3,"prerequisites": ["Calendar","Currency"],
 			},
 			{
-				"name": "Mathematics","row": 4,"prerequisites": ["Currency"],
+				"name": "Craftsmanship","row": 5,"prerequisites": ["Currency"],
 			},
 			{
-				"name": "Trade Networks","row": 6,"prerequisites": ["Currency","Organised Warfare"],
+				"name": "Trade Networks","row": 7,"prerequisites": ["Currency","Organised Warfare"],
 			},
 			{
-				"name": "Horseback Riding","row": 8,"prerequisites": ["Organised Warfare"],
+				"name": "Horseback Riding","row": 9,"prerequisites": ["Organised Warfare"],
+			},
+		]
+    },
+	{
+    	"columnNumber": 4,"era": "Classical Era","techCost": 160,"buildingCost": 40,"wonderCost": 185,"techs": 
+        [
+			{
+				"name": "Optics","row": 1,"prerequisites": ["Shipbuilding","Mathematics"],
+			},
+			{
+				"name": "Construction","row": 2,"prerequisites": ["Mathematics","Craftsmanship"],
+			},
+			{
+				"name": "Philosophy","row": 3,"prerequisites": ["Mathematics"],
+			},
+			{
+				"name": "Iron Working","row": 5,"prerequisites": ["Craftsmanship","Trade Networks"],
+			},
+			{
+				"name": "Fortifications","row": 8,"prerequisites": ["Trade Networks","Horseback Riding"],
 			},
 		]
     },
