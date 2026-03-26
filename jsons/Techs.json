@@ -221,7 +221,7 @@
 				"name": "Castles","row": 5,"prerequisites": ["Feudalism"],
 			},
 			{
-				"name": "Medieval Faires","row": 6,"prerequisites": ["Feudalism","Horse Collar"],
+				"name": "Medieval Faires","row": 6,"prerequisites": ["Feudalism","Mounted Warfare"],
 			},
 			{
 				"name": "Pike Tactics","row": 8,"prerequisites": ["Mounted Warfare"],
