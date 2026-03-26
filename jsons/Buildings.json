@@ -78,6 +78,7 @@
 		"uniques": [
 			"Indicates the capital city",
 			"Provides [3] [Manpower] <in this city>",
+			"Provides [1] [Basic Construction Material] <in this city>",
 			"Consumes [1] [Manpower] <for every [10] [Manpower]>"
 		]
 	},
