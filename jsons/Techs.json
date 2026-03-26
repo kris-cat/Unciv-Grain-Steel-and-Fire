@@ -138,10 +138,10 @@
 				"name": "Engineering","row": 4,"prerequisites": ["Construction","Iron Working"],
 			},
 			{
-				"name": "Urban Infrastructure","row": 5,"prerequisites": ["Construction","Iron Working"],
+				"name": "Hydrology","row": 6,"prerequisites": ["Construction","Iron Working"],
 			},
 			{
-				"name": "Hydrology","row": 6,"prerequisites": ["Construction","Iron Working"],
+				"name": "Urban Infrastructure","row": 5,"prerequisites": ["Construction","Iron Working","Fortifications"],
 			},
 			{
 				"name": "Military Training","row": 8,"prerequisites": ["Iron Working","Fortifications"],
