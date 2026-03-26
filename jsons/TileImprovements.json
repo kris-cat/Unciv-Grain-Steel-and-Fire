@@ -56,7 +56,7 @@
 		],
 		"shortcutKey": "F"
 	},
-	//Labourer
+	//Labourer Improvements
 	{
 		"name": "Lumber mill","terrainsCanBeBuiltOn": ["Taiga","Coniferous Forest","Deciduous Forest","Rainforest","Savannah"],
 		"production": 1,"techRequired": "Carpentry",
