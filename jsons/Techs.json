@@ -26,7 +26,7 @@
 		]
     },
 	{
-        "columnNumber": 1,"era": "Ancient Era","techCost": 40,"buildingCost": 60,"wonderCost": 185,"techs": 
+        "columnNumber": 1,"era": "Ancient Era","techCost": 50,"buildingCost": 60,"wonderCost": 185,"techs": 
         [
 			{
 				"name": "Sailing","row": 1,"prerequisites": ["Fishing"],
@@ -46,7 +46,7 @@
 		]
     },
 	{
-    	"columnNumber": 2,"era": "Ancient Era","techCost": 65,"buildingCost": 80,"wonderCost": 185,"techs": 
+    	"columnNumber": 2,"era": "Ancient Era","techCost": 75,"buildingCost": 80,"wonderCost": 185,"techs": 
         [
             {
 				"name": "Astrology","row": 1,"prerequisites": ["Sailing","Pottery"],
@@ -86,7 +86,7 @@
 		]
     },
 	{
-    	"columnNumber": 4,"era": "Classical Era","techCost": 130,"buildingCost": 40,"wonderCost": 185,"techs": 
+    	"columnNumber": 4,"era": "Classical Era","techCost": 140,"buildingCost": 40,"wonderCost": 185,"techs": 
         [
 			{
 				"name": "Shipbuilding","row": 1,"prerequisites": ["Calendar"],
@@ -106,7 +106,7 @@
 		]
     },
 	{
-    	"columnNumber": 5,"era": "Classical Era","techCost": 155,"buildingCost": 40,"wonderCost": 185,"techs": 
+    	"columnNumber": 5,"era": "Classical Era","techCost": 160,"buildingCost": 40,"wonderCost": 185,"techs": 
         [
 			{
 				"name": "Optics","row": 1,"prerequisites": ["Shipbuilding","Mathematics"],
@@ -126,7 +126,7 @@
 		]
     },
 	{
-    	"columnNumber": 6,"era": "Classical Era","techCost": 190,"buildingCost": 40,"wonderCost": 185,"techs": 
+    	"columnNumber": 6,"era": "Classical Era","techCost": 200,"buildingCost": 40,"wonderCost": 185,"techs": 
         [
 			{
 				"name": "Code of Laws","row": 2,"prerequisites": ["Philosophy"],
@@ -138,16 +138,107 @@
 				"name": "Engineering","row": 4,"prerequisites": ["Construction","Iron Working"],
 			},
 			{
-				"name": "Hydrology","row": 6,"prerequisites": ["Construction","Iron Working"],
+				"name": "Hydrology","row": 5,"prerequisites": ["Construction","Iron Working"],
 			},
 			{
-				"name": "Urban Infrastructure","row": 5,"prerequisites": ["Construction","Iron Working","Fortifications"],
+				"name": "Urban Infrastructure","row": 6,"prerequisites": ["Construction","Iron Working","Fortifications"],
 			},
 			{
 				"name": "Military Training","row": 8,"prerequisites": ["Iron Working","Fortifications"],
 			},
 			{
 				"name": "Siege Tactics","row": 9,"prerequisites": ["Fortifications"],
+			},
+		]
+    },
+	{
+    	"columnNumber": 7,"era": "Classical Era","techCost": 250,"buildingCost": 40,"wonderCost": 185,"techs": 
+        [
+			{
+				"name": "Recreation","row": 2,"prerequisites": ["Code of Laws","Aesthetics","Engineering"],
+			},
+			{
+				"name": "Machinery","row": 5,"prerequisites": ["Engineering","Hydrology","Urban Infrastructure"],
+			},
+			{
+				"name": "Saddle","row": 5,"prerequisites": ["Military Training","Siege Tactics"],
+			},
+		]
+    },
+	{
+    	"columnNumber": 8,"era": "Post-Classical Era","techCost": 300,"buildingCost": 40,"wonderCost": 185,"techs": 
+        [
+			{
+				"name": "Buttress","row": 2,"prerequisites": ["Recreation","Machinery"],
+			},
+			{
+				"name": "Compass","row": 3,"prerequisites": ["Machinery"],
+			},
+			{
+				"name": "Guilds","row": 4,"prerequisites": ["Machinery"],
+			},
+			{
+				"name": "Metallurgy","row": 6,"prerequisites": ["Machinery"],
+			},
+			{
+				"name": "Civil Service","row": 7,"prerequisites": ["Machinery","Saddle"],
+			},
+			{
+				"name": "Military Tactics","row": 8,"prerequisites": ["Saddle"],
+			},
+		]
+    },
+	{
+    	"columnNumber": 9,"era": "Post-Classical Era","techCost": 375,"buildingCost": 40,"wonderCost": 185,"techs": 
+        [
+			{
+				"name": "Maritime Industry","row": 1,"prerequisites": ["Compass"],
+			},
+			{
+				"name": "Education","row": 3,"prerequisites": ["Buttress","Compass"],
+			},
+			{
+				"name": "Feudalism","row": 5,"prerequisites": ["Guilds","Civil Service"],
+			},
+			{
+				"name": "Horse Collar","row": 8,"prerequisites": ["Civil Service","Military Tactics"],
+			},
+		]
+    },
+	{
+    	"columnNumber": 10,"era": "Post-Classical Era","techCost": 500,"buildingCost": 40,"wonderCost": 185,"techs": 
+        [
+			{
+				"name": "Mechanics","row": 1,"prerequisites": ["Maritime Industry","Education"],
+			},
+			{
+				"name": "Alchemy","row": 3,"prerequisites": ["Education"],
+			},
+			{
+				"name": "Theology","row": 4,"prerequisites": ["Education","Feudalism"],
+			},
+			{
+				"name": "Castles","row": 5,"prerequisites": ["Feudalism"],
+			},
+			{
+				"name": "Pike Tactics","row": 9,"prerequisites": ["Horse Collar"],
+			},
+			{
+				"name": "Siege Engines","row": 9,"prerequisites": ["Horse Collar"],
+			},
+		]
+    },
+	{
+    	"columnNumber": 11,"era": "Post-Classical Era","techCost": 650,"buildingCost": 40,"wonderCost": 185,"techs": 
+        [
+			{
+				"name": "Printing Press","row": 2,"prerequisites": ["Mechanics","Alchemy","Theology"],
+			},
+			{
+				"name": "Banking","row": 5,"prerequisites": ["Theology","Castles"],
+			},
+			{
+				"name": "Gunpowder","row": 8,"prerequisites": ["Alchemy","Pike Tactics","Siege Engines"],
 			},
 		]
     },
