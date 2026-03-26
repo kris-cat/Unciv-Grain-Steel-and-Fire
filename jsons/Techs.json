@@ -221,6 +221,9 @@
 				"name": "Castles","row": 5,"prerequisites": ["Feudalism"],
 			},
 			{
+				"name": "Medieval Faires","row": 5,"prerequisites": ["Feudalism","Horse Collar"],
+			},
+			{
 				"name": "Pike Tactics","row": 8,"prerequisites": ["Horse Collar"],
 			},
 			{
@@ -235,7 +238,7 @@
 				"name": "Printing Press","row": 2,"prerequisites": ["Mechanics","Alchemy","Theology"],
 			},
 			{
-				"name": "Banking","row": 5,"prerequisites": ["Theology","Castles"],
+				"name": "Banking","row": 5,"prerequisites": ["Theology","Castles","Medieval Faires"],
 			},
 			{
 				"name": "Gunpowder","row": 8,"prerequisites": ["Alchemy","Pike Tactics","Siege Engines"],
