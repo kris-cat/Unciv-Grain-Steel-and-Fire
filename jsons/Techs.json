@@ -106,7 +106,7 @@
 		]
     },
 	{
-    	"columnNumber": 4,"era": "Classical Era","techCost": 160,"buildingCost": 40,"wonderCost": 185,"techs": 
+    	"columnNumber": 5,"era": "Classical Era","techCost": 160,"buildingCost": 40,"wonderCost": 185,"techs": 
         [
 			{
 				"name": "Optics","row": 1,"prerequisites": ["Shipbuilding","Mathematics"],
