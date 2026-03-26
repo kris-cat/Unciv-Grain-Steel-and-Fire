@@ -78,7 +78,7 @@
 				"name": "Currency","row": 4,"prerequisites": ["Irrigation","The Wheel"],
 			},
 			{
-				"name": "Organised Warfare","row": 9,"prerequisites": ["City Defences","The Wheel"],
+				"name": "Organised Warfare","row": 9,"prerequisites": ["City Defences","Bronze Working"],
 			},
 		]
     },
