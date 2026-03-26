@@ -84,6 +84,17 @@
 	},
 	//Ancient Era Buildings
 	{
+		"name": "Tree Plantation",
+		"production": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 25
+		"requiredTech": "Archery"
+		"uniques": [
+			"Provides [5] [Timber]","Must have an owned [Lumber mill] within [3] tiles"
+		],
+		"requiredResource": "Industry Slot",
+	},
+	{
 		"name": "Wood Tar Furnace",
 		"production": 1,
 		"maintenance": 1,
@@ -119,7 +130,7 @@
 			"Provides [1] [Basic Construction Material]<when above [1] [Timber]><hidden from users>","Consumes [1] [Timber]<when above [1] [Timber]><hidden from users>",
 			"Provides [1] [Basic Construction Material]<when above [0] [Stone1]><hidden from users>","Consumes [1] [Stone1]<when above [0] [Stone1]><hidden from users>",
 			"Provides [1] [Basic Construction Material]<when above [1] [Stone1]><hidden from users>","Consumes [1] [Stone1]<when above [1] [Stone1]><hidden from users>",
-			"Comment [Comment [Produces 1 [Basic Construction Material] for every: 1 [Timber] and 1 [Stone1]. Can produce a maximum of 2 [Basic Construction Material].]"
+			"Comment [Produces 1 [Basic Construction Material] for every: 1 [Timber] and 1 [Stone1]. Can produce a maximum of 2 [Basic Construction Material].]"
 		],
 		"requiredResource": "Industry Slot",
 	},
