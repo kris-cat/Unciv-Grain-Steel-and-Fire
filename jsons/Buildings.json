@@ -103,7 +103,7 @@
 		"uniques": [
 			"Provides [1] [Tar]<when above [0] [Timber]><hidden from users>","Consumes [1] [Timber]<when above [0] [Timber]><hidden from users>",
 			"Provides [1] [Tar]<when above [1] [Timber]><hidden from users>","Consumes [1] [Timber]<when above [1] [Timber]><hidden from users>",
-			"Comment [Produces 1 [Tar] for every: 1 [Timber]. Can produce a maximum of 2 [Tar].]"
+			"Comment [Produces 1 [Tar] for every: 1 [Timber]. Can produce a maximum of 2 [Tar].]","Unbuildable <without [Timber]>"
 		],
 		"requiredResource": "Industry Slot",
 	},
@@ -115,7 +115,7 @@
 		"requiredTech": "Sailing"
 		"uniques": [
 			"Provides [1] [Naval Supplies]<when above [0] [Timber]><when above [0] [Tar]><hidden from users>","Consumes [1] [Tar]<when above [0] [Timber]><when above [0] [Tar]><hidden from users>","Consumes [1] [Timber]<when above [0] [Timber]><when above [0] [Tar]><hidden from users>",
-			"Comment [Produces 1 [Naval Supplies] for every: 1 [Timber], 1[Tar].]"
+			"Comment [Produces 1 [Naval Supplies] for every: 1 [Timber], 1[Tar].]","Unbuildable <without [Timber]>","Unbuildable <without [Tar]>"
 		],
 		"requiredResource": "Industry Slot",
 	},
@@ -130,7 +130,7 @@
 			"Provides [1] [Basic Construction Material]<when above [1] [Timber]><hidden from users>","Consumes [1] [Timber]<when above [1] [Timber]><hidden from users>",
 			"Provides [1] [Basic Construction Material]<when above [0] [Stone1]><hidden from users>","Consumes [1] [Stone1]<when above [0] [Stone1]><hidden from users>",
 			"Provides [1] [Basic Construction Material]<when above [1] [Stone1]><hidden from users>","Consumes [1] [Stone1]<when above [1] [Stone1]><hidden from users>",
-			"Comment [Produces 1 [Basic Construction Material] for every: 1 [Timber] and 1 [Stone1]. Can produce a maximum of 2 [Basic Construction Material].]"
+			"Comment [Produces 1 [Basic Construction Material] for every: 1 [Timber] and 1 [Stone1]. Can produce a maximum of 2 [Basic Construction Material].]","Unbuildable <without [Timber]>","Unbuildable <without [Stone1]>"
 		],
 		"requiredResource": "Industry Slot",
 	},
