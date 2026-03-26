@@ -201,7 +201,7 @@
 				"name": "Feudalism","row": 5,"prerequisites": ["Guilds","Civil Service"],
 			},
 			{
-				"name": "Horse Collar","row": 8,"prerequisites": ["Civil Service","Military Tactics"],
+				"name": "Mounted Warfare","row": 8,"prerequisites": ["Metallurgy","Civil Service","Military Tactics"],
 			},
 		]
     },
@@ -224,10 +224,10 @@
 				"name": "Medieval Faires","row": 6,"prerequisites": ["Feudalism","Horse Collar"],
 			},
 			{
-				"name": "Pike Tactics","row": 8,"prerequisites": ["Horse Collar"],
+				"name": "Pike Tactics","row": 8,"prerequisites": ["Mounted Warfare"],
 			},
 			{
-				"name": "Siege Engines","row": 9,"prerequisites": ["Horse Collar"],
+				"name": "Siege Engines","row": 9,"prerequisites": ["Mounted Warfare"],
 			},
 		]
     },
