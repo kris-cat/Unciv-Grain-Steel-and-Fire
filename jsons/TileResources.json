@@ -39,7 +39,7 @@
 		]
 	},
 	{
-		"name": "Horses", "resourceType": "Strategic",
+		"name": "Horses", "resourceType": "Strategic","production": 1, "improvement": "Pasture","improvementStats": {"food": 1},
 		"terrainsCanBeFoundOn": ["Continental","Grassland","Semi-Arid","Subtropical"],
 		"uniques": [
 			"Guaranteed with Strategic Balance resource option",],
@@ -47,14 +47,14 @@
 		"minorDepositAmount": {"sparse": 2, "default": 2, "abundant": 3}
 	},
 	{
-		"name": "Copper", "resourceType": "Strategic",
+		"name": "Copper", "resourceType": "Strategic","production": 1, "improvement": "Mine","improvementStats": {"gold": 1},
 		"terrainsCanBeFoundOn": ["Snow","Subarctic","Continental","Grassland","Semi-Arid","Arid","Subtropical","Tropical","Hill"],
 		"uniques": ["Guaranteed with Strategic Balance resource option",],
 		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 9},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
 	{
-		"name": "Iron", "resourceType": "Strategic",
+		"name": "Iron", "resourceType": "Strategic","production": 1, "improvement": "Mine","improvementStats": {"science": 1},
 		"terrainsCanBeFoundOn": ["Snow","Subarctic","Continental","Grassland","Semi-Arid","Arid","Subtropical","Tropical","Hill"],
 		"uniques": ["Guaranteed with Strategic Balance resource option",],
 		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 9},
