@@ -161,7 +161,7 @@
 				"name": "Machinery","row": 5,"prerequisites": ["Engineering","Hydrology","Urban Infrastructure"],
 			},
 			{
-				"name": "Saddle","row": 5,"prerequisites": ["Military Training","Siege Tactics"],
+				"name": "Saddle","row": 7,"prerequisites": ["Military Training","Siege Tactics"],
 			},
 		]
     },
@@ -221,7 +221,7 @@
 				"name": "Castles","row": 5,"prerequisites": ["Feudalism"],
 			},
 			{
-				"name": "Pike Tactics","row": 9,"prerequisites": ["Horse Collar"],
+				"name": "Pike Tactics","row": 8,"prerequisites": ["Horse Collar"],
 			},
 			{
 				"name": "Siege Engines","row": 9,"prerequisites": ["Horse Collar"],
