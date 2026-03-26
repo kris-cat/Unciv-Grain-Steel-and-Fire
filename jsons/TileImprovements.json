@@ -24,6 +24,49 @@
 		]
 	},
     // Remove Terrain Features
+	{
+		"name": "Remove Taiga",
+		"turnsToBuild": 4,
+		"techRequired": "Carpentry",
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
+		"shortcutKey": "X",
+	},
+	{
+		"name": "Remove Coniferous Forest",
+		"turnsToBuild": 4,
+		"techRequired": "Carpentry",
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
+		"shortcutKey": "X",
+	},
+	{
+		"name": "Remove Deciduous Forest",
+		"turnsToBuild": 4,
+		"techRequired": "Carpentry",
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
+		"shortcutKey": "X",
+	},
+	{
+		"name": "Remove Savannah",
+		"turnsToBuild": 4,
+		"techRequired": "Carpentry",
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
+		"shortcutKey": "X",
+	},
+	{
+		"name": "Remove Rainforest",
+		"turnsToBuild": 7,
+		"techRequired": "Bronze Working",
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
+		"shortcutKey": "X"
+	},
+	{
+		"name": "Remove Jungle",
+		"turnsToBuild": 10,
+		"techRequired": "Iron Working",
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
+		"shortcutKey": "X"
+	},
+	//Standard Improvements
     {
 		"name": "Farm","terrainsCanBeBuiltOn": ["Grassland","Continental","Subtropical","Tropical","Semi-Arid"],
 		"food": 1,"turnsToBuild": 2,"techRequired": "Agriculture",
