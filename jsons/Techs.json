@@ -43,9 +43,6 @@
 			{
 				"name": "Masonry","row": 8,"prerequisites": ["Carpentry","Mining"],
 			},
-			{
-				"name": "Metal Casting","row": 9,"prerequisites": ["Pottery","Mining"],
-			},
 		]
     },
 	{
@@ -61,10 +58,13 @@
 				"name": "The Wheel","row": 4,"prerequisites": ["Animal Husbandry","Pottery"],
 			},
 			{
+				"name": "Metal Casting","row": 7,"prerequisites": ["Pottery","Masonry"],
+			},
+			{
 				"name": "City Defences","row": 8,"prerequisites": ["Masonry"],
 			},
 			{
-				"name": "Bronze Working","row": 9,"prerequisites": ["Metal Casting"],
+				"name": "Bronze Working","row": 9,"prerequisites": ["Masonry","Mining"],
 			},
 		]
     },
@@ -78,7 +78,15 @@
 				"name": "Currency","row": 4,"prerequisites": ["Irrigation","The Wheel"],
 			},
 			{
-				"name": "Organised Warfare","row": 9,"prerequisites": ["City Defences","Bronze Working"],
+				"name": "Organised Warfare","row": 9,"prerequisites": ["Metal Casting","City Defences","Bronze Working"],
+			},
+		]
+    },
+	{
+    	"columnNumber": 4,"era": "Ancient Era","techCost": 90,"buildingCost": 40,"wonderCost": 185,"techs": 
+        [
+            {
+				"name": "Writing","row": 5,"prerequisites": ["Calendar","Currency"],
 			},
 		]
     },
