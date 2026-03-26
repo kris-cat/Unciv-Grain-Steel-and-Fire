@@ -103,7 +103,7 @@
 		"uniques": [
 			"Provides [1] [Tar]<when above [0] [Timber]><hidden from users>","Consumes [1] [Timber]<when above [0] [Timber]><hidden from users>",
 			"Provides [1] [Tar]<when above [1] [Timber]><hidden from users>","Consumes [1] [Timber]<when above [1] [Timber]><hidden from users>",
-			"Comment [Produces 1 [Tar] for every: 1 [Timber]. Can produce a maximum of 2 [Tar].]","Unbuildable <without [Timber]>"
+			"Comment [Produces 1 [Tar] for every: 1 [Timber]. Can produce a maximum of 2 [Tar].]","Unbuildable <without [Timber]>","Must be next to [Water]",
 		],
 		"requiredResource": "Industry Slot",
 	},
@@ -115,7 +115,7 @@
 		"requiredTech": "Sailing"
 		"uniques": [
 			"Provides [1] [Naval Supplies]<when above [0] [Timber]><when above [0] [Tar]><hidden from users>","Consumes [1] [Tar]<when above [0] [Timber]><when above [0] [Tar]><hidden from users>","Consumes [1] [Timber]<when above [0] [Timber]><when above [0] [Tar]><hidden from users>",
-			"Comment [Produces 1 [Naval Supplies] for every: 1 [Timber], 1[Tar].]","Unbuildable <without [Timber]>","Unbuildable <without [Tar]>"
+			"Comment [Produces 1 [Naval Supplies] for every: 1 [Timber], 1[Tar].]","Unbuildable <without [Timber]>","Unbuildable <without [Tar]>","Must be next to [Water]",
 		],
 		"requiredResource": "Industry Slot",
 	},
