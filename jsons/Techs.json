@@ -58,7 +58,7 @@
 				"name": "Irrigation","row": 3,"prerequisites": ["Pottery","Animal Husbandry"],
 			},
 			{
-				"name": "The Wheel","row": 4,"prerequisites": ["Animal Husbandry","Construction"],
+				"name": "The Wheel","row": 4,"prerequisites": ["Animal Husbandry","Pottery"],
 			},
 			{
 				"name": "City Defences","row": 8,"prerequisites": ["Masonry"],
