@@ -88,6 +88,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
+			"[+1 Faith] from [Holy Site] tiles [in this city] <in tiles adjacent to [Vegetation] tiles>","[+1 Faith] from [Holy Site] tiles [in this city] <in tiles adjacent to [Mountain] tiles>","[+1 Faith] from [Holy Sites] tiles [in this city] <in tiles adjacent to [Great Improvement] tiles>"
 		],
 		"requiredTech": "Astrology"
 		"requiredResource": "Specialisation Slot",
