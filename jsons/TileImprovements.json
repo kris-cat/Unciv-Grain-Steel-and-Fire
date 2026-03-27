@@ -123,13 +123,17 @@
 		"shortcutKey": "L"
 	},
 	{
-		"name": "Mine","terrainsCanBeBuiltOn": ["Hill"],
-		"production": 1,"turnsToBuild": 3,"techRequired": "Mining",
+		"name": "Mine","terrainsCanBeBuiltOn": ["Hill"],"production": 1,"turnsToBuild": 3,"techRequired": "Mining",
 		"uniques": [
 			"Costs [15] [Basic Construction Material]","Unbuildable <when below [15] [Basic Construction Material]>",
 			"Pillaging this improvement yields approximately [+20 Gold]",
-			"Provides [1] [Stone1]"
+			"Provides [2] [Stone1] <in [non-[resource]] tiles>"
 		],
 		"shortcutKey": "M"
+	},
+	{
+		"name": "Quarry","production": 1,"turnsToBuild": 5,"techRequired": "Masonry",
+		"uniques": ["Costs [15] [Basic Construction Material]","Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]","Provides [5] [Stone1] <in [Stone] tiles>"],
+		"shortcutKey": "Q"
 	},
 ]
