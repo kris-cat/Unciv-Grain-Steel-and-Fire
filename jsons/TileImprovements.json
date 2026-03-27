@@ -114,7 +114,7 @@
 	},
 	{
 		"name": "Lumber mill","terrainsCanBeBuiltOn": ["Taiga","Coniferous Forest","Deciduous Forest","Rainforest","Savannah"],
-		"production": 1,"turnsToBuild": 3,"techRequired": "Carpentry",
+		"production": 2,"turnsToBuild": 3,"techRequired": "Carpentry",
 		"uniques": [
 			"Costs [15] [Basic Construction Material]","Unbuildable <when below [15] [Basic Construction Material]>",
 			"Pillaging this improvement yields approximately [+10 Gold]",
