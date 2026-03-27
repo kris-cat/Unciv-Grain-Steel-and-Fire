@@ -82,6 +82,70 @@
 			"Consumes [1] [Manpower] <for every [10] [Manpower]>"
 		]
 	},
+	//Specialisation Buildings
+		{
+		"name": "Religious Specialisation",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+		],
+		"requiredTech": "Astrology"
+		"requiredResource": "Specialisation Slot",
+	},
+	{
+		"name": "Scientific Specialisation",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+		],
+		"requiredTech": "Writing"
+		"requiredResource": "Specialisation Slot",
+	},
+	{
+		"name": "Cultural Specialisation",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+		],
+		"requiredTech": "Calendar"
+		"requiredResource": "Specialisation Slot",
+	},
+	{
+		"name": "Commercial Specialisation",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+		],
+		"requiredTech": "Currency"
+		"requiredResource": "Specialisation Slot",
+	},
+	{
+		"name": "Martial Specialisation",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+		],
+		"requiredTech": "Organised Warfare"
+		"requiredResource": "Specialisation Slot",
+	},
+	{
+		"name": "Heavy Industry Specialisation",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+		],
+		"requiredTech": "Metal Casting"
+		"requiredResource": "Specialisation Slot",
+	},
+	{
+		"name": "Light Industry Specialisation",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+		],
+		"requiredTech": "Bronze Working"
+		"requiredResource": "Specialisation Slot",
+	},
 	//Ancient Era Buildings
 	{
 		"name": "Tree Plantation",
