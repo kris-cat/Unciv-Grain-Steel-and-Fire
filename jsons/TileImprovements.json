@@ -66,6 +66,13 @@
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X"
 	},
+	//Specialisation Slot Improvements
+	{
+		"name": "Holy site",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Great Improvement","Cannot be built on [all] tiles <in cities without a [Religious Specialisation]>","Costs [100] [Basic Construction Material]","Unbuildable <when below [100] [Basic Construction Material]>",
+			"Removes removable features when built","Pillaging this improvement yields approximately [+20 Gold]"]
+	},
 	//Standard Improvements
     {
 		"name": "Farm","terrainsCanBeBuiltOn": ["Grassland","Continental","Subtropical","Tropical","Semi-Arid"],
