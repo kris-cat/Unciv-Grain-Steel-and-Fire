@@ -63,6 +63,16 @@
 		"uniques": [
 		]
 	},
+	{
+		"name": "Stone", "resourceType": "Bonus","improvement": "Quarry", "improvementStats": {"production": 1},"terrainsCanBeFoundOn": ["Grassland","Arid","Continental","Subarctic"],
+		"uniques": [
+		]
+	},
+	{
+		"name": "Clay", "resourceType": "Bonus","improvement": "Quarry", "improvementStats": {"culture": 1, "production": -1},"terrainsCanBeFoundOn": ["Grassland","Marsh","Floodplain"],
+		"uniques": [
+		]
+	},
 	//Strategic Map Resources
 	{
 		"name": "Timber", "resourceType": "Strategic",
