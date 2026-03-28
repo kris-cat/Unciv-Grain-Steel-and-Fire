@@ -143,6 +143,16 @@
 	
 	//Ancient Era Buildings
 	{
+		"name": "Barn","maintenance": 1,"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from [Pasture] tiles [in this city]",]
+		"requiredTech": "Animal Husbandry"
+	},
+	{
+		"name": "Ranch","maintenance": 1,"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from [Pasture] tiles [in this city]","[+1 Food] from [Pasture] tiles [in this city]",]
+		"requiredTech": "Animal Husbandry"
+	},
+	{
 		"name": "Monument","culture": 2,"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Masonry"
 	},
 	{
