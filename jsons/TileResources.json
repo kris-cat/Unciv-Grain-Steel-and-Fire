@@ -76,14 +76,17 @@
 	{
 		"name": "Fish", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Coast"],
 		"improvement": "Fishing Boats", "improvementStats": {"food": 1},
+		"uniques": ["Generated on every [10] tiles <in [Coast] tiles>"]
 	},
 	{
 		"name": "Crabs", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Coast"],
 		"improvement": "Fishing Boats", "improvementStats": {"gold": 1},
+		"uniques": ["Generated on every [10] tiles <in [Coast] tiles>"]
 	},
 	{
 		"name": "Lake Fish", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Lakes"],
 		"improvement": "Fishing Boats", "improvementStats": {"faith": 1},
+		"uniques": ["Generated on every [10] tiles <in [Lakes] tiles>"]
 	},
 	//Strategic Map Resources
 	{
