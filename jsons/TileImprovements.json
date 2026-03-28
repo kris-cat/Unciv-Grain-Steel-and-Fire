@@ -68,9 +68,9 @@
 	},
 	//Specialisation Slot Improvements
 	{
-		"name": "Holy site",
+		"name": "Holy Site",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Great Improvement","Cannot be built on [all] tiles <in cities without a [Religious Specialisation]>","Costs [100] [Basic Construction Material]","Unbuildable <when below [100] [Basic Construction Material]>",
+		"uniques": ["Great Improvement","Cannot be built on [all] tiles <in cities without a [Religious Specialisation]>","Costs [100] [Basic Construction Material]","Unavailable <when below [100] [Basic Construction Material]>",
 			"Removes removable features when built","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	//Standard Improvements
@@ -78,7 +78,7 @@
 		"name": "Farm","terrainsCanBeBuiltOn": ["Grassland","Continental","Subtropical","Tropical","Semi-Arid"],
 		"food": 1,"turnsToBuild": 2,"techRequired": "Agriculture",
 		"uniques": [
-			"Costs [15] [Basic Construction Material]","Unbuildable <when below [10] [Basic Construction Material]>",
+			"Costs [15] [Basic Construction Material]","Unavailable <when below [10] [Basic Construction Material]>",
 			"Can also be built on tiles adjacent to fresh water",
             "Pillaging this improvement yields approximately [+25 Gold]",
 			"Cannot be built on [Water] tiles"
@@ -89,7 +89,7 @@
 		"name": "Irrigation Farm","terrainsCanBeBuiltOn": ["Floodplain"],
 		"food": 1,"gold": 1,"turnsToBuild": 3,"techRequired": "Irrigation",
 		"uniques": [
-			"Costs [25] [Basic Construction Material]","Unbuildable <when below [15] [Basic Construction Material]>",
+			"Costs [25] [Basic Construction Material]","Unavailable <when below [15] [Basic Construction Material]>",
             "Pillaging this improvement yields approximately [+25 Gold]",
 			"Cannot be built on [Water] tiles"
 		],
@@ -99,7 +99,7 @@
 		"name": "Oasis Farm","terrainsCanBeBuiltOn": ["Oasis"],
 		"food": 2,"gold": 1,"turnsToBuild": 5,"techRequired": "Irrigation",
 		"uniques": [
-			"Costs [50] [Basic Construction Material]","Unbuildable <when below [25] [Basic Construction Material]>",
+			"Costs [50] [Basic Construction Material]","Unavailable <when below [25] [Basic Construction Material]>",
             "Pillaging this improvement yields approximately [+25 Gold]",
 			"Cannot be built on [Water] tiles"
 		],
@@ -108,7 +108,7 @@
 	{
 		"name": "Camp","food": 1,"turnsToBuild": 5,"techRequired": "Hunting",
 		"uniques": [
-            "Can only be built to improve a resource","Costs [25] [Basic Construction Material]","Unbuildable <when below [25] [Basic Construction Material]>",
+            "Can only be built to improve a resource","Costs [25] [Basic Construction Material]","Unavailable <when below [25] [Basic Construction Material]>",
             "Does not need removal of [Taiga]","Does not need removal of [Deciduous Forest]","Does not need removal of [Coniferous Forest]","Does not need removal of [Rainforest]","Does not need removal of [Jungle]",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -116,14 +116,14 @@
 	},
     {
 		"name": "Pasture","production": 1,"turnsToBuild": 5,"techRequired": "Animal Husbandry",
-		"uniques": ["Costs [15] [Basic Construction Material]","Unbuildable <when below [15] [Basic Construction Material]>","Can only be built to improve a resource","Pillaging this improvement yields approximately [+10 Gold]"],
+		"uniques": ["Costs [15] [Basic Construction Material]","Unavailable <when below [15] [Basic Construction Material]>","Can only be built to improve a resource","Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "P"
 	},
 	{
 		"name": "Lumber mill","terrainsCanBeBuiltOn": ["Taiga","Coniferous Forest","Deciduous Forest","Rainforest","Savannah"],
 		"production": 2,"turnsToBuild": 3,"techRequired": "Carpentry",
 		"uniques": [
-			"Costs [25] [Basic Construction Material]","Unbuildable <when below [25] [Basic Construction Material]>",
+			"Costs [25] [Basic Construction Material]","Unavailable <when below [25] [Basic Construction Material]>",
 			"Pillaging this improvement yields approximately [+10 Gold]",
 			"Provides [3] [Timber]"
 		],
@@ -132,7 +132,7 @@
 	{
 		"name": "Mine","terrainsCanBeBuiltOn": ["Hill"],"production": 1,"turnsToBuild": 3,"techRequired": "Mining",
 		"uniques": [
-			"Costs [25] [Basic Construction Material]","Unbuildable <when below [25] [Basic Construction Material]>",
+			"Costs [25] [Basic Construction Material]","Unavailable <when below [25] [Basic Construction Material]>",
 			"Pillaging this improvement yields approximately [+20 Gold]",
 			"Provides [2] [Stone1] <in [non-[resource]] tiles>"
 		],
@@ -140,7 +140,7 @@
 	},
 	{
 		"name": "Quarry","production": 2,"turnsToBuild": 5,"techRequired": "Masonry",
-		"uniques": ["Costs [50] [Basic Construction Material]","Unbuildable <when below [50] [Basic Construction Material]>","Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]","Provides [5] [Stone1] <in [Stone] tiles>"],
+		"uniques": ["Costs [50] [Basic Construction Material]","Unavailable <when below [50] [Basic Construction Material]>","Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]","Provides [5] [Stone1] <in [Stone] tiles>"],
 		"shortcutKey": "Q"
 	},
 ]
