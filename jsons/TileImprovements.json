@@ -99,7 +99,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],"turnsToBuild": 0,
 		"uniques": [
 			"District","Cannot be built on [all] tiles <in cities without a [Commercial Specialisation]>","Costs [50] [Basic Construction Material]","Unavailable <when below [50] [Basic Construction Material]>",
-			"[+2 Gold] <for every adjacent [Coast]><in tiles not adjacent to [Commercial Hub] tiles>","[+2 Gold] <for every adjacent [River]><in tiles not adjacent to [Commercial Hub] tiles>",
+			"[+2 Gold] <for every adjacent [Coast]><in tiles not adjacent to [Commercial Hub] tiles>","[+2 Gold] <in tiles adjacent to [River] tiles><in tiles not adjacent to [Commercial Hub] tiles>",
 			"[+2 Gold] <for every adjacent [Oasis]><in tiles not adjacent to [Commercial Hub] tiles>",
 			"Removes removable features when built","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
