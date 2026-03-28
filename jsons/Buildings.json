@@ -92,22 +92,20 @@
 		],
 	},
 	{
-		"name": "Scientific Specialisation",
-		"hurryCostModifier": 25,
-		"maintenance": 1,
+		"name": "Scientific Specialisation","requiredTech": "Writing","requiredResource": "Specialisation Slot",
+		"hurryCostModifier": 25,"science": 2,"maintenance": 1,
 		"uniques": [
+			"Comment [Enables construction of the [Campus] district]",
+			"Comment [[Holy Site]: +1 Science if adjacent to another district, +1 Faith from every adjacent Floodplain or Mountain tile.]"
 		],
-		"requiredTech": "Writing"
-		"requiredResource": "Specialisation Slot",
 	},
 	{
-		"name": "Cultural Specialisation",
-		"hurryCostModifier": 25,
-		"maintenance": 1,
+		"name": "Cultural Specialisation","requiredTech": "Calendar","requiredResource": "Specialisation Slot",
+		"hurryCostModifier": 25,"cultural": 2,"maintenance": 1,
 		"uniques": [
+			"Comment [Enables construction of the [Theatre Square] district]",
+			"Comment [[Holy Site]: +1 Culture from every adjacent District or Urban tile.]"
 		],
-		"requiredTech": "Calendar"
-		"requiredResource": "Specialisation Slot",
 	},
 	{
 		"name": "Commercial Specialisation",
