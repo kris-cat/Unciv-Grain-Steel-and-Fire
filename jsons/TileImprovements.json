@@ -200,7 +200,7 @@
 	{
 		"name": "Fisheries","food": 1,"production": 1,"turnsToBuild": 3, "terrainsCanBeBuiltOn": ["Coast"],"techRequired": "Maritime Industry",
 		"uniques": [
-			"Unbuildable <in tiles not adjacent to [Water resource] tiles>","Costs [15] [Basic Construction Material]","Unavailable <when below [15] [Basic Construction Material]>",
+			"Unbuildable <in tiles not adjacent to [Water resource] tiles>","Cannot be built on [Water resource] tiles","Costs [15] [Basic Construction Material]","Unavailable <when below [15] [Basic Construction Material]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
 		"shortcutKey": "F"
