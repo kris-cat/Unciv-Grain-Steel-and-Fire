@@ -72,6 +72,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],"turnsToBuild": 0,
 		"uniques": ["District","Cannot be built on [all] tiles <in cities without a [Religious Specialisation]>","Costs [50] [Basic Construction Material]","Unavailable <when below [50] [Basic Construction Material]>",
 			"[+1 Faith] <in tiles adjacent to [{non-[Holy Site]} {District}] tiles><in tiles not adjacent to [Holy Site] tiles>","[+1 Faith] <for every adjacent [Vegetation]><in tiles not adjacent to [Holy Site] tiles>","[+1 Faith] <for every adjacent [Mountain]><in tiles not adjacent to [Holy Site] tiles>",
+			"Ensures a minimum tile yield of [+0 Food, +0 Production, +0 Gold, +0 Faith, +0 Science, +0 Culture, +0 Happiness]",
 			"Removes removable features when built","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
@@ -79,6 +80,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],"turnsToBuild": 0,
 		"uniques": ["District","Cannot be built on [all] tiles <in cities without a [Scientific Specialisation]>","Costs [50] [Basic Construction Material]","Unavailable <when below [50] [Basic Construction Material]>",
 			"[+1 Science] <in tiles adjacent to [{non-[Campus]} {District}] tiles><in tiles not adjacent to [Campus] tiles>","[+1 Science] <for every adjacent [Mountain]><in tiles not adjacent to [Campus] tiles>","[+1 Science] <for every adjacent [Flodplain]><in tiles not adjacent to [Campus] tiles>",
+			"Ensures a minimum tile yield of [+0 Food, +0 Production, +0 Gold, +0 Faith, +0 Science, +0 Culture, +0 Happiness]",
 			"Removes removable features when built","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
@@ -86,6 +88,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],"turnsToBuild": 0,
 		"uniques": ["District","Cannot be built on [all] tiles <in cities without a [Cultural Specialisation]>","Costs [50] [Basic Construction Material]","Unavailable <when below [50] [Basic Construction Material]>",
 			"[+1 Culture] <for every adjacent [{non-[Theatre Square]} {District}]><in tiles not adjacent to [Theatre Square] tiles>","[+1 Culture] <in tiles adjacent to [Urban] tiles><in tiles not adjacent to [Theatre Square] tiles>",
+			"Ensures a minimum tile yield of [+0 Food, +0 Production, +0 Gold, +0 Faith, +0 Science, +0 Culture, +0 Happiness]",
 			"Removes removable features when built","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	//Standard Improvements
