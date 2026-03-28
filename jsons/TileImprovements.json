@@ -79,7 +79,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],"turnsToBuild": 0,
 		"uniques": [
 			"District","Cannot be built on [all] tiles <in cities without a [Religious Specialisation]>","Costs [50] [Basic Construction Material]","Unavailable <when below [50] [Basic Construction Material]>",
-			"[+1 Faith] <in tiles adjacent to [{non-[Holy Site]} {District}] tiles><in tiles not adjacent to [Holy Site] tiles>","[+1 Faith] <for every adjacent [Vegetation]><in tiles not adjacent to [Holy Site] tiles>",
+			"[+1 Faith] <in tiles adjacent to [{non-[Holy Site]} {District}] tiles><in tiles not adjacent to [Holy Site] tiles>","[+1 Faith] <for every adjacent [{non-[Water]} {Vegetation}]><in tiles not adjacent to [Holy Site] tiles>",
 			"[+1 Faith] <for every adjacent [Mountain]><in tiles not adjacent to [Holy Site] tiles>",
 			"[+2 Faith]","[-2 Faith]<within [3] tiles of a [Holy Site]>",
 			"Removes removable features when built","Pillaging this improvement yields approximately [+20 Gold]"]
