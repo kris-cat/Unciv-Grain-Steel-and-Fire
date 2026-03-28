@@ -84,14 +84,12 @@
 	},
 	//Specialisation Buildings
 		{
-		"name": "Religious Specialisation",
-		"hurryCostModifier": 25,
-		"maintenance": 1,
+		"name": "Religious Specialisation",	"requiredTech": "Astrology""requiredResource": "Specialisation Slot",
+		"hurryCostModifier": 25,"faith": 2,"maintenance": 1,
 		"uniques": [
-			"[+9 Faith] from [Holy Site] tiles [in this city] <in tiles adjacent to [Vegetation] tiles>","[+9 Faith] from [Holy Site] tiles [in this city] <in tiles adjacent to [Mountain] tiles>","[+9 Faith] from [Holy Sites] tiles [in this city] <in tiles adjacent to [District] tiles>"
+			"Comment [Enables construction of the [Holy Site] district]",
+			"Comment [[Holy Site]: +1 Faith if adjacent to another district, +1 Faith from every adjacent Vegetation or Mountain tile.]"
 		],
-		"requiredTech": "Astrology"
-		"requiredResource": "Specialisation Slot",
 	},
 	{
 		"name": "Scientific Specialisation",
