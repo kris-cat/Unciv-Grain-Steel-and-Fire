@@ -110,9 +110,9 @@
 		"uniques": [
 			"District","Cannot be built on [all] tiles <in cities without a [Commercial Specialisation]>","Costs [50] [Basic Construction Material]","Unavailable <when below [50] [Basic Construction Material]>",
 			"[+2 Gold] <for every adjacent [Coast]><in tiles not adjacent to [Commercial Hub] tiles>","[+2 Gold] <for every adjacent [Oasis]><in tiles not adjacent to [Commercial Hub] tiles>",
-			"[+2 Gold]<with [2] to [6] neighboring [Rivers] tiles><in tiles not adjacent to [Commercial Hub] tiles>",
-			"[+2 Gold]<with [4] to [6] neighboring [Rivers] tiles><in tiles not adjacent to [Commercial Hub] tiles>",
-			"[+2 Gold]<with [6] to [6] neighboring [Rivers] tiles><in tiles not adjacent to [Commercial Hub] tiles>",
+			"[+2 Gold]<with [2] to [6] neighboring [River] tiles><in tiles not adjacent to [Commercial Hub] tiles>",
+			"[+2 Gold]<with [4] to [6] neighboring [River] tiles><in tiles not adjacent to [Commercial Hub] tiles>",
+			"[+2 Gold]<with [6] to [6] neighboring [River] tiles><in tiles not adjacent to [Commercial Hub] tiles>",
 			"[+2 Gold]","[-2 Gold]<within [3] tiles of a [Commercial Hub]>",
 			"Removes removable features when built","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
