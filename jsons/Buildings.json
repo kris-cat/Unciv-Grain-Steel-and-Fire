@@ -108,41 +108,39 @@
 		],
 	},
 	{
-		"name": "Commercial Specialisation",
-		"hurryCostModifier": 25,
-		"maintenance": 1,
+		"name": "Commercial Specialisation","requiredTech": "Currency","requiredResource": "Specialisation Slot",
+		"hurryCostModifier": 25,"gold": 2,
 		"uniques": [
+			"Comment [Enables construction of the [Commercial Hub] district]",
+			"Comment [[Commercial Hub]: +2 Gold from each adjacent Harbour. +2 Gold from each adjacent River tile. +1 Gold for each adjacent 2 District tiles]"
 		],
-		"requiredTech": "Currency"
-		"requiredResource": "Specialisation Slot",
 	},
 	{
-		"name": "Martial Specialisation",
-		"hurryCostModifier": 25,
-		"maintenance": 1,
+		"name": "Militaristic Specialisation","requiredTech": "Organised Warfare","requiredResource": "Specialisation Slot",
+		"hurryCostModifier": 25,"production": 1,
 		"uniques": [
+			"Comment [Enables construction of the [Encampment] district]",
+			"Comment [[Encampment]: +1 Gold from each adjacent Rural District tiles. +1 Production from each adjacent Fortification tiles. +1 Faith for each adjacent Holy Site tiles.]"
 		],
-		"requiredTech": "Organised Warfare"
-		"requiredResource": "Specialisation Slot",
 	},
 	{
-		"name": "Heavy Industry Specialisation",
-		"hurryCostModifier": 25,
-		"maintenance": 1,
+		"name": "Heavy Industry Specialisation","requiredTech": "Metal Casting","requiredResource": "Specialisation Slot",
+		"hurryCostModifier": 25,"production": 2,
 		"uniques": [
+			"Comment [Enables construction of the [Heavy Industrial Zone] district]",
+			"Comment [[Heavy Industrial Zone]: +1 Production from each adjacent Strategic Resource tiles. +1 Production for every 2 adjacent Lumber Mill, Mine and Quarry tiles.]"
 		],
-		"requiredTech": "Metal Casting"
-		"requiredResource": "Specialisation Slot",
 	},
 	{
-		"name": "Light Industry Specialisation",
-		"hurryCostModifier": 25,
-		"maintenance": 1,
+		"name": "Light Industry Specialisation","requiredTech": "Bronze Working","requiredResource": "Specialisation Slot",
+		"hurryCostModifier": 25,"production": 1, "gold": 1,
 		"uniques": [
+			"Comment [Enables construction of the [Heavy Industrial Zone] district]",
+			"Comment [[Heavy Industrial Zone]: +1 Gold from each adjacent Luxury Resource tiles. +1 Production for every 2 adjacent Lumber Mill, Mine and Quarry tiles.]"
 		],
-		"requiredTech": "Bronze Working"
-		"requiredResource": "Specialisation Slot",
 	},
+	//Infrastructure Buildings
+	
 	//Ancient Era Buildings
 	{
 		"name": "Tree Plantation",
