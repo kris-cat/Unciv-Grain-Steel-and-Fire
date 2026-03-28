@@ -109,6 +109,18 @@
 			"Removes removable features when built","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	//Standard Improvements
+	{
+		"name": "Homeastead","uniqueTo": "America","terrainsCanBeBuiltOn": ["Grassland","Continental","Subtropical","Tropical","Semi-Arid"],
+		"food": 1,"turnsToBuild": 3,
+		"uniques": [
+			"Costs [25] [Basic Construction Material]","Unavailable <when below [25] [Basic Construction Material]>",
+			"[+1 Gold] <for every adjacent [Farm]>",
+			"[+1 Production] <for every adjacent [Pasture]>",
+            "Pillaging this improvement yields approximately [+25 Gold]",
+			"Shown while unbuilable"
+		],
+		"shortcutKey": "F"
+	},
     {
 		"name": "Farm","terrainsCanBeBuiltOn": ["Grassland","Continental","Subtropical","Tropical","Semi-Arid"],
 		"food": 1,"turnsToBuild": 2,"techRequired": "Agriculture",
