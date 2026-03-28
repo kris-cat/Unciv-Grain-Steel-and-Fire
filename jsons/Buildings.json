@@ -144,11 +144,11 @@
 	//Ancient Era Buildings
 	{
 		"name": "Barn","maintenance": 1,"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],"hurryCostModifier": 25,
-		"uniques": ["[+1 Production] from [Pasture] tiles [in this city]",]
+		"uniques": ["[+1 Food] from [Pasture] tiles [in this city]",]
 		"requiredTech": "Animal Husbandry"
 	},
 	{
-		"name": "Ranch","maintenance": 1,"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],"hurryCostModifier": 25,
+		"name": "Ranch","replaces": "Barn","uniqueTo": "America","maintenance": 1,"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],"hurryCostModifier": 25,
 		"uniques": ["[+1 Production] from [Pasture] tiles [in this city]","[+1 Food] from [Pasture] tiles [in this city]",]
 		"requiredTech": "Animal Husbandry"
 	},
