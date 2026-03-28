@@ -88,7 +88,7 @@
 		"hurryCostModifier": 25,"faith": 2,"maintenance": 1,
 		"uniques": [
 			"Comment [Enables construction of the [Holy Site] district]",
-			"Comment [[Holy Site]: +1 Faith if adjacent to another district, +1 Faith from every adjacent Vegetation or Mountain tile.]"
+			"Comment [[Holy Site]: +1 Faith if adjacent to another district, +1 Faith from every adjacent Vegetation or Mountain tile.]",
 		],
 	},
 	{
