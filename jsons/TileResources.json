@@ -73,6 +73,18 @@
 		"uniques": [
 		]
 	},
+	{
+		"name": "Fish", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Coast"],
+		"improvement": "Fishing Boats", "improvementStats": {"food": 1},
+	},
+	{
+		"name": "Crabs", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Coast"],
+		"improvement": "Fishing Boats", "improvementStats": {"gold": 1},
+	},
+	{
+		"name": "Lake Fish", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Lakes"],
+		"improvement": "Fishing Boats", "improvementStats": {"faith": 1},
+	},
 	//Strategic Map Resources
 	{
 		"name": "Timber", "resourceType": "Strategic",
