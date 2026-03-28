@@ -143,6 +143,17 @@
 	
 	//Ancient Era Buildings
 	{
+		"name": "Monument","culture": 2,"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Masonry"
+	},
+	{
+		"name": "Irrigation Wheel","maintenance": 2,"food": 1,"production": 1,"hurryCostModifier": 25,"requiredTech": "The Wheel"
+		"uniques": ["Must be on [River]",],
+	},
+	{
+		"name": "Nilometer","replaces": "Irrigation Wheel","uniqueTo": "Kemet","maintenance": 1,"food": 2,"science": 2,"hurryCostModifier": 25,"requiredTech": "The Wheel"
+		"uniques": ["Must be on [River]",],
+	},
+	{
 		"name": "Tree Plantation",
 		"production": 1,
 		"maintenance": 1,
@@ -192,5 +203,9 @@
 			"Comment [Produces 1 [Basic Construction Material] for every: 1 [Timber] and 1 [Stone1]. Can produce a maximum of 2 [Basic Construction Material] for every unique input.]",
 		],
 		"requiredResource": "Industry Slot",
+	},
+	{
+		"name": "Pallisade","cityStrength": 5,"cityHealth": 10,"hurryCostModifier": 25,"requiredTech": "City Defences",
+		"uniques": ["Destroyed when the city is captured"]
 	},
 ]
