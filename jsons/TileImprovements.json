@@ -190,7 +190,7 @@
 		"shortcutKey": "Q"
 	},
 	{
-		"name": "Fishing Boats","food": 1,"turnsToBuild": 3, "terrainsCanBeBuiltOn": ["Coast"],"techRequired": "Fishing",
+		"name": "Fishing Boats","food": 1,"turnsToBuild": 3, "terrainsCanBeBuiltOn": ["Coast","Kelp Forest","Seagrass"],"techRequired": "Fishing",
 		"uniques": [
 			"Can only be built to improve a resource","Costs [10] [Basic Construction Material]","Unavailable <when below [10] [Basic Construction Material]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
@@ -198,7 +198,7 @@
 		"shortcutKey": "F"
 	},
 	{
-		"name": "Fisheries","food": 1,"production": 1,"turnsToBuild": 3, "terrainsCanBeBuiltOn": ["Coast"],"techRequired": "Maritime Industry",
+		"name": "Fisheries","food": 1,"production": 1,"turnsToBuild": 3, "terrainsCanBeBuiltOn": ["Coast","Kelp Forest","Seagrass"],"techRequired": "Maritime Industry",
 		"uniques": [
 			"Unbuildable <in tiles not adjacent to [Water resource] tiles>","Cannot be built on [Water resource] tiles","Costs [15] [Basic Construction Material]","Unavailable <when below [15] [Basic Construction Material]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
