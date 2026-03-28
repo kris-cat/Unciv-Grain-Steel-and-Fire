@@ -103,7 +103,7 @@
 					"Considered [Production] when determining start locations",]
 	},
 	{
-		"name": "Mountain","type": "TerrainFeature","production": 1,"movementCost": 3,"overrideStats": true,"defenceBonus": 0.50,"RGB": [102, 102, 102],"occursOn": ["Snow","Subarctic","Continental","Grassland","Semi-Arid","Arid","Subtropical","Tropical"],
+		"name": "Mountain","type": "TerrainFeature","impassable": true,"production": 1,"movementCost": 3,"overrideStats": true,"defenceBonus": 0.50,"RGB": [102, 102, 102],"occursOn": ["Snow","Subarctic","Continental","Grassland","Semi-Arid","Arid","Subtropical","Tropical"],
 		"uniques": ["Rough terrain",
 			"[+10] Strength for cities built on this terrain",
             "Has an elevation of [2] for visibility calculations",
