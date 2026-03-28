@@ -15,7 +15,7 @@
 		"name": "City center",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
-			"District","Ensures a minimum tile yield of [+2 Food, +1 Production]",
+			"District","Urban","Ensures a minimum tile yield of [+2 Food, +1 Production]",
             "Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor"
 		],
         "civilopediaText": [
@@ -70,8 +70,22 @@
 	{
 		"name": "Holy Site",
 		"terrainsCanBeBuiltOn": ["Land"],"turnsToBuild": 0,
-		"uniques": ["District","Cannot be built on [all] tiles <in cities without a [Religious Specialisation]>","Costs [100] [Basic Construction Material]","Unavailable <when below [100] [Basic Construction Material]>",
-			"[+9 Faith] <in tiles adjacent to [District] tiles>","[+98 Faith] <for every adjacent [Vegetation]>","[+9 Faith] <for every adjacent [Mountain]>",
+		"uniques": ["District","Cannot be built on [all] tiles <in cities without a [Religious Specialisation]>","Costs [50] [Basic Construction Material]","Unavailable <when below [50] [Basic Construction Material]>",
+			"[+1 Faith] <in tiles adjacent to [{non-[Holy Site]} {District}] tiles>","[+1 Faith] <for every adjacent [Vegetation]>","[+1 Faith] <for every adjacent [Mountain]>",
+			"Removes removable features when built","Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Campus",
+		"terrainsCanBeBuiltOn": ["Land"],"turnsToBuild": 0,
+		"uniques": ["District","Cannot be built on [all] tiles <in cities without a [Religious Specialisation]>","Costs [50] [Basic Construction Material]","Unavailable <when below [50] [Basic Construction Material]>",
+			"[+1 Science] <in tiles adjacent to [{non-[Campus]} {District}] tiles>","[+1 Science] <for every adjacent [Mountain]>","[+1 Science] <for every adjacent [Flodplain]>",
+			"Removes removable features when built","Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Theatre Square",
+		"terrainsCanBeBuiltOn": ["Land"],"turnsToBuild": 0,
+		"uniques": ["District","Cannot be built on [all] tiles <in cities without a [Religious Specialisation]>","Costs [50] [Basic Construction Material]","Unavailable <when below [50] [Basic Construction Material]>",
+			"[+1 Culture] <for every adjacent [{non-[Theatre Square]} {District}]>",,"[+1 Culture] <in tiles adjacent to [Urban] tiles>",
 			"Removes removable features when built","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	//Standard Improvements
@@ -79,7 +93,7 @@
 		"name": "Farm","terrainsCanBeBuiltOn": ["Grassland","Continental","Subtropical","Tropical","Semi-Arid"],
 		"food": 1,"turnsToBuild": 2,"techRequired": "Agriculture",
 		"uniques": [
-			"Costs [15] [Basic Construction Material]","Unavailable <when below [10] [Basic Construction Material]>",
+			"Costs [10] [Basic Construction Material]","Unavailable <when below [10] [Basic Construction Material]>",
 			"Can also be built on tiles adjacent to fresh water",
             "Pillaging this improvement yields approximately [+25 Gold]",
 			"Cannot be built on [Water] tiles",
@@ -91,7 +105,7 @@
 		"name": "Irrigation Farm","terrainsCanBeBuiltOn": ["Floodplain"],
 		"food": 1,"gold": 1,"turnsToBuild": 3,"techRequired": "Irrigation",
 		"uniques": [
-			"Costs [25] [Basic Construction Material]","Unavailable <when below [15] [Basic Construction Material]>",
+			"Costs [15] [Basic Construction Material]","Unavailable <when below [15] [Basic Construction Material]>",
             "Pillaging this improvement yields approximately [+25 Gold]",
 			"Cannot be built on [Water] tiles",
 			"Shown while unbuilable"
@@ -102,7 +116,7 @@
 		"name": "Oasis Farm","terrainsCanBeBuiltOn": ["Oasis"],
 		"food": 2,"gold": 1,"turnsToBuild": 5,"techRequired": "Irrigation",
 		"uniques": [
-			"Costs [50] [Basic Construction Material]","Unavailable <when below [25] [Basic Construction Material]>",
+			"Costs [25] [Basic Construction Material]","Unavailable <when below [25] [Basic Construction Material]>",
             "Pillaging this improvement yields approximately [+25 Gold]",
 			"Cannot be built on [Water] tiles",
 			"Shown while unbuilable"
@@ -112,7 +126,7 @@
 	{
 		"name": "Camp","food": 1,"turnsToBuild": 5,"techRequired": "Hunting",
 		"uniques": [
-            "Can only be built to improve a resource","Costs [25] [Basic Construction Material]","Unavailable <when below [25] [Basic Construction Material]>",
+            "Can only be built to improve a resource","Costs [10] [Basic Construction Material]","Unavailable <when below [10] [Basic Construction Material]>",
             "Does not need removal of [Taiga]","Does not need removal of [Deciduous Forest]","Does not need removal of [Coniferous Forest]","Does not need removal of [Rainforest]","Does not need removal of [Jungle]",
 			"Pillaging this improvement yields approximately [+10 Gold]","Shown while unbuilable"
 		],
@@ -144,7 +158,7 @@
 	},
 	{
 		"name": "Quarry","production": 2,"turnsToBuild": 5,"techRequired": "Masonry",
-		"uniques": ["Costs [50] [Basic Construction Material]","Unavailable <when below [50] [Basic Construction Material]>","Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]","Provides [5] [Stone1] <in [Stone] tiles>","Shown while unbuilable"],
+		"uniques": ["Costs [25] [Basic Construction Material]","Unavailable <when below [25] [Basic Construction Material]>","Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]","Provides [5] [Stone1] <in [Stone] tiles>","Shown while unbuilable"],
 		"shortcutKey": "Q"
 	},
 ]
