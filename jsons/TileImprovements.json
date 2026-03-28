@@ -74,7 +74,6 @@
 			"District","Cannot be built on [all] tiles <in cities without a [Religious Specialisation]>","Costs [50] [Basic Construction Material]","Unavailable <when below [50] [Basic Construction Material]>",
 			"[+1 Faith] <in tiles adjacent to [{non-[Holy Site]} {District}] tiles><in tiles not adjacent to [Holy Site] tiles>","[+1 Faith] <for every adjacent [Vegetation]><in tiles not adjacent to [Holy Site] tiles>",
 			"[+1 Faith] <for every adjacent [Mountain]><in tiles not adjacent to [Holy Site] tiles>",
-			"[-2 Faith] <within [2] tiles of a [Holy Site]>",
 			"Removes removable features when built","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
@@ -84,7 +83,6 @@
 			"District","Cannot be built on [all] tiles <in cities without a [Scientific Specialisation]>","Costs [50] [Basic Construction Material]","Unavailable <when below [50] [Basic Construction Material]>",
 			"[+1 Science] <in tiles adjacent to [{non-[Campus]} {District}] tiles><in tiles not adjacent to [Campus] tiles>",
 			"[+1 Science] <for every adjacent [Mountain]><in tiles not adjacent to [Campus] tiles>","[+1 Science] <for every adjacent [Flodplain]><in tiles not adjacent to [Campus] tiles>",
-			"[-2 Science] <within [2] tiles of a [Campus]>",
 			"Removes removable features when built","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
@@ -94,7 +92,6 @@
 			"District","Cannot be built on [all] tiles <in cities without a [Cultural Specialisation]>","Costs [50] [Basic Construction Material]","Unavailable <when below [50] [Basic Construction Material]>",
 			"[+1 Culture] <in tiles adjacent to [{non-[Theatre Square]} {District}] tiles><in tiles not adjacent to [Theatre Square] tiles>","[+1 Culture]<with [2] to [6] neighboring [District] tiles><in tiles not adjacent to [Theatre Square] tiles>",
 			"[+1 Culture]<with [4] to [6] neighboring [District] tiles><in tiles not adjacent to [Theatre Square] tiles>","[+1 Culture]<with [6] to [6] neighboring [District] tiles><in tiles not adjacent to [Theatre Square] tiles>",
-			"[-2 Culture] <within [2] tiles of a [Theatre Square]>",
 			"Removes removable features when built","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
@@ -104,7 +101,6 @@
 			"District","Cannot be built on [all] tiles <in cities without a [Commercial Specialisation]>","Costs [50] [Basic Construction Material]","Unavailable <when below [50] [Basic Construction Material]>",
 			"[+2 Gold] <for every adjacent [Coast]><in tiles not adjacent to [Commercial Hub] tiles>","[+2 Gold] <for every adjacent [River]><in tiles not adjacent to [Commercial Hub] tiles>",
 			"[+2 Gold] <for every adjacent [Oasis]><in tiles not adjacent to [Commercial Hub] tiles>",
-			"[-2 Gold] <within [2] tiles of a [Commercial Hub]>",
 			"Removes removable features when built","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	//Standard Improvements
