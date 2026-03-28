@@ -71,6 +71,7 @@
 		"name": "Holy Site",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["District","Cannot be built on [all] tiles <in cities without a [Religious Specialisation]>","Costs [100] [Basic Construction Material]","Unavailable <when below [100] [Basic Construction Material]>",
+			"[+1 Faith] <in tiles adjacent to [District] tiles>","[+1 Faith] <for every adjacent [Vegetation]>","[+1 Faith] <for every adjacent [Mountain]>"
 			"Removes removable features when built","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	//Standard Improvements
