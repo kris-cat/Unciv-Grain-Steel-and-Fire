@@ -82,7 +82,8 @@
 			"Costs [15] [Basic Construction Material]","Unavailable <when below [10] [Basic Construction Material]>",
 			"Can also be built on tiles adjacent to fresh water",
             "Pillaging this improvement yields approximately [+25 Gold]",
-			"Cannot be built on [Water] tiles"
+			"Cannot be built on [Water] tiles",
+			"Shown while unbuilable"
 		],
 		"shortcutKey": "F"
 	},
@@ -92,7 +93,8 @@
 		"uniques": [
 			"Costs [25] [Basic Construction Material]","Unavailable <when below [15] [Basic Construction Material]>",
             "Pillaging this improvement yields approximately [+25 Gold]",
-			"Cannot be built on [Water] tiles"
+			"Cannot be built on [Water] tiles",
+			"Shown while unbuilable"
 		],
 		"shortcutKey": "F"
 	},
@@ -102,7 +104,8 @@
 		"uniques": [
 			"Costs [50] [Basic Construction Material]","Unavailable <when below [25] [Basic Construction Material]>",
             "Pillaging this improvement yields approximately [+25 Gold]",
-			"Cannot be built on [Water] tiles"
+			"Cannot be built on [Water] tiles",
+			"Shown while unbuilable"
 		],
 		"shortcutKey": "F"
 	},
@@ -111,21 +114,21 @@
 		"uniques": [
             "Can only be built to improve a resource","Costs [25] [Basic Construction Material]","Unavailable <when below [25] [Basic Construction Material]>",
             "Does not need removal of [Taiga]","Does not need removal of [Deciduous Forest]","Does not need removal of [Coniferous Forest]","Does not need removal of [Rainforest]","Does not need removal of [Jungle]",
-			"Pillaging this improvement yields approximately [+10 Gold]"
+			"Pillaging this improvement yields approximately [+10 Gold]","Shown while unbuilable"
 		],
 		"shortcutKey": "C"
 	},
     {
 		"name": "Pasture","production": 1,"turnsToBuild": 5,"techRequired": "Animal Husbandry",
-		"uniques": ["Costs [15] [Basic Construction Material]","Unavailable <when below [15] [Basic Construction Material]>","Can only be built to improve a resource","Pillaging this improvement yields approximately [+10 Gold]"],
+		"uniques": ["Costs [15] [Basic Construction Material]","Unavailable <when below [15] [Basic Construction Material]>","Can only be built to improve a resource","Pillaging this improvement yields approximately [+10 Gold]","Shown while unbuilable"],
 		"shortcutKey": "P"
 	},
 	{
 		"name": "Lumber mill","terrainsCanBeBuiltOn": ["Taiga","Coniferous Forest","Deciduous Forest","Rainforest","Savannah"],
 		"production": 2,"turnsToBuild": 3,"techRequired": "Carpentry",
 		"uniques": [
-			"Costs [25] [Basic Construction Material]","Unavailable <when below [25] [Basic Construction Material]>",
-			"Pillaging this improvement yields approximately [+10 Gold]",
+			"Costs [15] [Basic Construction Material]","Unavailable <when below [15] [Basic Construction Material]>",
+			"Pillaging this improvement yields approximately [+10 Gold]","Shown while unbuilable",
 			"Provides [3] [Timber]"
 		],
 		"shortcutKey": "L"
@@ -134,14 +137,14 @@
 		"name": "Mine","terrainsCanBeBuiltOn": ["Hill"],"production": 1,"turnsToBuild": 3,"techRequired": "Mining",
 		"uniques": [
 			"Costs [25] [Basic Construction Material]","Unavailable <when below [25] [Basic Construction Material]>",
-			"Pillaging this improvement yields approximately [+20 Gold]",
+			"Pillaging this improvement yields approximately [+20 Gold]","Shown while unbuilable",
 			"Provides [2] [Stone1] <in [non-[resource]] tiles>"
 		],
 		"shortcutKey": "M"
 	},
 	{
 		"name": "Quarry","production": 2,"turnsToBuild": 5,"techRequired": "Masonry",
-		"uniques": ["Costs [50] [Basic Construction Material]","Unavailable <when below [50] [Basic Construction Material]>","Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]","Provides [5] [Stone1] <in [Stone] tiles>"],
+		"uniques": ["Costs [50] [Basic Construction Material]","Unavailable <when below [50] [Basic Construction Material]>","Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]","Provides [5] [Stone1] <in [Stone] tiles>","Shown while unbuilable"],
 		"shortcutKey": "Q"
 	},
 ]
