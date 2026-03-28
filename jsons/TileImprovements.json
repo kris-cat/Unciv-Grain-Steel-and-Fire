@@ -85,7 +85,7 @@
 		"name": "Theatre Square",
 		"terrainsCanBeBuiltOn": ["Land"],"turnsToBuild": 0,
 		"uniques": ["District","Cannot be built on [all] tiles <in cities without a [Cultural Specialisation]>","Costs [50] [Basic Construction Material]","Unavailable <when below [50] [Basic Construction Material]>",
-			"[+1 Culture] <for every adjacent [{non-[Theatre Square]} {District}]>",,"[+1 Culture] <in tiles adjacent to [Urban] tiles>",
+			"[+1 Culture] <for every adjacent [{non-[Theatre Square]} {District}]>","[+1 Culture] <in tiles adjacent to [Urban] tiles>",
 			"Removes removable features when built","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	//Standard Improvements
