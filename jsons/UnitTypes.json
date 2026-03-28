@@ -11,4 +11,16 @@
         "name": "Pre-Gunpowder Land Melee",
         "movementType": "Land"
     },
+    {
+        "name": "Pre-Gunpowder Land Ranged",
+        "movementType": "Land"
+    },
+    {
+        "name": "Water Melee",
+        "movementType": "Water"
+    },
+    {
+        "name": "Water Ranged",
+        "movementType": "Water"
+    }
 ]
