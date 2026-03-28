@@ -189,4 +189,20 @@
 		"uniques": ["Costs [25] [Basic Construction Material]","Unavailable <when below [25] [Basic Construction Material]>","Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]","Provides [5] [Stone1] <in [Stone] tiles>","Shown while unbuilable"],
 		"shortcutKey": "Q"
 	},
+	{
+		"name": "Fishing Boats","food": 1,"turnsToBuild": 3, "terrainsCanBeBuiltOn": ["Coast"],"techRequired": "Fishing",
+		"uniques": [
+			"Can only be built to improve a resource","Costs [10] [Basic Construction Material]","Unavailable <when below [10] [Basic Construction Material]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Fisheries","food": 1,"production": 1,"turnsToBuild": 3, "terrainsCanBeBuiltOn": ["Coast"],"techRequired": "Maritime Industry",
+		"uniques": [
+			"Unbuildable <in tiles not adjacent to [Water resource] tiles>","Costs [15] [Basic Construction Material]","Unavailable <when below [15] [Basic Construction Material]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "F"
+	},
 ]
