@@ -84,7 +84,7 @@
 	},
 	//Specialisation Buildings
 		{
-		"name": "Religious Specialisation",	"requiredTech": "Astrology""requiredResource": "Specialisation Slot",
+		"name": "Religious Specialisation",	"requiredTech": "Astrology","requiredResource": "Specialisation Slot",
 		"hurryCostModifier": 25,"faith": 2,"maintenance": 1,
 		"uniques": [
 			"Comment [Enables construction of the [Holy Site] district]",
