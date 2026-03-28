@@ -69,9 +69,9 @@
 	//Specialisation Slot Improvements
 	{
 		"name": "Holy Site",
-		"terrainsCanBeBuiltOn": ["Land"],"faith": 1,
+		"terrainsCanBeBuiltOn": ["Land"],"turnsToBuild": 0,
 		"uniques": ["District","Cannot be built on [all] tiles <in cities without a [Religious Specialisation]>","Costs [100] [Basic Construction Material]","Unavailable <when below [100] [Basic Construction Material]>",
-			"[+9 Faith] <in tiles adjacent to [District] tiles>","[+98 Faith] <for every adjacent [Vegetation]>","[+9 Faith] <for every adjacent [Mountain]>"
+			"[+9 Faith] <in tiles adjacent to [District] tiles>","[+98 Faith] <for every adjacent [Vegetation]>","[+9 Faith] <for every adjacent [Mountain]>",
 			"Removes removable features when built","Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	//Standard Improvements
