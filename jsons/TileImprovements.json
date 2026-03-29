@@ -82,7 +82,6 @@
 			"Can also be built on tiles adjacent to fresh water",
             "Pillaging this improvement yields approximately [+25 Gold]",
 			"Cannot be built on [Water] tiles",
-			"Shown while unbuilable"
 		],
 		"shortcutKey": "F"
 	},
@@ -114,14 +113,14 @@
 	},
     {
 		"name": "Pasture","production": 1,"turnsToBuild": 5,"techRequired": "Animal Husbandry",
-		"uniques": ["Costs [15] [Basic Construction Material]","Unavailable <when below [15] [Basic Construction Material]>","Can only be built to improve a resource","Pillaging this improvement yields approximately [+10 Gold]","Shown while unbuilable"],
+		"uniques": ["Can only be built to improve a resource","Pillaging this improvement yields approximately [+10 Gold]",],
 		"shortcutKey": "P"
 	},
 	{
 		"name": "Lumber mill","terrainsCanBeBuiltOn": ["Taiga","Coniferous Forest","Deciduous Forest","Rainforest","Savannah"],
 		"production": 2,"turnsToBuild": 3,"techRequired": "Carpentry",
 		"uniques": [
-			"Pillaging this improvement yields approximately [+10 Gold]","Shown while unbuilable",
+			"Pillaging this improvement yields approximately [+10 Gold]",
 			"Provides [3] [Timber]"
 		],
 		"shortcutKey": "L"
@@ -129,7 +128,7 @@
 	{
 		"name": "Mine","terrainsCanBeBuiltOn": ["Hill"],"production": 1,"turnsToBuild": 3,"techRequired": "Mining",
 		"uniques": [
-			"Pillaging this improvement yields approximately [+20 Gold]","Shown while unbuilable",
+			"Pillaging this improvement yields approximately [+20 Gold]",
 			"Provides [2] [Stone1] <in [non-[resource]] tiles>"
 		],
 		"shortcutKey": "M"
