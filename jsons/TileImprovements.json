@@ -106,7 +106,8 @@
 	{
 		"name": "Camp","food": 1,"turnsToBuild": 5,"techRequired": "Hunting",
 		"uniques": [
-            "Does not need removal of [Taiga]","Does not need removal of [Deciduous Forest]","Does not need removal of [Coniferous Forest]","Does not need removal of [Rainforest]","Does not need removal of [Jungle]",
+            "Can only be built to improve a resource","Does not need removal of [Taiga]","Does not need removal of [Deciduous Forest]",
+			"Does not need removal of [Coniferous Forest]","Does not need removal of [Rainforest]","Does not need removal of [Jungle]","Does not need removal of [Savannah]",
 			"Pillaging this improvement yields approximately [+10 Gold]",
 		],
 		"shortcutKey": "C"
