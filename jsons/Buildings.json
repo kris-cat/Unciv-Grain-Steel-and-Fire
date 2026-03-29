@@ -11,56 +11,89 @@
 		]
 	},
     {
-		"name": "Population Milestone - 4","cost": 0,"maintenance": 0,
+		"name": "Population Milestone - 3","cost": 0,"maintenance": 0,
 		"uniques": [
 			"Provides [1] [Specialisation Slot] <in this city>",
             "Provides [1] [Infrastructure Slot] <in this city>",
             "Provides [1] [Industry Slot] <in this city>",
-			"Only available <in cities with at least [4] [Population]>",
+			"Only available <in cities with at least [3] [Population]>",
 			"Automatically built in all cities where it is buildable",
 			"Destroyed when the city is captured"
 		]
 	},
     {
-		"name": "Population Milestone - 8","cost": 0,"maintenance": 0,
+		"name": "Population Milestone - 6","cost": 0,"maintenance": 0,
 		"uniques": [
 			"Provides [1] [Specialisation Slot] <in this city>",
             "Provides [1] [Infrastructure Slot] <in this city>",
             "Provides [1] [Industry Slot] <in this city>",
-			"Only available <in cities with at least [8] [Population]>",
+			"Only available <in cities with at least [6] [Population]>",
 			"Automatically built in all cities where it is buildable",
 			"Destroyed when the city is captured"
 		]
 	},
     {
-		"name": "Population Milestone - 13","cost": 0,"maintenance": 0,
+		"name": "Population Milestone - 10","cost": 0,"maintenance": 0,
 		"uniques": [
 			"Provides [1] [Specialisation Slot] <in this city>",
             "Provides [1] [Infrastructure Slot] <in this city>",
             "Provides [1] [Industry Slot] <in this city>",
-			"Only available <in cities with at least [13] [Population]>",
+			"Only available <in cities with at least [10] [Population]>",
 			"Automatically built in all cities where it is buildable",
 			"Destroyed when the city is captured"
 		]
 	},
     {
-		"name": "Population Milestone - 19","cost": 0,"maintenance": 0,
+		"name": "Population Milestone - 15","cost": 0,"maintenance": 0,
 		"uniques": [
 			"Provides [1] [Specialisation Slot] <in this city>",
             "Provides [1] [Infrastructure Slot] <in this city>",
             "Provides [1] [Industry Slot] <in this city>",
-			"Only available <in cities with at least [19] [Population]>",
+			"Only available <in cities with at least [15] [Population]>",
 			"Automatically built in all cities where it is buildable",
 			"Destroyed when the city is captured"
 		]
 	},
     {
-		"name": "Population Milestone - 26","cost": 0,"maintenance": 0,
+		"name": "Population Milestone - 21","cost": 0,"maintenance": 0,
 		"uniques": [
 			"Provides [1] [Specialisation Slot] <in this city>",
             "Provides [1] [Infrastructure Slot] <in this city>",
             "Provides [1] [Industry Slot] <in this city>",
-			"Only available <in cities with at least [26] [Population]>",
+			"Only available <in cities with at least [21] [Population]>",
+			"Automatically built in all cities where it is buildable",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Population Milestone - 28","cost": 0,"maintenance": 0,
+		"uniques": [
+			"Provides [1] [Specialisation Slot] <in this city>",
+            "Provides [1] [Infrastructure Slot] <in this city>",
+            "Provides [1] [Industry Slot] <in this city>",
+			"Only available <in cities with at least [28] [Population]>",
+			"Automatically built in all cities where it is buildable",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Population Milestone - 36","cost": 0,"maintenance": 0,
+		"uniques": [
+			"Provides [1] [Specialisation Slot] <in this city>",
+            "Provides [1] [Infrastructure Slot] <in this city>",
+            "Provides [1] [Industry Slot] <in this city>",
+			"Only available <in cities with at least [36] [Population]>",
+			"Automatically built in all cities where it is buildable",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Population Milestone - 45","cost": 0,"maintenance": 0,
+		"uniques": [
+			"Provides [1] [Specialisation Slot] <in this city>",
+            "Provides [1] [Infrastructure Slot] <in this city>",
+            "Provides [1] [Industry Slot] <in this city>",
+			"Only available <in cities with at least [45] [Population]>",
 			"Automatically built in all cities where it is buildable",
 			"Destroyed when the city is captured"
 		]
@@ -78,69 +111,11 @@
 		"uniques": [
 			"Indicates the capital city",
 			"Provides [3] [Manpower] <in this city>",
-			"Provides [1] [Basic Construction Material] <in this city>",
 			"Consumes [1] [Manpower] <for every [10] [Manpower]>"
 		]
 	},
 	//Specialisation Buildings
-		{
-		"name": "Religious Specialisation",	"requiredTech": "Astrology","requiredResource": "Specialisation Slot",
-		"hurryCostModifier": 25,"faith": 2,"maintenance": 1,
-		"uniques": [
-			"Comment [Enables construction of the [Holy Site] district]",
-			"Comment [[Holy Site]: +1 Faith if adjacent to another district, +1 Faith from every adjacent Vegetation or Mountain tile.]",
-		],
-	},
-	{
-		"name": "Scientific Specialisation","requiredTech": "Writing","requiredResource": "Specialisation Slot",
-		"hurryCostModifier": 25,"science": 2,"maintenance": 1,
-		"uniques": [
-			"Comment [Enables construction of the [Campus] district]",
-			"Comment [[Holy Site]: +1 Science if adjacent to another district, +1 Faith from every adjacent Floodplain or Mountain tile.]"
-		],
-	},
-	{
-		"name": "Cultural Specialisation","requiredTech": "Calendar","requiredResource": "Specialisation Slot",
-		"hurryCostModifier": 25,"cultural": 2,"maintenance": 1,
-		"uniques": [
-			"Comment [Enables construction of the [Theatre Square] district]",
-			"Comment [[Holy Site]: +1 Culture from every adjacent District or Urban tile.]"
-		],
-	},
-	{
-		"name": "Commercial Specialisation","requiredTech": "Currency","requiredResource": "Specialisation Slot",
-		"hurryCostModifier": 25,"gold": 2,
-		"uniques": [
-			"Comment [Enables construction of the [Commercial Hub] district]",
-			"Comment [[Commercial Hub]: +2 Gold from each adjacent Harbour. +2 Gold from each adjacent River tile. +1 Gold for each adjacent 2 District tiles]"
-		],
-	},
-	{
-		"name": "Militaristic Specialisation","requiredTech": "Organised Warfare","requiredResource": "Specialisation Slot",
-		"hurryCostModifier": 25,"production": 1,
-		"uniques": [
-			"Comment [Enables construction of the [Encampment] district]",
-			"Comment [[Encampment]: +1 Gold from each adjacent Rural District tiles. +1 Production from each adjacent Fortification tiles. +1 Faith for each adjacent Holy Site tiles.]"
-		],
-	},
-	{
-		"name": "Heavy Industry Specialisation","requiredTech": "Metal Casting","requiredResource": "Specialisation Slot",
-		"hurryCostModifier": 25,"production": 2,
-		"uniques": [
-			"Comment [Enables construction of the [Heavy Industrial Zone] district]",
-			"Comment [[Heavy Industrial Zone]: +1 Production from each adjacent Strategic Resource tiles. +1 Production for every 2 adjacent Lumber Mill, Mine and Quarry tiles.]"
-		],
-	},
-	{
-		"name": "Light Industry Specialisation","requiredTech": "Bronze Working","requiredResource": "Specialisation Slot",
-		"hurryCostModifier": 25,"production": 1, "gold": 1,
-		"uniques": [
-			"Comment [Enables construction of the [Heavy Industrial Zone] district]",
-			"Comment [[Heavy Industrial Zone]: +1 Gold from each adjacent Luxury Resource tiles. +1 Production for every 2 adjacent Lumber Mill, Mine and Quarry tiles.]"
-		],
-	},
 	//Infrastructure Buildings
-	
 	//Ancient Era Buildings
 	{
 		"name": "Barn","maintenance": 1,"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],"hurryCostModifier": 25,
@@ -196,21 +171,6 @@
 		"uniques": [
 			"Provides [1] [Naval Supplies]<when above [0] [Timber]><when above [0] [Tar]><hidden from users>","Consumes [1] [Tar]<when above [0] [Timber]><when above [0] [Tar]><hidden from users>","Consumes [1] [Timber]<when above [0] [Timber]><when above [0] [Tar]><hidden from users>",
 			"Comment [Produces 1 [Naval Supplies] for every: 1 [Timber], 1[Tar].]","Unbuildable <without [Timber]>","Unbuildable <without [Tar]>","Must be next to [Water]",
-		],
-		"requiredResource": "Industry Slot",
-	},
-	{
-		"name": "Builder Quarters",
-		"production": 1,
-		"maintenance": 1,
-		"hurryCostModifier": 25
-		"requiredTech": "Masonry"
-		"uniques": [
-			"Provides [1] [Basic Construction Material]<with [Timber]><hidden from users>","Consumes [1] [Timber]<with [Timber]><hidden from users>",
-			"Provides [1] [Basic Construction Material]<when above [1] [Timber]><hidden from users>","Consumes [1] [Timber]<when above [1] [Timber]><hidden from users>",
-			"Provides [1] [Basic Construction Material]<with [Stone1]><hidden from users>","Consumes [1] [Stone1]<with [Stone1]><hidden from users>",
-			"Provides [1] [Basic Construction Material]<when above [1] [Stone1]><hidden from users>","Consumes [1] [Stone1]<when above [1] [Stone1]><hidden from users>",
-			"Comment [Produces 1 [Basic Construction Material] for every: 1 [Timber] and 1 [Stone1]. Can produce a maximum of 2 [Basic Construction Material] for every unique input.]",
 		],
 		"requiredResource": "Industry Slot",
 	},
