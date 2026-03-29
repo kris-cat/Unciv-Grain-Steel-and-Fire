@@ -62,71 +62,23 @@
 	{
 		"name": "Remove Jungle",
 		"turnsToBuild": 10,
-		"techRequired": "Iron Working",
+		"techRequired": "Bronze Working",
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X"
 	},
 	{
 		"name": "Remove Marsh",
 		"turnsToBuild": 10,
-		"techRequired": "Iron Working",
+		"techRequired": "Bronze Working+",
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X"
 	},
 	//Specialisation Slot Improvements
-	{
-		"name": "Holy Site",
-		"terrainsCanBeBuiltOn": ["Land"],"turnsToBuild": 0,
-		"uniques": [
-			"Cannot be built on [all] tiles <in cities without a [Religious Specialisation]>","Costs [25] [Basic Construction Material]","Unavailable <when below [26] [Basic Construction Material]>",
-			"[+1 Faith] <for every adjacent [{non-[Water]} {Vegetation}]><in tiles not adjacent to [Holy Site] tiles>",
-			"[+1 Faith] <for every adjacent [Mountain]><in tiles not adjacent to [Holy Site] tiles><in cities with a [Religious Specialisation]>",
-			"Removes removable features when built","Pillaging this improvement yields approximately [+20 Gold]"]
-	},
-	{
-		"name": "Observatory",
-		"terrainsCanBeBuiltOn": ["Land"],"turnsToBuild": 0,
-		"uniques": [
-			"Cannot be built on [all] tiles <in cities without a [Scientific Specialisation]>","Costs [25] [Basic Construction Material]","Unavailable <when below [26] [Basic Construction Material]>",
-			"[+2 Science] <for every adjacent [Mountain]><in tiles not adjacent to [Observatory] tiles><in cities with a [Scientific Specialisation]>",
-			"Removes removable features when built","Pillaging this improvement yields approximately [+20 Gold]"]
-	},
-	{
-		"name": "Landmark",
-		"terrainsCanBeBuiltOn": ["Land"],"turnsToBuild": 0,
-		"uniques": [
-			"Cannot be built on [all] tiles <in cities without a [Cultural Specialisation]>","Costs [25] [Basic Construction Material]","Unavailable <when below [26] [Basic Construction Material]>",
-			"[+1 Culture]<in tiles not adjacent to [Landmark] tiles><in cities with a [Cultural Specialisation]>",
-			"Removes removable features when built","Pillaging this improvement yields approximately [+20 Gold]"]
-	},
-	{
-		"name": "Trading Post",
-		"terrainsCanBeBuiltOn": ["Land"],"turnsToBuild": 0,
-		"uniques": [
-			"Cannot be built on [all] tiles <in cities without a [Commercial Specialisation]>","Costs [25] [Basic Construction Material]","Unavailable <when below [26] [Basic Construction Material]>",
-			"[+1 Gold]<in tiles not adjacent to [Trading Post] tiles><in cities with a [Commercial Specialisation]>",
-			"[+1 Gold]<in tiles adjacent to [River] tiles><in cities with a [Commercial Specialisation]>",
-			"Removes removable features when built","Pillaging this improvement yields approximately [+20 Gold]"]
-	},
 	//Standard Improvements
-	{
-		"name": "Homestead","uniqueTo": "America","terrainsCanBeBuiltOn": ["Grassland","Continental","Subtropical","Tropical","Semi-Arid"],"turnsToBuild": 3,
-		"uniques": [
-			"Costs [25] [Basic Construction Material]","Unavailable <when below [25] [Basic Construction Material]>",
-			"[+1 Food] <in tiles not adjacent to [Homestead] tiles>",
-			"[+1 Food] <with [2] to [6] neighboring [Farm] tiles><in tiles not adjacent to [Homestead] tiles>","[+1 Food] <with [4] to [6] neighboring [Farm] tiles><in tiles not adjacent to [Homestead] tiles>",
-			"[+1 Food] <with [2] to [6] neighboring [Farm] tiles><in tiles not adjacent to [Homestead] tiles>",
-			"[+1 Gold]<in tiles adjacent to [Pasture] tiles><in tiles not adjacent to [Homestead] tiles>",
-            "Pillaging this improvement yields approximately [+25 Gold]",
-			"Shown while unbuilable"
-		],
-		"shortcutKey": "F"
-	},
     {
 		"name": "Farm","terrainsCanBeBuiltOn": ["Grassland","Continental","Subtropical","Tropical","Semi-Arid"],
 		"food": 1,"turnsToBuild": 2,"techRequired": "Agriculture",
 		"uniques": [
-			"Costs [10] [Basic Construction Material]","Unavailable <when below [10] [Basic Construction Material]>",
 			"Can also be built on tiles adjacent to fresh water",
             "Pillaging this improvement yields approximately [+25 Gold]",
 			"Cannot be built on [Water] tiles",
@@ -138,10 +90,8 @@
 		"name": "Irrigation Farm","terrainsCanBeBuiltOn": ["Floodplain"],
 		"food": 1,"gold": 1,"turnsToBuild": 3,"techRequired": "Irrigation",
 		"uniques": [
-			"Costs [15] [Basic Construction Material]","Unavailable <when below [15] [Basic Construction Material]>",
             "Pillaging this improvement yields approximately [+25 Gold]",
 			"Cannot be built on [Water] tiles",
-			"Shown while unbuilable"
 		],
 		"shortcutKey": "F"
 	},
@@ -149,19 +99,16 @@
 		"name": "Oasis Farm","terrainsCanBeBuiltOn": ["Oasis"],
 		"food": 2,"gold": 1,"turnsToBuild": 5,"techRequired": "Calendar",
 		"uniques": [
-			"Costs [25] [Basic Construction Material]","Unavailable <when below [25] [Basic Construction Material]>",
             "Pillaging this improvement yields approximately [+25 Gold]",
 			"Cannot be built on [Water] tiles",
-			"Shown while unbuilable"
 		],
 		"shortcutKey": "F"
 	},
 	{
 		"name": "Camp","food": 1,"turnsToBuild": 5,"techRequired": "Hunting",
 		"uniques": [
-            "Can only be built to improve a resource","Costs [10] [Basic Construction Material]","Unavailable <when below [10] [Basic Construction Material]>",
             "Does not need removal of [Taiga]","Does not need removal of [Deciduous Forest]","Does not need removal of [Coniferous Forest]","Does not need removal of [Rainforest]","Does not need removal of [Jungle]",
-			"Pillaging this improvement yields approximately [+10 Gold]","Shown while unbuilable"
+			"Pillaging this improvement yields approximately [+10 Gold]",
 		],
 		"shortcutKey": "C"
 	},
@@ -174,7 +121,6 @@
 		"name": "Lumber mill","terrainsCanBeBuiltOn": ["Taiga","Coniferous Forest","Deciduous Forest","Rainforest","Savannah"],
 		"production": 2,"turnsToBuild": 3,"techRequired": "Carpentry",
 		"uniques": [
-			"Costs [15] [Basic Construction Material]","Unavailable <when below [15] [Basic Construction Material]>",
 			"Pillaging this improvement yields approximately [+10 Gold]","Shown while unbuilable",
 			"Provides [3] [Timber]"
 		],
@@ -183,7 +129,6 @@
 	{
 		"name": "Mine","terrainsCanBeBuiltOn": ["Hill"],"production": 1,"turnsToBuild": 3,"techRequired": "Mining",
 		"uniques": [
-			"Costs [25] [Basic Construction Material]","Unavailable <when below [25] [Basic Construction Material]>",
 			"Pillaging this improvement yields approximately [+20 Gold]","Shown while unbuilable",
 			"Provides [2] [Stone1] <in [non-[resource]] tiles>"
 		],
@@ -191,21 +136,13 @@
 	},
 	{
 		"name": "Quarry","production": 2,"turnsToBuild": 5,"techRequired": "Masonry",
-		"uniques": ["Costs [25] [Basic Construction Material]","Unavailable <when below [25] [Basic Construction Material]>","Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]","Provides [5] [Stone1] <in [Stone] tiles>","Shown while unbuilable"],
+		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]","Provides [5] [Stone1] <in [Stone] tiles>"],
 		"shortcutKey": "Q"
 	},
 	{
 		"name": "Fishing Boats","food": 1,"turnsToBuild": 3, "terrainsCanBeBuiltOn": ["Coast","Lakes","Kelp Forest","Seagrass"],"techRequired": "Fishing",
 		"uniques": [
-			"Can only be built to improve a resource","Costs [10] [Basic Construction Material]","Unavailable <when below [10] [Basic Construction Material]>",
-			"Pillaging this improvement yields approximately [+10 Gold]"
-		],
-		"shortcutKey": "F"
-	},
-	{
-		"name": "Fisheries","food": 1,"production": 1,"turnsToBuild": 3, "terrainsCanBeBuiltOn": ["Coast","Lakes","Kelp Forest","Seagrass"],"techRequired": "Maritime Industry",
-		"uniques": [
-			"Unbuildable <in tiles not adjacent to [Water resource] tiles>","Cannot be built on [Water resource] tiles","Costs [15] [Basic Construction Material]","Unavailable <when below [15] [Basic Construction Material]>",
+			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
 		"shortcutKey": "F"
@@ -216,7 +153,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 5,
 		"techRequired": "The Wheel",
-		"uniques": ["Costs [25] [Basic Construction Material]","Unavailable <when below [25] [Basic Construction Material]>","Can be built outside your borders", "Costs [1] [Gold] per turn"],
+		"uniques": ["Can be built outside your borders", "Costs [1] [Gold] per turn"],
 		"shortcutKey": "R",
 	},
 ]
