@@ -209,4 +209,14 @@
 		],
 		"shortcutKey": "F"
 	},
+	// Road Improvements
+	{
+		"name": "Road",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 5,
+		"techRequired": "The Wheel",
+		"uniques": ["Costs [25] [Basic Construction Material]","Unavailable <when below [25] [Basic Construction Material]>","Can be built outside your borders", "Costs [1] [Gold] per turn"],
+		"shortcutKey": "R",
+        ]
+	},
 ]
