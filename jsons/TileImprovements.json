@@ -69,7 +69,7 @@
 	{
 		"name": "Remove Marsh",
 		"turnsToBuild": 10,
-		"techRequired": "Bronze Working+",
+		"techRequired": "Bronze Working",
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X"
 	},
