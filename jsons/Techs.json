@@ -78,7 +78,7 @@
 				"name": "State Management","row": 2,"prerequisites": ["Writing","Calendar",],
 			},
 			{
-				"name": "Currency","row": 4,"prerequisites": ["Writing","Calendar"],
+				"name": "Currency","row": 4,"prerequisites": ["Irrigation","The Wheel"],
 			},
             {
 				"name": "Craftsmanship","row": 6,"prerequisites": ["The Wheel","City Defences"],
