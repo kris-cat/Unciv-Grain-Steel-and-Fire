@@ -117,6 +117,7 @@
 	//Specialisation Buildings
 	//Infrastructure Buildings
 	//Ancient Era Buildings
+	
 	{
 		"name": "Barn","maintenance": 1,"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],"hurryCostModifier": 25,
 		"uniques": ["[+1 Food] from [Pasture] tiles [in this city]",]
@@ -137,42 +138,6 @@
 	{
 		"name": "Nilometer","replaces": "Irrigation Wheel","uniqueTo": "Kemet","maintenance": 1,"food": 2,"science": 2,"hurryCostModifier": 25,"requiredTech": "The Wheel"
 		"uniques": ["Must be on [River]",],
-	},
-	{
-		"name": "Tree Plantation",
-		"production": 1,
-		"maintenance": 1,
-		"hurryCostModifier": 25
-		"requiredTech": "Archery"
-		"uniques": [
-			"Provides [5] [Timber]","Must have an owned [Lumber mill] within [3] tiles"
-		],
-		"requiredResource": "Industry Slot",
-	},
-	{
-		"name": "Wood Tar Furnace",
-		"production": 1,
-		"maintenance": 1,
-		"hurryCostModifier": 25
-		"requiredTech": "Sailing"
-		"uniques": [
-			"Provides [1] [Tar]<when above [0] [Timber]><hidden from users>","Consumes [1] [Timber]<when above [0] [Timber]><hidden from users>",
-			"Provides [1] [Tar]<when above [1] [Timber]><hidden from users>","Consumes [1] [Timber]<when above [1] [Timber]><hidden from users>",
-			"Comment [Produces 1 [Tar] for every: 1 [Timber]. Can produce a maximum of 2 [Tar].]","Unbuildable <without [Timber]>","Must be next to [Water]",
-		],
-		"requiredResource": "Industry Slot",
-	},
-	{
-		"name": "Ship Tar Coating",
-		"production": 1,
-		"maintenance": 1,
-		"hurryCostModifier": 25
-		"requiredTech": "Sailing"
-		"uniques": [
-			"Provides [1] [Naval Supplies]<when above [0] [Timber]><when above [0] [Tar]><hidden from users>","Consumes [1] [Tar]<when above [0] [Timber]><when above [0] [Tar]><hidden from users>","Consumes [1] [Timber]<when above [0] [Timber]><when above [0] [Tar]><hidden from users>",
-			"Comment [Produces 1 [Naval Supplies] for every: 1 [Timber], 1[Tar].]","Unbuildable <without [Timber]>","Unbuildable <without [Tar]>","Must be next to [Water]",
-		],
-		"requiredResource": "Industry Slot",
 	},
 	{
 		"name": "Pallisade","cityStrength": 5,"cityHealth": 10,"hurryCostModifier": 25,"requiredTech": "City Defences",
