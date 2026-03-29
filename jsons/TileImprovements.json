@@ -110,12 +110,13 @@
 	},
 	//Standard Improvements
 	{
-		"name": "Homeastead","uniqueTo": "America","terrainsCanBeBuiltOn": ["Grassland","Continental","Subtropical","Tropical","Semi-Arid"],
-		"food": 1,"turnsToBuild": 3,
+		"name": "Homestead","uniqueTo": "America","terrainsCanBeBuiltOn": ["Grassland","Continental","Subtropical","Tropical","Semi-Arid"],"turnsToBuild": 3,
 		"uniques": [
 			"Costs [25] [Basic Construction Material]","Unavailable <when below [25] [Basic Construction Material]>",
-			"[+1 Gold] <for every adjacent [Farm]>",
-			"[+1 Production] <for every adjacent [Pasture]>",
+			"[+1 Food] <in tiles not adjacent to [Homestead] tiles>",
+			"[+1 Food] <with [2] to [6] neighboring [Farm] tiles><in tiles not adjacent to [Homestead] tiles>","[+1 Food] <with [4] to [6] neighboring [Farm] tiles><in tiles not adjacent to [Homestead] tiles>",
+			"[+1 Food] <with [2] to [6] neighboring [Farm] tiles><in tiles not adjacent to [Homestead] tiles>",
+			"[+1 Gold]<in tiles adjacent to [Pasture] tiles><in tiles not adjacent to [Homestead] tiles>",
             "Pillaging this improvement yields approximately [+25 Gold]",
 			"Shown while unbuilable"
 		],
