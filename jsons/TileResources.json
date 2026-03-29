@@ -132,12 +132,6 @@
 	},
 	//Strategic Industry Resources
 	{
-		"name": "Basic Construction Material", "resourceType": "Strategic",
-		"uniques": [
-			"Doesn't generate naturally","Excluded from map editor","Stockpiled",
-		]
-	},
-	{
 		"name": "Tar", "resourceType": "Strategic",
 		"uniques": [
 			"Doesn't generate naturally","Excluded from map editor",
