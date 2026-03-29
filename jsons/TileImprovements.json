@@ -41,14 +41,14 @@
 	{
 		"name": "Remove Deciduous Forest",
 		"turnsToBuild": 4,
-		"techRequired": "Carpentry",
+		"techRequired": "Mining",
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X",
 	},
 	{
 		"name": "Remove Savannah",
 		"turnsToBuild": 4,
-		"techRequired": "Carpentry",
+		"techRequired": "Mining",
 		"uniques": ["Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X",
 	},
@@ -147,7 +147,7 @@
 	},
 	{
 		"name": "Oasis Farm","terrainsCanBeBuiltOn": ["Oasis"],
-		"food": 2,"gold": 1,"turnsToBuild": 5,"techRequired": "Irrigation",
+		"food": 2,"gold": 1,"turnsToBuild": 5,"techRequired": "Calendar",
 		"uniques": [
 			"Costs [25] [Basic Construction Material]","Unavailable <when below [25] [Basic Construction Material]>",
             "Pillaging this improvement yields approximately [+25 Gold]",
