@@ -38,6 +38,16 @@
 		]
 	},
 	{
+		"name": "Flax", "resourceType": "Bonus","improvement": "Farm", "improvementStats": {"gold": 1}, "terrainsCanBeFoundOn": ["Floodplain"],
+		"uniques": [
+		]
+	},
+	{
+		"name": "Cotton", "resourceType": "Bonus","improvement": "Farm", "improvementStats": {"gold": 1}, "terrainsCanBeFoundOn": ["Subtropical","Tropical"],
+		"uniques": [
+		]
+	},
+	{
 		"name": "Maize", "resourceType": "Bonus","improvement": "Farm", "improvementStats": {"gold": 1}, "terrainsCanBeFoundOn": ["Grassland","Semi-Arid","Coniferous Forest"],
 		"uniques": [
 		]
@@ -73,6 +83,7 @@
 		"uniques": [
 		]
 	},
+	
 	{
 		"name": "Fish", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Coast","Kelp Forest","Seagrass"],
 		"improvement": "Fishing Boats", "improvementStats": {"food": 1},
