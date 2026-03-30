@@ -194,4 +194,8 @@
 		"name": "Furs","resourceType": "Luxury","gold": 1,"improvement": "Camp","improvementStats": {"gold": 1},"terrainsCanBeFoundOn": ["Taiga","Subarctic","Continental","Coniferous Forest",],
 		"uniques": []
 	},
+	//Produced Luxury Resources
+	{
+		"name": "Cheese","resourceType": "Luxury","gold": 2,
+	},
 ]
