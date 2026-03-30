@@ -95,6 +95,11 @@
 		"shortcutKey": "F"
 	},
 	{
+		"name": "Plantation","turnsToBuild": 5,"gold": 1,"techRequired": "Irrigation",
+		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "P"
+	},
+	{
 		"name": "Oasis Farm","terrainsCanBeBuiltOn": ["Oasis"],
 		"food": 2,"gold": 1,"turnsToBuild": 5,"techRequired": "Calendar",
 		"uniques": [
