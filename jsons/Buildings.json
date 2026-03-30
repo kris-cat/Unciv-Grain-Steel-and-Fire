@@ -132,11 +132,11 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
-		"name": "Pottery Kiln","production": 1,"gold": 1,"requiredNearbyImprovedResources": ["Clay"],"hurryCostModifier": 25"requiredTech": "Pottery"
+		"name": "Pottery Kiln","production": 1,"gold": 1,"requiredNearbyImprovedResources": ["Clay"],"hurryCostModifier": 25"requiredTech": "Pottery",
 		"uniques": ["[+1 Gold] from [Clay] tiles [in this city]",]
 	},
 	{
-		"name": "Dragon Kiln","replaces": "Pottery Kiln","uniqueTo": "China","production": 1,"gold": 1,"requiredNearbyImprovedResources": ["Clay"],"hurryCostModifier": 25"requiredTech": "Pottery"
+		"name": "Dragon Kiln","replaces": "Pottery Kiln","uniqueTo": "China","production": 1,"gold": 1,"requiredNearbyImprovedResources": ["Clay"],"hurryCostModifier": 25"requiredTech": "Pottery",
 		"uniques": ["[+1 Gold] from [Clay] tiles [in this city]",]
 	},
 	{
