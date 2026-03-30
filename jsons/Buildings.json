@@ -128,8 +128,11 @@
 		"requiredTech": "Agriculture"
 	},
 	{
-		"name": "Pallisade","cityStrength": 5,"cityHealth": 10,"hurryCostModifier": 25,"requiredTech": "Carpentry",
+		"name": "Pallisade","cityStrength": 5,"cityHealth": 15,"hurryCostModifier": 25,"requiredTech": "Carpentry",
 		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Monument","culture": 2,"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Masonry"
 	},
 	{
 		"name": "Pottery Kiln","production": 1,"gold": 1,"requiredNearbyImprovedResources": ["Clay"],"hurryCostModifier": 25,"requiredTech": "Pottery",
@@ -150,7 +153,8 @@
 		"requiredTech": "Animal Husbandry"
 	},
 	{
-		"name": "Monument","culture": 2,"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Masonry"
+		"name": "Town Square","gold": 3,"percentStatBonus": {"gold": 5},"hurryCostModifier": 25,"requiredTech": "The Wheel"
+		"uniques": ["Enables conversion of city production to [Gold] <in this city>"]
 	},
 	{
 		"name": "Irrigation Wheel","maintenance": 2,"food": 1,"production": 1,"hurryCostModifier": 25,"requiredTech": "The Wheel"
@@ -159,5 +163,9 @@
 	{
 		"name": "Nilometer","replaces": "Irrigation Wheel","uniqueTo": "Kemet","maintenance": 1,"food": 2,"science": 2,"hurryCostModifier": 25,"requiredTech": "The Wheel"
 		"uniques": ["Must be on [River]",],
+	},
+	{
+		"name": "Walls","cityStrength": 10,"cityHealth": 25,"hurryCostModifier": 25,"requiredTech": "City Defences",
+		"uniques": ["Destroyed when the city is captured"]
 	},
 ]
