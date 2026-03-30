@@ -53,7 +53,7 @@
 		]
 	},
 	{
-		"name": "Cotton", "resourceType": "Bonus","improvement": "Plantation", "improvementStats": {"gold": 1}, "terrainsCanBeFoundOn": ["Floodplain","Subtropical","Tropical"],
+		"name": "Cotton", "resourceType": "Bonus","improvement": "Plantation", "improvementStats": {"gold": 2}, "terrainsCanBeFoundOn": ["Floodplain","Subtropical","Tropical"],
 		"uniques": [
 		]
 	},
