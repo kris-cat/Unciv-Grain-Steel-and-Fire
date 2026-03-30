@@ -38,17 +38,22 @@
 		]
 	},
 	{
+		"name": "Maize", "resourceType": "Bonus","improvement": "Farm", "improvementStats": {"gold": 1}, "terrainsCanBeFoundOn": ["Grassland","Semi-Arid","Coniferous Forest"],
+		"uniques": [
+		]
+	},
+	{
+		"name": "Bananas", "resourceType": "Bonus","improvement": "Farm", "improvementStats": {"food": 1}, "terrainsCanBeFoundOn": ["Jungle","Rainforest"],
+		"uniques": [
+		]
+	},
+	{
 		"name": "Flax", "resourceType": "Bonus","improvement": "Farm", "improvementStats": {"gold": 1}, "terrainsCanBeFoundOn": ["Floodplain"],
 		"uniques": [
 		]
 	},
 	{
 		"name": "Cotton", "resourceType": "Bonus","improvement": "Farm", "improvementStats": {"gold": 1}, "terrainsCanBeFoundOn": ["Subtropical","Tropical"],
-		"uniques": [
-		]
-	},
-	{
-		"name": "Maize", "resourceType": "Bonus","improvement": "Farm", "improvementStats": {"gold": 1}, "terrainsCanBeFoundOn": ["Grassland","Semi-Arid","Coniferous Forest"],
 		"uniques": [
 		]
 	},
@@ -171,5 +176,22 @@
 		"uniques": [
 			"Doesn't generate naturally","Excluded from map editor","Stockpiled",
 		]
+	},
+	//Luxury Raw Resources
+	{
+		"name": "Gems","resourceType": "Luxury","gold": 1,"improvement": "Mine","improvementStats": {"gold": 1, "culture": 1, "production": -1},"terrainsCanBeFoundOn": ["Jungle","Rainforest","Hill"],
+		"uniques": []
+	},
+	{
+		"name": "Gold Ore","resourceType": "Luxury","gold": 1,"improvement": "Mine","improvementStats": {"gold": 2, "production": -1},"terrainsCanBeFoundOn": ["Arid","Hill","Rainforest","Jungle"],
+		"uniques": []
+	},
+	{
+		"name": "Silver","resourceType": "Luxury","gold": 1,"improvement": "Mine","improvementStats": {"gold": 1},"terrainsCanBeFoundOn": ["Hill","Subarctic","Jungle"],
+		"uniques": []
+	},
+	{
+		"name": "Furs","resourceType": "Luxury","gold": 1,"improvement": "Camp","improvementStats": {"gold": 1},"terrainsCanBeFoundOn": ["Taiga","Subarctic","Continental","Coniferous Forest",],
+		"uniques": []
 	},
 ]
