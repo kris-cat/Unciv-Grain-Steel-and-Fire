@@ -153,6 +153,13 @@
 		"requiredTech": "Animal Husbandry"
 	},
 	{
+		"name": "Cheesemaker","food": 1,"maintenance": 1,"requiredNearbyImprovedResources": ["Sheep","Cattle"],"hurryCostModifier": 25,"requiredTech": "Animal Husbandry",
+		"uniques": ["[+1 Gold] from [Sheep] tiles [in this city]","[+1 Gold] from [Cattle] tiles [in this city]",
+			"Provides [1] [Cheese] <for every [Sheep]> <in this city>","Provides [1] [Cheese] <for every [Cattle]> <in this city>",
+		]
+		"requiredResource": "Industry Slot",
+	},
+	{
 		"name": "Town Square","gold": 3,"percentStatBonus": {"gold": 5},"hurryCostModifier": 25,"requiredTech": "The Wheel"
 		"uniques": ["Enables conversion of city production to [Gold] <in this city>"]
 	},
