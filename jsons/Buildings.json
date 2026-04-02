@@ -115,6 +115,24 @@
 		]
 	},
 	//Specialisation Buildings
+	{
+		"name": "Shrine","faith": 2,"specialistSlots": {"Priest": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Calendar","requiredResource": "Specialisation Slot",
+	},
+	{
+		"name": "Monument","culture": 2,"specialistSlots": {"Artist": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Masonry","requiredResource": "Specialisation Slot",
+	},
+	{
+		"name": "Library","science": 2,"specialistSlots": {"Scientist": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Writing","requiredResource": "Specialisation Slot",
+	},
+	{
+		"name": "Market","gold": 4,"specialistSlots": {"Merchant": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Currency","requiredResource": "Specialisation Slot",
+	},
+	{
+		"name": "Garden","culture": 1,"gold": 2,"specialistSlots": {"Gardner": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Irrigation","requiredResource": "Specialisation Slot",
+	},
+	{
+		"name": "Grove","faith": 1,"science": 1,"specialistSlots": {"Steward": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Archery","requiredResource": "Specialisation Slot",
+	},
 	//Infrastructure Buildings
 	//Ancient Era Buildings
 	{
@@ -132,43 +150,15 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
-		"name": "Monument","culture": 2,"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Masonry"
-	},
-	{
-		"name": "Pottery Kiln","production": 1,"gold": 1,"requiredNearbyImprovedResources": ["Clay"],"hurryCostModifier": 25,"requiredTech": "Pottery",
-		"uniques": ["[+1 Gold] from [Clay] tiles [in this city]",]
-	},
-	{
-		"name": "Dragon Kiln","replaces": "Pottery Kiln","uniqueTo": "China","production": 1,"gold": 1,"requiredNearbyImprovedResources": ["Clay"],"hurryCostModifier": 25,"requiredTech": "Pottery",
-		"uniques": ["[+1 Gold] from [Clay] tiles [in this city]",]
-	},
-	{
 		"name": "Barn","maintenance": 1,"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],"hurryCostModifier": 25,
 		"uniques": ["[+1 Food] from [Pasture] tiles [in this city]",]
 		"requiredTech": "Animal Husbandry"
 	},
 	{
-		"name": "Ranch","replaces": "Barn","uniqueTo": "America","maintenance": 1,"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],"hurryCostModifier": 25,
-		"uniques": ["[+1 Production] from [Pasture] tiles [in this city]","[+1 Food] from [Pasture] tiles [in this city]",]
-		"requiredTech": "Animal Husbandry"
-	},
-	{
-		"name": "Cheesemaker","food": 1,"maintenance": 1,"requiredNearbyImprovedResources": ["Sheep","Cattle"],"hurryCostModifier": 25,"requiredTech": "Animal Husbandry",
-		"uniques": ["[+1 Gold] from [Sheep] tiles [in this city]","[+1 Gold] from [Cattle] tiles [in this city]",
-			"Provides [1] [Cheese] <for every [Sheep]> <in this city>","Provides [1] [Cheese] <for every [Cattle]> <in this city>",
-		]
-		"requiredResource": "Industry Slot",
-	},
-	{
 		"name": "Town Square","gold": 3,"percentStatBonus": {"gold": 5},"hurryCostModifier": 25,"requiredTech": "The Wheel"
-		"uniques": ["Enables conversion of city production to [Gold] <in this city>"]
 	},
 	{
 		"name": "Irrigation Wheel","maintenance": 2,"food": 1,"production": 1,"hurryCostModifier": 25,"requiredTech": "The Wheel"
-		"uniques": ["Must be on [River]",],
-	},
-	{
-		"name": "Nilometer","replaces": "Irrigation Wheel","uniqueTo": "Kemet","maintenance": 1,"food": 2,"science": 2,"hurryCostModifier": 25,"requiredTech": "The Wheel"
 		"uniques": ["Must be on [River]",],
 	},
 	{
