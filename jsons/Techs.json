@@ -72,7 +72,7 @@
 		]
     },
 	{
-    	"columnNumber": 3,"era": "Ancient Era","techCost": 65,"buildingCost": 40,"wonderCost": 185,"techs": 
+    	"columnNumber": 3,"era": "Ancient Era","techCost": 50,"buildingCost": 40,"wonderCost": 185,"techs": 
         [
             {
 				"name": "State Management","row": 2,"prerequisites": ["Writing","Calendar",],
@@ -85,6 +85,63 @@
 			},
 			{
 				"name": "Organised Warfare","row": 8,"prerequisites": ["Metal Casting","City Defences"],
+			},
+		]
+    },
+	{
+    	"columnNumber": 4,"era": "Classical Era","techCost": 65,"buildingCost": 40,"wonderCost": 185,"techs": 
+        [
+            {
+				"name": "Philosophy","row": 1,"prerequisites": ["State Management",],
+			},
+			{
+				"name": "Mathematics","row": 3,"prerequisites": ["State Management","Currency"],
+			},
+            {
+				"name": "Trade Networks","row": 5,"prerequisites": ["Currency","Craftsmanship"],
+			},
+			{
+				"name": "Iron Working","row": 7,"prerequisites": ["Craftsmanship","Organised Warfare"],
+			},
+			{
+				"name": "Horseback Riding","row": 9,"prerequisites": ["Organised Warfare"],
+			},
+		]
+    },
+	{
+    	"columnNumber": 5,"era": "Classical Era","techCost": 80,"buildingCost": 40,"wonderCost": 185,"techs": 
+        [
+            {
+				"name": "Code of Laws","row": 1,"prerequisites": ["Philosophy",],
+			},
+			{
+				"name": "Aesthetics","row": 2,"prerequisites": ["Philosophy","Mathematics",],
+			},
+			{
+				"name": "Shipbuilding","row": 3,"prerequisites": ["Mathematics",],
+			},
+			{
+				"name": "Construction","row": 5,"prerequisites": ["Mathematics","Trade Networks","Iron Working"],
+			},
+			{
+				"name": "Fortifications","row": 8,"prerequisites": ["Iron Working","Horseback Riding"],
+			},
+		]
+    },
+	{
+    	"columnNumber": 6,"era": "Classical Era","techCost": 95,"buildingCost": 40,"wonderCost": 185,"techs": 
+        [
+            {
+				"name": "Hydrology","row": 3,"prerequisites": ["Shipbuilding","Construction"],
+			},
+			{
+				"name": "Engineering","row": 5,"prerequisites": ["Construction",],
+			},
+			{
+				"name": "Siege Tactics","row": 7,"prerequisites": ["Construction","Fortifications",],
+			},
+			{
+				"name": "Military Training","row": 7,"prerequisites": ["Fortifications",],
 			},
 		]
     },
