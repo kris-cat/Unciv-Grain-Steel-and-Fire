@@ -117,21 +117,33 @@
 	//Specialisation Buildings
 	{
 		"name": "Shrine","faith": 2,"specialistSlots": {"Priest": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Calendar","requiredResource": "Specialisation Slot",
+		"uniques": ["Comment [Religious Specialisation Building]",
+			"[+1 Faith] from [Mountain] tiles [in this city]",],
 	},
 	{
 		"name": "Monument","culture": 2,"specialistSlots": {"Artist": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Masonry","requiredResource": "Specialisation Slot",
+		"uniques": ["Comment [Cultural Specialisation Building]",
+			"[+2 Culture] from all [Wonder] buildings",],
 	},
 	{
 		"name": "Library","science": 2,"specialistSlots": {"Scientist": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Writing","requiredResource": "Specialisation Slot",
+		"uniques": ["Comment [Scientific Specialisation Building]",
+			"[+2 Science] <upon entering a new era>",],
 	},
 	{
 		"name": "Market","gold": 4,"specialistSlots": {"Merchant": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Currency","requiredResource": "Specialisation Slot",
+		"uniques": ["Comment [Commercial Specialisation Building]",
+			"[+1 Gold] from [River] tiles [in this city]",],
 	},
 	{
 		"name": "Garden","culture": 1,"gold": 2,"specialistSlots": {"Gardner": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Irrigation","requiredResource": "Specialisation Slot",
+		"uniques": ["Comment [Landscaping Specialisation Building]",
+			"Comment [TODO: +2 Happiness, Gold from Urban Tiles]",],
 	},
 	{
 		"name": "Grove","faith": 1,"science": 1,"specialistSlots": {"Steward": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Archery","requiredResource": "Specialisation Slot",
+		"uniques": ["Comment [Preservation Specialisation Building]",
+			"[+1 Faith] from [{unimproved} {Vegetation}] tiles [in this city]","[+1 Faith] from [{unimproved} {Coastal} {Land}] tiles [in this city]", "[+1 Faith] <in [unimproved] tiles> <in tiles adjacent to [Mountain] tiles> <in this city>",],
 	},
 	//Infrastructure Buildings
 	//Ancient Era Buildings
