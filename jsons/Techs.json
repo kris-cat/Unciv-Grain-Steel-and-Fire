@@ -141,7 +141,7 @@
 				"name": "Siege Tactics","row": 7,"prerequisites": ["Construction","Fortifications",],
 			},
 			{
-				"name": "Military Training","row": 7,"prerequisites": ["Fortifications",],
+				"name": "Military Training","row": 9,"prerequisites": ["Fortifications",],
 			},
 		]
     },
