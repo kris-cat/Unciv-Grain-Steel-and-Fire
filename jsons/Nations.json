@@ -4,7 +4,7 @@
 		"outerColor": [255,255,255]
 	},
 	{
-		"name": "America","leaderName": "Teddy Roosevelt","adjective": ["American"],"preferredVictoryType": "Domination",
+		"name": "America","leaderName": "Teddy Roosevelt","adjective": ["American"],"startBias": ["Grassland","Continental"],"preferredVictoryType": "Domination",
 		"startIntroPart1": "President Washington, we salute you and the proud American civilization! Freed from the British dominion in the 18th century, then cleansed and reborn after a terrible civil war, the United States nation was ready to play its great role in the 20th century. At the height of its power, triumphant after two terrible world wars, United States of America, a land of immigration, opportunities, optimism and determination, has risen above all other weakening nations, unable to equal such power.",
         "startIntroPart2": "President Washington, will you show to the world the legitimacy of the American way of life, and spread the flame of liberty to all mankind? Will your new empire shine through the ages of history?",
         "declaringWar": "Your wanton aggression leaves us no choice. Prepare for war!","attacked": "You have mistaken our love of peace for weakness. You shall regret this!",
@@ -22,7 +22,7 @@
         "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
 	},
 	{
-		"name": "Inca","leaderName": "Pachacuti","adjective": ["Incan"],"startBias": ["Hill"],"preferredVictoryType": "Domination",
+		"name": "Inca","leaderName": "Pachacuti","adjective": ["Incan"],"startBias": ["Hill","Mountain"],"preferredVictoryType": "Domination",
 		"startIntroPart1": "King Pachacuti Sapa Inca, maker of the world and ruler of Tawantinsuyu and the Inca people, your loyal subjects greet you! In the beginning, the small state of Cusco already showed the Incans were promised for greatness. They won many wars against powerful enemies, relentlessly crushing any army that dared oppose them, and forged a mighty empire stretching from Ecuador to Chile, the greatest ever seen in pre-Columbian America. Not just undaunted soldiers, Inca people were accomplished builders and artists, their magnificient and unequalled culture still fascinating the world today.",
         "startIntroPart2": "O Emperor Pachacuti, honor your name of 'Earth Shaker'! Will you once again summon the power of the earth to unite all Incan people under the protection of Sapa Inca, the Son of the Sun? Will your new empire shine through the ages of history?",
         "declaringWar": "Resistance is futile! You cannot hope to stand against the mighty Incan empire. If you will not surrender immediately, then prepare for war!","attacked": "Declare war on me?!? You can't, because I declare war on you first!",
@@ -37,7 +37,7 @@
         "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Purutu", "Ozcollo"]
     },
 	{
-		"name": "Rome","leaderName": "Augustus Caesar","adjective": ["Roman"],"preferredVictoryType": "Domination",
+		"name": "Rome","leaderName": "Augustus Caesar","adjective": ["Roman"],"startBias": ["Grassland"],"preferredVictoryType": "Domination",
 		"startIntroPart1": "Ave Caesar Augustus, Emperor of Rome and Dominus of the Roman Empire! Your empire was the most powerful and feared of all in Western civilization. The Roman people crafted so brilliantly its culture, law, art, and warfare, that no one could contest the supremacy of Rome. Force and Honor led to glorious conquests, a domination of all the lands from Spain in the west to Syria in the east, even reaching the remote barbarian lands of England and Germany. Roman art and architecture have been praised for millenia and have been envied by all lesser civilizations who have followed.",
 		"startIntroPart2": "O glorious Imperator, your people celebrate you and ask for the glory of Rome! In these times of darkness, the Pax Romana will be a beacon of light for all! Will your new empire shine through the ages of history?",
 		"declaringWar": "My treasury contains little and my soldiers are getting impatient... (sigh) ...therefore you must die.","attacked": "So brave, yet so stupid! If only you had a brain similar to your courage.","defeated": "The gods have deprived Rome of their favour. We have been defeated.","denounced": "I didn't believe you had this kind of backbone.",
@@ -55,7 +55,7 @@
 		]
 	},
     {
-		"name": "China","leaderName": "Wu Zetian","adjective": ["Chinese"],"preferredVictoryType": "Domination",
+		"name": "China","leaderName": "Wu Zetian","adjective": ["Chinese"],"startBias": ["Grassland","Subtropical"],"preferredVictoryType": "Domination",
         "startIntroPart1": "Heaven itself bends before your beauty, Empress Wu Zetian, ruler of eternal China! You lead one of the oldest and greatest civilization of humanity. In your time, China stood at the forefront of science and technology, bringing the world such contributions as gunpowder, the printing press, and the world of Confucius, and this, long before the rest of the world was mature enough to make the same discoveries!",
 		"startIntroPart2": "Great Queen, can you make China prevail again, using your divine intelligence and beauty? China stands for greatness, and all its enemies will be dazzled soon enough! Will your new empire shine through the ages of history?",
 		"declaringWar": "You won't ever be able to bother me again. Go meet Yama.","attacked": "Fool! I will disembowel you all!","defeated": "You have proven to be a cunning and competent adversary. I congratulate you on your victory.",
@@ -72,7 +72,7 @@
 		]
 	},
 	{
-		"name": "Kemet","leaderName": "Ramesses II","adjective": ["Kemetic"],"startBias": ["[River]",],"preferredVictoryType": "Domination",
+		"name": "Kemet","leaderName": "Ramesses II","adjective": ["Kemetic"],"startBias": ["[River]","Floodplain","Arid"],"preferredVictoryType": "Domination",
 		"startIntroPart1": "O great Ramesses, Pharaoh of Egypt, bright as the Sun and mighty as the Nile! Lord of all living things, you lead the greatest of all civilizations, which has gifted the world with writing, advanced mathematics, sculpture, and architecture. Egyptian monuments and culture will continue to amaze the world for thousands of years.",
         "startIntroPart2": "Mighty and eternal Ramesses, Egypt lasted for millenia, whereas other civilisations disappeared into dust after a few centuries. Amun-Ra blesses you again to lead Egypt and its people on the path of light. Will your new empire shine through the ages of history?",
 		"declaringWar": "You are but a pest on this Earth, prepare to be eliminated!","attacked": "You are a fool who evokes pity. You have brought my hostility upon yourself and your repulsive civilization!",
