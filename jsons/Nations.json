@@ -11,7 +11,7 @@
 		"defeated": "The day...is yours. I hope you will be merciful in your triumph.","introduction": "The people of the United States of America welcome you.",
 		"neutralHello": "Good day.","hateHello": "Well?","tradeRequest": "Is the following trade of interest to you?",
 		"outerColor": [ 28,51,119],"innerColor": [255,255,255],"uniqueName": "American Nation Abilities",
-		"uniques": ["Comment [Nation Ability: American Exceptionalism]","Comment [Leader Ability: Bool Moose President]",
+		"uniques": ["Comment [Nation Ability: American Exceptionalism]","Comment [Leader Ability: Bull Moose President]",
 		],
 		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
 			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
