@@ -72,7 +72,7 @@
 		]
 	},
 	{
-		"name": "Kemet","leaderName": "Ramesses II","adjective": ["Kemetic"],"startBias": ["[River]","Floodplain","Arid"],"preferredVictoryType": "Domination",
+		"name": "Kemet","leaderName": "Ramesses II","adjective": ["Kemetic"],"startBias": ["[River]","Floodplain"],"preferredVictoryType": "Domination",
 		"startIntroPart1": "O great Ramesses, Pharaoh of Egypt, bright as the Sun and mighty as the Nile! Lord of all living things, you lead the greatest of all civilizations, which has gifted the world with writing, advanced mathematics, sculpture, and architecture. Egyptian monuments and culture will continue to amaze the world for thousands of years.",
         "startIntroPart2": "Mighty and eternal Ramesses, Egypt lasted for millenia, whereas other civilisations disappeared into dust after a few centuries. Amun-Ra blesses you again to lead Egypt and its people on the path of light. Will your new empire shine through the ages of history?",
 		"declaringWar": "You are but a pest on this Earth, prepare to be eliminated!","attacked": "You are a fool who evokes pity. You have brought my hostility upon yourself and your repulsive civilization!",
