@@ -1,0 +1,47 @@
+[
+	{
+		"name":"Scientist",
+		"science":2,
+		"color": [42,96,153]
+	},
+    {
+		"name":"Priest",
+		"faith":2,
+		"color": [204,204,204]
+	},
+    {
+		"name":"Artist",
+		"culture":2,
+		"color": [160,32,240]
+	},
+	{
+		"name":"Merchant",
+		"gold":4,
+		"color": [255,215,0]
+	},
+    {
+		"name":"Engineer",
+		"production":2,
+		"color": [139,69,19]
+	},
+    {
+		"name":"Commander",
+		"production":1,"gold":2,
+		"color": [139,69,19]
+	},
+    {
+		"name":"Captain",
+		"production":1,"gold":2,
+		"color": [139,69,19]
+	},
+    {
+		"name":"Gardner",
+		"culture":1,"gold":2,
+		"color": [139,69,19]
+	},
+    {
+		"name":"Steward",
+		"scientist":1,"faith":1,
+		"color": [139,69,19]
+	},
+]
