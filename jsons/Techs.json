@@ -1,7 +1,7 @@
 [
     //Ancient Era
 	{
-        "columnNumber": 0,"era": "Ancient Era","techCost": 20,"buildingCost": 40,"wonderCost": 185,"techs": 
+        "columnNumber": 0,"era": "Ancient Era","techCost": 15,"buildingCost": 40,"wonderCost": 185,"techs": 
         [
             {
                 "name": "Fishing","row": 1,
@@ -26,7 +26,7 @@
 		]
     },
 	{
-        "columnNumber": 1,"era": "Ancient Era","techCost": 50,"buildingCost": 60,"wonderCost": 185,"techs": 
+        "columnNumber": 1,"era": "Ancient Era","techCost": 25,"buildingCost": 60,"wonderCost": 185,"techs": 
         [
 			{
 				"name": "Sailing","row": 1,"prerequisites": ["Fishing"],
@@ -49,7 +49,7 @@
 		]
     },
 	{
-    	"columnNumber": 2,"era": "Ancient Era","techCost": 75,"buildingCost": 80,"wonderCost": 185,"techs": 
+    	"columnNumber": 2,"era": "Ancient Era","techCost": 35,"buildingCost": 80,"wonderCost": 185,"techs": 
         [
             {
 				"name": "Calendar","row": 1,"prerequisites": ["Sailing","Pottery"],
@@ -72,7 +72,7 @@
 		]
     },
 	{
-    	"columnNumber": 3,"era": "Ancient Era","techCost": 100,"buildingCost": 40,"wonderCost": 185,"techs": 
+    	"columnNumber": 3,"era": "Ancient Era","techCost": 65,"buildingCost": 40,"wonderCost": 185,"techs": 
         [
             {
 				"name": "State Management","row": 2,"prerequisites": ["Writing","Calendar",],
