@@ -63,7 +63,9 @@
         "outerColor": [9, 112, 84],"innerColor": [255,255,255],"uniqueName": "Chinese Nation Abilities",
 		"uniques": [
 		],
-		"uniqueText": ["Comment [Nation Ability:]","Comment [Leader Ability:]",]
+		"uniqueText": [ "Nation Ability:",
+			"Leader Ability:"
+		]
 		"cities": [
 			"Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong","Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
 			"Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi","Yichang","Yingtian","Xinyu","Xinzheng","Handan","Dunhuang","Gaoyu","Nantong","Weifang","Xikang"
