@@ -12,7 +12,7 @@
                 "name": "Tradition2","uniques": ["[+5 Food] [in capital]",],"row": 1,"column": 5
             },
             {
-                "name": "Tradition3","uniques": ["[-25]% Food consumption by specialists [in capital]","[-25]% Unhappiness from [Specialists] [in capital]"],
+                "name": "Tradition3","uniques": ["[-10]% Food consumption by specialists [in capital]","[-10]% Unhappiness from [Specialists] [in capital]"],
                 "requires": ["Tradition1", "Tradition2"],"row": 2,"column": 3
             },
             {
@@ -75,134 +75,6 @@
             {
                 "name": "Progress Complete",
                 "uniques": ["[+5 Gold] [in all cities]",]
-            }
-        ]
-    },
-    {
-        "name": "Authority",  "era": "Ancient Era",
-        "priorities": {"Neutral": 5,"Domination": 5},
-        "uniques": ["Only available <before adopting [Liberty]>","[15]% growth [in all cities]","Gain [25] [Food] <upon constructing [Food]>"],
-        "policies": [
-            {
-                "name": "Authority1",
-                "uniques": [ "[+1 Gold] per [5] population [in all cities]","[-20]% Unhappiness from [Population] [in all cities]"],"row": 1,"column": 1
-            },
-            {
-                "name": "Authority2",
-                "uniques": ["[-25]% maintenance cost for [Happiness] buildings [in all cities]",],"row": 1,"column": 5
-            },
-            {
-                "name": "Authority3",
-                "uniques": ["[-25]% Unhappiness from [Specialists] [in all cities]","[+1 Culture] per [5] population [in all cities]",
-                ],
-                "requires": ["Authority1"],"row": 2,"column": 2
-            },
-            {
-                "name": "Authority4",
-                "uniques": ["[+1 Faith] per [5] population [in all cities]","[+1 Culture] from every [Faith]",],
-                "requires": ["Authority2"],"row": 2,"column": 4
-            },
-            {
-                "name": "Authority Complete",
-                "uniques": ["[+25]% Food is carried over after population increases [in all cities]","[+20]% Golden Age length"
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Liberty",  "era": "Ancient Era",
-        "priorities": {"Neutral": 5,"Domination": 5,},
-        "uniques": ["Only available <before adopting [Authority]>","[+1 Science] per [2] social policies adopted","[+2 Gold] [in all cities]",
-        ],
-        "policies": [
-            {
-                "name": "Liberty1",
-                "uniques": ["[+2 Science, +2 Food] from each Trade Route",
-                ],"row": 1,"column": 1
-            },
-            {
-                "name": "Liberty2",
-                "uniques": ["Can build [all] improvements at a [+25]% rate","Free [Worker] appears",
-                ],"row": 1,"column": 3
-            },
-            {
-                "name": "Liberty3",
-                "uniques": ["Gain [25] [Culture] <upon discovering [all] technology>",
-                ],"row": 1,"column": 5
-            },
-            {
-                "name": "Liberty4",
-                "uniques": ["[+15]% Production when constructing [Buildings] buildings [in all cities]","Gain [25] [Gold] <upon constructing [Building]>",
-                ],
-                "requires": ["Liberty2"],"row": 2,"column": 3
-            },
-            {
-                "name": "Liberty Complete",
-                "uniques": ["[+1 Gold, +3 Production] [in all cities]",
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Dominion",  "era": "Ancient Era",
-        "priorities": {"Neutral": 5,"Domination": 5},
-        "uniques": ["Only available <before adopting [Vigilance]>","[+33]% Strength <vs [Barbarian] units>","Earn [50]% of killed [Military] unit's [Strength] as [Culture]",],
-        "policies": [
-            {
-                "name": "Dominion1",
-                "uniques": ["[+15]% Production when constructing [Melee] units [in all cities]",],"row": 1,"column": 1
-            },
-            {
-                "name": "Dominion2",
-                "uniques": ["[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>"],"row": 1,"column": 3
-            },
-            {
-                "name": "Dominion3",
-                "uniques": ["[+50]% XP gained from combat <for [Military] units>"],"row": 1,"column": 5
-            },
-            {
-                "name": "Dominion4",
-                "uniques": ["[+1 Happiness, +2 Culture] [in all cities with a garrison]"],
-                "requires": ["Dominion1","Dominion2"],"row": 2,"column": 2
-            },
-            {
-                "name": "Dominion5",
-                "uniques": ["[+1 Happiness, +2 Culture] [in all cities with a garrison]"],
-                "requires": ["Dominion4","Dominion3"],"row": 3,"column": 3
-            },
-            {
-                "name": "Dominion Complete",
-                "uniques": ["Earn [10]% of killed [Military] unit's [Cost] as [Gold]"]
-            }
-        ]
-    },
-    {
-        "name": "Vigilance",  "era": "Ancient Era",
-        "priorities": {"Neutral": 5,"Domination": 5,},
-        "uniques": ["Only available <before adopting [Dominion]>","[+1 Happiness, +2 Culture] [in all cities with a garrison]","Units in cities cost no Maintenance",],
-        "policies": [
-            {
-                "name": "Vigilance1",
-                "uniques": [],"row": 1,"column": 2
-            },
-            {
-                "name": "Vigilance2",
-                "uniques": ["[+15]% Production when constructing [Melee] units [in all cities]","[-15]% maintenance costs <for [Military] units>",],"row": 1,"column": 4
-            },
-            {
-                "name": "Vigilance3",
-                "uniques": ["[+1 Happiness] from all [Pallisade] buildings","[+1 Happiness] from all [Walls] buildings",],
-                "requires": ["Vigilance1"],"row": 2,"column": 1
-            },
-            {
-                "name": "Vigilance4",
-                "uniques": ["[+15]% Production when constructing [Buildings] buildings [in all cities]","Gain [25] [Gold] <upon constructing [Building]>",
-                ],
-                "requires": ["Vigilance2"],"row": 2,"column": 5
-            },
-            {
-                "name": "Vigilance Complete",
-                "uniques": ["[15]% Strength decreasing with distance from the capital","[15]% City Strength from defensive buildings",]
             }
         ]
     },
