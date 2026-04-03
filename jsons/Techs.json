@@ -146,7 +146,7 @@
 		]
     },
 	{
-    	"columnNumber": 6,"era": "Classical Era","techCost": 95,"buildingCost": 40,"wonderCost": 185,"techs": 
+    	"columnNumber": 7,"era": "Classical Era","techCost": 120,"buildingCost": 40,"wonderCost": 185,"techs": 
         [
 			{
 				"name": "Machinery","row": 5,"prerequisites": ["Hydrology","Engineering"],
