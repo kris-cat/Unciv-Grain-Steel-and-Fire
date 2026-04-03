@@ -8,11 +8,11 @@
         "movementType": "Land"
     },
     {
-        "name": "Pre-Gunpowder Land Melee",
+        "name": "Land Melee",
         "movementType": "Land"
     },
     {
-        "name": "Pre-Gunpowder Land Ranged",
+        "name": "Land Ranged",
         "movementType": "Land"
     },
     {
