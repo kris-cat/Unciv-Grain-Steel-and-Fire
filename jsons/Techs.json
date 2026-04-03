@@ -145,4 +145,18 @@
 			},
 		]
     },
+	{
+    	"columnNumber": 6,"era": "Classical Era","techCost": 95,"buildingCost": 40,"wonderCost": 185,"techs": 
+        [
+			{
+				"name": "Machinery","row": 5,"prerequisites": ["Hydrology","Engineering"],
+			},
+			{
+				"name": "The Plow","row": 7,"prerequisites": ["Engineering","Siege Tactics",],
+			},
+			{
+				"name": "Horse Collar","row": 9,"prerequisites": ["Siege Tactics","Military Training"],
+			},
+		]
+    },
 ]
