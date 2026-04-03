@@ -1,6 +1,6 @@
 [
     {
-        "name": "Tradition",  "era": "Ancient era",
+        "name": "Tradition",  "era": "Ancient Era",
         "priorities": {"Neutral": 5,"Domination": 5},
         "uniques": ["Only available <before adopting [Progress]>","[+1 Culture] per [3] population [in capital]","[+15]% growth [in capital]",
         ],
@@ -34,7 +34,7 @@
         ]
     },
     {
-        "name": "Progress",  "era": "Ancient era",
+        "name": "Progress",  "era": "Ancient Era",
         "priorities": {"Neutral": 5,"Domination": 5,},
         "uniques": [
             "Only available <before adopting [Tradition]>","[+1 Science] per [5] population [in all cities]","[+2 Production] [in all cities]"],
@@ -46,7 +46,7 @@
                 "name": "Progress2",
                 "uniques": [
                     "Comment [Gain +25 ♪Culture every time you research a technology.]","Comment [This increases by +25 ♪Culture in every subsequent era.]",
-                    "Gain [25] [Culture] <upon discovering [all] technology> <during the [Ancient era]> <hidden from users>","Gain [50] [Culture] <upon discovering [all] technology> <during the [Classical era]> <hidden from users>","Gain [75] [Culture] <upon discovering [all] technology> <during the [Post-Classical era]> <hidden from users>",
+                    "Gain [25] [Culture] <upon discovering [all] technology> <during the [Ancient Era]> <hidden from users>","Gain [50] [Culture] <upon discovering [all] technology> <during the [Classical Era]> <hidden from users>","Gain [75] [Culture] <upon discovering [all] technology> <during the [Post-Classical Era]> <hidden from users>",
                     "[+1 Science] per [2] social policies adopted",
                 ],"row": 1,"column": 5
             },
@@ -79,7 +79,7 @@
         ]
     },
     {
-        "name": "Authority",  "era": "Ancient era",
+        "name": "Authority",  "era": "Ancient Era",
         "priorities": {"Neutral": 5,"Domination": 5},
         "uniques": ["Only available <before adopting [Liberty]>","[15]% growth [in all cities]","Gain [25] [Food] <upon constructing [Food]>"],
         "policies": [
@@ -110,7 +110,7 @@
         ]
     },
     {
-        "name": "Liberty",  "era": "Ancient era",
+        "name": "Liberty",  "era": "Ancient Era",
         "priorities": {"Neutral": 5,"Domination": 5,},
         "uniques": ["Only available <before adopting [Authority]>","[+1 Science] per [2] social policies adopted","[+2 Gold] [in all cities]",
         ],
@@ -144,7 +144,7 @@
         ]
     },
     {
-        "name": "Dominion",  "era": "Ancient era",
+        "name": "Dominion",  "era": "Ancient Era",
         "priorities": {"Neutral": 5,"Domination": 5},
         "uniques": ["Only available <before adopting [Vigilance]>","[+33]% Strength <vs [Barbarian] units>","Earn [50]% of killed [Military] unit's [Strength] as [Culture]",],
         "policies": [
@@ -177,7 +177,7 @@
         ]
     },
     {
-        "name": "Vigilance",  "era": "Ancient era",
+        "name": "Vigilance",  "era": "Ancient Era",
         "priorities": {"Neutral": 5,"Domination": 5,},
         "uniques": ["Only available <before adopting [Dominion]>","[+1 Happiness, +2 Culture] [in all cities with a garrison]","Units in cities cost no Maintenance",],
         "policies": [
