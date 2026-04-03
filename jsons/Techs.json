@@ -152,7 +152,7 @@
     	"columnNumber": 7,"era": "Classical Era","techCost": 120,"buildingCost": 40,"wonderCost": 185,"techs": 
         [
 			{
-				"name": "Recreation","row": 4,"prerequisites": ["Drama and Poetry","Hydrology"],
+				"name": "Recreation","row": 2,"prerequisites": ["Drama and Poetry","Hydrology"],
 			},
 			{
 				"name": "Machinery","row": 4,"prerequisites": ["Hydrology","Engineering"],
