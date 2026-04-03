@@ -26,25 +26,44 @@
 		"attackSound": "nonmetalhit"
 	},
     {
-		"name": "Warrior","unitType": "Land Melee","movement": 2,"strength": 10,"cost": 40,
+		"name": "Warrior","unitType": "Land Melee","upgradesTo": "Swordsman","movement": 2,"strength": 10,"cost": 40,
 		"uniques": ["Costs [10] [Manpower]"],
 		"attackSound": "nonmetalhit"
 	}
 	{
-		"name": "Slinger","unitType": "Land Ranged","movement": 2,"range": 1,"strength": 5,"rangedStrength": 5,"cost": 40,
+		"name": "Slinger","unitType": "Land Ranged","upgradesTo": "Skirmisher","movement": 2,"range": 1,"strength": 5,"rangedStrength": 5,"cost": 40,
 		"uniques": ["Costs [10] [Manpower]"],
 		"attackSound": "arrow"
 	},
 	{
-		"name": "Spearman","unitType": "Land Melee","movement": 2,"strength": 8,"cost": 40,
+		"name": "Spearman","unitType": "Land Melee","upgradesTo": "Heavy Spearman","movement": 2,"strength": 8,"cost": 40,
 		"uniques": ["Costs [10] [Manpower]"],
 		"attackSound": "nonmetalhit","requiredTech": "Bronze Working"
 	}
 	{
-		"name": "Archer","unitType": "Land Ranged","movement": 2,"range": 2,"strength": 5,"rangedStrength": 7,"cost": 40,
+		"name": "Archer","unitType": "Land Ranged","upgradesTo": "Composite Bowman","movement": 2,"range": 2,"strength": 5,"rangedStrength": 7,"cost": 40,
 		"uniques": ["Costs [10] [Manpower]"],
 		"attackSound": "arrow","requiredTech": "Archery"
 	},
 	// Classical Era Land Units
-	
+    {
+		"name": "Swordsman","unitType": "Land Melee","movement": 2,"strength": 20,"cost": 40,
+		"uniques": ["Costs [25] [Manpower]"],
+		"attackSound": "nonmetalhit","requiredTech": "Iron Working"
+	}
+	{
+		"name": "Skirmisher","unitType": "Land Ranged","movement": 2,"range": 1,"strength": 10,"rangedStrength": 10,"cost": 40,
+		"uniques": ["Costs [25] [Manpower]"],
+		"attackSound": "arrow","requiredTech": "Fortifications"
+	},
+	{
+		"name": "Heavy Spearman","unitType": "Land Melee","movement": 2,"strength": 16,"cost": 40,
+		"uniques": ["Costs [25] [Manpower]"],
+		"attackSound": "nonmetalhit","requiredTech": "Iron Working"
+	}
+	{
+		"name": "Composite Bowman","unitType": "Land Ranged","movement": 2,"range": 2,"strength": 10,"rangedStrength": 15,"cost": 40,
+		"uniques": ["Costs [25] [Manpower]"],
+		"attackSound": "arrow","requiredTech": "Fortifications"
+	},
 ]
