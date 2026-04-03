@@ -23,27 +23,27 @@
 	{
 		"name": "Scout","unitType": "Scouting","movement": 3,"strength": 5,"cost": 25,
 		"uniques": ["Costs [5] [Manpower]"],
-		"attackSound": "nonmetalhit"
+		"attackSound": "nonmetalhit",
 	},
     {
 		"name": "Warrior","unitType": "Land Melee","upgradesTo": "Swordsman","movement": 2,"strength": 10,"cost": 40,
 		"uniques": ["Costs [10] [Manpower]"],
-		"attackSound": "nonmetalhit"
+		"attackSound": "nonmetalhit","obsoleteTech": "Iron Working",
 	}
 	{
 		"name": "Slinger","unitType": "Land Ranged","upgradesTo": "Skirmisher","movement": 2,"range": 1,"strength": 5,"rangedStrength": 5,"cost": 40,
 		"uniques": ["Costs [10] [Manpower]"],
-		"attackSound": "arrow"
+		"attackSound": "arrow","obsoleteTech": "Fortifications",
 	},
 	{
 		"name": "Spearman","unitType": "Land Melee","upgradesTo": "Heavy Spearman","movement": 2,"strength": 8,"cost": 40,
 		"uniques": ["Costs [10] [Manpower]"],
-		"attackSound": "nonmetalhit","requiredTech": "Bronze Working"
+		"attackSound": "nonmetalhit","requiredTech": "Bronze Working","obsoleteTech": "Iron Working",
 	}
 	{
 		"name": "Archer","unitType": "Land Ranged","upgradesTo": "Composite Bowman","movement": 2,"range": 2,"strength": 5,"rangedStrength": 7,"cost": 40,
 		"uniques": ["Costs [10] [Manpower]"],
-		"attackSound": "arrow","requiredTech": "Archery"
+		"attackSound": "arrow","requiredTech": "Archery","obsoleteTech": "Fortifications",
 	},
 	// Classical Era Land Units
     {
