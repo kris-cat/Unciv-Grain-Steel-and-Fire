@@ -166,10 +166,10 @@
 		"requiredTech": "Animal Husbandry"
 	},
 	{
-		"name": "Circus","happiness": 3,"maintenance": 1,"requiredNearbyImprovedResources": ["Horses","Ivory"],"hurryCostModifier": 25,"requiredTech": "Animal Husbandry"
+		"name": "Circus","happiness": 4,"maintenance": 1,"requiredNearbyImprovedResources": ["Horses"],"hurryCostModifier": 25,"requiredTech": "Animal Husbandry"
 	},
 	{
-		"name": "Monument","culture": 2,"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Masonry"
+		"name": "Monument","culture": 1,"happiness": 2,"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Masonry"
 	},
 	{
 		"name": "Town Square","gold": 3,"percentStatBonus": {"gold": 5},"hurryCostModifier": 25,"requiredTech": "The Wheel"
