@@ -121,14 +121,13 @@
 			"[+1 Faith] from [Mountain] tiles [in this city]",],
 	},
 	{
-		"name": "Monument","culture": 2,"specialistSlots": {"Artist": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Masonry","requiredResource": "Specialisation Slot",
+		"name": "Theatre","culture": 2,"specialistSlots": {"Artist": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Drama and Poetry","requiredResource": "Specialisation Slot",
 		"uniques": ["Comment [Cultural Specialisation Building]",
 			"[+2 Culture] from all [Wonder] buildings",],
 	},
 	{
 		"name": "Library","science": 2,"specialistSlots": {"Scientist": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Writing","requiredResource": "Specialisation Slot",
-		"uniques": ["Comment [Scientific Specialisation Building]",
-			"[+2 Science] <upon entering a new era>",],
+		"uniques": ["Comment [Scientific Specialisation Building]",],
 	},
 	{
 		"name": "Market","gold": 4,"specialistSlots": {"Merchant": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Currency","requiredResource": "Specialisation Slot",
@@ -165,6 +164,9 @@
 		"name": "Barn","maintenance": 1,"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],"hurryCostModifier": 25,
 		"uniques": ["[+1 Food] from [Pasture] tiles [in this city]",]
 		"requiredTech": "Animal Husbandry"
+	},
+	{
+		"name": "Monument","culture": 2,"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Masonry"
 	},
 	{
 		"name": "Town Square","gold": 3,"percentStatBonus": {"gold": 5},"hurryCostModifier": 25,"requiredTech": "The Wheel"
