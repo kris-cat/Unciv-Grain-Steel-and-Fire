@@ -166,6 +166,9 @@
 		"requiredTech": "Animal Husbandry"
 	},
 	{
+		"name": "Circus","happiness": 3,"maintenance": 1,"requiredNearbyImprovedResources": ["Horses","Ivory"],"hurryCostModifier": 25,"requiredTech": "Animal Husbandry"
+	},
+	{
 		"name": "Monument","culture": 2,"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Masonry"
 	},
 	{
