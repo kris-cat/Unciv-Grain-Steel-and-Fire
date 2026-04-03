@@ -131,6 +131,9 @@
 	{
     	"columnNumber": 6,"era": "Classical Era","techCost": 95,"buildingCost": 40,"wonderCost": 185,"techs": 
         [
+			{
+				"name": "Drama and Poetry","row": 1,"prerequisites": ["Code of Laws","Aesthetics"],
+			},
             {
 				"name": "Hydrology","row": 3,"prerequisites": ["Shipbuilding","Construction"],
 			},
@@ -149,13 +152,16 @@
     	"columnNumber": 7,"era": "Classical Era","techCost": 120,"buildingCost": 40,"wonderCost": 185,"techs": 
         [
 			{
-				"name": "Machinery","row": 5,"prerequisites": ["Hydrology","Engineering"],
+				"name": "Recreation","row": 4,"prerequisites": ["Drama and Poetry","Hydrology"],
 			},
 			{
-				"name": "The Plow","row": 7,"prerequisites": ["Engineering","Siege Tactics",],
+				"name": "Machinery","row": 4,"prerequisites": ["Hydrology","Engineering"],
 			},
 			{
-				"name": "Horse Collar","row": 9,"prerequisites": ["Siege Tactics","Military Training"],
+				"name": "The Plow","row": 6,"prerequisites": ["Engineering","Siege Tactics"],
+			},
+			{
+				"name": "Horse Collar","row": 8,"prerequisites": ["Siege Tactics","Military Training"],
 			},
 		]
     },
