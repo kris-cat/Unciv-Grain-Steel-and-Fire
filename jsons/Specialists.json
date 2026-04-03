@@ -41,7 +41,7 @@
 	},
     {
 		"name":"Steward",
-		"scientist":1,"faith":1,
+		"science":1,"faith":1,
 		"color": [139,69,19]
 	},
 ]
