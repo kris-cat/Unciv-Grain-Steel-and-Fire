@@ -182,4 +182,39 @@
 		"name": "Walls","cityStrength": 10,"cityHealth": 25,"hurryCostModifier": 25,"requiredTech": "City Defences",
 		"uniques": ["Destroyed when the city is captured"]
 	},
+	//Ancient Era wonders
+	{
+		"name": "Great Bath","isWonder": true,"requiredTech": "Pottery",
+        "uniques": [
+			"[+2 Food, +1 Faith] from [Flood plains] tiles [in this city]",
+			"Must have an owned [Flood plains] within [2] tiles",
+		],
+	},
+	{
+		"name": "Temple of Artemis","culture": 1,"isWonder": true,"requiredTech": "Archery",
+        "uniques": [
+			"[+10]% [Food] [in all cities]",
+			"[+15]% Production when constructing [Land Ranged] units [in this city]",
+		],
+	},
+	{
+		"name": "Stonehenge","faith": 5,"isWonder": true,"requiredTech": "Calendar",
+		"uniques": [
+			"Must have an owned [{Stone} {Quarry}] within [3] tiles",
+		]
+	},
+	{
+		"name": "Etemenanki","isWonder": true,"science": 2,"production": 2,"requiredTech": "Writing",
+        "uniques": [
+			"[+1 Science, +1 Production] from [Flood plains] tiles [in this city]",
+			"Must have an owned [Flood plains] within [2] tiles",
+		],
+	},
+	{
+		"name": "Hanging Gardens","isWonder": true,"food": 5,"requiredTech": "Irrigation",
+        "uniques": [
+			"[15]% growth [in all cities]",
+			"Must be next to [Fresh water]",
+		],
+	},
 ]
