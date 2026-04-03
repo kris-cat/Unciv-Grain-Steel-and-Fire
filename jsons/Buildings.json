@@ -186,7 +186,7 @@
 	{
 		"name": "Great Bath","isWonder": true,"requiredTech": "Pottery",
         "uniques": [
-			"[+2 Food, +1 Faith] from [Flood plains] tiles [in this city]",
+			"[+2 Food, +1 Faith] from [Floodplain] tiles [in this city]",
 			"Must have an owned [Floodplain] within [2] tiles",
 		],
 	},
@@ -206,7 +206,7 @@
 	{
 		"name": "Etemenanki","isWonder": true,"science": 2,"production": 2,"requiredTech": "Writing",
         "uniques": [
-			"[+1 Science, +1 Production] from [Flood plains] tiles [in this city]",
+			"[+1 Science, +1 Production] from [Floodplain] tiles [in this city]",
 			"Must have an owned [Floodplain] within [2] tiles",
 		],
 	},
