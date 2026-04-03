@@ -4,7 +4,6 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"uniques": [
-			"Can instantly construct a [Holy Site] improvement <in cities with a [Religious Specialisation]>",
 			"Can build [Land] improvements on tiles", "Can build [Water] improvements on tiles", "Automation is a primary action"],
 		"cost": 70
 	},
@@ -23,12 +22,29 @@
 	// Ancient Era Land Units
 	{
 		"name": "Scout","unitType": "Scouting","movement": 3,"strength": 5,"cost": 25,
-		"uniques": [],
+		"uniques": ["Costs [5] [Manpower]"],
 		"attackSound": "nonmetalhit"
 	},
     {
-		"name": "Warrior","unitType": "Pre-Gunpowder Land Melee","movement": 2,"strength": 10,"cost": 40,
-		"uniques": [],
+		"name": "Warrior","unitType": "Land Melee","movement": 2,"strength": 10,"cost": 40,
+		"uniques": ["Costs [10] [Manpower]"],
 		"attackSound": "nonmetalhit"
 	}
+	{
+		"name": "Slinger","unitType": "Land Ranged","movement": 2,"range": 1,"strength": 5,"rangedStrength": 7,"cost": 40,
+		"uniques": ["Costs [10] [Manpower]"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Spearman","unitType": "Land Melee","movement": 2,"strength": 8,"cost": 40,
+		"uniques": ["Costs [10] [Manpower]"],
+		"attackSound": "nonmetalhit","requiredTech": "Bronze Working"
+	}
+	{
+		"name": "Archer","unitType": "Land Ranged","movement": 2,"range": 2,"strength": 5,"rangedStrength": 7,"cost": 40,
+		"uniques": ["Costs [10] [Manpower]"],
+		"attackSound": "arrow","requiredTech": "Archery"
+	},
+	// Classical Era Land Units
+	
 ]
