@@ -160,7 +160,7 @@
 		"name": "Fishing Boats","food": 1,"turnsToBuild": 3, "terrainsCanBeBuiltOn": ["Coast","Lakes","Kelp Forest","Seagrass"],"techRequired": "Fishing",
 		"uniques": [
 			"Can only be built to improve a resource",
-			"Pillaging this improvement yields approximately [+10 Gold]"
+			"Pillaging this improvement yields approximately [+10 Gold]","Cannot be built on [Land] tiles",
 		],
 		"shortcutKey": "F"
 	},
@@ -168,7 +168,7 @@
 		"name": "Dredger","production": 1,"turnsToBuild": 3, "terrainsCanBeBuiltOn": ["Coast","Reef","Kelp Forest","Seagrass"],"techRequired": "Sailing",
 		"uniques": [
 			"Cannot be built on [{non-[Water resource]} {non-[Reef]} {Coast}] tiles",
-			"Pillaging this improvement yields approximately [+10 Gold]"
+			"Pillaging this improvement yields approximately [+10 Gold]","Cannot be built on [Land] tiles",
 		],
 		"shortcutKey": "F"
 	},
