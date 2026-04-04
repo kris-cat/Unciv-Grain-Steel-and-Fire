@@ -41,7 +41,7 @@
 		"attackSound": "nonmetalhit","requiredTech": "Bronze Working","obsoleteTech": "Iron Working",
 	}
 	{
-		"name": "Archer","unitType": "Land Ranged","upgradesTo": "Composite Bowman","movement": 2,"range": 2,"strength": 5,"rangedStrength": 7,"cost": 40,
+		"name": "Archer","unitType": "Land Ranged","upgradesTo": "Composite Bowman","movement": 2,"range": 2,"strength": 7,"rangedStrength": 7,"cost": 40,
 		"uniques": ["Costs [10] [Manpower]"],
 		"attackSound": "arrow","requiredTech": "Archery","obsoleteTech": "Fortifications",
 	},
@@ -62,7 +62,7 @@
 		"attackSound": "nonmetalhit","requiredTech": "Iron Working"
 	}
 	{
-		"name": "Composite Bowman","unitType": "Land Ranged","movement": 2,"range": 2,"strength": 10,"rangedStrength": 15,"cost": 40,
+		"name": "Composite Bowman","unitType": "Land Ranged","movement": 2,"range": 2,"strength": 10,"rangedStrength": 17,"cost": 40,
 		"uniques": ["Costs [25] [Manpower]"],
 		"attackSound": "arrow","requiredTech": "Fortifications"
 	},
