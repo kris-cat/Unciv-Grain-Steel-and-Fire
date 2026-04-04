@@ -45,6 +45,16 @@
 		"uniques": ["Costs [10] [Manpower]"],
 		"attackSound": "arrow","requiredTech": "Archery","obsoleteTech": "Fortifications",
 	},
+	{
+		"name": "Battering Ram","unitType": "Siege","movement": 2,"strength": 8,"cost": 50,
+		"uniques": ["Costs [15] [Manpower]",
+			"[+200]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"Can only attack [City] units",
+			"Never appears as a Barbarian unit"
+		],
+		"requiredTech": "Bronze Working","obsoleteTech": "Engineering","upgradesTo": "Catapult","attackSound": "throw"
+	},
 	// Classical Era Land Units
     {
 		"name": "Swordsman","unitType": "Land Melee","movement": 2,"strength": 20,"cost": 40,
@@ -65,5 +75,16 @@
 		"name": "Composite Bowman","unitType": "Land Ranged","movement": 2,"range": 2,"strength": 10,"rangedStrength": 17,"cost": 40,
 		"uniques": ["Costs [25] [Manpower]"],
 		"attackSound": "arrow","requiredTech": "Fortifications"
+	},
+	{
+		"name": "Catapult","unitType": "Siege","movement": 2,"strength": 10,"rangedStrength": 10,"cost": 75,"hurryCostModifier": 20,
+		"uniques": ["Costs [25] [Manpower]",
+			"[+200]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"Must set up to ranged attack",
+			"[-1] Sight",
+			"Never appears as a Barbarian unit"
+		],
+		"requiredTech": "Engineering","attackSound": "throw"
 	},
 ]
