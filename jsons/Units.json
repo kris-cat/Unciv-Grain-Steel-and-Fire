@@ -21,8 +21,8 @@
 	},
 	// Ancient Era Land Units
 	{
-		"name": "Scout","unitType": "Scouting","movement": 3,"strength": 5,"cost": 25,
-		"uniques": ["Costs [10] [Manpower]"],
+		"name": "Scout","unitType": "Scouting","movement": 2,"strength": 5,"cost": 25,
+		"uniques": ["Costs [10] [Manpower]","Ignores terrain cost"],
 		"attackSound": "nonmetalhit",
 	},
     {
