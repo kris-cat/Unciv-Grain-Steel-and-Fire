@@ -96,7 +96,7 @@
 	},
 	{
 		"name": "Plantation","turnsToBuild": 5,"gold": 1,"techRequired": "Irrigation",
-		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]","Provides [1] [Cotton1] <in [Cotton] tiles>","Provides [1] [Flax1] <in [Flax] tiles>"],
+		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]","Provides [1] [Grapes1] <in [Grapes] tiles>","Provides [1] [Olives1] <in [Olives] tiles>","Provides [1] [Cotton1] <in [Cotton] tiles>","Provides [1] [Flax1] <in [Flax] tiles>"],
 		"shortcutKey": "P"
 	},
 	{
