@@ -197,6 +197,11 @@
 		"requiredTech": "Pottery","requiredResource": "Industry Slot",
 	},
 	{
+		"name": "Beer Brewery","maintenance": 2,"requiredNearbyImprovedResources": ["Olives"],"hurryCostModifier": 25,
+		"uniques": ["Provides [1] [Beer]","Consumes [1] [Grain]","[+1 Gold] from [{Farm} {Wheat}] tiles [in this city]","[+1 Gold] from [{Farm} {Rice}] tiles [in this city]","[+1 Gold] from [{Farm} {Maize}] tiles [in this city]",]
+		"requiredTech": "Pottery","requiredResource": "Industry Slot",
+	},
+	{
 		"name": "Wine Press","maintenance": 2,"requiredNearbyImprovedResources": ["Grapes"],"hurryCostModifier": 25,
 		"uniques": ["Provides [1] [Wine]","Consumes [1] [Grapes1]","[+1 Gold] from [{Plantation} {Grapes}] tiles [in this city]",]
 		"requiredTech": "Pottery","requiredResource": "Industry Slot",
