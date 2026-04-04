@@ -164,6 +164,23 @@
 		],
 		"shortcutKey": "F"
 	},
+	{
+		"name": "Dredger","production": 1,"turnsToBuild": 3, "terrainsCanBeBuiltOn": ["Coast","Reef"],"techRequired": "Sailing",
+		"uniques": [
+			"Cannot be built on [{non-[Water resource]} {non-[Reef]} {Coast}] tiles",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Fishery","food": 1,"production": 1,"turnsToBuild": 3, "terrainsCanBeBuiltOn": ["Coast"],"techRequired": "Maritime Industry",
+		"uniques": [
+			"Can only be built on [Water] tiles <in tiles adjacent to [Water resource] tiles>",
+			"[+1 Food] <for every adjacent [Water resource]>",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "F"
+	},
 	// Road Improvements
 	{
 		"name": "Road",
