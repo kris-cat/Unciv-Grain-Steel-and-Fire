@@ -182,8 +182,22 @@
 		"name": "Walls","cityStrength": 10,"cityHealth": 25,"hurryCostModifier": 25,"requiredTech": "City Defences",
 		"uniques": ["Destroyed when the city is captured"]
 	},
-	//Ancient Era RPBs
-	
+	//Ancient Era RPBs (Resource Production Buildings)
+	{
+		"name": "Cotton Weavery","maintenance": 2,"requiredNearbyImprovedResources": ["Cotton"],"hurryCostModifier": 25,
+		"uniques": ["Provides [1] [Fine Cloth] <with [Cotton1]>","Consumes [1] [Cotton1] <with [Cotton1]>","Provides [1] [Fine Cloth] <when above [1] [Cotton1]>","Consumes [1] [Cotton1] <when above [1] [Cotton1]>"]
+		"requiredTech": "Irrigation","requiredResource": "Industry Slot",
+	},
+	{
+		"name": "Flax Weavery","maintenance": 2,"requiredNearbyImprovedResources": ["Flax"],"hurryCostModifier": 25,
+		"uniques": ["Provides [1] [Cloth] <with [Flax1]>","Consumes [1] [Flax1] <with [Flax1]>","Provides [1] [Cloth] <when above [1] [Flax1]>","Consumes [1] [Flax1] <when above [1] [Flax1]>"]
+		"requiredTech": "Irrigation","requiredResource": "Industry Slot",
+	},
+	{
+		"name": "Wool Weavery","maintenance": 2,"requiredNearbyImprovedResources": ["Sheep"],"hurryCostModifier": 25,
+		"uniques": ["Provides [1] [Cloth] <with [Wool]>","Consumes [1] [Wool] <with [Wool]>","Provides [1] [Cloth] <when above [1] [Wool]>","Consumes [1] [Wool] <when above [1] [Wool]>"]
+		"requiredTech": "Irrigation","requiredResource": "Industry Slot",
+	},
 	//Ancient Era wonders
 	{
 		"name": "Great Bath","isWonder": true,"requiredTech": "Pottery",
