@@ -9,8 +9,8 @@
 	{"name": "Rice", "resourceType": "Bonus","improvement": "Irrigation Farm", "improvementStats": {"food": 1}, "terrainsCanBeFoundOn": ["Subtropical","Tropical","Marsh"],"uniques": []},
 	{"name": "Maize", "resourceType": "Bonus","improvement": "Farm", "improvementStats": {"gold": 1}, "terrainsCanBeFoundOn": ["Grassland","Semi-Arid","Coniferous Forest"],"uniques": []},
 	{"name": "Bananas", "resourceType": "Bonus","improvement": "Plantation", "improvementStats": {"food": 2, "gold": -1}, "terrainsCanBeFoundOn": ["Jungle","Rainforest"],"uniques": []},
-	{"name": "Flax", "resourceType": "Bonus","improvement": "Plantation", "improvementStats": {"production": 1}, "terrainsCanBeFoundOn": ["Floodplain"],"uniques": []},
-	{"name": "Cotton", "resourceType": "Bonus","improvement": "Plantation", "improvementStats": {"gold": 2}, "terrainsCanBeFoundOn": ["Floodplain","Subtropical","Tropical"],"uniques": []},
+	{"name": "Flax", "resourceType": "Bonus","improvement": "Plantation", "improvementStats": {"production": 1}, "terrainsCanBeFoundOn": ["Floodplain"],"uniques": ["Generated on every [30] tiles <in [Floodplain] tiles>"]},
+	{"name": "Cotton", "resourceType": "Bonus","improvement": "Plantation", "improvementStats": {"gold": 2}, "terrainsCanBeFoundOn": ["Floodplain","Subtropical","Tropical"],"uniques": ["Generated on every [30] tiles <in [Floodplain] tiles>"]},
 	{"name": "Cattle", "resourceType": "Bonus","improvement": "Pasture", "improvementStats": {"food": 1},"terrainsCanBeFoundOn": ["Continental","Grassland","Semi-Arid","Subtropical","Savannah"],"uniques": []},
 	{
 		"name": "Sheep", "resourceType": "Bonus","improvement": "Pasture", "improvementStats": {"production": -1,"food": 2},"terrainsCanBeFoundOn": ["Hill"],
