@@ -82,9 +82,9 @@
 	//These Resources become available after you construct a large enough number of their 'base' industry, ie. Prestige Wine is unlocked after producing a large enough number of Wine
 	//They provide additional +3 Happiness for every copy available
 	{"name": "Prestige Liqour","resourceType": "Luxury","gold": 2,"uniques": ["[+3 Happiness] <for every [Prestige Liqour]>",]},
-	{"name": "Prestige Beer","resourceType": "Luxury","gold": 2,"uniques": ["[+3 Happiness] <for every [Prestige Beer]>",},
-	{"name": "Prestige Wine","resourceType": "Luxury","gold": 2,"uniques": ["[+3 Happiness] <for every [Prestige Wine]>",},
-	{"name": "Prestige Porcelain","resourceType": "Luxury","gold": 2,"uniques": ["[+3 Happiness] <for every [Prestige Porcelain]>",},
-	{"name": "Prestige Jewelry","resourceType": "Luxury","gold": 2,"uniques": ["[+3 Happiness] <for every [Prestige Jewelry]>",},
-	{"name": "Prestige Furniture","resourceType": "Luxury","gold": 2,"uniques": ["[+3 Happiness] <for every [Prestige Furniture]>",},
+	{"name": "Prestige Beer","resourceType": "Luxury","gold": 2,"uniques": ["[+3 Happiness] <for every [Prestige Beer]>",]},
+	{"name": "Prestige Wine","resourceType": "Luxury","gold": 2,"uniques": ["[+3 Happiness] <for every [Prestige Wine]>",]},
+	{"name": "Prestige Porcelain","resourceType": "Luxury","gold": 2,"uniques": ["[+3 Happiness] <for every [Prestige Porcelain]>",]},
+	{"name": "Prestige Jewelry","resourceType": "Luxury","gold": 2,"uniques": ["[+3 Happiness] <for every [Prestige Jewelry]>",]},
+	{"name": "Prestige Furniture","resourceType": "Luxury","gold": 2,"uniques": ["[+3 Happiness] <for every [Prestige Furniture]>",]},
 ]
