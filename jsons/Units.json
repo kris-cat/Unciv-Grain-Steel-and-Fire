@@ -8,12 +8,12 @@
 		"cost": 70
 	},
 	{
-		"name": "Fisher",
+		"name": "Work Boats",
 		"unitType": "Civilian Water",
 		"movement": 4,
-		"cost": 50,
+		"cost": 30,
 		"requiredTech": "Fishing",
-		"uniques": ["Can build [Water] improvements on tiles","Automation is a primary action"]
+		"uniques": ["May create improvements on water resources","Automation is a primary action"]
 	},
 	{
 		"name": "Settler","unitType": "Civilian","movement": 2,"cost": 100,
