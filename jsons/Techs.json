@@ -149,10 +149,10 @@
 		]
     },
 	{
-    	"columnNumber": 7,"era": "Classical Era","techCost": 120,"buildingCost": 100,"wonderCost": 185,"techs": 
+    	"columnNumber": 7,"era": "Classical Era","techCost": 115,"buildingCost": 100,"wonderCost": 185,"techs": 
         [
 			{
-				"name": "Recreation","row": 2,"prerequisites": ["Drama and Poetry","Hydrology"],
+				"name": "Theology","row": 2,"prerequisites": ["Drama and Poetry",],
 			},
 			{
 				"name": "Machinery","row": 4,"prerequisites": ["Hydrology","Engineering"],
@@ -162,6 +162,43 @@
 			},
 			{
 				"name": "Horse Collar","row": 8,"prerequisites": ["Siege Tactics","Military Training"],
+			},
+		]
+    },
+	{
+    	"columnNumber": 8,"era": "Post-Classical Era","techCost": 135,"buildingCost": 100,"wonderCost": 185,"techs": 
+        [
+			{
+				"name": "Buttress","row": 1,"prerequisites": ["Theology","Machinery"],
+			},
+			{
+				"name": "Guilds","row": 3,"prerequisites": ["Recreation","Machinery"],
+			},
+			{
+				"name": "Compass","row": 5,"prerequisites": ["Machinery"],
+			},
+			{
+				"name": "Civil Service","row": 7,"prerequisites": ["The Plow","Horse Collar"],
+			},
+			{
+				"name": "Military Tactics","row": 9,"prerequisites": ["Horse Collar"],
+			},
+		]
+    },
+	{
+    	"columnNumber": 9,"era": "Post-Classical Era","techCost": 135,"buildingCost": 100,"wonderCost": 185,"techs": 
+        [
+			{
+				"name": "Education","row": 3,"prerequisites": ["Buttress","Guilds","Compass"],
+			},
+			{
+				"name": "Maritime Industry","row": 4,"prerequisites": ["Guilds","Compass"],
+			},
+			{
+				"name": "Feudalism","row": 6,"prerequisites": ["Guilds","Civil Service"],
+			},
+			{
+				"name": "Mounted Warfare","row": 8,"prerequisites": ["Civil Service","Military Tactics"],
 			},
 		]
     },
