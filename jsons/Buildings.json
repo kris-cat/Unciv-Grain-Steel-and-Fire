@@ -149,7 +149,7 @@
 	{
 		"name": "Grove","faith": 1,"science": 1,"specialistSlots": {"Steward": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Archery","requiredResource": "Specialisation Slot",
 		"uniques": ["Comment [Preservation Specialisation Building]",
-			"Comment [Enables construction of the [Preserve] improvement in the city.]","[+1 Faith] from [{unimproved} {Vegetation}] tiles [in this city]"],
+			"Comment [Enables construction of the [Preserve] improvement in the city.]",],
 	},
 	{
 		"name": "Barracks","production": 1,"specialistSlots": {"Commander": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Organised Warfare","requiredResource": "Specialisation Slot",
