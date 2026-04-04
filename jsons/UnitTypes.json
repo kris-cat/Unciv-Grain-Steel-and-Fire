@@ -16,6 +16,10 @@
         "movementType": "Land"
     },
     {
+        "name": "Siege",
+        "movementType": "Land"
+    },
+    {
         "name": "Water Melee",
         "movementType": "Water"
     },
