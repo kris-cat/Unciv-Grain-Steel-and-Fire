@@ -78,7 +78,6 @@
 	//Produced Resources - Military Stockpiles
 	{"name": "Naval Supplies", "resourceType": "Strategic","uniques": ["Doesn't generate naturally","Excluded from map editor","Stockpiled",]},
 	{"name": "Basic Weaponry", "resourceType": "Strategic","uniques": ["Doesn't generate naturally","Excluded from map editor","Stockpiled",]},
-	{"name": "Basic Weaponry", "resourceType": "Strategic","uniques": ["Doesn't generate naturally","Excluded from map editor","Stockpiled",]},
 	//Produced Resources - Luxury Resources
 	{"name": "Cheese","resourceType": "Luxury","gold": 2,},
 	{"name": "Liqour","resourceType": "Luxury","gold": 2,},
