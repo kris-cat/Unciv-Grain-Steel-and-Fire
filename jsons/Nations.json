@@ -69,6 +69,91 @@
 		]
 	},
 	{
+		"name": "India","leaderName": "Chandragupta","adjective": ["Indian"],"preferredVictoryType": "Domination",
+		"startIntroPart1": "",
+        "startIntroPart2": "",
+		"declaringWar": "","attacked": "",
+		"defeated": "","introduction": "",
+		"neutralHello": "","hateHello": "","tradeRequest": "",
+		"outerColor": [91, 39, 125],"innerColor": [22, 130, 83],
+		"uniqueName": "Indian Nation Abilities",
+		"uniques": [
+		],
+		"cities": ["Delhi","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore","Bangalore","Hyderabad","Madurai","Ahmedabad",
+			"Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli","Thanjavur",
+			"Bodhgaya","Kushinagar","Amaravati","Gaur","Gwalior","Jaipur","Karachi"],
+        "spyNames": ["Ashok", "Shanx", "Hormis", "Sanjeev", "Ananda", "Rani", "Parvati", "Mukta", "Karishma", "Jyotsna"]
+    },
+	{
+		"name": "Persia","leaderName": "Cyrus the Great","adjective": ["Persian"],"preferredVictoryType": "Domination",
+		"startIntroPart1": "",
+        "startIntroPart2": "",
+		"declaringWar": "","attacked": "",
+		"defeated": "","introduction": "",
+		"neutralHello": "","hateHello": "","tradeRequest": "",
+		"outerColor": [210, 131, 236],"innerColor": [191, 0, 65],
+		"uniqueName": "Persian Nation Abilities",
+		"uniques": [
+		],
+		"cities": ["Persepolis","Parsagadae","Susa","Ecbatana","Tarsus","Gordium","Bactra","Sardis","Ergili","Dariushkabir",
+			"Ghulaman","Zohak","Istakhr","Jinjan","Borazjan","Herat","Dakyanus","Bampur","Turengtepe","Rey","Shiraz",
+			"Thuspa","Hasanlu","Gabae","Merv","Behistun","Kandahar","Altintepe","Bunyan","Charsadda","Uratyube",
+			"Dura Europos","Aleppo","Qatna","Kabul","Capisa","Kyreskhata","Marakanda","Peshawar","Van","Pteira","Arshada",
+			"Artakaona","Aspabota","Autiyara","Bagastana","Baxtri","Darmasa","Daphnai","Drapsaka","Eion","Gandutava",
+			"Gaugamela","Harmozeia","Ekatompylos","Izata","Kampada","Kapisa","Karmana","Kounaxa","Kuganaka","Nautaka",
+			"Paishiyauvada","Patigrbana","Phrada"],
+        "spyNames": ["Azi", "Dabir", "Firuz", "Gaspar", "Shahzad", "Aga", "Marjane", "Peri", "Sartaj ", "Yasmin"]
+    },
+	{
+		"name": "Indonesia","leaderName": "Dyah Gitarja","adjective": ["Indonesian"],"preferredVictoryType": "Domination",
+		"startIntroPart1": "",
+        "startIntroPart2": "",
+		"declaringWar": "","attacked": "",
+		"defeated": "","introduction": "",
+		"neutralHello": "","hateHello": "","tradeRequest": "",
+		"outerColor": [134, 17, 65],"innerColor": [5, 207, 217],
+		"uniqueName": "Indonesian Nation Abilities",
+		"uniques": [
+		],
+		"cities": ["Delhi","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore","Bangalore","Hyderabad","Madurai","Ahmedabad",
+			"Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli","Thanjavur",
+			"Bodhgaya","Kushinagar","Amaravati","Gaur","Gwalior","Jaipur","Karachi"],
+        "spyNames": ["Ashok", "Shanx", "Hormis", "Sanjeev", "Ananda", "Rani", "Parvati", "Mukta", "Karishma", "Jyotsna"]
+    },
+	{
+		"name": "Japan","leaderName": "Oda Nobunaga","adjective": ["Japanese"],"preferredVictoryType": "Domination",
+		"startIntroPart1": "",
+        "startIntroPart2": "",
+		"declaringWar": "","attacked": "",
+		"defeated": "","introduction": "",
+		"neutralHello": "","hateHello": "","tradeRequest": "",
+		"outerColor": [255, 255, 255],"innerColor": [184, 0, 0],
+		"uniqueName": "Japanese Nation Abilities",
+		"uniques": [
+		],
+		"cities": ["Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
+			"Shimonoseki","Matsuyama","Sapporo","Hakodate","Ise","Toyama","Fukushima","Suo","Bizen","Echizen",
+			"Izumi","Omi","Echigo","Kozuke","Sado","Kobe","Nagano","Hiroshima","Takayama","Akita","Fukuoka","Aomori",
+			"Kamakura","Kochi","Naha","Sendai","Gifu","Yamaguchi","Ota","Tottori"],
+        "spyNames": ["Akaishi", "Oki", "Hattori", "Morozumi", "Momochi", "Kawashima", "Orin", "Sakanishi", "Kaede", "Mochizuki"]
+    },
+	{
+		"name": "Arabia","leaderName": "Saladin","adjective": ["Arabian"],"preferredVictoryType": "Domination",
+		"startIntroPart1": "",
+        "startIntroPart2": "",
+		"declaringWar": "","attacked": "",
+		"defeated": "","introduction": "",
+		"neutralHello": "","hateHello": "","tradeRequest": "",
+		"outerColor": [255, 255, 255],"innerColor": [184, 0, 0],
+		"uniqueName": "Arabian Nation Abilities",
+		"uniques": [
+		],
+		"cities": ["Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
+			"Aden","Yamama","Muscat","Mansura","Bukhara","Fez","Shiraz","Merw","Balkh","Mosul",
+			"Aydab","Bayt","Suhar","Taif","Hama","Tabuk","Sana'a","Shihr","Tripoli","Tunis","Kairouan","Algiers","Oran"],
+        "spyNames": ["Solhofaat", "Khenzeer", "Zarafah", "Temsaah", "Abyadh", "Mostafa", "Yusuf", "Waddah", "Sameera", "Gamal"]
+    },
+	{
 		"name": "Kemet","leaderName": "Ramesses II","adjective": ["Kemetic"],"startBias": ["[River]","Floodplain"],"preferredVictoryType": "Domination",
 		"startIntroPart1": "O great Ramesses, Pharaoh of Egypt, bright as the Sun and mighty as the Nile! Lord of all living things, you lead the greatest of all civilizations, which has gifted the world with writing, advanced mathematics, sculpture, and architecture. Egyptian monuments and culture will continue to amaze the world for thousands of years.",
         "startIntroPart2": "Mighty and eternal Ramesses, Egypt lasted for millenia, whereas other civilisations disappeared into dust after a few centuries. Amun-Ra blesses you again to lead Egypt and its people on the path of light. Will your new empire shine through the ages of history?",
@@ -99,13 +184,11 @@
 		"uniqueName": "Ethiopian Nation Abilities",
 		"uniques": [
 		],
-		"cities": [
-			"Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Pi-Ramesses","Giza","Byblos","Akhetaten","Hieraconpolis","Abydos","Asyut","Avaris","Lisht","Buto","Edfu","Pithom","Busiris","Kahun","Athribis",
-			"Mendes","Elashmunein","Tanis","Bubastis","Oryx","Sebennytus","Akhmin","Karnak","Luxor","El Kab","Armant","Balat","Ellahun","Hawara","Dashur","Damanhur","Abusir","Herakleopolis","Akoris",
-			"Benihasan","Badari","Hermopolis","Amrah","Koptos","Ombos","Naqada","Semna","Soleb"],
-        "spyNames": [
-			"Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"
-		]
+		"cities": ["Addis Ababa","Harar","Adwa","Lalibela","Gondar","Axum","Dire Dawa","Bahir Dar","Adama",
+			"Mek'ele","Awasa","Jimma","Jijiga","Dessie","Debre Berhan","Shashamane","Debre Zeyit","Sodo","Hosaena",
+			"Nekemte","Asella","Dila","Adigrat","Debre Markos","Kombolcha","Debre Tabor","Sebeta",
+			"Shire","Ambo","Negele Arsi","Gambela","Ziway","Weldiya"],
+        "spyNames": ["Mulu Ken", "Wendimu", "Li'ol", "Demeke", "Mulu Alem", "Abebech", "Zema", "Mihret", "Kebedech", "Alemnesh"]
     },
 	{
 		"name": "Mali","leaderName": "Mansa Musa","adjective": ["Malian"],"preferredVictoryType": "Domination",
@@ -160,6 +243,40 @@
 			"Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Pi-Ramesses","Giza","Byblos","Akhetaten","Hieraconpolis","Abydos","Asyut","Avaris","Lisht","Buto","Edfu","Pithom","Busiris","Kahun","Athribis",
 			"Mendes","Elashmunein","Tanis","Bubastis","Oryx","Sebennytus","Akhmin","Karnak","Luxor","El Kab","Armant","Balat","Ellahun","Hawara","Dashur","Damanhur","Abusir","Herakleopolis","Akoris",
 			"Benihasan","Badari","Hermopolis","Amrah","Koptos","Ombos","Naqada","Semna","Soleb"],
+        "spyNames": [
+			"Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"
+		]
+    },
+	{
+		"name": "Zulus","leaderName": "Mansa Musa","adjective": ["Zulu"],"preferredVictoryType": "Domination",
+		"startIntroPart1": "",
+        "startIntroPart2": "",
+		"declaringWar": "","attacked": "",
+		"defeated": "","introduction": "",
+		"neutralHello": "","hateHello": "","tradeRequest": "",
+		"outerColor": [123, 61, 0],"innerColor": [255, 219, 182],
+		"uniqueName": "Zulu Nation Abilities",
+		"uniques": [
+		],
+		"cities": [
+			"Ulundi","Umgungundlovu","Nobamba","Bulawayo","Kwadukuza","Nongoma","Ondini","Nodwengu","Ndondakusuka","Babanango","Khangela","Kwahlomendlini","Hlobane"],
+        "spyNames": [
+			"Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"
+		]
+    },
+	{
+		"name": "Australia","leaderName": "John Curtin","adjective": ["Australian"],"preferredVictoryType": "Domination",
+		"startIntroPart1": "",
+        "startIntroPart2": "",
+		"declaringWar": "","attacked": "",
+		"defeated": "","introduction": "",
+		"neutralHello": "","hateHello": "","tradeRequest": "",
+		"outerColor": [18, 118, 34],"innerColor": [253, 218, 2],
+		"uniqueName": "Australian Nation Abilities",
+		"uniques": [
+		],
+		"cities": [
+			"Canberra","Sydney","Melbourne","Brisbane","Adelaide","Perth","Newcastle","Hobart","Geelong","Launceston","Ballarat","Rockhampton","Toowoomba"],
         "spyNames": [
 			"Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"
 		]
