@@ -31,4 +31,8 @@
         "name": "Water Ranged",
         "movementType": "Water"
     }
+    {
+        "name": "Water Raider",
+        "movementType": "Water"
+    }
 ]
