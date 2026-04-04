@@ -118,7 +118,7 @@
 	{
 		"name": "Shrine","faith": 2,"specialistSlots": {"Priest": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Calendar","requiredResource": "Specialisation Slot",
 		"uniques": ["Comment [Religious Specialisation Building]",
-			"[+1 Faith] from [Mountain] tiles [in this city]",],
+			"[+2 Faith] from [Mountain] tiles [in this city]",],
 	},
 	{
 		"name": "Theatre","culture": 2,"specialistSlots": {"Artist": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Drama and Poetry","requiredResource": "Specialisation Slot",
@@ -149,7 +149,7 @@
 	{
 		"name": "Grove","faith": 1,"science": 1,"specialistSlots": {"Steward": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Archery","requiredResource": "Specialisation Slot",
 		"uniques": ["Comment [Preservation Specialisation Building]",
-			"Comment [Enables construction of the [Preserve] improvement in the city.]",],
+			"Comment [Enables construction of the [Preserve] improvement in the city.]","[+1 Faith] from [{unimproved} {Vegetation}] tiles [in this city]"],
 	},
 	{
 		"name": "Barracks","production": 1,"specialistSlots": {"Commander": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Organised Warfare","requiredResource": "Specialisation Slot",
