@@ -55,9 +55,9 @@
 	{"name": "Timber", "resourceType": "Strategic","uniques": ["Doesn't generate naturally","Excluded from map editor","Will not be displayed in Civilopedia","Not shown on world screen"]},
 	{"name": "Stone1", "resourceType": "Strategic","uniques": ["Doesn't generate naturally","Excluded from map editor","Will not be displayed in Civilopedia","Not shown on world screen"]},
 	{"name": "Cattle1","resourceType": "Strategic","uniques": ["Doesn't generate naturally","Excluded from map editor","Will not be displayed in Civilopedia","Not shown on world screen"]},
-	{"name": "Wool","resourceType": "Strategic","uniques": ["Doesn't generate naturally","Excluded from map editor","Will not be displayed in Civilopedia","Not shown on world screen"]},
-	{"name": "Cotton1","resourceType": "Strategic","uniques": ["Doesn't generate naturally","Excluded from map editor","Will not be displayed in Civilopedia","Not shown on world screen"]},
-	{"name": "Flax1","resourceType": "Strategic","uniques": ["Doesn't generate naturally","Excluded from map editor","Will not be displayed in Civilopedia","Not shown on world screen"]},
+	{"name": "Wool","resourceType": "Strategic","uniques": ["Doesn't generate naturally","Excluded from map editor","Will not be displayed in Civilopedia",]},
+	{"name": "Cotton1","resourceType": "Strategic","uniques": ["Doesn't generate naturally","Excluded from map editor","Will not be displayed in Civilopedia",]},
+	{"name": "Flax1","resourceType": "Strategic","uniques": ["Doesn't generate naturally","Excluded from map editor","Will not be displayed in Civilopedia",]},
 	//Produced Resources - Efficiency Multipliers
 	{"name": "Basic Tools", "resourceType": "Strategic","uniques": ["Doesn't generate naturally","Excluded from map editor",]},
 	{"name": "Paper", "resourceType": "Strategic","uniques": ["Doesn't generate naturally","Excluded from map editor",]},
