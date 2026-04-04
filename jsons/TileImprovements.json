@@ -96,7 +96,7 @@
 	},
 	{
 		"name": "Plantation","turnsToBuild": 5,"gold": 1,"techRequired": "Irrigation",
-		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]","Provides [1] [Cotton1] <in [Cotton] tiles>","Provides [1] [Flax1] <in [Flax] tiles>"],
 		"shortcutKey": "P"
 	},
 	{
@@ -119,7 +119,7 @@
 	},
     {
 		"name": "Pasture","production": 1,"turnsToBuild": 5,"techRequired": "Animal Husbandry",
-		"uniques": ["Can only be built to improve a resource","Pillaging this improvement yields approximately [+10 Gold]",],
+		"uniques": ["Can only be built to improve a resource","Pillaging this improvement yields approximately [+10 Gold]","Provides [1] [Wool] <in [Sheep] tiles>"],
 		"shortcutKey": "P"
 	},
 	{
