@@ -42,7 +42,7 @@
 		"startIntroPart2": "O glorious Imperator, your people celebrate you and ask for the glory of Rome! In these times of darkness, the Pax Romana will be a beacon of light for all! Will your new empire shine through the ages of history?",
 		"declaringWar": "My treasury contains little and my soldiers are getting impatient... (sigh) ...therefore you must die.","attacked": "So brave, yet so stupid! If only you had a brain similar to your courage.","defeated": "The gods have deprived Rome of their favour. We have been defeated.","denounced": "I didn't believe you had this kind of backbone.",
 		"introduction": "I greet you. I am Augustus, Imperator and Pontifex Maximus of Rome. If you are a friend of Rome, you are welcome.","neutralHello": "Hail.","hateHello": "What do you want?","tradeRequest": "I offer this, for your consideration.",
-        "outerColor": [190, 0, 20],"innerColor": [240, 199, 0],"uniqueName": "Roman Nation Abilities",
+        "outerColor": [128, 0, 128],"innerColor": [240, 199, 0],"uniqueName": "Roman Nation Abilities",
 		"uniques": ["Comment [Nation Ability:]","Comment [Leader Ability:]"],
 		"cities": [
 			"Rome","Antium","Cumae","Neapolis","Ravenna","Arretium","Mediolanum","Arpinum","Circei","Setia","Satricum","Ardea","Ostia","Velitrae","Viroconium","Tarentum","Brundisium","Caesaraugusta","Caesarea","Palmyra",
