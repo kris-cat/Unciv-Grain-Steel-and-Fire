@@ -34,5 +34,6 @@
     {
         "name": "Water Raider",
         "movementType": "Water"
+        "uniques": ["Invisible to non-adjacent units", "Can see invisible [Water Raider] units"]
     }
 ]
