@@ -29,7 +29,7 @@
 	{"name": "Furs","resourceType": "Luxury","gold": 1,"improvement": "Camp","improvementStats": {"gold": 1},"terrainsCanBeFoundOn": ["Taiga","Subarctic","Continental","Coniferous Forest",],"uniques": []},
 	{"name": "Whales","resourceType": "Luxury","gold": 1,"improvement": "Fishing Boats","improvementStats": {"food": 1},"terrainsCanBeFoundOn": ["Coast","Ocean"],"uniques": []},
 	{"name": "Pearls","resourceType": "Luxury","gold": 1,"improvement": "Fishing Boats","improvementStats": {"gold": 2, "food": -1},"terrainsCanBeFoundOn": ["Coast"],"uniques": []},
-	{"name": "Dyes","resourceType": "Luxury","gold": 1,"improvedBy": ["Fishing Boats","Plantation"],"improvementStats": {"gold": 2, "food": -1},"terrainsCanBeFoundOn": ["Coast","Jungle","Rainforest","Deciduous Forest"],"uniques": []},
+	{"name": "Dyes","resourceType": "Luxury","gold": 1,"improvedBy": ["Fishing Boats","Plantation"],"improvementStats": {"gold": 2},"terrainsCanBeFoundOn": ["Coast","Jungle","Rainforest","Deciduous Forest"],"uniques": []},
 	//Raw Resources - Strategic Resources 
 	{
 		"name": "Horses", "resourceType": "Strategic","production": 1, "improvement": "Pasture","improvementStats": {"food": 1},
