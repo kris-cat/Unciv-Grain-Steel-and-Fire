@@ -118,7 +118,17 @@
 	{
 		"name": "Shrine","faith": 2,"specialistSlots": {"Priest": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Calendar","requiredResource": "Specialisation Slot",
 		"uniques": ["Comment [Religious Specialisation Building]",
-			"[+2 Faith] from [Mountain] tiles [in this city]",],
+			"[+1 Faith] from [Mountain] tiles [in this city]",],
+	},
+	{
+		"name": "Monastery","faith": 1,"specialistSlots": {"Priest": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Calendar","requiredBuilding": "Shrine",
+		"uniques": ["Comment [Religious Specialisation Building]",
+			"[+1 Faith, +1 Food] from [Mountain] tiles [in this city]",],
+	},
+	{
+		"name": "Temple","faith": 1,"specialistSlots": {"Priest": 2},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Calendar","requiredBuilding": "Shrine",
+		"uniques": ["Comment [Religious Specialisation Building]",
+		"[+1 Faith] from every [Priest]",],
 	},
 	{
 		"name": "Theatre","culture": 2,"specialistSlots": {"Artist": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Drama and Poetry","requiredResource": "Specialisation Slot",
@@ -134,8 +144,8 @@
 		"uniques": ["Comment [Scientific Specialisation Building]","Only available <in cities without a [School]>","[+1 Science] from [Mountain] tiles [in this city]","Must have an owned [Mountain] within [2] tiles",],
 	},
 	{
-		"name": "School","science": 2,"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Mathematics","requiredBuilding": "Library",
-		"uniques": ["Comment [Scientific Specialisation Building]","Only available <in cities without a [Observatory]>","[+1 Science] per [3] population [in this city]",],
+		"name": "School","science": 1,"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Mathematics","requiredBuilding": "Library",
+		"uniques": ["Comment [Scientific Specialisation Building]","Only available <in cities without a [Observatory]>","[+1 Science] per [5] population [in this city]",],
 	},
 	{
 		"name": "Market","gold": 4,"specialistSlots": {"Merchant": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Currency","requiredResource": "Specialisation Slot",
