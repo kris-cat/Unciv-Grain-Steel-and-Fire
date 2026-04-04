@@ -172,7 +172,7 @@
 				"name": "Buttress","row": 1,"prerequisites": ["Theology","Machinery"],
 			},
 			{
-				"name": "Guilds","row": 3,"prerequisites": ["Recreation","Machinery"],
+				"name": "Guilds","row": 3,"prerequisites": ["Machinery"],
 			},
 			{
 				"name": "Compass","row": 5,"prerequisites": ["Machinery"],
