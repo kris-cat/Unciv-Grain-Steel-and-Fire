@@ -184,13 +184,13 @@
 	//Ancient Era RPBs (Resource Production Buildings)
 	{
 		"name": "Pottery Kiln","maintenance": 2,"requiredNearbyImprovedResources": ["Clay"],"hurryCostModifier": 25,
-		"uniques": ["Provides [1] [{Pottery] <with [Clay1]>","Consumes [1] [Clay1] <with [Clay1]>","Provides [1] [Pottery] <with [Clay1]><when above [1] [Clay1]>","Consumes [1] [Clay1] <with [Clay1]><when above [1] [Clay1]>",
+		"uniques": ["Provides [1] [Pottery] <with [Clay1]>","Consumes [1] [Clay1] <with [Clay1]>","Provides [1] [Pottery] <with [Clay1]><when above [1] [Clay1]>","Consumes [1] [Clay1] <with [Clay1]><when above [1] [Clay1]>",
 		"[+1 Gold] from [{Quarry} {Clay}] tiles [in this city]",]
 		"requiredTech": "Irrigation","requiredResource": "Industry Slot",
 	},
 	{
 		"name": "Dragon Kiln","replaces": "Pottery Kiln","uniqueTo": "China","maintenance": 2,"requiredNearbyImprovedResources": ["Clay"],"hurryCostModifier": 25,
-		"uniques": ["Provides [1] [{Pottery] <with [Clay1]>","Provides [1] [{Porcelain] <with [Clay1]>","Consumes [1] [Clay1] <with [Clay1]>","Provides [1] [Pottery] <with [Clay1]><when above [1] [Clay1]>","Provides [1] [Porcelain] <with [Clay1]><when above [1] [Clay1]>","Consumes [1] [Clay1] <with [Clay1]><when above [1] [Clay1]>",
+		"uniques": ["Provides [1] [Pottery] <with [Clay1]>","Provides [1] [Porcelain] <with [Clay1]>","Consumes [1] [Clay1] <with [Clay1]>","Provides [1] [Pottery] <with [Clay1]><when above [1] [Clay1]>","Provides [1] [Porcelain] <with [Clay1]><when above [1] [Clay1]>","Consumes [1] [Clay1] <with [Clay1]><when above [1] [Clay1]>",
 		"[+1 Gold] from [{Quarry} {Clay}] tiles [in this city]",]
 		"requiredTech": "Irrigation","requiredResource": "Industry Slot",
 	},
