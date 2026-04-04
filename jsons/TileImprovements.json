@@ -175,7 +175,7 @@
 	{
 		"name": "Fishery","food": 1,"production": 1,"turnsToBuild": 3, "terrainsCanBeBuiltOn": ["Coast"],"techRequired": "Maritime Industry",
 		"uniques": [
-			"Can only be built on [Water] tiles <in tiles adjacent to [Water resource] tiles>",
+			"Can only be built on [Water] tiles <in tiles adjacent to [Water resource] tiles>","Cannot be built on [Water resource] tiles","Cannot be built on [Reef] tiles",
 			"[+1 Food] <for every adjacent [Water resource]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
