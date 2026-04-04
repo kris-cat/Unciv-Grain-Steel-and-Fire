@@ -95,4 +95,36 @@
 		],
 		"requiredTech": "Engineering","attackSound": "throw"
 	},
+	// Classical Era Water Units
+	{
+		"name": "Quadrireme","unitType": "Water Melee","movement": 4,"strength": 20,"cost": 45,"requiredTech": "Shipbuilding",
+		"uniques": ["Costs [30] [Manpower]","Cannot enter ocean tiles",],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Quinquereme","unitType": "Water Ranged","movement": 4,"range": 2,"strength": 12,"rangedStrength": 17,"cost": 45,"requiredTech": "Shipbuilding",
+		"uniques": ["Costs [30] [Manpower]","Cannot enter ocean tiles",],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Bireme","unitType": "Water Raider","movement": 4,"strength": 15,"cost": 45,"requiredTech": "Shipbuilding",
+		"uniques": ["Costs [25] [Manpower]","Cannot enter ocean tiles",],
+		"attackSound": "nonmetalhit"
+	},
+	// Post-Classical Era Water Units
+	{
+		"name": "Cog","unitType": "Water Melee","movement": 4,"strength": 40,"cost": 45,"requiredTech": "Compass",
+		"uniques": ["Costs [50] [Manpower]","Cannot enter ocean tiles",],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Hulk","unitType": "Water Ranged","movement": 4,"range": 2,"strength": 30,"rangedStrength": 35,"cost": 45,"requiredTech": "Compass",
+		"uniques": ["Costs [50] [Manpower]","Cannot enter ocean tiles",],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Galley","unitType": "Water Raider","movement": 4,"strength": 15,"cost": 35,"requiredTech": "Compass",
+		"uniques": ["Costs [40] [Manpower]","Cannot enter ocean tiles",],
+		"attackSound": "nonmetalhit"
+	},
 ]
