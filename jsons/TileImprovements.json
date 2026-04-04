@@ -82,6 +82,7 @@
 			"Can also be built on tiles adjacent to fresh water",
             "Pillaging this improvement yields approximately [+25 Gold]",
 			"Cannot be built on [Water] tiles",
+			"Provides [2] [Grain] <in [Wheat] tiles>","Provides [3] [Grain] <in [Rice] tiles>","Provides [2] [Grain] <in [Maize] tiles>",
 		],
 		"shortcutKey": "F"
 	},
