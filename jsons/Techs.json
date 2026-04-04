@@ -1,7 +1,7 @@
 [
     //Ancient Era
 	{
-        "columnNumber": 0,"era": "Ancient Era","techCost": 15,"buildingCost": 40,"wonderCost": 185,"techs": 
+        "columnNumber": 0,"era": "Ancient Era","techCost": 15,"buildingCost": 20,"wonderCost": 185,"techs": 
         [
             {
                 "name": "Fishing","row": 1,
@@ -26,7 +26,7 @@
 		]
     },
 	{
-        "columnNumber": 1,"era": "Ancient Era","techCost": 25,"buildingCost": 60,"wonderCost": 185,"techs": 
+        "columnNumber": 1,"era": "Ancient Era","techCost": 25,"buildingCost": 30,"wonderCost": 185,"techs": 
         [
 			{
 				"name": "Sailing","row": 1,"prerequisites": ["Fishing"],
@@ -49,7 +49,7 @@
 		]
     },
 	{
-    	"columnNumber": 2,"era": "Ancient Era","techCost": 35,"buildingCost": 80,"wonderCost": 185,"techs": 
+    	"columnNumber": 2,"era": "Ancient Era","techCost": 35,"buildingCost": 40,"wonderCost": 185,"techs": 
         [
             {
 				"name": "Calendar","row": 1,"prerequisites": ["Sailing","Pottery"],
@@ -72,7 +72,7 @@
 		]
     },
 	{
-    	"columnNumber": 3,"era": "Ancient Era","techCost": 50,"buildingCost": 40,"wonderCost": 185,"techs": 
+    	"columnNumber": 3,"era": "Ancient Era","techCost": 50,"buildingCost": 50,"wonderCost": 185,"techs": 
         [
             {
 				"name": "State Management","row": 2,"prerequisites": ["Writing","Calendar",],
@@ -89,7 +89,7 @@
 		]
     },
 	{
-    	"columnNumber": 4,"era": "Classical Era","techCost": 65,"buildingCost": 40,"wonderCost": 185,"techs": 
+    	"columnNumber": 4,"era": "Classical Era","techCost": 65,"buildingCost": 60,"wonderCost": 185,"techs": 
         [
             {
 				"name": "Philosophy","row": 1,"prerequisites": ["State Management",],
@@ -109,7 +109,7 @@
 		]
     },
 	{
-    	"columnNumber": 5,"era": "Classical Era","techCost": 80,"buildingCost": 40,"wonderCost": 185,"techs": 
+    	"columnNumber": 5,"era": "Classical Era","techCost": 80,"buildingCost": 70,"wonderCost": 185,"techs": 
         [
             {
 				"name": "Code of Laws","row": 1,"prerequisites": ["Philosophy",],
@@ -129,7 +129,7 @@
 		]
     },
 	{
-    	"columnNumber": 6,"era": "Classical Era","techCost": 95,"buildingCost": 40,"wonderCost": 185,"techs": 
+    	"columnNumber": 6,"era": "Classical Era","techCost": 95,"buildingCost": 80,"wonderCost": 185,"techs": 
         [
 			{
 				"name": "Drama and Poetry","row": 1,"prerequisites": ["Code of Laws","Aesthetics"],
@@ -149,7 +149,7 @@
 		]
     },
 	{
-    	"columnNumber": 7,"era": "Classical Era","techCost": 120,"buildingCost": 40,"wonderCost": 185,"techs": 
+    	"columnNumber": 7,"era": "Classical Era","techCost": 120,"buildingCost": 100,"wonderCost": 185,"techs": 
         [
 			{
 				"name": "Recreation","row": 2,"prerequisites": ["Drama and Poetry","Hydrology"],
