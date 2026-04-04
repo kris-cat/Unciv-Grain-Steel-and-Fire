@@ -61,7 +61,7 @@
 				"name": "Irrigation","row": 3,"prerequisites": ["Agriculture"],
 			},
 			{
-				"name": "The Wheel","row": 4,"prerequisites": ["Animal Husbandry"],
+				"name": "The Wheel","row": 4,"prerequisites": ["Animal Husbandry"],"uniques": ["Enables establishment of embassies"],
 			},
 			{
 				"name": "City Defences","row": 7,"prerequisites": ["Archery","Masonry"],
@@ -92,13 +92,13 @@
     	"columnNumber": 4,"era": "Classical Era","techCost": 65,"buildingCost": 60,"wonderCost": 185,"techs": 
         [
             {
-				"name": "Philosophy","row": 1,"prerequisites": ["State Management",],
+				"name": "Philosophy","row": 1,"prerequisites": ["State Management",],"uniques": ["Enables Defensive Pacts"],
 			},
 			{
 				"name": "Mathematics","row": 3,"prerequisites": ["State Management","Currency"],
 			},
             {
-				"name": "Trade Networks","row": 5,"prerequisites": ["Currency","Craftsmanship"],
+				"name": "Trade Networks","row": 5,"prerequisites": ["Currency","Craftsmanship"],"uniques": ["Enables Open Borders agreements"],
 			},
 			{
 				"name": "Iron Working","row": 7,"prerequisites": ["Craftsmanship","Organised Warfare"],
@@ -189,7 +189,7 @@
     	"columnNumber": 9,"era": "Post-Classical Era","techCost": 135,"buildingCost": 100,"wonderCost": 185,"techs": 
         [
 			{
-				"name": "Education","row": 3,"prerequisites": ["Buttress","Guilds","Compass"],
+				"name": "Education","row": 3,"prerequisites": ["Buttress","Guilds","Compass"],"uniques": ["Enables Research agreements"],
 			},
 			{
 				"name": "Maritime Industry","row": 4,"prerequisites": ["Guilds","Compass"],
