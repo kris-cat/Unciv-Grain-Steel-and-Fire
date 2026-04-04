@@ -109,6 +109,15 @@
 		],
 		"shortcutKey": "F"
 	},
+	 {
+		"name": "Preserve","terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 5,"techRequired": "Archery",
+		"uniques": [
+			"Unbuildable <in cities without a [Grove]>",
+			"[+1 Faith] from [Vegetation] tiles <in cities with a [Grove]>","[+1 Faith] from [Vegetation] tiles <in tiles adjacent to [Water] tiles> <in cities with a [Grove]>","[+1 Faith] from [Vegetation] tiles <in tiles adjacent to [Mountain] tiles> <in cities with a [Grove]>",
+		],
+		"shortcutKey": "F"
+	},
 	{
 		"name": "Camp","food": 1,"turnsToBuild": 5,"techRequired": "Hunting",
 		"uniques": [
