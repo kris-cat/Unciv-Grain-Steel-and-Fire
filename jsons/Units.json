@@ -9,7 +9,7 @@
 	},
 	{
 		"name": "Work Boats",
-		"unitType": "Civilian Water",
+		"unitType": "Civilian",
 		"movement": 4,
 		"cost": 30,
 		"requiredTech": "Fishing",
