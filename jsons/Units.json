@@ -30,32 +30,32 @@
 	// Ancient Era Land Units
 	{
 		"name": "Scout","unitType": "Scouting","movement": 2,"strength": 5,"cost": 25,
-		"uniques": ["Costs [10] [Manpower]","Ignores terrain cost"],
+		"uniques": ["Costs [15] [Manpower]","Ignores terrain cost"],
 		"attackSound": "nonmetalhit",
 	},
     {
 		"name": "Warrior","unitType": "Land Melee","upgradesTo": "Swordsman","movement": 2,"strength": 10,"cost": 40,
-		"uniques": ["Costs [10] [Manpower]"],
+		"uniques": ["Costs [15] [Manpower]"],
 		"attackSound": "nonmetalhit","obsoleteTech": "Iron Working",
 	}
 	{
 		"name": "Slinger","unitType": "Land Skirmisher","upgradesTo": "Skirmisher","movement": 2,"range": 1,"strength": 5,"rangedStrength": 5,"cost": 40,
-		"uniques": ["Costs [10] [Manpower]"],
+		"uniques": ["Costs [15] [Manpower]"],
 		"attackSound": "arrow","obsoleteTech": "Fortifications",
 	},
 	{
 		"name": "Spearman","unitType": "Land Melee","upgradesTo": "Heavy Spearman","movement": 2,"strength": 8,"cost": 40,
-		"uniques": ["Costs [10] [Manpower]"],
+		"uniques": ["Costs [15] [Manpower]"],
 		"attackSound": "nonmetalhit","requiredTech": "Bronze Working","obsoleteTech": "Iron Working",
 	}
 	{
 		"name": "Archer","unitType": "Land Ranged","upgradesTo": "Composite Bowman","movement": 2,"range": 2,"strength": 7,"rangedStrength": 7,"cost": 40,
-		"uniques": ["Costs [10] [Manpower]"],
+		"uniques": ["Costs [15] [Manpower]"],
 		"attackSound": "arrow","requiredTech": "Archery","obsoleteTech": "Fortifications",
 	},
 	{
 		"name": "Battering Ram","unitType": "Siege","movement": 2,"strength": 8,"cost": 50,
-		"uniques": ["Costs [15] [Manpower]",
+		"uniques": ["Costs [25] [Manpower]",
 			"[+200]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"Can only attack [City] units",
@@ -66,27 +66,27 @@
 	// Classical Era Land Units
     {
 		"name": "Swordsman","unitType": "Land Melee","movement": 2,"strength": 20,"cost": 40,
-		"uniques": ["Costs [25] [Manpower]"],
+		"uniques": ["Costs [30] [Manpower]"],
 		"attackSound": "nonmetalhit","requiredTech": "Iron Working"
 	}
 	{
 		"name": "Skirmisher","unitType": "Land Skirmisher","movement": 2,"range": 1,"strength": 10,"rangedStrength": 10,"cost": 40,
-		"uniques": ["Costs [25] [Manpower]"],
+		"uniques": ["Costs [30] [Manpower]"],
 		"attackSound": "arrow","requiredTech": "Fortifications"
 	},
 	{
 		"name": "Heavy Spearman","unitType": "Land Melee","movement": 2,"strength": 16,"cost": 40,
-		"uniques": ["Costs [25] [Manpower]"],
+		"uniques": ["Costs [30] [Manpower]"],
 		"attackSound": "nonmetalhit","requiredTech": "Iron Working"
 	}
 	{
 		"name": "Composite Bowman","unitType": "Land Ranged","movement": 2,"range": 2,"strength": 10,"rangedStrength": 17,"cost": 40,
-		"uniques": ["Costs [25] [Manpower]"],
+		"uniques": ["Costs [30] [Manpower]"],
 		"attackSound": "arrow","requiredTech": "Fortifications"
 	},
 	{
 		"name": "Catapult","unitType": "Siege","movement": 2,"strength": 10,"rangedStrength": 10,"cost": 75,"hurryCostModifier": 20,
-		"uniques": ["Costs [25] [Manpower]",
+		"uniques": ["Costs [40] [Manpower]",
 			"[+200]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"Must set up to ranged attack",
