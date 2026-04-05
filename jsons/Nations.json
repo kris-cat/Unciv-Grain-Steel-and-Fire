@@ -28,7 +28,7 @@
 		"declaringWar": "","attacked": "",
 		"defeated": "","introduction": "",
 		"neutralHello": "","hateHello": "","tradeRequest": "",
-		"outerColor": [141, 40, 30],"innerColor": [0, 235, 247],
+		"outerColor": [0, 235, 247],"innerColor": [141, 40, 30],
 		"uniqueName": "Aztec Nation Abilities",
 		"uniques": [
 		],
@@ -63,7 +63,7 @@
 		"declaringWar": "","attacked": "",
 		"defeated": "","introduction": "",
 		"neutralHello": "","hateHello": "","tradeRequest": "",
-		"outerColor": [85, 48, 141],"innerColor": [255, 255, 255],
+		"outerColor": [73, 35, 0],"innerColor": [170, 237, 241],
 		"uniqueName": "Shoshone Nation Abilities",
 		"uniques": [
 		],
