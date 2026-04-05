@@ -20,6 +20,11 @@
         "movementType": "Land"
     },
     {
+        "name": "Land Skirmisher",
+        "movementType": "Land",
+        "uniques": ["[+1] Movement <upon damaging a [all] unit>"]
+    },
+    {
         "name": "Siege",
         "movementType": "Land"
     },
