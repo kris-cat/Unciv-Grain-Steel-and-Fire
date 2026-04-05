@@ -22,7 +22,7 @@
         "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
 	},
 	{
-		"name": "Aztec","leaderName": "Montezuma I","adjective": ["Aztec"],"preferredVictoryType": "Domination",
+		"name": "Aztecs","leaderName": "Montezuma I","adjective": ["Aztec"],"preferredVictoryType": "Domination",
 		"startIntroPart1": "",
         "startIntroPart2": "",
 		"declaringWar": "","attacked": "",
