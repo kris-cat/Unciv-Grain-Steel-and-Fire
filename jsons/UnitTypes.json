@@ -22,7 +22,6 @@
     {
         "name": "Land Skirmisher",
         "movementType": "Land",
-        "uniques": ["[+1] Movement <upon entering combat>"]
     },
     {
         "name": "Siege",
