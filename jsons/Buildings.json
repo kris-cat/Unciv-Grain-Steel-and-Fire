@@ -3,6 +3,8 @@
     {
 		"name": "Population Milestone - 1","cost": 0,"maintenance": 0,
 		"uniques": [
+			"Provides [1] [Manpower] <in this city>",
+			"Provides [1] [Sailors] <in [{Coastal} {in this city}] cities>",
 			"Provides [1] [Specialisation Slot] <in this city>",
 			"Provides [1] [Infrastructure Slot] <in this city>",
 			"Provides [1] [Industry Slot] <in this city>",
@@ -110,8 +112,10 @@
 		"cost": 0,
 		"uniques": [
 			"Indicates the capital city",
-			"Provides [3] [Manpower] <in this city>",
-			"Consumes [1] [Manpower] <for every [10] [Manpower]>"
+			"Provides [2] [Manpower] <in this city>",
+			"Provides [2] [Sailors] <in [{Coastal} {in this city}] cities>",
+			"Consumes [1] [Manpower] <for every [10] [Manpower]>",
+			"Consumes [1] [Sailors] <for every [10] [Manpower]>"
 		]
 	},
 	//Specialisation Buildings
