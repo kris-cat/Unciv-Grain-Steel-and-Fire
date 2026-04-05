@@ -55,7 +55,7 @@
 	},
 	{
 		"name": "Battering Ram","unitType": "Siege","movement": 2,"strength": 8,"cost": 50,
-		"uniques": ["Costs [25] [Manpower]",
+		"uniques": ["Costs [15] [Manpower]",
 			"[+200]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"Can only attack [City] units",
@@ -86,7 +86,7 @@
 	},
 	{
 		"name": "Catapult","unitType": "Siege","movement": 2,"strength": 10,"rangedStrength": 10,"cost": 75,"hurryCostModifier": 20,
-		"uniques": ["Costs [40] [Manpower]",
+		"uniques": ["Costs [30] [Manpower]",
 			"[+200]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"Must set up to ranged attack",
