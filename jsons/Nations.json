@@ -192,7 +192,7 @@
 		"declaringWar": "","attacked": "",
 		"defeated": "","introduction": "",
 		"neutralHello": "","hateHello": "","tradeRequest": "",
-		"outerColor": [178, 178, 178],"innerColor": 0, 0, 0],
+		"outerColor": [178, 178, 178],"innerColor": [0, 0, 0],
 		"uniqueName": "German Nation Abilities",
 		"uniques": [
 		],
