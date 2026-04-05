@@ -22,6 +22,41 @@
         "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
 	},
 	{
+		"name": "Aztec","leaderName": "Montezuma I","adjective": ["Aztec"],"preferredVictoryType": "Domination",
+		"startIntroPart1": "",
+        "startIntroPart2": "",
+		"declaringWar": "","attacked": "",
+		"defeated": "","introduction": "",
+		"neutralHello": "","hateHello": "","tradeRequest": "",
+		"outerColor": [141, 40, 30],"innerColor": [0, 235, 247],
+		"uniqueName": "Aztec Nation Abilities",
+		"uniques": [
+		],
+		"cities": ["Tenochtitlan","Teotihuacan","Tlatelolco","Texcoco","Tlaxcala","Calixtlahuaca","Xochicalco","Tlacopan",
+			"Atzcapotzalco","Tzintzuntzan","Malinalco","Tula","Tamuin","Teayo","Cempoala","Chalco","Tlalmanalco",
+			"Ixtapaluca","Huexotla","Tepexpan","Tepetlaoxtoc","Chiconautla","Zitlaltepec","Coyotepec","Tequixquiac",
+			"Jilotzingo","Tlapanaloya","Tultitan","Ecatepec","Coatepec","Chalchiuites","Chiauhita","Chapultepec",
+			"Itzapalapa","Ayotzinco","Iztapam"],
+        "spyNames": ["Metztli", "Xitllali", "Chimalli", "Quauhtli", "Teyacapan", "Yaotl", "Coatl", "Huitzilin", "Itzli", "Tepin"]
+    },
+	{
+		"name": "Iroquois","leaderName": "Hiawatha","adjective": ["Iroquoise"],"preferredVictoryType": "Domination",
+		"startIntroPart1": "",
+        "startIntroPart2": "",
+		"declaringWar": "","attacked": "",
+		"defeated": "","introduction": "",
+		"neutralHello": "","hateHello": "","tradeRequest": "",
+		"outerColor": [85, 48, 141],"innerColor": [255, 255, 255],
+		"uniqueName": "Iroquoise Nation Abilities",
+		"uniques": [
+		],
+		"cities": ["Onondaga","Osininka","Grand River","Akwesasme","Buffalo Creek","Brantford","Montreal","Genesse River",
+			"Canandaigua Lake","Lake Simcoe","Salamanca","Gowanda","Cuba","Akron","Kanesatake","Ganienkeh","Cayuga Castle",
+			"Chondote","Canajoharie","Nedrow","Oneida Lake","Kanonwalohale","Green Bay","Southwold","Mohawk Valley",
+			"Schoharie","Bay of Quinte","Kanawale","Kanatsiokareke","Tyendinaga","Hahta"],
+        "spyNames": ["Onatah", "Oneida", "Oshadagea", "Otetiani", "Genesee", "Dadgayadoh", "Otwtiani", "Kateri", "Onondakai", "Honanyawus"]
+    },
+	{
 		"name": "Inca","leaderName": "Pachacuti","adjective": ["Incan"],"startBias": ["Hill","Mountain"],"preferredVictoryType": "Domination",
 		"startIntroPart1": "King Pachacuti Sapa Inca, maker of the world and ruler of Tawantinsuyu and the Inca people, your loyal subjects greet you! In the beginning, the small state of Cusco already showed the Incans were promised for greatness. They won many wars against powerful enemies, relentlessly crushing any army that dared oppose them, and forged a mighty empire stretching from Ecuador to Chile, the greatest ever seen in pre-Columbian America. Not just undaunted soldiers, Inca people were accomplished builders and artists, their magnificient and unequalled culture still fascinating the world today.",
         "startIntroPart2": "O Emperor Pachacuti, honor your name of 'Earth Shaker'! Will you once again summon the power of the earth to unite all Incan people under the protection of Sapa Inca, the Son of the Sun? Will your new empire shine through the ages of history?",
