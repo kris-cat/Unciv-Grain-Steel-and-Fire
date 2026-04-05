@@ -175,7 +175,7 @@
 		"declaringWar": "","attacked": "",
 		"defeated": "","introduction": "",
 		"neutralHello": "","hateHello": "","tradeRequest": "",
-		"outerColor": [191, 0, 65],"innerColor": 255, 255, 255],
+		"outerColor": [191, 0, 65],"innerColor": [255, 255, 255],
 		"uniqueName": "English Nation Abilities",
 		"uniques": [
 		],
