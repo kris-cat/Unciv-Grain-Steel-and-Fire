@@ -19,9 +19,9 @@
 	{"name": "Deer", "resourceType": "Bonus","improvement": "Camp", "improvementStats": {"food": 1},"terrainsCanBeFoundOn": ["Subarctic","Taiga","Coniferous Forest","Deciduous Forest"],"uniques": []},
 	{"name": "Stone", "resourceType": "Bonus","improvement": "Quarry", "improvementStats": {"production": 1},"terrainsCanBeFoundOn": ["Grassland","Arid","Continental","Subarctic"],"uniques": []},
 	{"name": "Clay", "resourceType": "Bonus","improvement": "Quarry", "improvementStats": {"culture": 1, "production": -1},"terrainsCanBeFoundOn": ["Grassland","Marsh","Floodplain"],"uniques": []},	
-	{"name": "Fish", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Coast","Kelp Forest","Seagrass"],"improvement": "Fishing Boats", "improvementStats": {"food": 1},"uniques": ["Generated on every [10] tiles <in [Coast] tiles>"]},
-	{"name": "Crabs", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Coast","Kelp Forest","Seagrass"],"improvement": "Dredger", "improvementStats": {"gold": 1},"uniques": ["Generated on every [10] tiles <in [Coast] tiles>"]},
-	{"name": "Lake Fish", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Lakes"],"improvement": "Fishing Boats", "improvementStats": {"faith": 1},"uniques": ["Generated on every [10] tiles <in [Lakes] tiles>"]},
+	{"name": "Fish", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Coast","Kelp Forest","Seagrass"],"improvement": "Fishing Boats", "improvementStats": {"food": 1},"uniques": ["Generated on every [15] tiles <in [Coast] tiles>"]},
+	{"name": "Crabs", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Coast","Kelp Forest","Seagrass"],"improvement": "Dredger", "improvementStats": {"gold": 1},"uniques": ["Generated on every [15] tiles <in [Coast] tiles>"]},
+	{"name": "Lake Fish", "resourceType": "Bonus", "terrainsCanBeFoundOn": ["Lakes"],"improvement": "Fishing Boats", "improvementStats": {"faith": 1},"uniques": ["Generated on every [15] tiles <in [Lakes] tiles>"]},
 	//Raw Resources - Luxury Resources
 	{"name": "Gems","resourceType": "Luxury","gold": 1,"improvement": "Mine","improvementStats": {"gold": 1, "culture": 1, "production": -1},"terrainsCanBeFoundOn": ["Jungle","Rainforest","Hill"],"uniques": []},
 	{"name": "Gold Ore","resourceType": "Luxury","gold": 1,"improvement": "Mine","improvementStats": {"gold": 2, "production": -1},"terrainsCanBeFoundOn": ["Arid","Hill","Rainforest","Jungle"],"uniques": []},
