@@ -83,7 +83,7 @@
 		"uniques": ["Comment [Nation Ability: Mit’a]","[+20]% [Food] [in all cities]","Comment [Workers build Improvements 25% faster]","Comment [Cities receive additional +1 [Manpower] at 5 Population]",
 			"Comment [Leader Ability: Pachakutic]","Comment [+1 Gold from [Mountain] tiles]", "Comment [Land Units may cross [Mountain] tiles]", "Comment [Gain +10 Food in all cities upon conquering a city]",
 
-			"[+20]% [Food] [in all cities] <hidden from users>","Can build [all] improvements at a [+25]% rate <hidden from users>","Provides [+1] [Manpower]<in cities with at least [5] [Population]>",
+			"[+20]% [Food] [in all cities] <hidden from users>","Can build [all] improvements at a [+25]% rate <hidden from users>","Provides [+1] [Manpower]<in cities with at least [5] [Population]><hidden from users>",
 			"[+1 Gold] from [Mountain] tiles [in all cities] <hidden from users>","Land units may cross [Mountain] tiles after the first [all] is earned <hidden from users>","Gain [+10] [Food] <in [all] cities> <upon conquering a city> <hidden from users>",
 		],
 		"cities": ["Cuzco","Tiwanaku","Machu","Ollantaytambo","Corihuayrachina","Huamanga","Rumicucho","Vilcabamba","Vitcos",
