@@ -152,7 +152,7 @@
 		]
 	},
 	{
-		"name": "Russia","leaderName": "Catherine the Great","adjective": ["Russian"],"preferredVictoryType": "Domination",
+		"name": "Russia","leaderName": "Peter the Great","adjective": ["Russian"],"preferredVictoryType": "Domination",
 		"startIntroPart1": "",
         "startIntroPart2": "",
 		"declaringWar": "","attacked": "",
