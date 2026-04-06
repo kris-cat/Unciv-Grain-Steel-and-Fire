@@ -80,7 +80,12 @@
 		"defeated": "How did you darken the sun? I ruled with diligence and mercy—see that you do so as well.","introduction": "How are you? You stand before Pachacuti Inca Yupanqui.",
 		"neutralHello": "How are you doing?","hateHello": "What do you want now?","tradeRequest": "The Incan people offer this fair trade.",
         "outerColor": [123,61,0],"innerColor": [255,191,0],"uniqueName": "Incan Nation Abilities",
-		"uniques": ["Comment [Nation Ability:]","Comment [Leader Ability:]"],
+		"uniques": ["Comment [Nation Ability: Mit’a]","[+20]% [Food] [in all cities]","Comment [Workers build Improvements 25% faster]","Comment [Cities receive additional +1 [Manpower] at 5 Population]",
+			"Comment [Leader Ability: Pachakutic]","Comment [+1 Gold from [Mountain] tiles]", "Comment [Land Units may cross [Mountain] tiles]", "Comment [Gain +10 Food in all cities upon conquering a city]",
+
+			"[+20]% [Food] [in all cities] <hidden from users>","Can build [all] improvements at a [+25]% rate <hidden from users>","Provides [+1] [Manpower]<in cities with at least [5] [Population]>",
+			"[+1 Gold] from [Mountain] tiles [in all cities] <hidden from users>","Land units may cross [Mountain] tiles after the first [all] is earned <hidden from users>","Gain [+10] [Food] <in [all] cities> <upon conquering a city> <hidden from users>",
+		],
 		"cities": ["Cuzco","Tiwanaku","Machu","Ollantaytambo","Corihuayrachina","Huamanga","Rumicucho","Vilcabamba","Vitcos",
 			"Andahuaylas","Ica","Arequipa","Nasca","Atico","Juli","Chuito","Chuquiapo","Huanuco Pampa","Tamboccocha",
 			"Huaras","Riobamba","Caxamalca","Sausa","Tambo Colorado","Huaca","Tumbes","Chan Chan","Sipan","Pachacamac",
