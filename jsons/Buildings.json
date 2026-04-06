@@ -152,6 +152,14 @@
 		"uniques": ["Comment [Scientific Specialisation Building]","Only available <in cities without a [Observatory]>","[+1 Science] per [5] population [in this city]",],
 	},
 	{
+		"name": "University","science": 1,"specialistSlots": {"Scientist": 2},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Education","requiredBuilding": "Library",
+		"uniques": ["Comment [Scientific Specialisation Building]","Only available <in cities without a [Academy]>","[+1 Science] from every [Scientist] <in this city>",],
+	},
+	{
+		"name": "Academy","science": 4,"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Education","requiredBuilding": "Library",
+		"uniques": ["Comment [Scientific Specialisation Building]","Only available <in cities without a [University]>",],
+	},
+	{
 		"name": "Market","gold": 4,"specialistSlots": {"Merchant": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Currency","requiredResource": "Specialisation Slot",
 		"uniques": ["Comment [Commercial Specialisation Building]",],
 	},
