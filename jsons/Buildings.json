@@ -130,7 +130,7 @@
 			"[+1 Faith, +1 Food] from [Mountain] tiles [in this city]",],
 	},
 	{
-		"name": "Temple","faith": 1,"specialistSlots": {"Priest": 2},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Calendar","requiredBuilding": "Shrine",
+		"name": "Temple","faith": 1,"specialistSlots": {"Priest": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Calendar","requiredBuilding": "Shrine",
 		"uniques": ["Comment [Religious Specialisation Building]",
 		"[+1 Faith] from every [Priest]",],
 	},
