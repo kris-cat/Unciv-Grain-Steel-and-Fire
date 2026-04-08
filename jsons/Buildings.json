@@ -166,6 +166,18 @@
 		"uniques": ["Comment [Commercial Specialisation Building]",],
 	},
 	{
+		"name": "Lighthouse","food": 1 ,"gold": 2,"specialistSlots": {"Captain": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Sailing","requiredResource": "Specialisation Slot",
+		"uniques": ["Comment [Maritime Specialisation Building]","Must be next to [Water]","[+1 Food] from [Fishing Boats] tiles [in this city]","[+1 Production] from [Dredger] tiles [in this city]"],
+	},
+	{
+		"name": "Shipyard","food": 1 ,"gold": 2,"specialistSlots": {"Captain": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Shipbuilding","requiredBuilding": "Lighthouse",
+		"uniques": ["Comment [Maritime Specialisation Building]","Only available <in cities without a [School]>","[+2 Science] from [Mountain] tiles [in this city]","Must have an owned [Mountain] within [2] tiles",],
+	},
+	{
+		"name": "Entreport","gold": 4,"specialistSlots": {"Merchant": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Shipbuilding","requiredBuilding": "Lighthouse",
+		"uniques": ["Comment [Maritime Specialisation Building]","Only available <in cities without a [Observatory]>","[+1 Science] per [5] population [in this city]",],
+	},
+	{
 		"name": "Garden","culture": 1,"gold": 2,"specialistSlots": {"Gardner": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Irrigation","requiredResource": "Specialisation Slot",
 		"uniques": ["Comment [Landscaping Specialisation Building]",
 			"Comment [TODO: +2 Happiness, Gold from Urban Tiles]",],
@@ -179,6 +191,11 @@
 		"name": "Barracks","production": 1,"specialistSlots": {"Commander": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Organised Warfare","requiredResource": "Specialisation Slot",
 		"uniques": ["Comment [Militaristic Specialisation Building]",
 		"[+15]% Production when constructing [{Land} {Military}] units [in this city]","Provides [1] [Manpower]","Provides [1] [Manpower] <in cities with at least [5] [Population]>","Provides [1] [Manpower] <in cities with at least [10] [Population]>",],
+	},
+	{
+		"name": "Arsenal","production": 1,"specialistSlots": {"Commander": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Shipbuilding","requiredResource": "Specialisation Slot",
+		"uniques": ["Comment [Militaristic Specialisation Building]",
+		"[+15]% Production when constructing [{Water} {Military}] units [in this city]","Provides [1] [Sailors]","Provides [1] [Sailors] <in cities with at least [5] [Population]>","Provides [1] [Sailors] <in cities with at least [10] [Population]>",],
 	},
 	//Infrastructure Buildings
 	//Ancient Era Buildings
