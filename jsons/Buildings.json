@@ -203,8 +203,12 @@
 		"uniques": ["Comment [Government Infrastructure Building]","[+2 Gold] per [4] population [in this city]"],
 	},
 	{
-		"name": "Local Council","culture": 2,"happiness": 2,"cost": 40,"hurryCostModifier": 40,"maintenance": 2,"requiredTech": "Code of Laws","requiredBuilding": "Tax Office",
-		"uniques": ["Comment [Government Infrastructure Building]",],
+		"name": "Assembly","culture": 2,"cost": 40,"hurryCostModifier": 40,"maintenance": 2,"requiredTech": "Code of Laws","requiredBuilding": "Tax Office",
+		"uniques": ["Comment [Government Infrastructure Building]","[-25]% Culture cost of natural border growth [in this city]","[-25]% Gold cost of acquiring tiles [in this city]",],
+	},
+	{
+		"name": "Cabinet","culture": 2,"cost": 40,"hurryCostModifier": 40,"maintenance": 2,"requiredTech": "Code of Laws","requiredBuilding": "Tax Office",
+		"uniques": ["Comment [Government Infrastructure Building]","[-10]% maintenance cost for [all] buildings [in this city]",],
 	},
 	{
 		"name": "Cistern","food": 2,"cost": 40,"hurryCostModifier": 40,"maintenance": 2,"requiredTech": "Hydrology","requiredResource": "Infrastructure Slot",
