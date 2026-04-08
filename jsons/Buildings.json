@@ -204,11 +204,7 @@
 	},
 	{
 		"name": "Local Council","culture": 2,"happiness": 2,"cost": 40,"hurryCostModifier": 40,"maintenance": 2,"requiredTech": "Code of Laws","requiredBuilding": "Tax Office",
-		"uniques": ["Comment [Government Infrastructure Building]","Can only be built <in [non-[{Puppeted} {Annexed}]] cities>"],
-	},
-	{
-		"name": "Courthouse","culture": 2,"cost": 40,"hurryCostModifier": 40,"maintenance": 2,"requiredTech": "Code of Laws","requiredBuilding": "Tax Office",
-		"uniques": ["Comment [Government Infrastructure Building]","Removes extra unhappiness from annexed cities","Can only be built <in [Annexed] cities>"],
+		"uniques": ["Comment [Government Infrastructure Building]",],
 	},
 	{
 		"name": "Cistern","food": 2,"cost": 40,"hurryCostModifier": 40,"maintenance": 2,"requiredTech": "Hydrology","requiredResource": "Infrastructure Slot",
