@@ -167,15 +167,15 @@
 	},
 	{
 		"name": "Lighthouse","food": 1 ,"gold": 2,"specialistSlots": {"Captain": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Sailing","requiredResource": "Specialisation Slot",
-		"uniques": ["Comment [Maritime Specialisation Building]","Must be next to [Water]","[+1 Food] from [Fishing Boats] tiles [in this city]","[+1 Production] from [Dredger] tiles [in this city]"],
+		"uniques": ["Comment [Maritime Specialisation Building]","Must be next to [Water]","[+1 Food] from [Water] tiles [in this city]",],
 	},
 	{
 		"name": "Shipyard","food": 1 ,"gold": 2,"specialistSlots": {"Captain": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Shipbuilding","requiredBuilding": "Lighthouse",
-		"uniques": ["Comment [Maritime Specialisation Building]","Only available <in cities without a [School]>","[+2 Science] from [Mountain] tiles [in this city]","Must have an owned [Mountain] within [2] tiles",],
+		"uniques": ["Comment [Maritime Specialisation Building]","Only available <in cities without a [Entreport]>","[+1 Food] from [Fishing Boats] tiles [in this city]","[+1 Production] from [Dredger] tiles [in this city]"],
 	},
 	{
 		"name": "Entreport","gold": 4,"specialistSlots": {"Merchant": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Shipbuilding","requiredBuilding": "Lighthouse",
-		"uniques": ["Comment [Maritime Specialisation Building]","Only available <in cities without a [Observatory]>","[+1 Science] per [5] population [in this city]",],
+		"uniques": ["Comment [Maritime Specialisation Building]","Only available <in cities without a [Shipyard]>","[+1 Gold] from [Fishing Boats] tiles [in this city]","[+1 Gold] from [Dredger] tiles [in this city]"],
 	},
 	{
 		"name": "Garden","culture": 1,"gold": 2,"specialistSlots": {"Gardner": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Irrigation","requiredResource": "Specialisation Slot",
