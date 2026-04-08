@@ -178,7 +178,7 @@
 				"name": "Compass","row": 5,"prerequisites": ["Machinery"],
 			},
 			{
-				"name": "Civil Service","row": 7,"prerequisites": ["The Plow","Horse Collar"],
+				"name": "Civil Service","row": 7,"prerequisites": ["Theology","The Plow","Horse Collar"],
 			},
 			{
 				"name": "Military Tactics","row": 9,"prerequisites": ["Horse Collar"],
