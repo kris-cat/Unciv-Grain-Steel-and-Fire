@@ -194,10 +194,34 @@
 	},
 	{
 		"name": "Arsenal","production": 1,"specialistSlots": {"Commander": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Shipbuilding","requiredResource": "Specialisation Slot",
-		"uniques": ["Comment [Militaristic Specialisation Building]",
+		"uniques": ["Comment [Militaristic Specialisation Building]","Must be next to [Water]",
 		"[+15]% Production when constructing [{Water} {Military}] units [in this city]","Provides [1] [Sailors]","Provides [1] [Sailors] <in cities with at least [5] [Population]>","Provides [1] [Sailors] <in cities with at least [10] [Population]>",],
 	},
 	//Infrastructure Buildings
+	{
+		"name": "Tax Office","cost": 40,"hurryCostModifier": 40,"maintenance": 2,"requiredTech": "State Management","requiredResource": "Infrastructure Slot",
+		"uniques": ["Comment [Government Infrastructure Building]","[+2 Gold] per [4] population [in this city]"],
+	},
+	{
+		"name": "Local Council","culture": 2,"happiness": 2,"cost": 40,"hurryCostModifier": 40,"maintenance": 2,"requiredTech": "Code of Laws","requiredBuilding": "Tax  Office",
+		"uniques": ["Comment [Government Infrastructure Building]","Can only be built <in [non-[{Puppeted} {Annexed}]] cities>"],
+	},
+	{
+		"name": "Courthouse","culture": 2,"cost": 40,"hurryCostModifier": 40,"maintenance": 2,"requiredTech": "Code of Laws","requiredBuilding": "Tax  Office",
+		"uniques": ["Comment [Government Infrastructure Building]","Removes extra unhappiness from annexed cities","Can only be built <in [Annexed] cities>"],
+	},
+	{
+		"name": "Cistern","food": 2,"cost": 40,"hurryCostModifier": 40,"maintenance": 2,"requiredTech": "Hydrology","requiredResource": "Infrastructure Slot",
+		"uniques": ["Comment [Water Infrastructure Building]","Must be next to [Fresh Water]","[30]% Food is carried over after population increases [in this city]"]
+	},
+	{
+		"name": "Arena","happiness": 2,"cost": 40,"hurryCostModifier": 40,"maintenance": 2,"requiredTech": "Animal Husbandry","requiredResource": "Infrastructure Slot",
+		"uniques": ["Comment [Entertainment Infrastructure Building]",]
+	},
+	{
+		"name": "Tourney Grounds","happiness": 4,"cost": 40,"hurryCostModifier": 40,"maintenance": 2,"requiredTech": "Drama and Poetry","requiredBuilding": "Arena",
+		"uniques": ["Comment [Entertainment Infrastructure Building]",],
+	},
 	//Ancient Era Buildings
 	{
 		"name": "Fishing Dock","food": 1,"maintenance": 1,"requiredNearbyImprovedResources": ["Wheat","Rice","Maize"],"hurryCostModifier": 25,
