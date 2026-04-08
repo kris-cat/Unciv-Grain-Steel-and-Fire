@@ -8,6 +8,8 @@
 			"Provides [1] [Specialisation Slot] <in this city>",
 			"Provides [1] [Infrastructure Slot] <in this city>",
 			"Provides [1] [Industry Slot] <in this city>",
+			"Provides [1] [Industry Slot] <in [{non-[Fresh Water]} {Coastal}] tiles>",
+			"Provides [2] [Industry Slot] <in [Fresh Water] tiles>",
 			"Automatically built in all cities where it is buildable",
 			"Destroyed when the city is captured"
 		]
