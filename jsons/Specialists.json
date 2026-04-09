@@ -44,4 +44,9 @@
 		"science":1,"faith":1,
 		"color": [139,69,19]
 	},
+	{
+		"name":"Bureaucrat",
+		"science":1,"culture":1,
+		"color": [160,32,240]
+	},
 ]
