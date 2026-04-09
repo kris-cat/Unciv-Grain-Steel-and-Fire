@@ -120,6 +120,11 @@
 			"Consumes [1] [Sailors] <for every [10] [Sailors]>"
 		]
 	},
+	//Unique National Buildings
+	{
+		"name": "Examination Hall","uniqueTo": "China","science": 2,"cost": 40,"hurryCostModifier": 40,"maintenance": 2,"requiredTech": "State Management","requiredBuilding": "Tax Office",
+		"uniques": ["Government Infrastructure Building","[+25]% Yield from every [Government Infrastructure Building]"],
+	},
 	//Specialisation Buildings
 	{
 		"name": "Shrine","faith": 2,"specialistSlots": {"Priest": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Calendar","requiredResource": "Specialisation Slot",
@@ -200,15 +205,15 @@
 	//Infrastructure Buildings
 	{
 		"name": "Tax Office","cost": 40,"hurryCostModifier": 40,"maintenance": 2,"requiredTech": "State Management","requiredResource": "Infrastructure Slot",
-		"uniques": ["Comment [Government Infrastructure Building]","[+2 Gold] per [4] population [in this city]"],
+		"uniques": ["Government Infrastructure Building","[+2 Gold] per [4] population [in this city]"],
 	},
 	{
 		"name": "Assembly","culture": 2,"cost": 40,"hurryCostModifier": 40,"maintenance": 2,"requiredTech": "Code of Laws","requiredBuilding": "Tax Office",
-		"uniques": ["Comment [Government Infrastructure Building]","Only available <in cities without a [Cabinet]>","[-25]% Culture cost of natural border growth [in this city]","[-25]% Gold cost of acquiring tiles [in this city]",],
+		"uniques": ["Government Infrastructure Building","Only available <in cities without a [Cabinet]>","[-25]% Culture cost of natural border growth [in this city]","[-25]% Gold cost of acquiring tiles [in this city]",],
 	},
 	{
 		"name": "Cabinet","culture": 2,"cost": 40,"hurryCostModifier": 40,"maintenance": 2,"requiredTech": "Code of Laws","requiredBuilding": "Tax Office",
-		"uniques": ["Comment [Government Infrastructure Building]","Only available <in cities without a [Assembly]>","[-10]% maintenance cost for [all] buildings [in this city]",],
+		"uniques": ["Government Infrastructure Building","Only available <in cities without a [Assembly]>","[-10]% maintenance cost for [all] buildings [in this city]",],
 	},
 	{
 		"name": "Cistern","food": 2,"cost": 40,"hurryCostModifier": 40,"maintenance": 2,"requiredTech": "Hydrology","requiredResource": "Infrastructure Slot",
