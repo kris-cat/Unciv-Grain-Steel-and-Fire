@@ -167,7 +167,7 @@
 	},
 	{
 		"name": "Lighthouse","food": 1 ,"gold": 2,"specialistSlots": {"Captain": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Sailing","requiredResource": "Specialisation Slot",
-		"uniques": ["Comment [Maritime Specialisation Building]","Must be next to [Water]","[+1 Food] from [Water] tiles [in this city]",],
+		"uniques": ["Comment [Maritime Specialisation Building]","Connects trade routes over water","[+1 Food] from [Water] tiles [in this city]",],
 	},
 	{
 		"name": "Shipyard","food": 1 ,"gold": 2,"specialistSlots": {"Captain": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Shipbuilding","requiredBuilding": "Lighthouse",
@@ -224,8 +224,8 @@
 	},
 	//Ancient Era Buildings
 	{
-		"name": "Fishing Dock","food": 1,"maintenance": 1,"requiredNearbyImprovedResources": ["Wheat","Rice","Maize"],"hurryCostModifier": 25,
-		"uniques": ["[+1 Food] from [Fishing Boats] tiles [in this city]",]
+		"name": "Fishing Dock","food": 2,"maintenance": 1,"hurryCostModifier": 25,
+		"uniques": ["Must be next to [Water]",]
 		"requiredTech": "Fishing"
 	},
 	{
@@ -291,7 +291,7 @@
 		"uniques": ["Provides [1] [Cloth]","Consumes [1] [Wool]","[+1 Gold] from [{Pasture} {Sheep}] tiles [in this city]",]
 		"requiredTech": "Irrigation","requiredResource": "Industry Slot",
 	},
-	//Ancient Era wonders
+	//Ancient Era Wonders
 	{
 		"name": "Great Bath","isWonder": true,"requiredTech": "Pottery",
         "uniques": [
@@ -325,5 +325,14 @@
 			"[15]% growth [in all cities]",
 			"Must be next to [Fresh water]",
 		],
+	},
+	//Classical Era Wonders
+	{
+		"name": "Colossus","isWonder": true,"culture": 1,"gold": 5,"requiredTech": "Iron Working",
+		"uniques": ["Must be next to [Coast]", "[+1 Gold] from [Water] tiles [in this city]"],
+	},
+	{
+		"name": "The Great Lighthouse","isWonder": true,"gold": 3,"requiredTech": "Trade Networks","requiredBuilding": "Lighthouse",
+		"uniques": ["Must be next to [Coast]", "[+1] Movement <for [{Military} {Water}] units>",],
 	},
 ]
