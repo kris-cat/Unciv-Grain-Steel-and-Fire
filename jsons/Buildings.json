@@ -122,8 +122,8 @@
 	},
 	//Unique National Buildings
 	{
-		"name": "Examination Hall","uniqueTo": "China","science": 2,"cost": 40,"hurryCostModifier": 40,"maintenance": 2,"requiredTech": "State Management","requiredBuilding": "Tax Office",
-		"uniques": ["Government Infrastructure Building","[+25]% Yield from every [Government Infrastructure Building]"],
+		"name": "Examination Hall","uniqueTo": "China","science": 2,"specialistSlots": {"Bureaucrat": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 2,"requiredTech": "State Management","requiredBuilding": "Tax Office",
+		"uniques": ["Government Infrastructure Building","[+1 Science] from every specialist [in this city]"],
 	},
 	//Specialisation Buildings
 	{
@@ -208,11 +208,11 @@
 		"uniques": ["Government Infrastructure Building","[+2 Gold] per [4] population [in this city]"],
 	},
 	{
-		"name": "Assembly","culture": 2,"cost": 40,"hurryCostModifier": 40,"maintenance": 2,"requiredTech": "Code of Laws","requiredBuilding": "Tax Office",
+		"name": "Assembly","science": 1,"culture": 1,"specialistSlots": {"Bureaucrat": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 2,"requiredTech": "Code of Laws","requiredBuilding": "Tax Office",
 		"uniques": ["Government Infrastructure Building","Only available <in cities without a [Cabinet]>","[-25]% Culture cost of natural border growth [in this city]","[-25]% Gold cost of acquiring tiles [in this city]",],
 	},
 	{
-		"name": "Cabinet","culture": 2,"cost": 40,"hurryCostModifier": 40,"maintenance": 2,"requiredTech": "Code of Laws","requiredBuilding": "Tax Office",
+		"name": "Cabinet","science": 1,"culture": 1,"specialistSlots": {"Bureaucrat": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 2,"requiredTech": "Code of Laws","requiredBuilding": "Tax Office",
 		"uniques": ["Government Infrastructure Building","Only available <in cities without a [Assembly]>","[-10]% maintenance cost for [all] buildings [in this city]",],
 	},
 	{
