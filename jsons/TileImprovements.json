@@ -82,7 +82,6 @@
 			"Can also be built on tiles adjacent to fresh water",
             "Pillaging this improvement yields approximately [+25 Gold]",
 			"Cannot be built on [Water] tiles",
-			"Provides [2] [Grain] <in [Wheat] tiles>","Provides [3] [Grain] <in [Rice] tiles>","Provides [2] [Grain] <in [Maize] tiles>",
 		],
 		"shortcutKey": "F"
 	},
@@ -98,7 +97,6 @@
 	{
 		"name": "Plantation","turnsToBuild": 5,"gold": 1,"techRequired": "Irrigation",
 		"uniques": ["Can only be built to improve a resource","Pillaging this improvement yields approximately [+10 Gold]",
-			"Provides [1] [Grapes1] <in [Grapes] tiles>","Provides [1] [Olives1] <in [Olives] tiles>","Provides [1] [Cotton1] <in [Cotton] tiles>","Provides [1] [Flax1] <in [Flax] tiles>",
 		"Cannot be built on [Water] tiles",],
 		"shortcutKey": "P"
 	},
@@ -115,8 +113,6 @@
 		"name": "Preserve","terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 5,"techRequired": "Archery",
 		"uniques": [
-			"Unbuildable <in cities without a [Grove]>",
-			"[+1 Faith] from [Vegetation] tiles <in cities with a [Grove]>","[+1 Faith] from [Vegetation] tiles <in tiles adjacent to [Water] tiles> <in cities with a [Grove]>","[+1 Faith] from [Vegetation] tiles <in tiles adjacent to [Mountain] tiles> <in cities with a [Grove]>",
 		],
 		"shortcutKey": "F"
 	},
@@ -139,7 +135,6 @@
 		"production": 1,"turnsToBuild": 3,"techRequired": "Carpentry",
 		"uniques": [
 			"Pillaging this improvement yields approximately [+10 Gold]",
-			"Provides [3] [Timber]"
 		],
 		"shortcutKey": "L"
 	},
@@ -147,7 +142,6 @@
 		"name": "Mine","terrainsCanBeBuiltOn": ["Hill"],"production": 1,"turnsToBuild": 3,"techRequired": "Mining",
 		"uniques": [
 			"Pillaging this improvement yields approximately [+20 Gold]",
-			"Provides [2] [Stone1] <in [non-[resource]] tiles>"
 		],
 		"shortcutKey": "M"
 	},
