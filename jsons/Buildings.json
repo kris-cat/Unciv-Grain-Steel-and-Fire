@@ -46,14 +46,14 @@
 		]
 	},
 	{
-		"name": "16Population Milestone - 7","cost": 0,"maintenance": 0,
+		"name": "17Population Milestone - 7","cost": 0,"maintenance": 0,
 		"uniques": [
 			"Provides [-1] [Housing]",
 			"Only available <in cities with at least [7] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
 		]
 	},
 	{
-		"name": "16Population Milestone - 8","cost": 0,"maintenance": 0,
+		"name": "18Population Milestone - 8","cost": 0,"maintenance": 0,
 		"uniques": [
 			"Provides [-1] [Housing]","Provides [-1] [Amenities]","Provides [1] [Specialisation Slot]","Provides [1] [Infrastructure Slot]","Provides [1] [Industry Slot]",
 			"Only available <in cities with at least [8] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
