@@ -36,7 +36,7 @@
 	},
     {
 		"name":"Gardner",
-		"happiness":2,"gold":2,
+		"culture":1,"happiness":1,
 		"color": [139,69,19]
 	},
     {
@@ -46,7 +46,12 @@
 	},
 	{
 		"name":"Bureaucrat",
-		"culture":1,"happiness": 2,
+		"culture":1,"culture": 1,
 		"color": [160,32,240]
+	},
+	{
+		"name":"Entertainer",
+		"happiness":3,
+		"color": [255,215,0]
 	},
 ]
