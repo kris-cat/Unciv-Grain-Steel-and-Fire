@@ -222,7 +222,11 @@
 		"declaringWar": "You won't ever be able to bother me again. Go meet Yama.","attacked": "Fool! I will disembowel you all!","defeated": "You have proven to be a cunning and competent adversary. I congratulate you on your victory.",
 		"introduction": "Greetings, I am Empress Wu Zetian. China desires peace and development. You leave us alone, we'll leave you alone.","neutralHello": "How are you today?","hateHello": "Oh. It's you?","tradeRequest": "My friend, do you think you can accept this request?",
         "outerColor": [9, 112, 84],"innerColor": [255,255,255],"uniqueName": "Chinese Nation Abilities",
-		"uniques": ["Comment [Nation Ability:]","Comment [Leader Ability:]"],
+		"uniques": ["Comment [Nation Ability: Middle Kingdom]","Comment [+15% Growth in cities adjacent to Fresh Water.]","Comment [+15% Production when constructing Infrastructure Buildings.]",
+			"Comment []",
+			"Comment [Leader Ability: Pax Romana]",
+			"[+15]% growth [in all cities] <in tiles adjacent to [Fresh Water] tiles><hidden from users>","[+15]% Production when constructing [Infrastructure Building] buildings [in all cities]<hidden from users>",
+		],
 		"cities": [
 			"Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong","Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
 			"Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi","Yichang","Yingtian","Xinyu","Xinzheng","Handan","Dunhuang","Gaoyu","Nantong","Weifang","Xikang"
