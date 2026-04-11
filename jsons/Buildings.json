@@ -6,7 +6,7 @@
 			"Provides [1] [Manpower]","Provides [1] [Sailors] <in [Coastal] cities>",
 			"Provides [1] [Housing]<in this city>","Provides [1] [Housing] <in [{non-[Fresh Water]} {Coastal}] tiles><in this city>","Provides [3] [Housing] <in [Fresh Water] tiles><in this city>",
 			"Provides [-1] [Housing]<in this city>","Provides [1] [Industry Slot]<in this city>",
-			"[-50]% growth [in this city] <when between [-1] and [1] [Housing]>",
+			"[-50]% growth [in this city] <when below [1] [Housing]>",
 			"Nullifies Growth [in this city] <when below [0] [Housing]>",
 			"[-10]% [Production] [in this city] <when below [-2] [Amenities]><hidden from users>","[-10]% [Science] [in this city] <when below [-2] [Amenities]><hidden from users>","[-10]% [Culture] [in this city] <when below [-2] [Amenities]><hidden from users>","[-10]% [Gold] [in this city] <when below [-2] [Amenities]><hidden from users>","[-10]% [Faith] [in this city] <when below [-2] [Amenities]><hidden from users>",
 			"[-10]% [Production] [in this city] <when below [0] [Amenities]><hidden from users>","[-10]% [Science] [in this city] <when below [0] [Amenities]><hidden from users>","[-10]% [Culture] [in this city] <when below [0] [Amenities]><hidden from users>","[-10]% [Gold] [in this city] <when below [0] [Amenities]><hidden from users>","[-10]% [Faith] [in this city] <when below [0] [Amenities]><hidden from users>",
