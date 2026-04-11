@@ -46,7 +46,7 @@
 	},
 	{
 		"name":"Bureaucrat",
-		"science":1,"culture":1,"happiness":2,
+		"culture":1,"happiness": 2,
 		"color": [160,32,240]
 	},
 ]
