@@ -115,7 +115,7 @@
 	},
 	{
 		"name": "School","science": 2,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Library","requiredTech": "Mathematics",
-		"uniques": ["Only available","[+1 Science] per [4] population [in this city]",],
+		"uniques": ["[+1 Science] per [4] population [in this city]",],
 	},
 	{
 		"name": "University","science": 2,"maintenance": 1,"specialistSlots": {"Scientist": 2},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Library","requiredTech": "Education",
