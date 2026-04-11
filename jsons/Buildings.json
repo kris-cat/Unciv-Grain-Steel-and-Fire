@@ -88,6 +88,7 @@
 		"cost": 0,
 		"uniques": [
 			"Indicates the capital city",
+			"Provides [+1] [Amenities]<in this city>",
 			"Provides [2] [Manpower]",
 			"Provides [2] [Sailors] <in [Coastal] cities>",
 			"Consumes [1] [Manpower] <for every [10] [Manpower]>",
@@ -119,7 +120,7 @@
 	},
 	{
 		"name": "University","science": 2,"maintenance": 1,"specialistSlots": {"Scientist": 2},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Library","requiredTech": "Education",
-		"uniques": ["[+1 Science] from every [Scientist] <in this city>",],
+		"uniques": ["Provides [+1] [Housing]<in this city>","[+1 Science] from every [Scientist] <in this city>",],
 	},
 	//Cultural Specialisation
 	{
@@ -134,17 +135,17 @@
 	//Maritime Specialisation
 	{
 		"name": "Lighthouse","food": 1,"gold": 2,"maintenance": 0,"specialistSlots": {"Captain": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Sailing",
-		"uniques": ["Must be next to [Water]","Connects trade routes over water","[+1 Food] from [Water] tiles [in this city]",],
+		"uniques": ["Must be next to [Water]","Provides [+2] [Housing]<in this city>","Connects trade routes over water","[+1 Food] from [Water] tiles [in this city]",],
 	},
 	//Landscaping Specialisation
 	{
 		"name": "Garden","culture": 1,"happiness": 2,"maintenance": 0,"specialistSlots": {"Gardner": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Irrigation",
-		"uniques": ["Provides [+1] [Amenities]<in this city>",],
+		"uniques": ["Only available <in cities without a [Grove]>","Provides [+1] [Amenities]<in this city>",],
 	},
 	//Conservation Specialisation
 	{
 		"name": "Grove","faith": 1,"science": 1,"maintenance": 1,"specialistSlots": {"Steward": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Archery",
-		"uniques": [],
+		"uniques": ["Only available <in cities without a [Garden]>",],
 	},
 	//Civic Specialisation
 	{
@@ -159,7 +160,7 @@
 	//Militaristic Specialisation
 	{
 		"name": "Barracks","production": 1,"maintenance": 1,"specialistSlots": {"Commander": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Organised Warfare",
-		"uniques": ["[+15]% Production when constructing [{Land} {Military}] units [in this city]","Provides [1] [Manpower]","Provides [1] [Manpower] <in cities with at least [5] [Population]>","Provides [1] [Manpower] <in cities with at least [10] [Population]>",],
+		"uniques": ["Provides [+1] [Housing]<in this city>","[+15]% Production when constructing [{Land} {Military}] units [in this city]","Provides [1] [Manpower]","Provides [1] [Manpower] <in cities with at least [5] [Population]>",],
 	},
 	//Naval Specialisation
 	{
