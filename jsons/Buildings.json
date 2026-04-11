@@ -3,7 +3,7 @@
     {
 		"name": "11Population Milestone - 1","cost": 0,"maintenance": 0,
 		"uniques": [
-			"Provides [1] [Manpower]","Provides [1] [Sailors] <in [Coastal] cities>",
+			"Provides [1] [Manpower]","Provides [1] [Sailors] <in [Coastal] cities>","Provides [1] [Specialisation Slot]<in this city>",
 			"Provides [1] [Housing]<in this city>","Provides [1] [Housing] <in [{non-[Fresh Water]} {Coastal}] tiles><in this city>","Provides [3] [Housing] <in [Fresh Water] tiles><in this city>",
 			"Provides [-1] [Housing]<in this city>","Provides [1] [Industry Slot]<in this city>",
 			"[-50]% growth [in this city] <when below [1] [Housing]>",
@@ -25,7 +25,7 @@
 	{
 		"name": "13Population Milestone - 3","cost": 0,"maintenance": 0,
 		"uniques": [
-			"Provides [-1] [Housing]<in this city>","Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>","Provides [1] [Specialisation Slot]<in this city>","Provides [1] [Infrastructure Slot]<in this city>",
+			"Provides [-1] [Housing]<in this city>","Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
 			"Only available <in cities with at least [3] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
 		]
 	},
@@ -46,7 +46,7 @@
 	{
 		"name": "16Population Milestone - 6","cost": 0,"maintenance": 0,
 		"uniques": [
-			"Provides [-1] [Housing]<in this city>","Provides [1] [Specialisation Slot]<in this city>","Provides [1] [Infrastructure Slot]<in this city>",
+			"Provides [-1] [Housing]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
 			"Only available <in cities with at least [6] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
 		]
 	},
@@ -67,7 +67,7 @@
 	{
 		"name": "19Population Milestone - 9","cost": 0,"maintenance": 0,
 		"uniques": [
-			"Provides [-1] [Housing]<in this city>","Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>","Provides [1] [Specialisation Slot]<in this city>","Provides [1] [Infrastructure Slot]<in this city>",
+			"Provides [-1] [Housing]<in this city>","Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
 			"Only available <in cities with at least [9] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
 		]
 	},
@@ -95,7 +95,86 @@
 		]
 	},
 	//Specialisation Buildings
+	//Religious Specialisation
+	{
+		"name": "Shrine","faith": 2,"maintenance": 1,"specialistSlots": {"Priest": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Calendar",
+		"uniques": ["[+1 Faith] from [Mountain] tiles [in this city]",],
+	},
+	{
+		"name": "Monastery","faith": 2,"maintenance": 1,"specialistSlots": {"Priest": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Shrine","requiredTech": "Philosophy",
+		"uniques": ["[+1 Faith, +1 Food] from [Mountain] tiles [in this city]",],
+	},
+	{
+		"name": "Temple","faith": 2,"maintenance": 1,"specialistSlots": {"Priest": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Shrine","requiredTech": "Philosophy",
+		"uniques": ["[+1 Faith] from every [Priest]",],
+	},
+	//Scientific Specialisation
+	{
+		"name": "Library","science": 2,"maintenance": 1,"specialistSlots": {"Scientist": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Writing",
+		"uniques": [],
+	},
+	{
+		"name": "Observatory","science": 2,"maintenance": 1,"specialistSlots": {"Scientist": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Library","requiredTech": "Mathematics",
+		"uniques": ["Only available <in cities without a [School]>","[+2 Science] from [Mountain] tiles [in this city]","Must have an owned [Mountain] within [2] tiles",],
+	},
+	{
+		"name": "School","science": 2,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Library","requiredTech": "Mathematics",
+		"uniques": ["Only available <in cities without a [Observatory]>","[+1 Science] per [4] population [in this city]",],
+	},
+	{
+		"name": "University","science": 2,"maintenance": 1,"specialistSlots": {"Scientist": 2},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Library","requiredTech": "Education",
+		"uniques": ["[+1 Science] from every [Scientist] <in this city>",],
+	},
+	//Cultural Specialisation
+	{
+		"name": "Theatre","culture": 2,"maintenance": 1,"specialistSlots": {"Artist": q},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Drama and Poetry",
+		"uniques": [],
+	},
+	//Commercial Specialisation
+	{
+		"name": "Market","gold": 4,"maintenance": 0,"specialistSlots": {"Merchant": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Currency",
+		"uniques": [],
+	},
+	//Maritime Specialisation
+	{
+		"name": "Lighthouse","food" 1:,"gold": 2,"maintenance": 0,"specialistSlots": {"Captain": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Sailing",
+		"uniques": ["Must be next to [Water]","Connects trade routes over water","[+1 Food] from [Water] tiles [in this city]",],
+	},
+	//Landscaping Specialisation
+	{
+		"name": "Garden","culture" 1:,"gold": 2,"maintenance": 0,"specialistSlots": {"Gardner": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Irrigation",
+		"uniques": ["Provides [+1] [Amenities]<in this city>",],
+	},
+	//Conservation Specialisation
+	{
+		"name": "Grove","faith" 1:,"science": 1,"maintenance": 1,"specialistSlots": {"Steward": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Archery",
+		"uniques": [],
+	},
+	//Civic Specialisation
+	{
+		"name": "Assembly","culture": 1,"happiness": 2,"maintenance": 1,"specialistSlots": {"Bureaucrat": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "State Management",
+		"uniques": [],
+	},
+	//Entertainment Specialisation
+	{
+		"name": "Arena","happiness": 3,"maintenance": 1,"specialistSlots": {"Bureaucrat": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "State Management",
+		"uniques": ["Provides [+1] [Amenities]<in this city>",],
+	},
+	//Militaristic Specialisation
+	{
+		"name": "Barracks","production": 1,"maintenance": 1,"specialistSlots": {"Commander": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Organised Warfare",
+		"uniques": ["[+15]% Production when constructing [{Land} {Military}] units [in this city]","Provides [1] [Manpower]","Provides [1] [Manpower] <in cities with at least [5] [Population]>","Provides [1] [Manpower] <in cities with at least [10] [Population]>",],
+	},
+	//Naval Specialisation
+	{
+		"name": "Arsenal","production": 1,"maintenance": 1,"specialistSlots": {"Captain": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Shipbuilding",
+		"uniques": ["Must be next to [Water]","[+15]% Production when constructing [{Water} {Military}] units [in this city]","Provides [1] [Sailors]","Provides [1] [Sailors] <in cities with at least [5] [Population]>","Provides [1] [Sailors] <in cities with at least [10] [Population]>",],
+	},
 	//Infrastructure Buildings
+	//Drinking Water Infrastructure
+	//Coastal Infrastructure
+	//Mountain Infrastructure
+	//River Infrastructure
 	//Ancient Era Buildings
 	{
 		"name": "Granary","food": 1,"maintenance": 1,"cost": 20,"hurryCostModifier": 25,"requiredTech": "Agriculture"
