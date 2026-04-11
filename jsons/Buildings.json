@@ -123,7 +123,7 @@
 	},
 	//Cultural Specialisation
 	{
-		"name": "Theatre","culture": 2,"maintenance": 1,"specialistSlots": {"Artist": q},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Drama and Poetry",
+		"name": "Theatre","culture": 2,"maintenance": 1,"specialistSlots": {"Artist": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Drama and Poetry",
 		"uniques": [],
 	},
 	//Commercial Specialisation
