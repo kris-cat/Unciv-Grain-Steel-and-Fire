@@ -138,7 +138,7 @@
 	},
 	//Landscaping Specialisation
 	{
-		"name": "Garden","culture": 1,"gold": 2,"maintenance": 0,"specialistSlots": {"Gardner": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Irrigation",
+		"name": "Garden","culture": 1,"happiness": 2,"maintenance": 0,"specialistSlots": {"Gardner": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Irrigation",
 		"uniques": ["Provides [+1] [Amenities]<in this city>",],
 	},
 	//Conservation Specialisation
@@ -148,12 +148,12 @@
 	},
 	//Civic Specialisation
 	{
-		"name": "Assembly","culture": 1,"happiness": 2,"maintenance": 1,"specialistSlots": {"Bureaucrat": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "State Management",
+		"name": "Archives","culture": 1,"science": 1,"maintenance": 1,"specialistSlots": {"Bureaucrat": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "State Management",
 		"uniques": ["[-10]% maintenance cost for [all] buildings [in this city]",],
 	},
 	//Entertainment Specialisation
 	{
-		"name": "Arena","happiness": 3,"maintenance": 1,"specialistSlots": {"Bureaucrat": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "State Management",
+		"name": "Arena","happiness": 3,"maintenance": 1,"specialistSlots": {"Entertainer": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "State Management",
 		"uniques": ["Provides [+1] [Amenities]<in this city>",],
 	},
 	//Militaristic Specialisation
