@@ -133,17 +133,17 @@
 	},
 	//Maritime Specialisation
 	{
-		"name": "Lighthouse","food" 1:,"gold": 2,"maintenance": 0,"specialistSlots": {"Captain": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Sailing",
+		"name": "Lighthouse","food": 1,"gold": 2,"maintenance": 0,"specialistSlots": {"Captain": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Sailing",
 		"uniques": ["Must be next to [Water]","Connects trade routes over water","[+1 Food] from [Water] tiles [in this city]",],
 	},
 	//Landscaping Specialisation
 	{
-		"name": "Garden","culture" 1:,"gold": 2,"maintenance": 0,"specialistSlots": {"Gardner": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Irrigation",
+		"name": "Garden","culture": 1,"gold": 2,"maintenance": 0,"specialistSlots": {"Gardner": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Irrigation",
 		"uniques": ["Provides [+1] [Amenities]<in this city>",],
 	},
 	//Conservation Specialisation
 	{
-		"name": "Grove","faith" 1:,"science": 1,"maintenance": 1,"specialistSlots": {"Steward": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Archery",
+		"name": "Grove","faith": 1,"science": 1,"maintenance": 1,"specialistSlots": {"Steward": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Archery",
 		"uniques": [],
 	},
 	//Civic Specialisation
