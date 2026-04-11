@@ -79,6 +79,7 @@
 			},
 			{
 				"name": "Currency","row": 4,"prerequisites": ["Irrigation","The Wheel"],
+				"uniques": ["Provides [1] [Trading Capacity]",]
 			},
             {
 				"name": "Craftsmanship","row": 6,"prerequisites": ["The Wheel","City Defences"],
