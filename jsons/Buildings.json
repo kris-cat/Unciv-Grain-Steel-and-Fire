@@ -75,9 +75,9 @@
 		"name": "Palace",
 		"isNationalWonder": true,
 		"production": 3,
-		"science": 3,
+		"science": 2,
 		"gold": 3,
-		"culture": 1,
+		"culture": 2,
 		"cityStrength": 2.5,
 		"cost": 0,
 		"uniques": [
