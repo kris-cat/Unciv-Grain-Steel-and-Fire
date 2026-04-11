@@ -73,7 +73,7 @@
 	//Export Consuming Buildings
 	{
 		"name": "Import Agricultural Goods","food": 4,"cost": 0,"hurryCostModifier": 40,
-		"uniques": ["Consumes [1] [Agricultural Export]","Consumes [1] [Trading Capacity]",],
+		"uniques": ["Consumes [1] [Agricultural Exports]","Consumes [1] [Trading Capacity]",],
 	},
 
 	// Palace buildings
