@@ -70,6 +70,12 @@
 			"Only available <in cities with at least [9] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
 		]
 	},
+	//Export Consuming Buildings
+	{
+		"name": "Import Agricultural Goods","food": 4,"cost": 0,"hurryCostModifier": 40,
+		"uniques": ["Consumes [1] [Agricultural Export]","Consumes [1] [Trading Capacity]",],
+	},
+
 	// Palace buildings
 	{
 		"name": "Palace",
