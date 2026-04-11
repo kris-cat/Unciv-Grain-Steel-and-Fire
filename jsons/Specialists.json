@@ -36,7 +36,7 @@
 	},
     {
 		"name":"Gardner",
-		"culture":1,"gold":2,
+		"happiness":2,"gold":2,
 		"color": [139,69,19]
 	},
     {
