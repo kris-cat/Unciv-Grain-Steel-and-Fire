@@ -178,13 +178,20 @@
 		"uniques": ["Infrastructure Building","Must be next to [Water]","Provides [+3] [Housing]<in this city>",],
 	},
 	//Mountain Infrastructure
-	
+	{
+		"name": "Mining Tunnels","production": 2,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Construction",
+		"uniques": ["Infrastructure Building","Only available <in cities without a [Observatory]>","Must be next to [Mountain]","[+1 Production] from [Mountain] tiles [in this city]",],
+	},
+	{
+		"name": "Observatory","science": 2,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Construction",
+		"uniques": ["Infrastructure Building","Only available <in cities without a [Mining Tunnels]>","Must be next to [Mountain]","[+1 Science] from [Mountain] tiles [in this city]",],
+	},
 	//River Infrastructure
 	{
 		"name": "Waterway","gold": 4,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Construction",
 		"uniques": ["Infrastructure Building","Must be on [River]",],
 	},
-	//Ancient Era Buildings
+	//Ancient Era Common Buildings
 	{
 		"name": "Fishing Dock","food": 1,"production": 1,"maintenance": 1,"hurryCostModifier": 25,"requiredTech": "Fishing"
 		"uniques": ["Must be next to [Water]","Provides [+1] [Housing]<in this city>",]
