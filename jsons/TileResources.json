@@ -6,7 +6,7 @@
 	{"name": "Exports", "resourceType": "Strategic","uniques": ["Doesn't generate naturally","Excluded from map editor","Not shown on world screen",]},
 	{"name": "Commercial Exports", "resourceType": "Strategic","uniques": ["Doesn't generate naturally","Excluded from map editor",]},
 	{"name": "Agricultural Exports", "resourceType": "Strategic","uniques": ["Doesn't generate naturally","Excluded from map editor",]},
-	{"name": "Mining Exports", "resourceType": "Strategic","uniques": ["Doesn't generate naturally", "Excluded from map editor",]},
+	{"name": "Industrial Exports", "resourceType": "Strategic","uniques": ["Doesn't generate naturally", "Excluded from map editor",]},
 	{"name": "Maritime Exports", "resourceType": "Strategic","uniques": ["Doesn't generate naturally", "Excluded from map editor",]},
 	//Local City Resource-Mechanics
 	{"name": "Specialisation Slot", "resourceType": "Strategic","uniques": ["Doesn't generate naturally", "Cannot be traded", "City-level resource","Excluded from map editor",]},
