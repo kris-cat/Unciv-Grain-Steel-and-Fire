@@ -170,17 +170,20 @@
 	//Drinking Water Infrastructure
 	{
 		"name": "Cistern","food": 2,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Hydrology",
-		"uniques": ["Must be next to [Fresh Water]","Provides [+2] [Housing]<in this city>",],
+		"uniques": ["Infrastructure Building","Must be next to [Fresh Water]","Provides [+2] [Housing]<in this city>",],
 	},
 	//Coastal Infrastructure
 	{
 		"name": "Waterfront","food": 2,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Maritime Industry",
-		"uniques": ["Must be next to [Water]","Provides [+3] [Housing]<in this city>",],
+		"uniques": ["Infrastructure Building","Must be next to [Water]","Provides [+3] [Housing]<in this city>",],
 	},
 	//Mountain Infrastructure
 	
 	//River Infrastructure
-	
+	{
+		"name": "Waterway","gold": 4,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Construction",
+		"uniques": ["Infrastructure Building","Must be on [River]",],
+	},
 	//Ancient Era Buildings
 	{
 		"name": "Fishing Dock","food": 1,"production": 1,"maintenance": 1,"hurryCostModifier": 25,"requiredTech": "Fishing"
