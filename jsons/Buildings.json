@@ -223,5 +223,4 @@
 		"name": "Walls","cityStrength": 10,"cityHealth": 25,"hurryCostModifier": 25,"requiredTech": "City Defences",
 		"uniques": ["Destroyed when the city is captured"]
 	},
-
 ]
