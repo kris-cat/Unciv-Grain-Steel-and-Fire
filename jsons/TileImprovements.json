@@ -79,6 +79,7 @@
 		"name": "Farm","terrainsCanBeBuiltOn": ["Grassland","Continental","Subtropical","Tropical","Semi-Arid"],
 		"food": 1,"turnsToBuild": 3,"techRequired": "Agriculture",
 		"uniques": [
+			"Common",
 			"Can also be built on tiles adjacent to fresh water",
             "Pillaging this improvement yields approximately [+25 Gold]",
 			"Cannot be built on [Water] tiles",
@@ -88,7 +89,7 @@
 	{
 		"name": "Irrigation Farm","terrainsCanBeBuiltOn": ["Floodplain"],
 		"food": 1,"gold": 1,"turnsToBuild": 3,"techRequired": "Irrigation",
-		"uniques": [
+		"uniques": ["Common",
             "Pillaging this improvement yields approximately [+25 Gold]",
 			"Cannot be built on [Water] tiles",
 		],
@@ -96,29 +97,22 @@
 	},
 	{
 		"name": "Plantation","turnsToBuild": 5,"gold": 1,"techRequired": "Irrigation",
-		"uniques": ["Can only be built to improve a resource","Pillaging this improvement yields approximately [+10 Gold]",
+		"uniques": ["Common","Can only be built to improve a resource","Pillaging this improvement yields approximately [+10 Gold]",
 		"Cannot be built on [Water] tiles",],
 		"shortcutKey": "P"
 	},
 	{
 		"name": "Oasis Farm","terrainsCanBeBuiltOn": ["Oasis"],
 		"food": 2,"gold": 1,"turnsToBuild": 5,"techRequired": "Calendar",
-		"uniques": [
+		"uniques": ["Common",
             "Pillaging this improvement yields approximately [+25 Gold]",
 			"Cannot be built on [Water] tiles",
 		],
 		"shortcutKey": "F"
 	},
-	 {
-		"name": "Preserve","terrainsCanBeBuiltOn": ["Land"],
-		"turnsToBuild": 5,"techRequired": "Archery",
-		"uniques": [
-		],
-		"shortcutKey": "F"
-	},
 	{
 		"name": "Camp","food": 1,"turnsToBuild": 5,"techRequired": "Hunting",
-		"uniques": [
+		"uniques": ["Common",
             "Can only be built to improve a resource","Does not need removal of [Taiga]","Does not need removal of [Deciduous Forest]",
 			"Does not need removal of [Coniferous Forest]","Does not need removal of [Rainforest]","Does not need removal of [Jungle]","Does not need removal of [Savannah]",
 			"Pillaging this improvement yields approximately [+10 Gold]",
@@ -127,32 +121,32 @@
 	},
     {
 		"name": "Pasture","production": 1,"turnsToBuild": 5,"techRequired": "Animal Husbandry",
-		"uniques": ["Can only be built to improve a resource","Pillaging this improvement yields approximately [+10 Gold]",],
+		"uniques": ["Common","Can only be built to improve a resource","Pillaging this improvement yields approximately [+10 Gold]",],
 		"shortcutKey": "P"
 	},
 	{
 		"name": "Lumber mill","terrainsCanBeBuiltOn": ["Taiga","Coniferous Forest","Deciduous Forest","Rainforest","Savannah"],
 		"production": 1,"turnsToBuild": 3,"techRequired": "Carpentry",
-		"uniques": [
+		"uniques": ["Common",
 			"Pillaging this improvement yields approximately [+10 Gold]",
 		],
 		"shortcutKey": "L"
 	},
 	{
 		"name": "Mine","terrainsCanBeBuiltOn": ["Hill"],"production": 1,"turnsToBuild": 3,"techRequired": "Mining",
-		"uniques": [
+		"uniques": ["Common",
 			"Pillaging this improvement yields approximately [+20 Gold]",
 		],
 		"shortcutKey": "M"
 	},
 	{
 		"name": "Quarry","production": 2,"turnsToBuild": 5,"techRequired": "Masonry",
-		"uniques": ["Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]",],
+		"uniques": ["Common","Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]",],
 		"shortcutKey": "Q"
 	},
 	{
 		"name": "Fishing Boats","food": 1,"turnsToBuild": 3, "terrainsCanBeBuiltOn": ["Coast","Lakes","Kelp Forest","Seagrass"],"techRequired": "Fishing",
-		"uniques": [
+		"uniques": ["Common",
 			"Can only be built to improve a resource",
 			"Pillaging this improvement yields approximately [+10 Gold]","Cannot be built on [Land] tiles",
 		],
@@ -160,7 +154,7 @@
 	},
 	{
 		"name": "Dredger","production": 1,"turnsToBuild": 3, "terrainsCanBeBuiltOn": ["Coast","Reef","Kelp Forest","Seagrass"],"techRequired": "Sailing",
-		"uniques": [
+		"uniques": ["Common",
 			"Cannot be built on [{non-[Water resource]} {non-[Reef]} {Coast}] tiles",
 			"Pillaging this improvement yields approximately [+10 Gold]","Cannot be built on [Land] tiles",
 		],
@@ -168,7 +162,7 @@
 	},
 	{
 		"name": "Fishery","turnsToBuild": 3, "terrainsCanBeBuiltOn": ["Coast","Lakes","Kelp Forest","Seagrass"],"techRequired": "Maritime Industry",
-		"uniques": [
+		"uniques": ["Common",
 			"Can only be built on [Water] tiles <in tiles adjacent to [Water resource] tiles>","Cannot be built on [Water resource] tiles","Cannot be built on [Reef] tiles",
 			"[+1 Food] <for every adjacent [Fishing Boats]>","[+1 Production] <for every adjacent [Dredger]>",
 			"Pillaging this improvement yields approximately [+10 Gold]"
