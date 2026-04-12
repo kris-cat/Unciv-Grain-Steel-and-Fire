@@ -4,16 +4,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"uniques": [
-			"Can instantly construct a [Common] improvement <[3] times> <after which this unit is consumed> <before discovering [Feudalism]>",
-			"Can instantly construct a [Common] improvement <[5] times> <after which this unit is consumed> <after discovering [Feudalism]>",
-			"Can build [Road] improvements on tiles","Can build [Remove Road] improvements on tiles",
-			"Can build [Remove Taiga] improvements on tiles",
-			"Can build [Remove Coniferous Forest] improvements on tiles",
-			"Can build [Remove Deciduous Forest] improvements on tiles",
-			"Can build [Remove Savannah] improvements on tiles",
-			"Can build [Remove Rainforest] improvements on tiles",
-			"Can build [Remove Jungle] improvements on tiles",
-			"Can build [Remove Marsh] improvements on tiles",
+			"Can build [Land] improvements on tiles",
 			"Automation is a primary action"],
 		"cost": 70
 	},
