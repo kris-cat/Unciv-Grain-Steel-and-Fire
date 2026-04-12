@@ -4,8 +4,8 @@
 		"name": "11Population Milestone - 1","cost": 0,"maintenance": 0,
 		"uniques": [
 			"Provides [1] [Manpower]","Provides [1] [Sailors] <in [Coastal] cities>",
-			"Provides [1] [Housing]<in this city>","Provides [1] [Housing] <in [{non-[Fresh Water]} {Coastal}] tiles><in this city>","Provides [3] [Housing] <in [Fresh Water] tiles><in this city>",
-			"Provides [-1] [Housing]<in this city>","Provides [1] [Industry Slot]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
+			"Provides [2] [Housing]<in this city>","Provides [2] [Housing] <in [{non-[Fresh Water]} {Coastal}] tiles><in this city>","Provides [6] [Housing] <in [Fresh Water] tiles><in this city>",
+			"Provides [-2] [Housing]<in this city>","Provides [1] [Industry Slot]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
 			"Nullifies Growth [in this city] <when below [0] [Housing]>",
 			"[-10]% [Production] [in this city] <when below [-2] [Amenities]><hidden from users>","[-10]% [Science] [in this city] <when below [-2] [Amenities]><hidden from users>","[-10]% [Culture] [in this city] <when below [-2] [Amenities]><hidden from users>","[-10]% [Gold] [in this city] <when below [-2] [Amenities]><hidden from users>","[-10]% [Faith] [in this city] <when below [-2] [Amenities]><hidden from users>",
 			"[-10]% [Production] [in this city] <when below [0] [Amenities]><hidden from users>","[-10]% [Science] [in this city] <when below [0] [Amenities]><hidden from users>","[-10]% [Culture] [in this city] <when below [0] [Amenities]><hidden from users>","[-10]% [Gold] [in this city] <when below [0] [Amenities]><hidden from users>","[-10]% [Faith] [in this city] <when below [0] [Amenities]><hidden from users>",
@@ -17,98 +17,98 @@
 	{
 		"name": "12Population Milestone - 2","cost": 0,"maintenance": 0,
 		"uniques": [
-			"Provides [-1] [Housing]<in this city>",
+			"Provides [-2] [Housing]<in this city>",
 			"Only available <in cities with at least [2] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
 		]
 	},
 	{
 		"name": "13Population Milestone - 3","cost": 0,"maintenance": 0,
 		"uniques": [
-			"Provides [-1] [Housing]<in this city>","Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
+			"Provides [-2] [Housing]<in this city>","Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
 			"Only available <in cities with at least [3] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
 		]
 	},
 	{
 		"name": "14Population Milestone - 4","cost": 0,"maintenance": 0,
 		"uniques": [
-			"Provides [-1] [Housing]<in this city>",
+			"Provides [-2] [Housing]<in this city>",
 			"Only available <in cities with at least [4] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
 		]
 	},
 	{
 		"name": "15Population Milestone - 5","cost": 0,"maintenance": 0,
 		"uniques": [
-			"Provides [-1] [Housing]<in this city>","Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>",
+			"Provides [-2] [Housing]<in this city>","Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>",
 			"Only available <in cities with at least [5] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
 		]
 	},
 	{
 		"name": "16Population Milestone - 6","cost": 0,"maintenance": 0,
 		"uniques": [
-			"Provides [-1] [Housing]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
+			"Provides [-2] [Housing]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
 			"Only available <in cities with at least [6] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
 		]
 	},
 	{
 		"name": "17Population Milestone - 7","cost": 0,"maintenance": 0,
 		"uniques": [
-			"Provides [-1] [Housing]<in this city>","Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>",
+			"Provides [-2] [Housing]<in this city>","Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>",
 			"Only available <in cities with at least [7] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
 		]
 	},
 	{
 		"name": "18Population Milestone - 8","cost": 0,"maintenance": 0,
 		"uniques": [
-			"Provides [-1] [Housing]<in this city>",
+			"Provides [-2] [Housing]<in this city>",
 			"Only available <in cities with at least [8] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
 		]
 	},
 	{
 		"name": "19Population Milestone - 9","cost": 0,"maintenance": 0,
 		"uniques": [
-			"Provides [-1] [Housing]<in this city>","Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
+			"Provides [-2] [Housing]<in this city>","Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
 			"Only available <in cities with at least [9] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
 		]
 	},
 	{
 		"name": "20Population Milestone - 10","cost": 0,"maintenance": 0,
 		"uniques": [
-			"Provides [-1] [Housing]<in this city>",
+			"Provides [-2] [Housing]<in this city>",
 			"Only available <in cities with at least [10] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
 		]
 	},
 	{
 		"name": "21Population Milestone - 11","cost": 0,"maintenance": 0,
 		"uniques": [
-			"Provides [-1] [Housing]<in this city>","Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>",
+			"Provides [-2] [Housing]<in this city>","Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>",
 			"Only available <in cities with at least [11] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
 		]
 	},
 	{
 		"name": "22Population Milestone - 12","cost": 0,"maintenance": 0,
 		"uniques": [
-			"Provides [-1] [Housing]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
+			"Provides [-2] [Housing]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
 			"Only available <in cities with at least [12] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
 		]
 	},
 	{
 		"name": "23Population Milestone - 13","cost": 0,"maintenance": 0,
 		"uniques": [
-			"Provides [-1] [Housing]<in this city>","Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>",
+			"Provides [-2] [Housing]<in this city>","Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>",
 			"Only available <in cities with at least [13] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
 		]
 	},
 	{
 		"name": "24Population Milestone - 14","cost": 0,"maintenance": 0,
 		"uniques": [
-			"Provides [-1] [Housing]<in this city>",
+			"Provides [-2] [Housing]<in this city>",
 			"Only available <in cities with at least [14] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
 		]
 	},
 	{
 		"name": "25Population Milestone - 15","cost": 0,"maintenance": 0,
 		"uniques": [
-			"Provides [-1] [Housing]<in this city>","Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
+			"Provides [-2] [Housing]<in this city>","Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
 			"Only available <in cities with at least [15] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
 		]
 	},
@@ -129,7 +129,7 @@
 		"cost": 0,
 		"uniques": [
 			"Indicates the capital city",
-			"Provides [+1] [Amenities]<in this city>",
+			"Provides [+1] [Amenities]<in this city>","Provides [+2] [Housing]<in this city>",
 			"Provides [2] [Manpower]",
 			"Provides [2] [Sailors] <in [Coastal] cities>",
 			"Consumes [1] [Manpower] <for every [10] [Manpower]>",
@@ -161,7 +161,7 @@
 	},
 	{
 		"name": "University","science": 2,"maintenance": 1,"specialistSlots": {"Scientist": 2},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Library","requiredTech": "Education",
-		"uniques": ["Provides [+1] [Housing]<in this city>","[+1 Science] from every [Scientist] <in this city>",],
+		"uniques": ["Provides [+2] [Housing]<in this city>","[+1 Science] from every [Scientist] <in this city>",],
 	},
 	//Cultural Specialisation
 	{
@@ -176,7 +176,7 @@
 	//Maritime Specialisation
 	{
 		"name": "Lighthouse","food": 1,"gold": 2,"maintenance": 0,"specialistSlots": {"Captain": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Sailing",
-		"uniques": ["Must be next to [Water]","Provides [+2] [Housing]<in this city>","Connects trade routes over water","[+1 Food] from [Water] tiles [in this city]",],
+		"uniques": ["Must be next to [Water]","Provides [+4] [Housing]<in this city>","Connects trade routes over water","[+1 Food] from [Water] tiles [in this city]",],
 	},
 	//Landscaping Specialisation
 	{
@@ -201,7 +201,7 @@
 	//Militaristic Specialisation
 	{
 		"name": "Barracks","production": 1,"maintenance": 1,"specialistSlots": {"Commander": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Organised Warfare",
-		"uniques": ["Provides [+1] [Housing]<in this city>","[+15]% Production when constructing [{Land} {Military}] units [in this city]","Provides [1] [Manpower]","Provides [1] [Manpower] <in cities with at least [5] [Population]>",],
+		"uniques": ["Provides [+2] [Housing]<in this city>","[+15]% Production when constructing [{Land} {Military}] units [in this city]","Provides [1] [Manpower]","Provides [1] [Manpower] <in cities with at least [5] [Population]>",],
 	},
 	//Naval Specialisation
 	{
@@ -212,12 +212,12 @@
 	//Drinking Water Infrastructure
 	{
 		"name": "Cistern","food": 2,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Hydrology",
-		"uniques": ["Infrastructure Building","Must be next to [Fresh Water]","Provides [+2] [Housing]<in this city>",],
+		"uniques": ["Infrastructure Building","Must be next to [Fresh Water]","Provides [+4] [Housing]<in this city>",],
 	},
 	//Coastal Infrastructure
 	{
 		"name": "Waterfront","food": 2,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Maritime Industry",
-		"uniques": ["Infrastructure Building","Must be next to [Water]","Provides [+3] [Housing]<in this city>",],
+		"uniques": ["Infrastructure Building","Must be next to [Water]","Provides [+6] [Housing]<in this city>",],
 	},
 	//Mountain Infrastructure
 	{
@@ -240,7 +240,7 @@
 	},
 	{
 		"name": "Granary","food": 1,"maintenance": 1,"cost": 20,"hurryCostModifier": 25,"requiredTech": "Agriculture"
-		"uniques": ["Provides [+2] [Housing]<in this city>",]
+		"uniques": ["Provides [+4] [Housing]<in this city>",]
 	},
 	{
 		"name": "Barn","food": 1,"production": 1,"maintenance": 1,"hurryCostModifier": 25,"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle","Camels"],"requiredTech": "Animal Husbandry"
