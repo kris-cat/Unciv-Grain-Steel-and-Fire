@@ -184,4 +184,9 @@
 		"uniques": ["Can be built outside your borders", "Costs [1] [Gold] per turn"],
 		"shortcutKey": "R",
 	},
+	{
+		"name": "Remove Road",
+		"turnsToBuild": 2,
+		"uniques": ["Can be built outside your borders", "Excluded from map editor"]
+	},
 ]
