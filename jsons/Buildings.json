@@ -144,11 +144,11 @@
 	},
 	{
 		"name": "Monastery","faith": 2,"maintenance": 1,"specialistSlots": {"Priest": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Shrine","requiredTech": "Philosophy",
-		"uniques": ["[+1 Faith, +1 Food] from [Mountain] tiles [in this city]",],
+		"uniques": ["Only available <in cities without a [Temple]>","[+1 Faith, +1 Food] from [Mountain] tiles [in this city]",],
 	},
 	{
 		"name": "Temple","faith": 2,"maintenance": 1,"specialistSlots": {"Priest": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Shrine","requiredTech": "Philosophy",
-		"uniques": ["[+1 Faith] from every [Priest]",],
+		"uniques": ["Only available <in cities without a [Monastery]>","[+1 Faith] from every [Priest]",],
 	},
 	//Scientific Specialisation
 	{
@@ -186,7 +186,7 @@
 	//Conservation Specialisation
 	{
 		"name": "Grove","faith": 1,"science": 1,"maintenance": 1,"specialistSlots": {"Steward": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Archery",
-		"uniques": ["Only available <in cities without a [Garden]>",],
+		"uniques": ["Only available <in cities without a [Garden]>","Provides [+1] [Amenities]<in this city>",],
 	},
 	//Civic Specialisation
 	{
