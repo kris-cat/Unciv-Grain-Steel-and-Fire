@@ -5,7 +5,7 @@
 		"uniques": [
 			"Provides [1] [Manpower]","Provides [1] [Sailors] <in [Coastal] cities>",
 			"Provides [1] [Housing]<in this city>","Provides [1] [Housing] <in [{non-[Fresh Water]} {Coastal}] tiles><in this city>","Provides [3] [Housing] <in [Fresh Water] tiles><in this city>",
-			"Provides [-1] [Housing]<in this city>","Provides [1] [Industry Slot]<in this city>","Provides [1] [Specialisation Slot]<in this city>",,
+			"Provides [-1] [Housing]<in this city>","Provides [1] [Industry Slot]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
 			"Nullifies Growth [in this city] <when below [0] [Housing]>",
 			"[-10]% [Production] [in this city] <when below [-2] [Amenities]><hidden from users>","[-10]% [Science] [in this city] <when below [-2] [Amenities]><hidden from users>","[-10]% [Culture] [in this city] <when below [-2] [Amenities]><hidden from users>","[-10]% [Gold] [in this city] <when below [-2] [Amenities]><hidden from users>","[-10]% [Faith] [in this city] <when below [-2] [Amenities]><hidden from users>",
 			"[-10]% [Production] [in this city] <when below [0] [Amenities]><hidden from users>","[-10]% [Science] [in this city] <when below [0] [Amenities]><hidden from users>","[-10]% [Culture] [in this city] <when below [0] [Amenities]><hidden from users>","[-10]% [Gold] [in this city] <when below [0] [Amenities]><hidden from users>","[-10]% [Faith] [in this city] <when below [0] [Amenities]><hidden from users>",
@@ -54,6 +54,62 @@
 		"uniques": [
 			"Provides [-1] [Housing]<in this city>","Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>",
 			"Only available <in cities with at least [7] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "18Population Milestone - 8","cost": 0,"maintenance": 0,
+		"uniques": [
+			"Provides [-1] [Housing]<in this city>",
+			"Only available <in cities with at least [8] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "19Population Milestone - 9","cost": 0,"maintenance": 0,
+		"uniques": [
+			"Provides [-1] [Housing]<in this city>","Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
+			"Only available <in cities with at least [9] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "20Population Milestone - 10","cost": 0,"maintenance": 0,
+		"uniques": [
+			"Provides [-1] [Housing]<in this city>",
+			"Only available <in cities with at least [10] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "21Population Milestone - 11","cost": 0,"maintenance": 0,
+		"uniques": [
+			"Provides [-1] [Housing]<in this city>","Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>",
+			"Only available <in cities with at least [11] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "22Population Milestone - 12","cost": 0,"maintenance": 0,
+		"uniques": [
+			"Provides [-1] [Housing]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
+			"Only available <in cities with at least [12] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "23Population Milestone - 13","cost": 0,"maintenance": 0,
+		"uniques": [
+			"Provides [-1] [Housing]<in this city>","Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>",
+			"Only available <in cities with at least [13] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "24Population Milestone - 14","cost": 0,"maintenance": 0,
+		"uniques": [
+			"Provides [-1] [Housing]<in this city>",
+			"Only available <in cities with at least [14] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "25Population Milestone - 15","cost": 0,"maintenance": 0,
+		"uniques": [
+			"Provides [-1] [Housing]<in this city>","Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
+			"Only available <in cities with at least [15] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
 		]
 	},
 	//Export Consuming Buildings
