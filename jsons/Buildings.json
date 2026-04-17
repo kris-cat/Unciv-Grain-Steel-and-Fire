@@ -209,17 +209,32 @@
 		"uniques": ["Must be next to [Water]","[+15]% Production when constructing [{Water} {Military}] units [in this city]","Provides [1] [Sailors]","Provides [1] [Sailors] <in cities with at least [5] [Population]>","Provides [1] [Sailors] <in cities with at least [10] [Population]>",],
 	},
 	//Infrastructure Buildings
-	//Drinking Water Infrastructure
+	//Ancient Era Infrastructure Buildings
 	{
-		"name": "Cistern","food": 2,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Hydrology",
-		"uniques": ["Infrastructure Building","Must be next to [Fresh Water]","Provides [+4] [Housing]<in this city>",],
+		"name": "Fishing Dock","food": 1,"production": 1,"maintenance": 1,"hurryCostModifier": 25,"requiredTech": "Fishing"
+		"uniques": ["Infrastructure Building","Must be next to [Water]","Provides [+1] [Housing]<in this city>",]
 	},
-	//Coastal Infrastructure
 	{
-		"name": "Waterfront","food": 2,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Maritime Industry",
-		"uniques": ["Infrastructure Building","Must be next to [Water]","Provides [+6] [Housing]<in this city>",],
+		"name": "Granary","food": 1,"maintenance": 1,"cost": 20,"hurryCostModifier": 25,"requiredTech": "Agriculture"
+		"uniques": ["Infrastructure Building","Provides [+4] [Housing]<in this city>",]
 	},
-	//Mountain Infrastructure
+	{
+		"name": "Barn","food": 1,"production": 1,"maintenance": 1,"hurryCostModifier": 25,"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle","Camels"],"requiredTech": "Animal Husbandry"
+		"uniques": ["Infrastructure Building",]
+	},
+	{
+		"name": "Pallisade","cityStrength": 5,"cityHealth": 15,"hurryCostModifier": 25,"requiredTech": "Carpentry",
+		"uniques": ["Infrastructure Building","Destroyed when the city is captured"]
+	},
+	{
+		"name": "Irrigation Wheel","food": 1,"maintenance": 1,"cost": 20,"hurryCostModifier": 25,"requiredTech": "The Wheel"
+		"uniques": ["Infrastructure Building","Must be on [River]","[+1 Food] from [Wheat] tiles [in this city]","[+1 Food] from [Rice] tiles [in this city]","[+1 Food] from [Maize] tiles [in this city]",]
+	},
+	{
+		"name": "Walls","cityStrength": 10,"cityHealth": 25,"hurryCostModifier": 25,"requiredTech": "City Defences",
+		"uniques": ["Infrastructure Building","Destroyed when the city is captured"]
+	},
+	//Classical Era Infrastructure Buildings
 	{
 		"name": "Mining Tunnels","production": 2,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Construction",
 		"uniques": ["Infrastructure Building","Only available <in cities without a [Observatory]>","Must be next to [Mountain]","[+1 Production] from [Mountain] tiles [in this city]",],
@@ -228,34 +243,17 @@
 		"name": "Observatory","science": 2,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Construction",
 		"uniques": ["Infrastructure Building","Only available <in cities without a [Mining Tunnels]>","Must be next to [Mountain]","[+1 Science] from [Mountain] tiles [in this city]",],
 	},
-	//River Infrastructure
 	{
-		"name": "Waterway","gold": 4,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Construction",
+		"name": "Cistern","food": 2,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Hydrology",
+		"uniques": ["Infrastructure Building","Must be next to [Fresh Water]","Provides [+4] [Housing]<in this city>",],
+	},
+	{
+		"name": "Waterway","gold": 4,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Hydrology",
 		"uniques": ["Infrastructure Building","Must be on [River]",],
 	},
-	//Ancient Era Common Buildings
+	//Post-Classical Era Infrastructure
 	{
-		"name": "Fishing Dock","food": 1,"production": 1,"maintenance": 1,"hurryCostModifier": 25,"requiredTech": "Fishing"
-		"uniques": ["Must be next to [Water]","Provides [+1] [Housing]<in this city>",]
-	},
-	{
-		"name": "Granary","food": 1,"maintenance": 1,"cost": 20,"hurryCostModifier": 25,"requiredTech": "Agriculture"
-		"uniques": ["Provides [+4] [Housing]<in this city>",]
-	},
-	{
-		"name": "Barn","food": 1,"production": 1,"maintenance": 1,"hurryCostModifier": 25,"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle","Camels"],"requiredTech": "Animal Husbandry"
-		"uniques": []
-	},
-	{
-		"name": "Pallisade","cityStrength": 5,"cityHealth": 15,"hurryCostModifier": 25,"requiredTech": "Carpentry",
-		"uniques": ["Destroyed when the city is captured"]
-	},
-	{
-		"name": "Irrigation Wheel","food": 1,"maintenance": 1,"cost": 20,"hurryCostModifier": 25,"requiredTech": "The Wheel"
-		"uniques": ["Must be on [River]","[+1 Food] from [Wheat] tiles [in this city]","[+1 Food] from [Rice] tiles [in this city]","[+1 Food] from [Maize] tiles [in this city]",]
-	},
-	{
-		"name": "Walls","cityStrength": 10,"cityHealth": 25,"hurryCostModifier": 25,"requiredTech": "City Defences",
-		"uniques": ["Destroyed when the city is captured"]
+		"name": "Waterfront","food": 2,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Maritime Industry",
+		"uniques": ["Infrastructure Building","Must be next to [Water]","Provides [+6] [Housing]<in this city>",],
 	},
 ]
