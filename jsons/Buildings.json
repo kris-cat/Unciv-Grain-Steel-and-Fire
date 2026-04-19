@@ -112,11 +112,6 @@
 			"Only available <in cities with at least [15] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
 		]
 	},
-	//Export Consuming Buildings
-	{"name": "Import Commercial Goods","gold": 4,"cost": 0,"hurryCostModifier": 40,"uniques": ["Consumes [1] [Commercial Exports]","Consumes [1] [Trading Capacity]",],},
-	{"name": "Import Agricultural Goods","food": 2,"cost": 0,"hurryCostModifier": 40,"uniques": ["Consumes [1] [Agricultural Exports]","Consumes [1] [Trading Capacity]",],},
-	{"name": "Import Industrial Goods","production": 2,"cost": 0,"hurryCostModifier": 40,"uniques": ["Consumes [1] [Industrial Exports]","Consumes [1] [Trading Capacity]",],},
-	{"name": "Import Maritime Goods","food": 1,"production": 1,"cost": 0,"hurryCostModifier": 40,"uniques": ["Consumes [1] [Maritime Exports]","Consumes [1] [Trading Capacity]",],},
 	// Palace buildings
 	{
 		"name": "Palace",
