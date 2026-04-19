@@ -3,11 +3,6 @@
 	{"name": "Manpower", "resourceType": "Strategic","uniques": ["Doesn't generate naturally", "Cannot be traded", "Excluded from map editor","Stockpiled",]},
 	{"name": "Sailors", "resourceType": "Strategic","uniques": ["Doesn't generate naturally", "Cannot be traded", "Excluded from map editor","Stockpiled",]},
 	{"name": "Pilots", "resourceType": "Strategic","uniques": ["Doesn't generate naturally", "Cannot be traded", "Excluded from map editor","Stockpiled",]},
-	{"name": "Exports", "resourceType": "Strategic","uniques": ["Doesn't generate naturally","Excluded from map editor","Not shown on world screen",]},
-	{"name": "Commercial Exports", "resourceType": "Strategic","uniques": ["Doesn't generate naturally","Excluded from map editor",]},
-	{"name": "Agricultural Exports", "resourceType": "Strategic","uniques": ["Doesn't generate naturally","Excluded from map editor",]},
-	{"name": "Industrial Exports", "resourceType": "Strategic","uniques": ["Doesn't generate naturally", "Excluded from map editor",]},
-	{"name": "Maritime Exports", "resourceType": "Strategic","uniques": ["Doesn't generate naturally", "Excluded from map editor",]},
 	//Local City Resource-Mechanics
 	{"name": "Specialisation Slot", "resourceType": "Strategic","uniques": ["Doesn't generate naturally", "Cannot be traded", "City-level resource","Excluded from map editor",]},
     {"name": "Industry Slot", "resourceType": "Strategic","uniques": ["Doesn't generate naturally", "Cannot be traded", "City-level resource","Excluded from map editor",]},
