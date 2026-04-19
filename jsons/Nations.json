@@ -22,57 +22,6 @@
         "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
 	},
 	{
-		"name": "Aztecs","leaderName": "Montezuma I","adjective": ["Aztec"],"preferredVictoryType": "Domination",
-		"startIntroPart1": "",
-        "startIntroPart2": "",
-		"declaringWar": "","attacked": "",
-		"defeated": "","introduction": "",
-		"neutralHello": "","hateHello": "","tradeRequest": "",
-		"outerColor": [0, 235, 247],"innerColor": [141, 40, 30],
-		"uniqueName": "Aztec Nation Abilities",
-		"uniques": [
-		],
-		"cities": ["Tenochtitlan","Teotihuacan","Tlatelolco","Texcoco","Tlaxcala","Calixtlahuaca","Xochicalco","Tlacopan",
-			"Atzcapotzalco","Tzintzuntzan","Malinalco","Tula","Tamuin","Teayo","Cempoala","Chalco","Tlalmanalco",
-			"Ixtapaluca","Huexotla","Tepexpan","Tepetlaoxtoc","Chiconautla","Zitlaltepec","Coyotepec","Tequixquiac",
-			"Jilotzingo","Tlapanaloya","Tultitan","Ecatepec","Coatepec","Chalchiuites","Chiauhita","Chapultepec",
-			"Itzapalapa","Ayotzinco","Iztapam"],
-        "spyNames": ["Metztli", "Xitllali", "Chimalli", "Quauhtli", "Teyacapan", "Yaotl", "Coatl", "Huitzilin", "Itzli", "Tepin"]
-    },
-	{
-		"name": "Iroquois","leaderName": "Hiawatha","adjective": ["Iroquoise"],"preferredVictoryType": "Domination",
-		"startIntroPart1": "",
-        "startIntroPart2": "",
-		"declaringWar": "","attacked": "",
-		"defeated": "","introduction": "",
-		"neutralHello": "","hateHello": "","tradeRequest": "",
-		"outerColor": [85, 48, 141],"innerColor": [255, 255, 255],
-		"uniqueName": "Iroquoise Nation Abilities",
-		"uniques": [
-		],
-		"cities": ["Onondaga","Osininka","Grand River","Akwesasme","Buffalo Creek","Brantford","Montreal","Genesse River",
-			"Canandaigua Lake","Lake Simcoe","Salamanca","Gowanda","Cuba","Akron","Kanesatake","Ganienkeh","Cayuga Castle",
-			"Chondote","Canajoharie","Nedrow","Oneida Lake","Kanonwalohale","Green Bay","Southwold","Mohawk Valley",
-			"Schoharie","Bay of Quinte","Kanawale","Kanatsiokareke","Tyendinaga","Hahta"],
-        "spyNames": ["Onatah", "Oneida", "Oshadagea", "Otetiani", "Genesee", "Dadgayadoh", "Otwtiani", "Kateri", "Onondakai", "Honanyawus"]
-    },
-	{
-		"name": "Shoshone","leaderName": "Pocatello","adjective": ["Shoshone"],"preferredVictoryType": "Domination",
-		"startIntroPart1": "",
-        "startIntroPart2": "",
-		"declaringWar": "","attacked": "",
-		"defeated": "","introduction": "",
-		"neutralHello": "","hateHello": "","tradeRequest": "",
-		"outerColor": [73, 35, 0],"innerColor": [170, 237, 241],
-		"uniqueName": "Shoshone Nation Abilities",
-		"uniques": [
-		],
-		"cities": ["Monson Kahni","Te-Moak","Agaidika","Goshute","Pohokwi","Washakie","Timbisha","Hukandeka",
-			"Duckwater","Tukudeka","Kuchundeka","Yomba","Kamudeka","Ely","Yambadeka","Nampa","Bannock",
-			"Yahandeka","Tetadeka","Deheyaeka","Pengwideka","Winnemucca","Skull Valley","Big Pine","Duck Valley"],
-        "spyNames": ["Cameahwait", "Ondongarte", "Queenah", "Pugweenee", "Sacajawea", "Sagwitch", "Sanpitch", "Tetoharsky", "Tuziyammo", "Mugwayan"]
-    },
-	{
 		"name": "Inca","leaderName": "Pachacuti","adjective": ["Incan"],"startBias": ["Hill","Mountain"],"preferredVictoryType": "Domination",
 		"startIntroPart1": "King Pachacuti Sapa Inca, maker of the world and ruler of Tawantinsuyu and the Inca people, your loyal subjects greet you! In the beginning, the small state of Cusco already showed the Incans were promised for greatness. They won many wars against powerful enemies, relentlessly crushing any army that dared oppose them, and forged a mighty empire stretching from Ecuador to Chile, the greatest ever seen in pre-Columbian America. Not just undaunted soldiers, Inca people were accomplished builders and artists, their magnificient and unequalled culture still fascinating the world today.",
         "startIntroPart2": "O Emperor Pachacuti, honor your name of 'Earth Shaker'! Will you once again summon the power of the earth to unite all Incan people under the protection of Sapa Inca, the Son of the Sun? Will your new empire shine through the ages of history?",
@@ -92,54 +41,6 @@
 			"Huaras","Riobamba","Caxamalca","Sausa","Tambo Colorado","Huaca","Tumbes","Chan Chan","Sipan","Pachacamac",
 			"Llactapata","Pisac","Kuelap","Pajaten","Chucuito","Choquequirao"],
         "spyNames": ["Amaru", "Apichu", "Pariapichiu", "Puma", "Quenti", "Suyuntu", "Uturuncu", "Purutu", "Ozcollo"]
-    },
-	{
-		"name": "Brazil","leaderName": "Pedro II","adjective": ["Brazilian"],"preferredVictoryType": "Domination",
-		"startIntroPart1": "",
-        "startIntroPart2": "",
-		"declaringWar": "","attacked": "",
-		"defeated": "","introduction": "",
-		"neutralHello": "","hateHello": "","tradeRequest": "",
-		"outerColor": [30, 106, 57],"innerColor": [129, 212, 26],
-		"uniqueName": "Brazilian Nation Abilities",
-		"uniques": [
-		],
-		"cities": ["Rio De Janeiro","São Paulo","Salvador","Brasília","Fortaleza","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre","Belém","Goiânia","Guarulhos",
-		"Campinas","São Luis","Maceió","Duque de Caxias","Natal","Campo Grande","Teresina","Florianópolis","Nova Iguaçu","Sao Bernardo do Campo","João Pessoa","Osasco","Jaboatão dos Guararapes",
-		"São José dos Campos","Contagem","Uberlândia","Aracaju","Cuiabá","Feira de Santana","Juiz de Fora","Joinville","Macapá","Jundiaí"],
-        "spyNames": ["Antônio", "Bartolomeu", "Domingos", "Estêvão", "Fernão", "Francisco", "Pascoal", "Salvador", "Tomé", "Bianca"]
-    },
-	{
-		"name": "Gran Colombia","leaderName": "Simón Bolívar","adjective": ["Gran Colombian"],"preferredVictoryType": "Domination",
-		"startIntroPart1": "",
-        "startIntroPart2": "",
-		"declaringWar": "","attacked": "",
-		"defeated": "","introduction": "",
-		"neutralHello": "","hateHello": "","tradeRequest": "",
-		"outerColor": [255, 191, 0],"innerColor": [3, 67, 135],
-		"uniqueName": "Gran Colombian Nation Abilities",
-		"uniques": [
-		],
-		"cities": ["Bogotá","Caracas","Quito","Guayaquil","Maracaibo","Cartagena de Indias","Panamá","Popayán","Cuenca","Cumaná","Barinas","Cali","Valencia de Carabobo","Santa Marta","Loja",
-		"Angostura","Pasto","Nueva Barcelona","Neiva","Mérida","Portoviejo","Riobamba","Ibarra","Riohacha","Quibdó","Nueva Pamplona","Santiago de Veraguas","La Asunción","Achaguas","Honda",
-		"Socorro","Mompós","Trujillo","Santa Fe de Antioquia","Pore","Cúcuta","Mariquita","San Fernando de Apure","Medellín","Barquisimeto"],
-        "spyNames": ["Antônio", "Bartolomeu", "Domingos", "Estêvão", "Fernão", "Francisco", "Pascoal", "Salvador", "Tomé", "Bianca"]
-    },
-	{
-		"name": "Argentina","leaderName": "José de San Martín","adjective": ["Argentinian"],"preferredVictoryType": "Domination",
-		"startIntroPart1": "",
-        "startIntroPart2": "",
-		"declaringWar": "","attacked": "",
-		"defeated": "","introduction": "",
-		"neutralHello": "","hateHello": "","tradeRequest": "",
-		"outerColor": [0, 127, 254],"innerColor": [253, 218, 2],
-		"uniqueName": "Argentinian Nation Abilities",
-		"uniques": [
-		],
-		"cities": ["Bogotá","Caracas","Quito","Guayaquil","Maracaibo","Cartagena de Indias","Panamá","Popayán","Cuenca","Cumaná","Barinas","Cali","Valencia de Carabobo","Santa Marta","Loja",
-		"Angostura","Pasto","Nueva Barcelona","Neiva","Mérida","Portoviejo","Riobamba","Ibarra","Riohacha","Quibdó","Nueva Pamplona","Santiago de Veraguas","La Asunción","Achaguas","Honda",
-		"Socorro","Mompós","Trujillo","Santa Fe de Antioquia","Pore","Cúcuta","Mariquita","San Fernando de Apure","Medellín","Barquisimeto"],
-        "spyNames": ["Antônio", "Bartolomeu", "Domingos", "Estêvão", "Fernão", "Francisco", "Pascoal", "Salvador", "Tomé", "Bianca"]
     },
 	{
 		"name": "Rome","leaderName": "Augustus Caesar","adjective": ["Roman"],"startBias": ["Grassland"],"preferredVictoryType": "Domination",
@@ -162,59 +63,6 @@
 			"Flavius", "Regula", "Servius", "Lucia", "Cornelius", "Licina", "Canus", "Serpens", "Agrippa", "Brutus"
 		]
 	},
-	{
-		"name": "Russia","leaderName": "Peter the Great","adjective": ["Russian"],"preferredVictoryType": "Domination",
-		"startIntroPart1": "",
-        "startIntroPart2": "",
-		"declaringWar": "","attacked": "",
-		"defeated": "","introduction": "",
-		"neutralHello": "","hateHello": "","tradeRequest": "",
-		"outerColor": [253, 218, 2],"innerColor": [0, 0, 0],
-		"uniqueName": "Russian Nation Abilities",
-		"uniques": [
-		],
-		"cities": ["Moscow","St. Petersburg","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",
-			"Krasnoyarsk","Khabarovsk","Bryansk","Tver","Novosibirsk","Magadan","Murmansk","Irkutsk","Chita","Samara",
-			"Arkhangelsk","Chelyabinsk","Tobolsk","Vologda","Omsk","Astrakhan","Kursk","Saratov","Tula","Vladimir","Perm",
-			"Voronezh","Pskov","Starayarussa","Kostoma","Nizhniy Novgorod","Suzdal","Magnitogorsk"],
-        "spyNames": ["Alexei", "Lena", "Dmitry", "Anastasia", "Tatiana", "Boris", "Doktor Seriy", "Mikhail", "Natacha", "Zmeya"]
-    },
-	{
-		"name": "England","leaderName": "Victoria","adjective": ["English"],"preferredVictoryType": "Domination",
-		"startIntroPart1": "",
-        "startIntroPart2": "",
-		"declaringWar": "","attacked": "",
-		"defeated": "","introduction": "",
-		"neutralHello": "","hateHello": "","tradeRequest": "",
-		"outerColor": [191, 0, 65],"innerColor": [255, 255, 255],
-		"uniqueName": "English Nation Abilities",
-		"uniques": [
-		],
-		"cities": ["London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
-			"Dover","Brighton","Norwich","Leeds","Reading","Birmingham","Richmond","Exeter","Cambridge","Gloucester",
-			"Manchester","Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton",
-			"Sheffield","Salisbury","Colchester","Plymouth","Lancaster","Blackpool","Winchester","Hull"],
-        "spyNames": ["James", "Scarlett", "Mycroft", "Charlotte", "Gwendolyn", "Mr. Eks", "Dr. Grey", "Andrew", "Scott", "Anne"]
-    },
-	{
-		"name": "Germany","leaderName": "Frederick Barbarossa","adjective": ["German"],"preferredVictoryType": "Domination",
-		"startIntroPart1": "",
-        "startIntroPart2": "",
-		"declaringWar": "","attacked": "",
-		"defeated": "","introduction": "",
-		"neutralHello": "","hateHello": "","tradeRequest": "",
-		"outerColor": [178, 178, 178],"innerColor": [0, 0, 0],
-		"uniqueName": "German Nation Abilities",
-		"uniques": [
-		],
-		"cities": ["Berlin","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Düsseldorf","Bremen",
-			"Hannover","Duisburg","Leipzig","Dresden","Bonn","Bochum","Bielefeld","Karlsruhe","Gelsenkirchen","Wiesbaden",
-			"Münster","Rostock","Chemnitz","Braunschweig","Halle","Mönchengladbach","Kiel","Wuppertal","Freiburg","Hagen",
-			"Erfurt","Kaiserslautern","Kassel","Oberhausen","Hamm","Saarbrücken","Krefeld","Pirmasens","Potsdam","Solingen",
-			"Osnabrück","Ludwigshafen","Leverkusen","Oldenburg","Neuss","Mülheim","Darmstadt","Herne","Würzburg",
-			"Recklinghausen","Göttingen","Wolfsburg","Koblenz","Hildesheim","Erlangen"],
-        "spyNames": ["Johann", "Marlene", "Wilhelm", "Eva", "Heinz", "Horst", "Carl", "Viper", "Albrecht", "Anton"]
-    },
     {
 		"name": "China","leaderName": "Qin Shi Huang","adjective": ["Chinese"],"startBias": ["Grassland","Subtropical"],"preferredVictoryType": "Domination",
         "startIntroPart1": "Heaven itself bends before your beauty, Empress Wu Zetian, ruler of eternal China! You lead one of the oldest and greatest civilization of humanity. In your time, China stood at the forefront of science and technology, bringing the world such contributions as gunpowder, the printing press, and the world of Confucius, and this, long before the rest of the world was mature enough to make the same discoveries!",
@@ -235,75 +83,6 @@
 			"Li", "Chen", "Zhang", "Liu", "Yang", "Huang", "Zhao", "Wu", "Zhou", "Sun"
 		]
 	},
-	{
-		"name": "India","leaderName": "Chandragupta","adjective": ["Indian"],"preferredVictoryType": "Domination",
-		"startIntroPart1": "",
-        "startIntroPart2": "",
-		"declaringWar": "","attacked": "",
-		"defeated": "","introduction": "",
-		"neutralHello": "","hateHello": "","tradeRequest": "",
-		"outerColor": [91, 39, 125],"innerColor": [22, 130, 83],
-		"uniqueName": "Indian Nation Abilities",
-		"uniques": [
-		],
-		"cities": ["Delhi","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore","Bangalore","Hyderabad","Madurai","Ahmedabad",
-			"Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli","Thanjavur",
-			"Bodhgaya","Kushinagar","Amaravati","Gaur","Gwalior","Jaipur","Karachi"],
-        "spyNames": ["Ashok", "Shanx", "Hormis", "Sanjeev", "Ananda", "Rani", "Parvati", "Mukta", "Karishma", "Jyotsna"]
-    },
-	{
-		"name": "Persia","leaderName": "Cyrus the Great","adjective": ["Persian"],"preferredVictoryType": "Domination",
-		"startIntroPart1": "",
-        "startIntroPart2": "",
-		"declaringWar": "","attacked": "",
-		"defeated": "","introduction": "",
-		"neutralHello": "","hateHello": "","tradeRequest": "",
-		"outerColor": [210, 131, 236],"innerColor": [191, 0, 65],
-		"uniqueName": "Persian Nation Abilities",
-		"uniques": [
-		],
-		"cities": ["Persepolis","Parsagadae","Susa","Ecbatana","Tarsus","Gordium","Bactra","Sardis","Ergili","Dariushkabir",
-			"Ghulaman","Zohak","Istakhr","Jinjan","Borazjan","Herat","Dakyanus","Bampur","Turengtepe","Rey","Shiraz",
-			"Thuspa","Hasanlu","Gabae","Merv","Behistun","Kandahar","Altintepe","Bunyan","Charsadda","Uratyube",
-			"Dura Europos","Aleppo","Qatna","Kabul","Capisa","Kyreskhata","Marakanda","Peshawar","Van","Pteira","Arshada",
-			"Artakaona","Aspabota","Autiyara","Bagastana","Baxtri","Darmasa","Daphnai","Drapsaka","Eion","Gandutava",
-			"Gaugamela","Harmozeia","Ekatompylos","Izata","Kampada","Kapisa","Karmana","Kounaxa","Kuganaka","Nautaka",
-			"Paishiyauvada","Patigrbana","Phrada"],
-        "spyNames": ["Azi", "Dabir", "Firuz", "Gaspar", "Shahzad", "Aga", "Marjane", "Peri", "Sartaj ", "Yasmin"]
-    },
-	{
-		"name": "Indonesia","leaderName": "Dyah Gitarja","adjective": ["Indonesian"],"preferredVictoryType": "Domination",
-		"startIntroPart1": "",
-        "startIntroPart2": "",
-		"declaringWar": "","attacked": "",
-		"defeated": "","introduction": "",
-		"neutralHello": "","hateHello": "","tradeRequest": "",
-		"outerColor": [134, 17, 65],"innerColor": [5, 207, 217],
-		"uniqueName": "Indonesian Nation Abilities",
-		"uniques": [
-		],
-		"cities": ["Delhi","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore","Bangalore","Hyderabad","Madurai","Ahmedabad",
-			"Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli","Thanjavur",
-			"Bodhgaya","Kushinagar","Amaravati","Gaur","Gwalior","Jaipur","Karachi"],
-        "spyNames": ["Ashok", "Shanx", "Hormis", "Sanjeev", "Ananda", "Rani", "Parvati", "Mukta", "Karishma", "Jyotsna"]
-    },
-	{
-		"name": "Japan","leaderName": "Oda Nobunaga","adjective": ["Japanese"],"preferredVictoryType": "Domination",
-		"startIntroPart1": "",
-        "startIntroPart2": "",
-		"declaringWar": "","attacked": "",
-		"defeated": "","introduction": "",
-		"neutralHello": "","hateHello": "","tradeRequest": "",
-		"outerColor": [255, 255, 255],"innerColor": [184, 0, 0],
-		"uniqueName": "Japanese Nation Abilities",
-		"uniques": [
-		],
-		"cities": ["Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
-			"Shimonoseki","Matsuyama","Sapporo","Hakodate","Ise","Toyama","Fukushima","Suo","Bizen","Echizen",
-			"Izumi","Omi","Echigo","Kozuke","Sado","Kobe","Nagano","Hiroshima","Takayama","Akita","Fukuoka","Aomori",
-			"Kamakura","Kochi","Naha","Sendai","Gifu","Yamaguchi","Ota","Tottori"],
-        "spyNames": ["Akaishi", "Oki", "Hattori", "Morozumi", "Momochi", "Kawashima", "Orin", "Sakanishi", "Kaede", "Mochizuki"]
-    },
 	{
 		"name": "Arabia","leaderName": "Saladin","adjective": ["Arabian"],"preferredVictoryType": "Domination",
 		"startIntroPart1": "",
@@ -341,42 +120,6 @@
 		]
     },
 	{
-		"name": "Ethiopia","leaderName": "Menelik II","adjective": ["Ethiopian"],"preferredVictoryType": "Domination",
-		"startIntroPart1": "",
-        "startIntroPart2": "",
-		"declaringWar": "","attacked": "",
-		"defeated": "","introduction": "",
-		"neutralHello": "","hateHello": "","tradeRequest": "",
-		"outerColor": [40, 71, 31],"innerColor": [241, 13, 12],
-		"uniqueName": "Ethiopian Nation Abilities",
-		"uniques": [
-		],
-		"cities": ["Addis Ababa","Harar","Adwa","Lalibela","Gondar","Axum","Dire Dawa","Bahir Dar","Adama",
-			"Mek'ele","Awasa","Jimma","Jijiga","Dessie","Debre Berhan","Shashamane","Debre Zeyit","Sodo","Hosaena",
-			"Nekemte","Asella","Dila","Adigrat","Debre Markos","Kombolcha","Debre Tabor","Sebeta",
-			"Shire","Ambo","Negele Arsi","Gambela","Ziway","Weldiya"],
-        "spyNames": ["Mulu Ken", "Wendimu", "Li'ol", "Demeke", "Mulu Alem", "Abebech", "Zema", "Mihret", "Kebedech", "Alemnesh"]
-    },
-	{
-		"name": "Mali","leaderName": "Mansa Musa","adjective": ["Malian"],"preferredVictoryType": "Domination",
-		"startIntroPart1": "",
-        "startIntroPart2": "",
-		"declaringWar": "","attacked": "",
-		"defeated": "","introduction": "",
-		"neutralHello": "","hateHello": "","tradeRequest": "",
-		"outerColor": [141, 30, 40],"innerColor": [255, 191, 0],
-		"uniqueName": "Malian Nation Abilities",
-		"uniques": [
-		],
-		"cities": [
-			"Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Pi-Ramesses","Giza","Byblos","Akhetaten","Hieraconpolis","Abydos","Asyut","Avaris","Lisht","Buto","Edfu","Pithom","Busiris","Kahun","Athribis",
-			"Mendes","Elashmunein","Tanis","Bubastis","Oryx","Sebennytus","Akhmin","Karnak","Luxor","El Kab","Armant","Balat","Ellahun","Hawara","Dashur","Damanhur","Abusir","Herakleopolis","Akoris",
-			"Benihasan","Badari","Hermopolis","Amrah","Koptos","Ombos","Naqada","Semna","Soleb"],
-        "spyNames": [
-			"Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"
-		]
-    },
-	{
 		"name": "Swahili","leaderName": "Mansa Musa","adjective": ["Swahili"],"preferredVictoryType": "Domination",
 		"startIntroPart1": "",
         "startIntroPart2": "",
@@ -391,42 +134,6 @@
 			"Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Pi-Ramesses","Giza","Byblos","Akhetaten","Hieraconpolis","Abydos","Asyut","Avaris","Lisht","Buto","Edfu","Pithom","Busiris","Kahun","Athribis",
 			"Mendes","Elashmunein","Tanis","Bubastis","Oryx","Sebennytus","Akhmin","Karnak","Luxor","El Kab","Armant","Balat","Ellahun","Hawara","Dashur","Damanhur","Abusir","Herakleopolis","Akoris",
 			"Benihasan","Badari","Hermopolis","Amrah","Koptos","Ombos","Naqada","Semna","Soleb"],
-        "spyNames": [
-			"Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"
-		]
-    },
-	{
-		"name": "Kongo","leaderName": "Mansa Musa","adjective": ["Kongolese"],"preferredVictoryType": "Domination",
-		"startIntroPart1": "",
-        "startIntroPart2": "",
-		"declaringWar": "","attacked": "",
-		"defeated": "","introduction": "",
-		"neutralHello": "","hateHello": "","tradeRequest": "",
-		"outerColor": [253, 218, 2],"innerColor": [255, 0, 0],
-		"uniqueName": "Kongolese Nation Abilities",
-		"uniques": [
-		],
-		"cities": [
-			"Thebes","Memphis","Heliopolis","Elephantine","Alexandria","Pi-Ramesses","Giza","Byblos","Akhetaten","Hieraconpolis","Abydos","Asyut","Avaris","Lisht","Buto","Edfu","Pithom","Busiris","Kahun","Athribis",
-			"Mendes","Elashmunein","Tanis","Bubastis","Oryx","Sebennytus","Akhmin","Karnak","Luxor","El Kab","Armant","Balat","Ellahun","Hawara","Dashur","Damanhur","Abusir","Herakleopolis","Akoris",
-			"Benihasan","Badari","Hermopolis","Amrah","Koptos","Ombos","Naqada","Semna","Soleb"],
-        "spyNames": [
-			"Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"
-		]
-    },
-	{
-		"name": "Zulus","leaderName": "Mansa Musa","adjective": ["Zulu"],"preferredVictoryType": "Domination",
-		"startIntroPart1": "",
-        "startIntroPart2": "",
-		"declaringWar": "","attacked": "",
-		"defeated": "","introduction": "",
-		"neutralHello": "","hateHello": "","tradeRequest": "",
-		"outerColor": [123, 61, 0],"innerColor": [255, 219, 182],
-		"uniqueName": "Zulu Nation Abilities",
-		"uniques": [
-		],
-		"cities": [
-			"Ulundi","Umgungundlovu","Nobamba","Bulawayo","Kwadukuza","Nongoma","Ondini","Nodwengu","Ndondakusuka","Babanango","Khangela","Kwahlomendlini","Hlobane"],
         "spyNames": [
 			"Refaat", "Heba", "Salah", "Ahmed", "Zakaria", "Bastet", "Ma'at", "Nebhet", "Tefenet", "Neuth"
 		]
