@@ -76,7 +76,7 @@
 				"name": "Trade","row": 6,"prerequisites": ["Animal Husbandry","The Wheel"],"uniques": ["Enables establishment of embassies"],
 			},
 			{
-				"name": "Milling","row": 8,"prerequisites": ["Animal Husbandry","The Wheel","Masonry"],
+				"name": "Milling","row": 7,"prerequisites": ["Animal Husbandry","The Wheel","Masonry"],
 			},
 			{
 				"name": "City Defences","row": 8,"prerequisites": ["Masonry"],
