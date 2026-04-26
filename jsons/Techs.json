@@ -94,7 +94,7 @@
 				"name": "Craftsmanship","row": 6,"prerequisites": ["Irrigation","Trade",],
 			},
 			{
-				"name": "Organised Warfare","row": 8,"prerequisites": ["Metal Casting","City Defences"],
+				"name": "Organised Warfare","row": 8,"prerequisites": ["Trade","Metal Casting","City Defences"],
 			},
 		]
     },
