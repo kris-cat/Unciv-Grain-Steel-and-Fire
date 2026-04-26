@@ -4,11 +4,19 @@
         "columnNumber": 0,"era": "Ancient Era","techCost": 15,"buildingCost": 20,"wonderCost": 185,"techs": 
         [
             {
+                "name": "Agriculture","row": 5,
+				"uniques": ["Starting tech"]
+			},
+	}
+	{
+        "columnNumber": 1,"era": "Ancient Era","techCost": 15,"buildingCost": 20,"wonderCost": 185,"techs": 
+        [
+            {
                 "name": "Fishing","row": 1,
 				"uniques": ["Enables embarkation for land units"]
 			},
             {
-                "name": "Agriculture","row": 3,
+                "name": "Food Storage","row": 3,
 				"uniques": []
 			},
             {
@@ -26,7 +34,7 @@
 		]
     },
 	{
-        "columnNumber": 1,"era": "Ancient Era","techCost": 25,"buildingCost": 30,"wonderCost": 185,"techs": 
+        "columnNumber": 2,"era": "Ancient Era","techCost": 25,"buildingCost": 30,"wonderCost": 185,"techs": 
         [
 			{
 				"name": "Sailing","row": 1,"prerequisites": ["Fishing"],
@@ -38,7 +46,7 @@
 				"name": "Animal Husbandry","row": 4,"prerequisites": ["Agriculture","Hunting"],
 			},
 			{
-				"name": "Archery","row": 6,"prerequisites": ["Hunting","Carpentry"],
+				"name": "The Wheel","row": 6,"prerequisites": ["Hunting","Carpentry"],
 			},
 			{
 				"name": "Masonry","row": 8,"prerequisites": ["Carpentry","Mining"],
@@ -49,7 +57,7 @@
 		]
     },
 	{
-    	"columnNumber": 2,"era": "Ancient Era","techCost": 35,"buildingCost": 40,"wonderCost": 185,"techs": 
+    	"columnNumber": 3,"era": "Ancient Era","techCost": 35,"buildingCost": 40,"wonderCost": 185,"techs": 
         [
             {
 				"name": "Calendar","row": 1,"prerequisites": ["Sailing","Pottery"],
@@ -58,13 +66,19 @@
 				"name": "Writing","row": 2,"prerequisites": ["Pottery",],
 			},
             {
-				"name": "Irrigation","row": 3,"prerequisites": ["Agriculture"],
+				"name": "Irrigation","row": 3,"prerequisites": ["Pottery","Animal Husbandry","The Wheel"],
 			},
 			{
-				"name": "The Wheel","row": 4,"prerequisites": ["Animal Husbandry"],"uniques": ["Enables establishment of embassies"],
+				"name": "Carts and Wagons","row": 4,"prerequisites": ["Animal Husbandry","The Wheel"],
 			},
 			{
-				"name": "City Defences","row": 7,"prerequisites": ["Archery","Masonry"],
+				"name": "Trade","row": 6,"prerequisites": ["Animal Husbandry","The Wheel"],"uniques": ["Enables establishment of embassies"],
+			},
+			{
+				"name": "Milling","row": 8,"prerequisites": ["Animal Husbandry","The Wheel","Masonry"],
+			},
+			{
+				"name": "City Defences","row": 8,"prerequisites": ["Masonry"],
 			},
 			{
 				"name": "Metal Casting","row": 9,"prerequisites": ["Pottery","Bronze Working"],
@@ -72,25 +86,25 @@
 		]
     },
 	{
-    	"columnNumber": 3,"era": "Ancient Era","techCost": 50,"buildingCost": 50,"wonderCost": 185,"techs": 
+    	"columnNumber": 4,"era": "Ancient Era","techCost": 50,"buildingCost": 50,"wonderCost": 185,"techs": 
         [
             {
-				"name": "State Management","row": 2,"prerequisites": ["Writing","Calendar",],
+				"name": "State Management","row": 2,"prerequisites": ["Calendar","Writing","Irrigation"],
 			},
 			{
-				"name": "Currency","row": 4,"prerequisites": ["Irrigation","The Wheel"],
+				"name": "Currency","row": 4,"prerequisites": ["Irrigation","Carts and Wagons","Trade"],
 				"uniques": ["Provides [1] [Trading Capacity]",]
 			},
             {
-				"name": "Craftsmanship","row": 6,"prerequisites": ["The Wheel","City Defences"],
+				"name": "Craftsmanship","row": 6,"prerequisites": ["Carts and Wagons","The Wheel","City Defences"],
 			},
 			{
-				"name": "Organised Warfare","row": 8,"prerequisites": ["Metal Casting","City Defences"],
+				"name": "Organised Warfare","row": 8,"prerequisites": ["Milling","Metal Casting","City Defences"],
 			},
 		]
     },
 	{
-    	"columnNumber": 4,"era": "Classical Era","techCost": 65,"buildingCost": 60,"wonderCost": 185,"techs": 
+    	"columnNumber": 5,"era": "Classical Era","techCost": 65,"buildingCost": 60,"wonderCost": 185,"techs": 
         [
             {
 				"name": "Philosophy","row": 1,"prerequisites": ["State Management",],"uniques": ["Enables Defensive Pacts"],
@@ -110,7 +124,7 @@
 		]
     },
 	{
-    	"columnNumber": 5,"era": "Classical Era","techCost": 80,"buildingCost": 70,"wonderCost": 185,"techs": 
+    	"columnNumber": 6,"era": "Classical Era","techCost": 80,"buildingCost": 70,"wonderCost": 185,"techs": 
         [
             {
 				"name": "Code of Laws","row": 1,"prerequisites": ["Philosophy",],
@@ -130,7 +144,7 @@
 		]
     },
 	{
-    	"columnNumber": 6,"era": "Classical Era","techCost": 95,"buildingCost": 80,"wonderCost": 185,"techs": 
+    	"columnNumber": 7,"era": "Classical Era","techCost": 95,"buildingCost": 80,"wonderCost": 185,"techs": 
         [
 			{
 				"name": "Drama and Poetry","row": 1,"prerequisites": ["Code of Laws","Aesthetics"],
@@ -150,7 +164,7 @@
 		]
     },
 	{
-    	"columnNumber": 7,"era": "Classical Era","techCost": 115,"buildingCost": 100,"wonderCost": 185,"techs": 
+    	"columnNumber": 8,"era": "Classical Era","techCost": 115,"buildingCost": 100,"wonderCost": 185,"techs": 
         [
 			{
 				"name": "Theology","row": 2,"prerequisites": ["Drama and Poetry",],
@@ -167,7 +181,7 @@
 		]
     },
 	{
-    	"columnNumber": 8,"era": "Post-Classical Era","techCost": 135,"buildingCost": 100,"wonderCost": 185,"techs": 
+    	"columnNumber": 9,"era": "Post-Classical Era","techCost": 135,"buildingCost": 100,"wonderCost": 185,"techs": 
         [
 			{
 				"name": "Buttress","row": 1,"prerequisites": ["Theology","Machinery"],
@@ -187,7 +201,7 @@
 		]
     },
 	{
-    	"columnNumber": 9,"era": "Post-Classical Era","techCost": 135,"buildingCost": 100,"wonderCost": 185,"techs": 
+    	"columnNumber": 10,"era": "Post-Classical Era","techCost": 135,"buildingCost": 100,"wonderCost": 185,"techs": 
         [
 			{
 				"name": "Education","row": 3,"prerequisites": ["Buttress","Guilds","Compass"],"uniques": ["Enables Research agreements"],
