@@ -13,23 +13,23 @@
         "columnNumber": 1,"era": "Ancient Era","techCost": 15,"buildingCost": 20,"wonderCost": 185,"techs": 
         [
             {
-                "name": "Fishing","row": 1,
+                "name": "Fishing","row": 1,"prerequisites": ["Agriculture"],
 				"uniques": ["Enables embarkation for land units"]
 			},
             {
-                "name": "Food Storage","row": 3,
+                "name": "Food Storage","row": 3,"prerequisites": ["Agriculture"],
 				"uniques": []
 			},
             {
-                "name": "Hunting","row":5,
+                "name": "Hunting","row":5,"prerequisites": ["Agriculture"],
 				"uniques": []
 			},
             {
-                "name": "Carpentry","row": 7,
+                "name": "Carpentry","row": 7,"prerequisites": ["Agriculture"],
 				"uniques": []
 			},
             {
-                "name": "Mining","row": 9,
+                "name": "Mining","row": 9,"prerequisites": ["Agriculture"],
 				"uniques": []
 			},
 		]
@@ -41,10 +41,10 @@
 				"name": "Sailing","row": 1,"prerequisites": ["Fishing"],
 			},
             {
-				"name": "Pottery","row": 2,"prerequisites": ["Fishing","Agriculture"],
+				"name": "Pottery","row": 2,"prerequisites": ["Fishing","Food Storage"],
 			},
             {
-				"name": "Animal Husbandry","row": 4,"prerequisites": ["Agriculture","Hunting"],
+				"name": "Animal Husbandry","row": 4,"prerequisites": ["Food Storage","Hunting"],
 			},
 			{
 				"name": "The Wheel","row": 6,"prerequisites": ["Hunting","Carpentry"],
