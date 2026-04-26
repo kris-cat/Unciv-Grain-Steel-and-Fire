@@ -97,7 +97,7 @@
 				"uniques": ["Provides [1] [Trading Capacity]",]
 			},
             {
-				"name": "Craftsmanship","row": 6,"prerequisites": ["Carts and Wagons","The Wheel","City Defences"],
+				"name": "Craftsmanship","row": 6,"prerequisites": ["Carts and Wagons","Trade","City Defences"],
 			},
 			{
 				"name": "Organised Warfare","row": 8,"prerequisites": ["Milling","Metal Casting","City Defences"],
