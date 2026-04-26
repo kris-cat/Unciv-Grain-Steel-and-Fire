@@ -180,7 +180,7 @@
 	},
 	//Conservation Specialisation
 	{
-		"name": "Grove","faith": 1,"science": 1,"maintenance": 1,"specialistSlots": {"Steward": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Archery",
+		"name": "Grove","faith": 1,"science": 1,"maintenance": 1,"specialistSlots": {"Steward": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Hunting",
 		"uniques": ["Only available <in cities without a [Garden]>","Provides [+1] [Amenities]<in this city>",],
 	},
 	//Civic Specialisation
