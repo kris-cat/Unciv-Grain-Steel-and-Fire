@@ -67,16 +67,10 @@
 				"name": "Writing","row": 2,"prerequisites": ["Pottery",],
 			},
             {
-				"name": "Irrigation","row": 3,"prerequisites": ["Pottery","Animal Husbandry","The Wheel"],
-			},
-			{
-				"name": "Carts and Wagons","row": 4,"prerequisites": ["Animal Husbandry","The Wheel"],
+				"name": "Irrigation","row": 4,"prerequisites": ["Pottery","Animal Husbandry","The Wheel"],
 			},
 			{
 				"name": "Trade","row": 6,"prerequisites": ["Animal Husbandry","The Wheel"],"uniques": ["Enables establishment of embassies"],
-			},
-			{
-				"name": "Milling","row": 7,"prerequisites": ["Animal Husbandry","The Wheel","Masonry"],
 			},
 			{
 				"name": "City Defences","row": 8,"prerequisites": ["Masonry"],
@@ -93,14 +87,14 @@
 				"name": "State Management","row": 2,"prerequisites": ["Calendar","Writing","Irrigation"],
 			},
 			{
-				"name": "Currency","row": 4,"prerequisites": ["Irrigation","Carts and Wagons","Trade"],
+				"name": "Currency","row": 4,"prerequisites": ["Irrigation","Trade"],
 				"uniques": ["Provides [1] [Trading Capacity]",]
 			},
             {
-				"name": "Craftsmanship","row": 6,"prerequisites": ["Carts and Wagons","Trade","Milling"],
+				"name": "Craftsmanship","row": 6,"prerequisites": ["Irrigation","Trade",],
 			},
 			{
-				"name": "Organised Warfare","row": 8,"prerequisites": ["Milling","Metal Casting","City Defences"],
+				"name": "Organised Warfare","row": 8,"prerequisites": ["Metal Casting","City Defences"],
 			},
 		]
     },
