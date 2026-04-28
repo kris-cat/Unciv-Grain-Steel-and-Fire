@@ -13,12 +13,12 @@
     {
         "name": "Desert Folklore",
         "type": "Pantheon",
-        "uniques": ["[+1 Production, +1 Faith] from every [Arid]"]
+        "uniques": ["[+1 Production, +1 Faith] from every [{Featureless} {Arid}]"]
     },
     {
         "name": "Dance of the Aurora",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from every [Subarctic]","[+1 Faith] from every [Snow]"]
+        "uniques": ["[+1 Production, +1 Faith] from every [{Featureless} {Subarctic}]","[+1 Production, +1 Faith] from every [{Featureless} {Snow}]"]
     },
     {
         "name": "Earth Goddess",
