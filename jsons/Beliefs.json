@@ -23,7 +23,7 @@
     {
         "name": "Earth Goddess",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from every [{unimproved} {Hill} {Land} {Vegetation}]","[+1 Faith] from every [{unimproved} {Coastal} {Land} {Vegetation}]"]
+        "uniques": ["[+1 Food, +1 Faith] from every [{unimproved} {Hill} {Land} {Vegetation}]","[+1 Faith] from every [{unimproved} {Coastal} {Land} {Vegetation}]"]
     },
     {
         "name": "God of the Sea",
