@@ -33,22 +33,22 @@
     {
         "name": "Goddess of the Hunt",
         "type": "Pantheon",
-        "uniques": ["[+1 Food, +1 Faith] from every [{improved} {Camp}]"]
+        "uniques": ["[+1 Food, +1 Faith] from every [{resource} {Camp}]"]
     },
     {
         "name": "God of Craftsmen",
         "type": "Pantheon",
-        "uniques": ["[+1 Production, +1 Faith] from every [{improved} {Mine}]"]
+        "uniques": ["[+1 Production, +1 Faith] from every [{resource} {Mine}]"]
     },
     {
         "name": "God of Open Sky",
         "type": "Pantheon",
-        "uniques": ["[+1 Culture, +1 Faith] from every [{improved} {Pasture}]"]
+        "uniques": ["[+1 Culture, +1 Faith] from every [{resource} {Pasture}]"]
     },
     {
         "name": "God of Festivals",
         "type": "Pantheon",
-        "uniques": ["[+1 Culture, +1 Faith] from every [{improved} {Plantation}]"]
+        "uniques": ["[+1 Culture, +1 Faith] from every [{resource} {Plantation}]"]
     },
     //Follower Beliefs
     {
