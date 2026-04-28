@@ -17,11 +17,11 @@
 				"uniques": ["Enables embarkation for land units"]
 			},
             {
-                "name": "Food Storage","row": 3,"prerequisites": ["Agriculture"],
+                "name": "Pottery","row": 3,"prerequisites": ["Agriculture"],
 				"uniques": []
 			},
             {
-                "name": "Hunting","row":5,"prerequisites": ["Agriculture"],
+                "name": "Animal Husbandry","row":5,"prerequisites": ["Agriculture"],
 				"uniques": []
 			},
             {
@@ -41,13 +41,13 @@
 				"name": "Sailing","row": 1,"prerequisites": ["Fishing"],
 			},
             {
-				"name": "Pottery","row": 2,"prerequisites": ["Fishing","Food Storage"],
+				"name": "Writing","row": 3,"prerequisites": ["Pottery"],
 			},
             {
-				"name": "Animal Husbandry","row": 4,"prerequisites": ["Food Storage","Hunting"],
+				"name": "Irrigation","row": 4,"prerequisites": ["Pottery","Animal Husbandry"],
 			},
 			{
-				"name": "The Wheel","row": 6,"prerequisites": ["Hunting","Carpentry"],
+				"name": "The Wheel","row": 6,"prerequisites": ["Animal Husbandry","Carpentry"],
 			},
 			{
 				"name": "Masonry","row": 8,"prerequisites": ["Carpentry","Mining"],
@@ -58,80 +58,59 @@
 		]
     },
 	{
-    	"columnNumber": 3,"era": "Ancient Era","techCost": 35,"buildingCost": 40,"wonderCost": 185,"techs": 
+        "columnNumber": 3,"era": "Ancient Era","techCost": 40,"buildingCost": 30,"wonderCost": 185,"techs": 
         [
-            {
-				"name": "Calendar","row": 1,"prerequisites": ["Sailing","Pottery"],
-			},
 			{
-				"name": "Writing","row": 2,"prerequisites": ["Pottery",],
+				"name": "Calendar","row": 2,"prerequisites": ["Fishing","Writing"],
 			},
             {
-				"name": "Irrigation","row": 4,"prerequisites": ["Pottery","Animal Husbandry","The Wheel"],
+				"name": "Currency","row": 4,"prerequisites": ["Irrigation","The Wheel"],
 			},
 			{
-				"name": "Trade","row": 6,"prerequisites": ["Animal Husbandry","The Wheel"],"uniques": ["Enables establishment of embassies"],
+				"name": "Craftsmanship","row": 6,"prerequisites": ["Irrigation","The Wheel","Masonry"],
 			},
 			{
-				"name": "City Defences","row": 8,"prerequisites": ["Masonry"],
-			},
-			{
-				"name": "Metal Casting","row": 9,"prerequisites": ["Pottery","Bronze Working"],
+				"name": "City Defences","row": 8,"prerequisites": ["Masonry","Bronze Working"],
 			},
 		]
     },
 	{
-    	"columnNumber": 4,"era": "Ancient Era","techCost": 50,"buildingCost": 50,"wonderCost": 185,"techs": 
+        "columnNumber": 4,"era": "Classical Era","techCost": 60,"buildingCost": 30,"wonderCost": 185,"techs": 
         [
-            {
-				"name": "State Management","row": 2,"prerequisites": ["Calendar","Writing","Irrigation"],
-			},
 			{
-				"name": "Currency","row": 4,"prerequisites": ["Irrigation","Trade"],
-				"uniques": ["Provides [1] [Trading Capacity]",]
+				"name": "Philosophy","row": 1,"prerequisites": ["Calendar"],
 			},
             {
-				"name": "Craftsmanship","row": 6,"prerequisites": ["Irrigation","Trade",],
+				"name": "Mathematics","row": 3,"prerequisites": ["Calendar","Currency"],
 			},
 			{
-				"name": "Organised Warfare","row": 8,"prerequisites": ["Trade","Metal Casting","City Defences"],
+				"name": "Construction","row": 5,"prerequisites": ["Currency","Craftsmanship"],
+			},
+			{
+				"name": "Iron Working","row": 7,"prerequisites": ["Craftsmanship","City Defences"],
+			},
+			{
+				"name": "Horseback Riding","row": 9,"prerequisites": ["City Defences"],
 			},
 		]
     },
 	{
-    	"columnNumber": 5,"era": "Classical Era","techCost": 65,"buildingCost": 60,"wonderCost": 185,"techs": 
+        "columnNumber": 5,"era": "Classical Era","techCost": 80,"buildingCost": 30,"wonderCost": 185,"techs": 
         [
-            {
-				"name": "Philosophy","row": 1,"prerequisites": ["State Management",],"uniques": ["Enables Defensive Pacts"],
-			},
 			{
-				"name": "Mathematics","row": 3,"prerequisites": ["State Management","Currency"],
+				"name": "Drama and Poetry","row": 1,"prerequisites": ["Philosophy"],
 			},
             {
-				"name": "Trade Networks","row": 5,"prerequisites": ["Currency","Craftsmanship"],"uniques": ["Enables Open Borders agreements"],
+				"name": "Code of Laws","row": 2,"prerequisites": ["Philosophy","Mathematics"],
 			},
 			{
-				"name": "Iron Working","row": 7,"prerequisites": ["Craftsmanship","Organised Warfare"],
+				"name": "Shipbuilding","row": 4,"prerequisites": ["Mathematics","Construction"],
 			},
 			{
-				"name": "Horseback Riding","row": 9,"prerequisites": ["Organised Warfare"],
-			},
-		]
-    },
-	{
-    	"columnNumber": 6,"era": "Classical Era","techCost": 80,"buildingCost": 70,"wonderCost": 185,"techs": 
-        [
-            {
-				"name": "Code of Laws","row": 1,"prerequisites": ["Philosophy",],
+				"name": "Engineering","row": 5,"prerequisites": ["Construction"],
 			},
 			{
-				"name": "Aesthetics","row": 2,"prerequisites": ["Philosophy","Mathematics",],
-			},
-			{
-				"name": "Shipbuilding","row": 3,"prerequisites": ["Mathematics",],
-			},
-			{
-				"name": "Construction","row": 5,"prerequisites": ["Mathematics","Trade Networks","Iron Working"],
+				"name": "Hydrology","row": 6,"prerequisites": ["Construction","Iron Working"],
 			},
 			{
 				"name": "Fortifications","row": 8,"prerequisites": ["Iron Working","Horseback Riding"],
@@ -139,76 +118,284 @@
 		]
     },
 	{
-    	"columnNumber": 7,"era": "Classical Era","techCost": 95,"buildingCost": 80,"wonderCost": 185,"techs": 
+        "columnNumber": 6,"era": "Classical Era","techCost": 120,"buildingCost": 30,"wonderCost": 185,"techs": 
         [
 			{
-				"name": "Drama and Poetry","row": 1,"prerequisites": ["Code of Laws","Aesthetics"],
+				"name": "Theology","row": 2,"prerequisites": ["Drama and Poetry","Code of Laws"],
 			},
             {
-				"name": "Hydrology","row": 3,"prerequisites": ["Shipbuilding","Construction"],
+				"name": "Compass","row": 4,"prerequisites": ["Shipbuilding","Engineering"],
 			},
 			{
-				"name": "Engineering","row": 5,"prerequisites": ["Construction",],
+				"name": "Machinery","row": 6,"prerequisites": ["Engineering","Hydrology"],
 			},
 			{
-				"name": "Siege Tactics","row": 7,"prerequisites": ["Construction","Fortifications",],
-			},
-			{
-				"name": "Military Training","row": 9,"prerequisites": ["Fortifications",],
+				"name": "The Plough","row": 8,"prerequisites": ["Hydrology","Fortifications"],
 			},
 		]
     },
 	{
-    	"columnNumber": 8,"era": "Classical Era","techCost": 115,"buildingCost": 100,"wonderCost": 185,"techs": 
+        "columnNumber": 7,"era": "Post-Classical Era","techCost": 140,"buildingCost": 30,"wonderCost": 185,"techs": 
         [
 			{
-				"name": "Theology","row": 2,"prerequisites": ["Drama and Poetry",],
+				"name": "Civil Service","row": 1,"prerequisites": ["Theology"],
+			},
+            {
+				"name": "Education","row": 3,"prerequisites": ["Theology","Compass"],
 			},
 			{
-				"name": "Machinery","row": 4,"prerequisites": ["Hydrology","Engineering"],
+				"name": "Guilds","row": 5,"prerequisites": ["Compass","Machinery"],
 			},
 			{
-				"name": "The Plow","row": 6,"prerequisites": ["Engineering","Siege Tactics"],
+				"name": "Stirrups","row": 7,"prerequisites": ["Machinery","The Plough"],
 			},
 			{
-				"name": "Horse Collar","row": 8,"prerequisites": ["Siege Tactics","Military Training"],
+				"name": "Feudalism","row": 9,"prerequisites": ["The Plough"],
 			},
 		]
     },
 	{
-    	"columnNumber": 9,"era": "Post-Classical Era","techCost": 135,"buildingCost": 100,"wonderCost": 185,"techs": 
+        "columnNumber": 8,"era": "Post-Classical Era","techCost": 170,"buildingCost": 30,"wonderCost": 185,"techs": 
         [
 			{
-				"name": "Buttress","row": 1,"prerequisites": ["Theology","Machinery"],
+				"name": "Mechanics","row": 1,"prerequisites": ["Civil Service","Education"],
+			},
+            {
+				"name": "Alchemy","row": 3,"prerequisites": ["Education","Guilds"],
 			},
 			{
-				"name": "Guilds","row": 3,"prerequisites": ["Machinery"],
+				"name": "Maritime Industry","row": 4,"prerequisites": ["Education","Guilds"],
 			},
 			{
-				"name": "Compass","row": 5,"prerequisites": ["Machinery"],
+				"name": "Horse Collar","row": 6,"prerequisites": ["Guilds","Stirrups"],
 			},
 			{
-				"name": "Civil Service","row": 7,"prerequisites": ["Theology","The Plow","Horse Collar"],
+				"name": "Physics","row": 7,"prerequisites": ["Guilds","Stirrups"],
 			},
 			{
-				"name": "Military Tactics","row": 9,"prerequisites": ["Horse Collar"],
+				"name": "Pike Tactics","row": 9,"prerequisites": ["Stirrups","Feudalism"],
 			},
 		]
     },
 	{
-    	"columnNumber": 10,"era": "Post-Classical Era","techCost": 135,"buildingCost": 100,"wonderCost": 185,"techs": 
+        "columnNumber": 9,"era": "Post-Classical Era","techCost": 200,"buildingCost": 30,"wonderCost": 185,"techs": 
         [
 			{
-				"name": "Education","row": 3,"prerequisites": ["Buttress","Guilds","Compass"],"uniques": ["Enables Research agreements"],
+				"name": "Paper","row": 2,"prerequisites": ["Mechanics","Alchemy"],
 			},
 			{
-				"name": "Maritime Industry","row": 4,"prerequisites": ["Guilds","Compass"],
+				"name": "Banking","row": 4,"prerequisites": ["Alchemy","Maritime Industry"],
+			},
+            {
+				"name": "Artisanship","row": 6,"prerequisites": ["Horse Collar","Physics"],
 			},
 			{
-				"name": "Feudalism","row": 6,"prerequisites": ["Guilds","Civil Service"],
+				"name": "Gunpowder","row": 8,"prerequisites": ["Physics","Pike Tactics"],
+			},
+		]
+    },
+	{
+        "columnNumber": 10,"era": "Early Modern Era","techCost": 230,"buildingCost": 30,"wonderCost": 185,"techs": 
+        [
+			{
+				"name": "Printing Press","row": 1,"prerequisites": ["Paper"],
 			},
 			{
-				"name": "Mounted Warfare","row": 8,"prerequisites": ["Civil Service","Military Tactics"],
+				"name": "Cartography","row": 3,"prerequisites": ["Paper","Banking"],
+			},
+            {
+				"name": "Manufacturing","row": 5,"prerequisites": ["Banking","Artisanship"],
+			},
+			{
+				"name": "Metal Casting","row": 7,"prerequisites": ["Artisanship","Gunpowder"],
+			},
+			{
+				"name": "Firearms","row": 9,"prerequisites": ["Gunpowder"],
+			},
+		]
+    },
+	{
+        "columnNumber": 11,"era": "Early Modern Era","techCost": 275,"buildingCost": 30,"wonderCost": 185,"techs": 
+        [
+			{
+				"name": "Square Rigging","row": 2,"prerequisites": ["Printing Press","Cartography"],
+			},
+			{
+				"name": "Economics","row": 3,"prerequisites": ["Printing Press","Cartography","Manufacturing"],
+			},
+            {
+				"name": "Coking","row": 5,"prerequisites": ["Manufacturing"],
+			},
+			{
+				"name": "Metallurgy","row": 7,"prerequisites": ["Manufacturing","Metal Casting","Firearms"],
+			},
+			{
+				"name": "Caracole","row": 8,"prerequisites": ["Metal Casting","Firearms"],
+			},
+		]
+    },
+	{
+        "columnNumber": 12,"era": "Early Modern Era","techCost": 320,"buildingCost": 30,"wonderCost": 185,"techs": 
+        [
+			{
+				"name": "Steam Power","row": 2,"prerequisites": ["Square Rigging","Economics"],
+			},
+			{
+				"name": "Mass Production","row": 4,"prerequisites": ["Economics","Coking",],
+			},
+            {
+				"name": "Architecture","row": 6,"prerequisites": ["Coking","Metallurgy"],
+			},
+			{
+				"name": "Steel","row": 8,"prerequisites": ["Metallurgy","Caracole"],
+			},
+		]
+    },
+	{
+        "columnNumber": 13,"era": "Modern Era","techCost": 365,"buildingCost": 30,"wonderCost": 185,"techs": 
+        [
+			{
+				"name": "Scientific Method","row": 1,"prerequisites": ["Steam Power"],
+			},
+			{
+				"name": "Industrialisation","row": 3,"prerequisites": ["Steam Power","Mass Production"],
+			},
+            {
+				"name": "Medicine","row": 5,"prerequisites": ["Mass Production","Architecture"],
+			},
+			{
+				"name": "Civil Engineering","row": 7,"prerequisites": ["Architecture","Steel"],
+			},
+			{
+				"name": "Rifling","row": 9,"prerequisites": ["Steel"],
+			},
+		]
+    },
+	{
+        "columnNumber": 14,"era": "Modern Era","techCost": 410,"buildingCost": 30,"wonderCost": 185,"techs": 
+        [
+			{
+				"name": "Archeology","row": 2,"prerequisites": ["Scientific Method","Industrialisation"],
+			},
+			{
+				"name": "Replaceable Parts","row": 4,"prerequisites": ["Industrialisation","Medicine"],
+			},
+            {
+				"name": "Chemistry","row": 6,"prerequisites": ["Medicine","Civil Engineering"],
+			},
+			{
+				"name": "Military Science","row": 8,"prerequisites": ["Civil Engineering","Rifling"],
+			},
+		]
+    },
+	{
+        "columnNumber": 15,"era": "Modern Era","techCost": 480,"buildingCost": 30,"wonderCost": 185,"techs": 
+        [
+			{
+				"name": "Radio","row": 1,"prerequisites": ["Archeology"],
+			},
+			{
+				"name": "Electricity","row": 3,"prerequisites": ["Archeology","Replaceable Parts"],
+			},
+            {
+				"name": "Mechanisation","row": 5,"prerequisites": ["Replaceable Parts","Chemistry"],
+			},
+			{
+				"name": "Combustion","row": 7,"prerequisites": ["Chemistry","Military Science"],
+			},
+			{
+				"name": "Flight","row": 9,"prerequisites": ["Military Science"],
+			},
+		]
+    },
+	{
+        "columnNumber": 16,"era": "Modern Era","techCost": 550,"buildingCost": 30,"wonderCost": 185,"techs": 
+        [
+			{
+				"name": "Pharmaceuticals","row": 2,"prerequisites": ["Radio","Electricity"],
+			},
+			{
+				"name": "Atomic Theory","row": 4,"prerequisites": ["Electricity","Mechanisation"],
+			},
+            {
+				"name": "Plastics","row": 6,"prerequisites": ["Mechanisation","Combustion"],
+			},
+			{
+				"name": "Radar","row": 8,"prerequisites": ["Combustion","Flight"],
+			},
+		]
+    },
+	{
+        "columnNumber": 17,"era": "Late Modern Era","techCost": 620,"buildingCost": 30,"wonderCost": 185,"techs": 
+        [
+			{
+				"name": "Ecology","row": 1,"prerequisites": ["Pharmaceuticals"],
+			},
+			{
+				"name": "Electronics","row": 3,"prerequisites": ["Pharmaceuticals","Atomic Theory"],
+			},
+            {
+				"name": "Nuclear Fission","row": 5,"prerequisites": ["Atomic Theory","Plastics"],
+			},
+			{
+				"name": "Rocketry","row": 7,"prerequisites": ["Plastics","Radar"],
+			},
+			{
+				"name": "Combined Arms","row": 9,"prerequisites": ["Radar"],
+			},
+		]
+    },
+	{
+        "columnNumber": 18,"era": "Late Modern Era","techCost": 700,"buildingCost": 30,"wonderCost": 185,"techs": 
+        [
+			{
+				"name": "Renewable Energy","row": 2,"prerequisites": ["Ecology","Electronics"],
+			},
+			{
+				"name": "Computers","row": 4,"prerequisites": ["Electronics","Nuclear Fission"],
+			},
+            {
+				"name": "Stallites","row": 6,"prerequisites": ["Nuclear Fission","Rocketry"],
+			},
+			{
+				"name": "Mobile Tactics","row": 8,"prerequisites": ["Rocketry","Combined Arms"],
+			},
+		]
+    },
+	{
+        "columnNumber": 19,"era": "Late Modern Era","techCost": 780,"buildingCost": 30,"wonderCost": 185,"techs": 
+        [
+			{
+				"name": "Biofuel","row": 1,"prerequisites": ["Renewable Energy"],
+			},
+			{
+				"name": "Lasers","row": 3,"prerequisites": ["Renewable Energy","Computers"],
+			},
+            {
+				"name": "Internet","row": 5,"prerequisites": ["Computers","Satellites"],
+			},
+			{
+				"name": "Automation","row": 7,"prerequisites": ["Satellites","Mobile Tactics"],
+			},
+			{
+				"name": "Composites","row": 9,"prerequisites": ["Mobile Tactics"],
+			},
+		]
+    },
+	{
+        "columnNumber": 20,"era": "Late Modern Era","techCost": 800,"buildingCost": 30,"wonderCost": 185,"techs": 
+        [
+			{
+				"name": "Genomics","row": 2,"prerequisites": ["Biofuel","Lasers"],
+			},
+			{
+				"name": "Artificial Intelligence","row": 4,"prerequisites": ["Lasers","Internet"],
+			},
+            {
+				"name": "Robotics","row": 6,"prerequisites": ["Internet","Automation"],
+			},
+			{
+				"name": "Nanotechnology","row": 8,"prerequisites": ["Automation","Composites"],
 			},
 		]
     },
