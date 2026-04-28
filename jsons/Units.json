@@ -52,7 +52,7 @@
 	{
 		"name": "Archer","unitType": "Land Ranged","upgradesTo": "Composite Bowman","movement": 2,"range": 2,"strength": 7,"rangedStrength": 7,"cost": 40,
 		"uniques": ["Costs [15] [Manpower]"],
-		"attackSound": "arrow","requiredTech": "Hunting","obsoleteTech": "Fortifications",
+		"attackSound": "arrow","requiredTech": "Carpentry","obsoleteTech": "Fortifications",
 	},
 	{
 		"name": "Battering Ram","unitType": "Siege","movement": 2,"strength": 8,"cost": 50,
