@@ -64,7 +64,7 @@
 				"name": "Calendar","row": 2,"prerequisites": ["Sailing","Writing"],
 			},
             {
-				"name": "Currency","row": 4,"prerequisites": ["Irrigation","The Wheel"],
+				"name": "Currency","row": 4,"prerequisites": ["Writing","Irrigation","The Wheel"],
 			},
 			{
 				"name": "Craftsmanship","row": 6,"prerequisites": ["Irrigation","The Wheel","Masonry"],
