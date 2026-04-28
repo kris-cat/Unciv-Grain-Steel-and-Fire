@@ -1,4 +1,5 @@
 [
+	//Civilian
 	{
 		"name": "Worker",
 		"unitType": "Civilian",
@@ -27,6 +28,21 @@
 		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population","Ignores terrain cost"],
 		"hurryCostModifier": 20
+	},
+	// Religious Units
+	{
+		"name": "Apostle",
+		"unitType": "Civilian",
+		"uniques": [
+            "Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
+			"Removes other religions when spreading religion",
+            "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
+            "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
+			"May enter foreign tiles without open borders", 
+			"Unbuildable", "Religious Unit", "Only available <when religion is enabled>",
+			"Takes your religion over the one in their birth city"],
+		"movement": 2,
+		"religiousStrength": 1000
 	},
 	// Ancient Era Land Units
 	{
