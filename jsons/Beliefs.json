@@ -61,7 +61,7 @@
         "type": "Follower",
         "uniques": ["[+2 Culture] from every [Priest]"]
     },
-    \{
+    {
         "name": "Patronship",
         "type": "Follower",
         "uniques": ["[+2 Culture] from every [Priest]"]
