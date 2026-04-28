@@ -62,7 +62,7 @@
         "iconRGB": [190, 62, 128]
     }
     {
-        "name": "Late Modern Era",
+        "name": "Modern Era",
         "researchAgreementCost": 250,
         "startingSettlerCount": 2,
         "startingWorkerCount": 0,
@@ -78,7 +78,7 @@
         "iconRGB": [190, 62, 128]
     }
     {
-        "name": "Contemporary Era",
+        "name": "Late Modern Era",
         "researchAgreementCost": 250,
         "startingSettlerCount": 2,
         "startingWorkerCount": 0,
@@ -94,7 +94,7 @@
         "iconRGB": [190, 62, 128]
     }
     {
-        "name": "Future Era",
+        "name": "Speculative Era",
         "researchAgreementCost": 250,
         "startingSettlerCount": 2,
         "startingWorkerCount": 0,
