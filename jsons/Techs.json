@@ -355,7 +355,7 @@
 				"name": "Computers","row": 4,"prerequisites": ["Electronics","Nuclear Fission"],
 			},
             {
-				"name": "Stallites","row": 6,"prerequisites": ["Nuclear Fission","Rocketry"],
+				"name": "Satellites","row": 6,"prerequisites": ["Nuclear Fission","Rocketry"],
 			},
 			{
 				"name": "Mobile Tactics","row": 8,"prerequisites": ["Rocketry","Combined Arms"],
