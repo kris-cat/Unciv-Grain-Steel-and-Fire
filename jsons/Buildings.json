@@ -180,22 +180,22 @@
 	},
 	//Conservation Specialisation
 	{
-		"name": "Grove","faith": 1,"science": 1,"maintenance": 1,"specialistSlots": {"Steward": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Hunting",
+		"name": "Grove","faith": 1,"science": 1,"maintenance": 1,"specialistSlots": {"Steward": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Pottery",
 		"uniques": ["Only available <in cities without a [Garden]>","Provides [+1] [Amenities]<in this city>",],
 	},
 	//Civic Specialisation
 	{
-		"name": "Archives","culture": 1,"science": 1,"maintenance": 1,"specialistSlots": {"Bureaucrat": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "State Management",
+		"name": "Archives","culture": 1,"science": 1,"maintenance": 1,"specialistSlots": {"Bureaucrat": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Calendar",
 		"uniques": ["[-10]% maintenance cost for [all] buildings [in this city]",],
 	},
 	//Entertainment Specialisation
 	{
-		"name": "Arena","happiness": 3,"maintenance": 1,"specialistSlots": {"Entertainer": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "State Management",
+		"name": "Arena","happiness": 3,"maintenance": 1,"specialistSlots": {"Entertainer": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Drama and Poetry",
 		"uniques": ["Provides [+1] [Amenities]<in this city>",],
 	},
 	//Militaristic Specialisation
 	{
-		"name": "Barracks","production": 1,"maintenance": 1,"specialistSlots": {"Commander": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Organised Warfare",
+		"name": "Barracks","production": 1,"maintenance": 1,"specialistSlots": {"Commander": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Bronze Working",
 		"uniques": ["Provides [+2] [Housing]<in this city>","[+15]% Production when constructing [{Land} {Military}] units [in this city]","Provides [1] [Manpower]","Provides [1] [Manpower] <in cities with at least [5] [Population]>",],
 	},
 	//Naval Specialisation
