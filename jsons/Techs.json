@@ -75,7 +75,7 @@
 		]
     },
 	{
-        "columnNumber": 4,"era": "Classical Era","techCost": 60,"buildingCost": 100,"wonderCost": 185,"techs": 
+        "columnNumber": 4,"era": "Classical Era","techCost": 55,"buildingCost": 100,"wonderCost": 185,"techs": 
         [
 			{
 				"name": "Philosophy","row": 1,"prerequisites": ["Calendar"],
@@ -118,7 +118,7 @@
 		]
     },
 	{
-        "columnNumber": 6,"era": "Classical Era","techCost": 120,"buildingCost": 160,"wonderCost": 185,"techs": 
+        "columnNumber": 6,"era": "Classical Era","techCost": 100,"buildingCost": 160,"wonderCost": 185,"techs": 
         [
 			{
 				"name": "Theology","row": 2,"prerequisites": ["Drama and Poetry","Code of Laws"],
@@ -135,7 +135,7 @@
 		]
     },
 	{
-        "columnNumber": 7,"era": "Post-Classical Era","techCost": 140,"buildingCost": 200,"wonderCost": 185,"techs": 
+        "columnNumber": 7,"era": "Post-Classical Era","techCost": 130,"buildingCost": 200,"wonderCost": 185,"techs": 
         [
 			{
 				"name": "Civil Service","row": 1,"prerequisites": ["Theology"],
@@ -155,7 +155,7 @@
 		]
     },
 	{
-        "columnNumber": 8,"era": "Post-Classical Era","techCost": 170,"buildingCost": 30,"wonderCost": 185,"techs": 
+        "columnNumber": 8,"era": "Post-Classical Era","techCost": 160,"buildingCost": 30,"wonderCost": 185,"techs": 
         [
 			{
 				"name": "Mechanics","row": 1,"prerequisites": ["Civil Service","Education"],
@@ -178,7 +178,7 @@
 		]
     },
 	{
-        "columnNumber": 9,"era": "Post-Classical Era","techCost": 200,"buildingCost": 30,"wonderCost": 185,"techs": 
+        "columnNumber": 9,"era": "Post-Classical Era","techCost": 190,"buildingCost": 30,"wonderCost": 185,"techs": 
         [
 			{
 				"name": "Paper","row": 2,"prerequisites": ["Mechanics","Alchemy"],
@@ -195,7 +195,7 @@
 		]
     },
 	{
-        "columnNumber": 10,"era": "Early Modern Era","techCost": 230,"buildingCost": 30,"wonderCost": 185,"techs": 
+        "columnNumber": 10,"era": "Early Modern Era","techCost": 220,"buildingCost": 30,"wonderCost": 185,"techs": 
         [
 			{
 				"name": "Printing Press","row": 1,"prerequisites": ["Paper"],
@@ -215,7 +215,7 @@
 		]
     },
 	{
-        "columnNumber": 11,"era": "Early Modern Era","techCost": 275,"buildingCost": 30,"wonderCost": 185,"techs": 
+        "columnNumber": 11,"era": "Early Modern Era","techCost": 260,"buildingCost": 30,"wonderCost": 185,"techs": 
         [
 			{
 				"name": "Square Rigging","row": 2,"prerequisites": ["Printing Press","Cartography"],
@@ -235,7 +235,7 @@
 		]
     },
 	{
-        "columnNumber": 12,"era": "Early Modern Era","techCost": 320,"buildingCost": 30,"wonderCost": 185,"techs": 
+        "columnNumber": 12,"era": "Early Modern Era","techCost": 300,"buildingCost": 30,"wonderCost": 185,"techs": 
         [
 			{
 				"name": "Steam Power","row": 2,"prerequisites": ["Square Rigging","Economics"],
@@ -252,7 +252,7 @@
 		]
     },
 	{
-        "columnNumber": 13,"era": "Modern Era","techCost": 365,"buildingCost": 30,"wonderCost": 185,"techs": 
+        "columnNumber": 13,"era": "Modern Era","techCost": 340,"buildingCost": 30,"wonderCost": 185,"techs": 
         [
 			{
 				"name": "Scientific Method","row": 1,"prerequisites": ["Steam Power"],
@@ -272,7 +272,7 @@
 		]
     },
 	{
-        "columnNumber": 14,"era": "Modern Era","techCost": 410,"buildingCost": 30,"wonderCost": 185,"techs": 
+        "columnNumber": 14,"era": "Modern Era","techCost": 390,"buildingCost": 30,"wonderCost": 185,"techs": 
         [
 			{
 				"name": "Archeology","row": 2,"prerequisites": ["Scientific Method","Industrialisation"],
@@ -289,7 +289,7 @@
 		]
     },
 	{
-        "columnNumber": 15,"era": "Modern Era","techCost": 480,"buildingCost": 30,"wonderCost": 185,"techs": 
+        "columnNumber": 15,"era": "Modern Era","techCost": 440,"buildingCost": 30,"wonderCost": 185,"techs": 
         [
 			{
 				"name": "Radio","row": 1,"prerequisites": ["Archeology"],
@@ -309,7 +309,7 @@
 		]
     },
 	{
-        "columnNumber": 16,"era": "Modern Era","techCost": 550,"buildingCost": 30,"wonderCost": 185,"techs": 
+        "columnNumber": 16,"era": "Modern Era","techCost": 500,"buildingCost": 30,"wonderCost": 185,"techs": 
         [
 			{
 				"name": "Pharmaceuticals","row": 2,"prerequisites": ["Radio","Electricity"],
@@ -326,7 +326,7 @@
 		]
     },
 	{
-        "columnNumber": 17,"era": "Late Modern Era","techCost": 620,"buildingCost": 30,"wonderCost": 185,"techs": 
+        "columnNumber": 17,"era": "Late Modern Era","techCost": 560,"buildingCost": 30,"wonderCost": 185,"techs": 
         [
 			{
 				"name": "Ecology","row": 1,"prerequisites": ["Pharmaceuticals"],
@@ -346,7 +346,7 @@
 		]
     },
 	{
-        "columnNumber": 18,"era": "Late Modern Era","techCost": 700,"buildingCost": 30,"wonderCost": 185,"techs": 
+        "columnNumber": 18,"era": "Late Modern Era","techCost": 620,"buildingCost": 30,"wonderCost": 185,"techs": 
         [
 			{
 				"name": "Renewable Energy","row": 2,"prerequisites": ["Ecology","Electronics"],
@@ -363,7 +363,7 @@
 		]
     },
 	{
-        "columnNumber": 19,"era": "Late Modern Era","techCost": 780,"buildingCost": 30,"wonderCost": 185,"techs": 
+        "columnNumber": 19,"era": "Late Modern Era","techCost": 700,"buildingCost": 30,"wonderCost": 185,"techs": 
         [
 			{
 				"name": "Biofuel","row": 1,"prerequisites": ["Renewable Energy"],
