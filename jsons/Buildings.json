@@ -91,7 +91,7 @@
 	//Scientific Specialisation
 	{
 		"name": "Library","science": 2,"maintenance": 1,"specialistSlots": {"Scientist": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Writing",
-		"uniques": ["[+1 Science] per [4] population [in this city]",],
+		"uniques": ["[+1 Science] per [3] population [in this city]",],
 	},
 	{
 		"name": "University","science": 2,"maintenance": 1,"specialistSlots": {"Scientist": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Library","requiredTech": "Education",
