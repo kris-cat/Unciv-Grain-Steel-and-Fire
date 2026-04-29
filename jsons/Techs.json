@@ -64,7 +64,7 @@
 				"name": "Calendar","row": 2,"prerequisites": ["Sailing","Writing"],
 			},
             {
-				"name": "Currency","row": 4,"prerequisites": ["Writing","Irrigation","The Wheel"],
+				"name": "Currency","row": 4,"prerequisites": ["Writing","Irrigation","The Wheel"],"uniques": ["Enables conversion of city production to [Gold]"]
 			},
 			{
 				"name": "Craftsmanship","row": 6,"prerequisites": ["Irrigation","The Wheel","Masonry"],
@@ -121,7 +121,7 @@
         "columnNumber": 6,"era": "Classical Era","techCost": 100,"buildingCost": 160,"wonderCost": 185,"techs": 
         [
 			{
-				"name": "Theology","row": 2,"prerequisites": ["Drama and Poetry","Code of Laws"],
+				"name": "Theology","row": 2,"prerequisites": ["Drama and Poetry","Code of Laws"],"uniques": ["Enables conversion of city production to [Faith]"]
 			},
             {
 				"name": "Compass","row": 4,"prerequisites": ["Shipbuilding","Engineering"],
@@ -198,7 +198,7 @@
         "columnNumber": 10,"era": "Early Modern Era","techCost": 220,"buildingCost": 30,"wonderCost": 185,"techs": 
         [
 			{
-				"name": "Printing Press","row": 1,"prerequisites": ["Paper"],
+				"name": "Printing Press","row": 1,"prerequisites": ["Paper"],"uniques": ["Enables conversion of city production to [Science]"]
 			},
 			{
 				"name": "Cartography","row": 3,"prerequisites": ["Paper","Banking"],
@@ -292,7 +292,7 @@
         "columnNumber": 15,"era": "Modern Era","techCost": 440,"buildingCost": 30,"wonderCost": 185,"techs": 
         [
 			{
-				"name": "Radio","row": 1,"prerequisites": ["Archeology"],
+				"name": "Radio","row": 1,"prerequisites": ["Archeology"],"uniques": ["Enables conversion of city production to [Culture]"]
 			},
 			{
 				"name": "Electricity","row": 3,"prerequisites": ["Archeology","Replaceable Parts"],
