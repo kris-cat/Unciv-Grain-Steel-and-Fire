@@ -186,11 +186,11 @@
 	},
 	//Mountain Infrastructure Buildings
 	{
-		"name": "Mining Tunnels","production": 2,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Engineering",
+		"name": "Mining Tunnels","maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Engineering",
 		"uniques": ["Infrastructure Building","Only available <in cities without a [Observatory]>","Must be next to [Mountain]","[+1 Production] from [Mountain] tiles [in this city]",],
 	},
 	{
-		"name": "Observatory","science": 2,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Engineering",
+		"name": "Observatory","maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Engineering",
 		"uniques": ["Infrastructure Building","Only available <in cities without a [Mining Tunnels]>","Must be next to [Mountain]","[+1 Science] from [Mountain] tiles [in this city]",],
 	},
 	//Post-Classical Era Infrastructure
