@@ -1,7 +1,7 @@
 [
     //Ancient Era
 	{
-        "columnNumber": 0,"era": "Ancient Era","techCost": 15,"buildingCost": 20,"wonderCost": 185,"techs": 
+        "columnNumber": 0,"era": "Ancient Era","techCost": 15,"buildingCost": 40,"wonderCost": 185,"techs": 
         [
             {
                 "name": "Agriculture","row": 5,
@@ -10,7 +10,7 @@
 		]
 	},
 	{
-        "columnNumber": 1,"era": "Ancient Era","techCost": 15,"buildingCost": 20,"wonderCost": 185,"techs": 
+        "columnNumber": 1,"era": "Ancient Era","techCost": 15,"buildingCost": 60,"wonderCost": 185,"techs": 
         [
             {
                 "name": "Fishing","row": 1,"prerequisites": ["Agriculture"],
@@ -35,7 +35,7 @@
 		]
     },
 	{
-        "columnNumber": 2,"era": "Ancient Era","techCost": 25,"buildingCost": 30,"wonderCost": 185,"techs": 
+        "columnNumber": 2,"era": "Ancient Era","techCost": 25,"buildingCost": 60,"wonderCost": 185,"techs": 
         [
 			{
 				"name": "Sailing","row": 1,"prerequisites": ["Fishing"],
@@ -58,7 +58,7 @@
 		]
     },
 	{
-        "columnNumber": 3,"era": "Ancient Era","techCost": 40,"buildingCost": 30,"wonderCost": 185,"techs": 
+        "columnNumber": 3,"era": "Ancient Era","techCost": 40,"buildingCost": 80,"wonderCost": 185,"techs": 
         [
 			{
 				"name": "Calendar","row": 2,"prerequisites": ["Sailing","Writing"],
@@ -75,7 +75,7 @@
 		]
     },
 	{
-        "columnNumber": 4,"era": "Classical Era","techCost": 60,"buildingCost": 30,"wonderCost": 185,"techs": 
+        "columnNumber": 4,"era": "Classical Era","techCost": 60,"buildingCost": 100,"wonderCost": 185,"techs": 
         [
 			{
 				"name": "Philosophy","row": 1,"prerequisites": ["Calendar"],
@@ -95,7 +95,7 @@
 		]
     },
 	{
-        "columnNumber": 5,"era": "Classical Era","techCost": 80,"buildingCost": 30,"wonderCost": 185,"techs": 
+        "columnNumber": 5,"era": "Classical Era","techCost": 80,"buildingCost": 130,"wonderCost": 185,"techs": 
         [
 			{
 				"name": "Drama and Poetry","row": 1,"prerequisites": ["Philosophy"],
@@ -118,7 +118,7 @@
 		]
     },
 	{
-        "columnNumber": 6,"era": "Classical Era","techCost": 120,"buildingCost": 30,"wonderCost": 185,"techs": 
+        "columnNumber": 6,"era": "Classical Era","techCost": 120,"buildingCost": 160,"wonderCost": 185,"techs": 
         [
 			{
 				"name": "Theology","row": 2,"prerequisites": ["Drama and Poetry","Code of Laws"],
@@ -135,7 +135,7 @@
 		]
     },
 	{
-        "columnNumber": 7,"era": "Post-Classical Era","techCost": 140,"buildingCost": 30,"wonderCost": 185,"techs": 
+        "columnNumber": 7,"era": "Post-Classical Era","techCost": 140,"buildingCost": 200,"wonderCost": 185,"techs": 
         [
 			{
 				"name": "Civil Service","row": 1,"prerequisites": ["Theology"],
