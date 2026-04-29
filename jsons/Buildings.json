@@ -137,12 +137,20 @@
 	},
 	//Commercial Specialisation
 	{
-		"name": "Market","gold": 4,"maintenance": 1,"specialistSlots": {"Merchant": 1},"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Drama and Poetry",
+		"name": "Market","gold": 4,"maintenance": 1,"specialistSlots": {"Merchant": 1},"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "The Wheel",
 		"uniques": [],
 	},
 	{
-		"name": "Bank","gold": 4,"maintenance": 1,"specialistSlots": {"Merchant": 1},"hurryCostModifier": 40,"requiredBuilding": "Arena","requiredTech": "Square Rigging",
+		"name": "Bank","gold": 4,"maintenance": 1,"specialistSlots": {"Merchant": 1},"hurryCostModifier": 40,"requiredBuilding": "Market","requiredTech": "Banking",
 		"uniques": ["[+1 Gold] per [3] population [in this city]",],
+	},
+	{
+		"name": "Stock Exchange","gold": 8,"maintenance": 1,"specialistSlots": {"Merchant": 1},"hurryCostModifier": 40,"requiredBuilding": "Market","requiredTech": "Economics",
+		"uniques": ["[+25]% [Gold]",],
+	},
+	{
+		"name": "Marketing Agency","gold": 8,"maintenance": 1,"specialistSlots": {"Merchant": 2},"hurryCostModifier": 40,"requiredBuilding": "Market","requiredTech": "Satellites",
+		"uniques": ["[+4 Gold] from every [Bureaucrat]",],
 	},
 	//Maritime Specialisation
 	//Entertainment Specialisation
