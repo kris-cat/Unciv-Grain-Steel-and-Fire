@@ -2,7 +2,7 @@
 	{
 		"name":"Scientist",
 		"science":2,
-		"color": [42,96,153]
+		"color": [0,73,167]
 	},
     {
 		"name":"Priest",
@@ -12,12 +12,27 @@
     {
 		"name":"Artist",
 		"culture":2,
+		"color": [150,0,150]
+	},
+	{
+		"name":"Bureaucrat",
+		"science":1,"culture": 1,
 		"color": [160,32,240]
 	},
 	{
 		"name":"Merchant",
 		"gold":4,
-		"color": [255,215,0]
+		"color": [255,191,0]
+	},
+	 {
+		"name":"Shipmaster",
+		"food":1,"gold":2,
+		"color": [19,189,223]
+	},
+	{
+		"name":"Entertainer",
+		"happiness":3,
+		"color": [255,255,0]
 	},
     {
 		"name":"Engineer",
@@ -25,33 +40,23 @@
 		"color": [139,69,19]
 	},
     {
-		"name":"Commander",
-		"production":1,"gold":2,
-		"color": [139,69,19]
-	},
-    {
-		"name":"Captain",
-		"production":1,"gold":2,
-		"color": [139,69,19]
-	},
-    {
 		"name":"Gardner",
 		"culture":1,"happiness":1,
-		"color": [139,69,19]
+		"color": [129,212,26]
 	},
     {
 		"name":"Steward",
 		"science":1,"faith":1,
-		"color": [139,69,19]
+		"color": [21,132,102]
 	},
 	{
-		"name":"Bureaucrat",
-		"culture":1,"culture": 1,
-		"color": [160,32,240]
+		"name":"Commander",
+		"production":1,"gold":2,
+		"color": [241,13,12]
 	},
 	{
-		"name":"Entertainer",
-		"happiness":3,
-		"color": [255,215,0]
+		"name":"Captain",
+		"production":1,"gold":2,
+		"color": [191,0,65]
 	},
 ]
