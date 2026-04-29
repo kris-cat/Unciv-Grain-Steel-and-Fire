@@ -4,9 +4,7 @@
 		"name": "11Population Milestone - 1","cost": 0,"maintenance": 0,
 		"uniques": [
 			"Provides [1] [Manpower]","Provides [1] [Sailors] <in [Coastal] cities>",
-			"Provides [2] [Housing]<in this city>","Provides [2] [Housing] <in [{non-[Fresh Water]} {Coastal}] tiles><in this city>","Provides [6] [Housing] <in [Fresh Water] tiles><in this city>",
-			"Provides [-2] [Housing]<in this city>","Provides [1] [Industry Slot]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
-			"Nullifies Growth [in this city] <when below [0] [Housing]>",
+			"Provides [1] [Industry Slot]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
 			"[-10]% [Production] [in this city] <when below [-2] [Amenities]><hidden from users>","[-10]% [Science] [in this city] <when below [-2] [Amenities]><hidden from users>","[-10]% [Culture] [in this city] <when below [-2] [Amenities]><hidden from users>","[-10]% [Gold] [in this city] <when below [-2] [Amenities]><hidden from users>","[-10]% [Faith] [in this city] <when below [-2] [Amenities]><hidden from users>",
 			"[-10]% [Production] [in this city] <when below [0] [Amenities]><hidden from users>","[-10]% [Science] [in this city] <when below [0] [Amenities]><hidden from users>","[-10]% [Culture] [in this city] <when below [0] [Amenities]><hidden from users>","[-10]% [Gold] [in this city] <when below [0] [Amenities]><hidden from users>","[-10]% [Faith] [in this city] <when below [0] [Amenities]><hidden from users>",
 			"[+10]% [Production] [in this city] <when above [0] [Amenities]><hidden from users>","[+10]% [Science] [in this city] <when above [0] [Amenities]><hidden from users>","[+10]% [Culture] [in this city] <when above [0] [Amenities]><hidden from users>","[+10]% [Gold] [in this city] <when above [0] [Amenities]><hidden from users>","[+10]% [Faith] [in this city] <when above [0] [Amenities]><hidden from users>",
@@ -28,90 +26,6 @@
 			"Only available <in cities with at least [3] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
 		]
 	},
-	{
-		"name": "14Population Milestone - 4","cost": 0,"maintenance": 0,
-		"uniques": [
-			"Provides [-2] [Housing]<in this city>",
-			"Only available <in cities with at least [4] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
-		]
-	},
-	{
-		"name": "15Population Milestone - 5","cost": 0,"maintenance": 0,
-		"uniques": [
-			"Provides [-2] [Housing]<in this city>","Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>",
-			"Only available <in cities with at least [5] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
-		]
-	},
-	{
-		"name": "16Population Milestone - 6","cost": 0,"maintenance": 0,
-		"uniques": [
-			"Provides [-2] [Housing]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
-			"Only available <in cities with at least [6] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
-		]
-	},
-	{
-		"name": "17Population Milestone - 7","cost": 0,"maintenance": 0,
-		"uniques": [
-			"Provides [-2] [Housing]<in this city>","Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>",
-			"Only available <in cities with at least [7] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
-		]
-	},
-	{
-		"name": "18Population Milestone - 8","cost": 0,"maintenance": 0,
-		"uniques": [
-			"Provides [-2] [Housing]<in this city>",
-			"Only available <in cities with at least [8] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
-		]
-	},
-	{
-		"name": "19Population Milestone - 9","cost": 0,"maintenance": 0,
-		"uniques": [
-			"Provides [-2] [Housing]<in this city>","Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
-			"Only available <in cities with at least [9] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
-		]
-	},
-	{
-		"name": "20Population Milestone - 10","cost": 0,"maintenance": 0,
-		"uniques": [
-			"Provides [-2] [Housing]<in this city>",
-			"Only available <in cities with at least [10] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
-		]
-	},
-	{
-		"name": "21Population Milestone - 11","cost": 0,"maintenance": 0,
-		"uniques": [
-			"Provides [-2] [Housing]<in this city>","Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>",
-			"Only available <in cities with at least [11] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
-		]
-	},
-	{
-		"name": "22Population Milestone - 12","cost": 0,"maintenance": 0,
-		"uniques": [
-			"Provides [-2] [Housing]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
-			"Only available <in cities with at least [12] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
-		]
-	},
-	{
-		"name": "23Population Milestone - 13","cost": 0,"maintenance": 0,
-		"uniques": [
-			"Provides [-2] [Housing]<in this city>","Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>",
-			"Only available <in cities with at least [13] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
-		]
-	},
-	{
-		"name": "24Population Milestone - 14","cost": 0,"maintenance": 0,
-		"uniques": [
-			"Provides [-2] [Housing]<in this city>",
-			"Only available <in cities with at least [14] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
-		]
-	},
-	{
-		"name": "25Population Milestone - 15","cost": 0,"maintenance": 0,
-		"uniques": [
-			"Provides [-2] [Housing]<in this city>","Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
-			"Only available <in cities with at least [15] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
-		]
-	},
 	// Palace buildings
 	{
 		"name": "Palace",
@@ -124,7 +38,7 @@
 		"cost": 0,
 		"uniques": [
 			"Indicates the capital city",
-			"Provides [+1] [Amenities]<in this city>","Provides [+2] [Housing]<in this city>",
+			"Provides [+1] [Amenities]<in this city>",
 			"Provides [2] [Manpower]",
 			"Provides [2] [Sailors] <in [Coastal] cities>",
 			"Consumes [1] [Manpower] <for every [10] [Manpower]>",
@@ -135,15 +49,23 @@
 	//Religious Specialisation
 	{
 		"name": "Shrine","faith": 2,"maintenance": 1,"specialistSlots": {"Priest": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Calendar",
-		"uniques": ["[+1 Faith] from [Mountain] tiles [in this city]",],
+		"uniques": [],
 	},
 	{
-		"name": "Monastery","faith": 2,"maintenance": 1,"specialistSlots": {"Priest": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Shrine","requiredTech": "Philosophy",
-		"uniques": ["Only available <in cities without a [Temple]>","[+1 Faith, +1 Food] from [Mountain] tiles [in this city]",],
-	},
-	{
-		"name": "Temple","faith": 2,"maintenance": 1,"specialistSlots": {"Priest": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Shrine","requiredTech": "Philosophy",
+		"name": "Temple","faith": 2,"maintenance": 1,"specialistSlots": {"Priest": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Shrine","requiredTech": "Theocracy",
 		"uniques": ["Only available <in cities without a [Monastery]>","[+1 Faith] from every [Priest]",],
+	},
+	{
+		"name": "Monastery","faith": 2,"maintenance": 1,"specialistSlots": {"Priest": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Shrine","requiredTech": "Theocracy",
+		"uniques": ["Only available <in cities without a [Temple]>","[+1 Food, +2 Faith,] from [Mountain] tiles [in this city]",],
+	},
+	{
+		"name": "Parochial School","faith": 3,"maintenance": 1,"specialistSlots": {"Priest": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Shrine","requiredTech": "Medicine",
+		"uniques": ["Only available <in cities without a [Hospitium]>","[+1 Faith] per [3] population [in this city]",],
+	},
+	{
+		"name": "Hospitium","faith": 3,"maintenance": 1,"specialistSlots": {"Priest": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Shrine","requiredTech": "Medicine",
+		"uniques": ["Only available <in cities without a [Parochial School]>","Provides [+1] [Amenities] <in this city>","[+1 Food, +1 Faith] from every [Priest]",],
 	},
 	//Scientific Specialisation
 	{
@@ -151,84 +73,50 @@
 		"uniques": [],
 	},
 	{
-		"name": "School","science": 2,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Library","requiredTech": "Mathematics",
-		"uniques": ["[+1 Science] per [3] population [in this city]",],
+		"name": "University","science": 2,"maintenance": 1,"specialistSlots": {"Scientist": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Library","requiredTech": "Education",
+		"uniques": ["Only available <in cities without a [Academy]>","[+1 Science] from every [Scientist]",],
 	},
 	{
-		"name": "University","science": 2,"maintenance": 1,"specialistSlots": {"Scientist": 2},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Library","requiredTech": "Education",
-		"uniques": ["Provides [+2] [Housing]<in this city>","[+1 Science] from every [Scientist] <in this city>",],
+		"name": "Academy","science": 2,"maintenance": 1,"specialistSlots": {"Scientist": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Library","requiredTech": "Education",
+		"uniques": ["Only available <in cities without a [University]>","[+1 Production] from every [Scientist]",],
+	},
+	{
+		"name": "Public School","science": 3,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Library","requiredTech": "Scientific Method",
+		"uniques": ["[+1 Science] per [1] population [in this city]",],
+	},
+	{
+		"name": "Laboratory","science": 3,"maintenance": 1,"specialistSlots": {"Scientist": 2},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Library","requiredTech": "Computers",
+		"uniques": ["Only available <in cities without a [Institute]>","[+1 Science] from every specialist [in this city]"],
+	},
+	{
+		"name": "Institute","science": 3,"maintenance": 1,"specialistSlots": {"Scientist": 2},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Library","requiredTech": "Computers",
+		"uniques": ["Only available <in cities without a [Laboratory]>","[+25]% [Science]"],
 	},
 	//Cultural Specialisation
+	//Bureaucratic Specialisation
 	{
-		"name": "Theatre","culture": 2,"maintenance": 1,"specialistSlots": {"Artist": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Drama and Poetry",
+		"name": "Archives","science": 1,"culture": 1,"maintenance": 1,"specialistSlots": {"Bureaucrat": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Calendar",
 		"uniques": [],
+	},
+	{
+		"name": "Assembly","science": 1,"culture": 1,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Archives","requiredTech": "Code of Laws",
+		"uniques": ["Only available <in cities without a [Cabinet]>","[-10]% Unhappiness from [Population] [in this city]"],
+	},
+	{
+		"name": "Cabinet","science": 1,"culture": 1,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Archives","requiredTech": "Code of Laws",
+		"uniques": ["Only available <in cities without a [Assembly]>","[-15]% maintenance cost for [all] buildings [in this city]",],
+	},
+	{
+		"name": "Town Hall","science": 1,"culture": 1,"maintenance": 1,"specialistSlots": {"Bureaucrat": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Archives","requiredTech": "Printing Press",
+		"uniques": ["[+2 Happiness] from every specialist [in this city]"],
+	},
+	{
+		"name": "Administrative Office","science": 1,"culture": 1,"maintenance": 1,"specialistSlots": {"Bureaucrat": 2},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Archives","requiredTech": "Electricity",
+		"uniques": ["[+1 Science, +1 Culture] from every specialist [in this city]"],
 	},
 	//Commercial Specialisation
-	{
-		"name": "Market","gold": 4,"maintenance": 0,"specialistSlots": {"Merchant": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Currency",
-		"uniques": [],
-	},
-	//Maritime Specialisation
-	{
-		"name": "Lighthouse","food": 1,"gold": 2,"maintenance": 0,"specialistSlots": {"Captain": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Sailing",
-		"uniques": ["Must be next to [Water]","Provides [+4] [Housing]<in this city>","Connects trade routes over water","[+1 Food] from [Water] tiles [in this city]",],
-	},
-	//Landscaping Specialisation
-	{
-		"name": "Garden","culture": 1,"happiness": 2,"maintenance": 0,"specialistSlots": {"Gardner": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Irrigation",
-		"uniques": ["Only available <in cities without a [Grove]>","Provides [+1] [Amenities]<in this city>",],
-	},
-	//Conservation Specialisation
-	{
-		"name": "Grove","faith": 1,"science": 1,"maintenance": 1,"specialistSlots": {"Steward": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Pottery",
-		"uniques": ["Only available <in cities without a [Garden]>","[+1 Science, +1 Faith] from every [{unimproved} {Hill} {Land} {Vegetation}]","[+1 Science, +1 Faith] from every [{unimproved} {Coastal} {Land} {Vegetation}]"],
-	},
-	//Civic Specialisation
-	{
-		"name": "Archives","culture": 1,"science": 1,"maintenance": 1,"specialistSlots": {"Bureaucrat": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Calendar",
-		"uniques": ["[-10]% maintenance cost for [all] buildings [in this city]",],
-	},
-	//Entertainment Specialisation
-	{
-		"name": "Arena","happiness": 3,"maintenance": 1,"specialistSlots": {"Entertainer": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Drama and Poetry",
-		"uniques": ["Provides [+1] [Amenities]<in this city>",],
-	},
-	//Militaristic Specialisation
-	{
-		"name": "Barracks","production": 1,"maintenance": 1,"specialistSlots": {"Commander": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Bronze Working",
-		"uniques": ["Provides [+2] [Housing]<in this city>","[+15]% Production when constructing [{Land} {Military}] units [in this city]","Provides [1] [Manpower]","Provides [1] [Manpower] <in cities with at least [5] [Population]>",],
-	},
-	//Naval Specialisation
-	{
-		"name": "Arsenal","production": 1,"maintenance": 1,"specialistSlots": {"Captain": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Shipbuilding",
-		"uniques": ["Must be next to [Water]","[+15]% Production when constructing [{Water} {Military}] units [in this city]","Provides [1] [Sailors]","Provides [1] [Sailors] <in cities with at least [5] [Population]>","Provides [1] [Sailors] <in cities with at least [10] [Population]>",],
-	},
 	//Infrastructure Buildings
 	//Ancient Era Infrastructure Buildings
-	{
-		"name": "Fishing Dock","food": 1,"production": 1,"maintenance": 1,"hurryCostModifier": 25,"requiredTech": "Fishing"
-		"uniques": ["Infrastructure Building","Must be next to [Water]","Provides [+1] [Housing]<in this city>",]
-	},
-	{
-		"name": "Granary","food": 1,"maintenance": 1,"cost": 20,"hurryCostModifier": 25,"requiredTech": "Agriculture"
-		"uniques": ["Infrastructure Building","Provides [+4] [Housing]<in this city>",]
-	},
-	{
-		"name": "Barn","food": 1,"production": 1,"maintenance": 1,"hurryCostModifier": 25,"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle","Camels"],"requiredTech": "Animal Husbandry"
-		"uniques": ["Infrastructure Building",]
-	},
-	{
-		"name": "Pallisade","cityStrength": 5,"cityHealth": 15,"hurryCostModifier": 25,"requiredTech": "Carpentry",
-		"uniques": ["Infrastructure Building","Destroyed when the city is captured"]
-	},
-	{
-		"name": "Irrigation Wheel","food": 1,"maintenance": 1,"cost": 20,"hurryCostModifier": 25,"requiredTech": "The Wheel"
-		"uniques": ["Infrastructure Building","Must be on [River]","[+1 Food] from [Wheat] tiles [in this city]","[+1 Food] from [Rice] tiles [in this city]","[+1 Food] from [Maize] tiles [in this city]",]
-	},
-	{
-		"name": "Walls","cityStrength": 10,"cityHealth": 25,"hurryCostModifier": 25,"requiredTech": "City Defences",
-		"uniques": ["Infrastructure Building","Destroyed when the city is captured"]
-	},
 	//Classical Era Infrastructure Buildings
 	{
 		"name": "Mining Tunnels","production": 2,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Construction",
@@ -240,7 +128,7 @@
 	},
 	{
 		"name": "Cistern","food": 2,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Hydrology",
-		"uniques": ["Infrastructure Building","Must be next to [Fresh Water]","Provides [+4] [Housing]<in this city>",],
+		"uniques": ["Infrastructure Building","Must be next to [Fresh Water]",],
 	},
 	{
 		"name": "Waterway","gold": 4,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Hydrology",
@@ -249,6 +137,6 @@
 	//Post-Classical Era Infrastructure
 	{
 		"name": "Waterfront","food": 2,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Maritime Industry",
-		"uniques": ["Infrastructure Building","Must be next to [Water]","Provides [+6] [Housing]<in this city>",],
+		"uniques": ["Infrastructure Building","Must be next to [Water]",],
 	},
 ]
