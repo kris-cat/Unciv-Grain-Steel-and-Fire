@@ -166,25 +166,49 @@
 	//Ancient Era Infrastructure Buildings
 	
 	//Classical Era Infrastructure Buildings
-	{
-		"name": "Mining Tunnels","production": 2,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Construction",
-		"uniques": ["Infrastructure Building","Only available <in cities without a [Observatory]>","Must be next to [Mountain]","[+1 Production] from [Mountain] tiles [in this city]",],
-	},
-	{
-		"name": "Observatory","science": 2,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Construction",
-		"uniques": ["Infrastructure Building","Only available <in cities without a [Mining Tunnels]>","Must be next to [Mountain]","[+1 Science] from [Mountain] tiles [in this city]",],
-	},
+	//Fresh Water Infrastructure Buildings
 	{
 		"name": "Cistern","food": 2,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Hydrology",
 		"uniques": ["Infrastructure Building","Must be next to [Fresh Water]",],
 	},
+	//River Infrastructure Buildings
 	{
-		"name": "Waterway","gold": 4,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Hydrology",
+		"name": "Water Mill","production": 3,"maintenance": 1,"hurryCostModifier": 40,"requiredTech": "Construction",
+		"uniques": ["Must be on [River]","[+5]% [Production]"],
+	},
+	{
+		"name": "Dam","production": 2,"maintenance": 1,"hurryCostModifier": 40,"requiredTech": "Hydrology",
+		"uniques": ["Must be on [River]","[+1 Production] in cities on [Hill] tiles","[+5]% [Production]"],
+	},
+	{
+		"name": "Waterway","gold": 4,"maintenance": 0,"hurryCostModifier": 40,"requiredTech": "Hydrology",
 		"uniques": ["Infrastructure Building","Must be on [River]",],
 	},
+	//Mountain Infrastructure Buildings
+	{
+		"name": "Mining Tunnels","production": 2,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Engineering",
+		"uniques": ["Infrastructure Building","Only available <in cities without a [Observatory]>","Must be next to [Mountain]","[+1 Production] from [Mountain] tiles [in this city]",],
+	},
+	{
+		"name": "Observatory","science": 2,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Engineering",
+		"uniques": ["Infrastructure Building","Only available <in cities without a [Mining Tunnels]>","Must be next to [Mountain]","[+1 Science] from [Mountain] tiles [in this city]",],
+	},
 	//Post-Classical Era Infrastructure
+	//Water Infrastructure
 	{
 		"name": "Waterfront","food": 2,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Maritime Industry",
 		"uniques": ["Infrastructure Building","Must be next to [Water]",],
+	},
+	//Misc Infrastructure
+	{
+		"name": "Windmill","production": 1,"maintenance": 1,"hurryCostModifier": 40,"requiredTech": "Physics",
+		"uniques": ["[+1 Production] in cities on [Hill] tiles","[+1 Production] in cities on [Coastal] tiles","[+5]% [Production]"],
+	},
+	//Early Modern Era Infrastructure
+	//Modern Era Infrastructure
+	//Snow Infrastructure
+	{
+		"name": "Polar Station","maintenance": 2,"hurryCostModifier": 40,"requiredTech": "Radio",
+		"uniques": ["[+2 Science] from [Snow] tiles [in this city]","[+1 Science] from [Subarctic] tiles [in this city]","Must be next to [Snow]",],
 	},
 ]
