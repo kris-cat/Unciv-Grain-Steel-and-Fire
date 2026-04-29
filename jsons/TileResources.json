@@ -7,8 +7,6 @@
 	{"name": "Specialisation Slot", "resourceType": "Strategic","uniques": ["Doesn't generate naturally", "Cannot be traded", "City-level resource","Excluded from map editor",]},
     {"name": "Industry Slot", "resourceType": "Strategic","uniques": ["Doesn't generate naturally", "Cannot be traded", "City-level resource","Excluded from map editor",]},
 	{"name": "Amenities", "resourceType": "Strategic","uniques": ["Doesn't generate naturally", "Cannot be traded", "City-level resource","Excluded from map editor",]},
-	{"name": "Housing", "resourceType": "Strategic","uniques": ["Doesn't generate naturally", "Cannot be traded", "City-level resource","Excluded from map editor",]},
-	{"name": "Trading Capacity", "resourceType": "Strategic","uniques": ["Doesn't generate naturally", "Cannot be traded", "City-level resource","Excluded from map editor",]},
 	//Raw Resources - Bonus Resources
 	{"name": "Wheat", "resourceType": "Bonus","improvement": "Farm", "improvementStats": {"production": 1}, "terrainsCanBeFoundOn": ["Grassland","Semi-Arid","Floodplain"],},
 	{"name": "Rice", "resourceType": "Bonus","improvement": "Irrigation Farm", "improvementStats": {"food": 1}, "terrainsCanBeFoundOn": ["Subtropical","Tropical","Marsh"],"uniques": []},
