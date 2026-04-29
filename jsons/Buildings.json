@@ -184,7 +184,7 @@
 		"uniques": ["Provides [+1] [Amenities]<in this city>",],
 	},
 	{
-		"name": "Zoo","happiness": 2,"maintenance": 1,"hurryCostModifier": 40,"requiredBuilding": "Arena","requiredTech": "Square Rigging",
+		"name": "Zoo","happiness": 2,"maintenance": 1,"hurryCostModifier": 40,"requiredBuilding": "Arena","requiredTech": "Cartography",
 		"uniques": ["Provides [+1] [Amenities]<in this city>",],
 	},
 	{
