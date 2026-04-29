@@ -114,6 +114,7 @@
 		"uniques": ["Only available <in cities without a [Laboratory]>","[+25]% [Science]"],
 	},
 	//Cultural Specialisation
+	
 	//Bureaucratic Specialisation
 	{
 		"name": "Archives","science": 1,"culture": 1,"maintenance": 1,"specialistSlots": {"Bureaucrat": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Calendar",
@@ -186,9 +187,15 @@
 		"name": "Zoo","happiness": 4,"maintenance": 1,"hurryCostModifier": 40,"requiredBuilding": "Arena","requiredTech": "Square Rigging",
 		"uniques": ["Provides [+1] [Amenities]<in this city>",],
 	},
+	//Preservation Specialisation
+	//Landscaping Specialisation
+	//Light Industrial Specialisation
+	//Heavy Industrial Specialisation
+	//Martial Specialisation
+	//Naval Specialisation
+	//Aerial Specialisation
 	//Infrastructure Buildings
 	//Ancient Era Infrastructure Buildings
-	
 	//Classical Era Infrastructure Buildings
 	//Fresh Water Infrastructure Buildings
 	{
