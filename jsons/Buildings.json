@@ -15,14 +15,13 @@
 	{
 		"name": "12Population Milestone - 2","cost": 0,"maintenance": 0,
 		"uniques": [
-			"Provides [-2] [Housing]<in this city>",
 			"Only available <in cities with at least [2] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
 		]
 	},
 	{
 		"name": "13Population Milestone - 3","cost": 0,"maintenance": 0,
 		"uniques": [
-			"Provides [-2] [Housing]<in this city>","Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
+			"Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
 			"Only available <in cities with at least [3] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
 		]
 	},
@@ -52,12 +51,12 @@
 		"uniques": [],
 	},
 	{
-		"name": "Temple","faith": 2,"maintenance": 1,"specialistSlots": {"Priest": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Shrine","requiredTech": "Theocracy",
+		"name": "Temple","faith": 2,"maintenance": 1,"specialistSlots": {"Priest": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Shrine","requiredTech": "Theology",
 		"uniques": ["Only available <in cities without a [Monastery]>","[+1 Faith] from every [Priest]",],
 	},
 	{
-		"name": "Monastery","faith": 2,"maintenance": 1,"specialistSlots": {"Priest": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Shrine","requiredTech": "Theocracy",
-		"uniques": ["Only available <in cities without a [Temple]>","[+1 Food, +2 Faith,] from [Mountain] tiles [in this city]",],
+		"name": "Monastery","faith": 2,"maintenance": 1,"specialistSlots": {"Priest": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Shrine","requiredTech": "Theology",
+		"uniques": ["Only available <in cities without a [Temple]>","[+1 Food, +2 Faith] from [Mountain] tiles [in this city]",],
 	},
 	{
 		"name": "Parochial School","faith": 3,"maintenance": 1,"specialistSlots": {"Priest": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Shrine","requiredTech": "Medicine",
