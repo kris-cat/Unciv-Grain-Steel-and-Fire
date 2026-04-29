@@ -26,24 +26,24 @@
 		]
 	},
 	{
-		"name": "14Population Milestone - 7","cost": 0,"maintenance": 0,
+		"name": "14Population Milestone - 8","cost": 0,"maintenance": 0,
 		"uniques": [
 			"Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
-			"Only available <in cities with at least [7] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
+			"Only available <in cities with at least [8] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
 		]
 	},
 	{
-		"name": "15Population Milestone - 9","cost": 0,"maintenance": 0,
+		"name": "15Population Milestone - 11","cost": 0,"maintenance": 0,
 		"uniques": [
 			"Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
-			"Only available <in cities with at least [9] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
+			"Only available <in cities with at least [11] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
 		]
 	},
 	{
-		"name": "16Population Milestone - 12","cost": 0,"maintenance": 0,
+		"name": "16Population Milestone - 15","cost": 0,"maintenance": 0,
 		"uniques": [
 			"Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
-			"Only available <in cities with at least [12] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
+			"Only available <in cities with at least [15] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
 		]
 	},
 	// Palace buildings
@@ -164,6 +164,7 @@
 	},
 	//Infrastructure Buildings
 	//Ancient Era Infrastructure Buildings
+	
 	//Classical Era Infrastructure Buildings
 	{
 		"name": "Mining Tunnels","production": 2,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredTech": "Construction",
