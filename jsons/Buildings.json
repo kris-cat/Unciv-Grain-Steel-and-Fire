@@ -4,7 +4,6 @@
 		"name": "11Population Milestone - 1","cost": 0,"maintenance": 0,
 		"uniques": [
 			"Provides [1] [Manpower]","Provides [1] [Sailors] <in [Coastal] cities>",
-			"Provides [1] [Industry Slot]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
 			"[-10]% [Production] [in this city] <when below [-2] [Amenities]><hidden from users>","[-10]% [Science] [in this city] <when below [-2] [Amenities]><hidden from users>","[-10]% [Culture] [in this city] <when below [-2] [Amenities]><hidden from users>","[-10]% [Gold] [in this city] <when below [-2] [Amenities]><hidden from users>","[-10]% [Faith] [in this city] <when below [-2] [Amenities]><hidden from users>",
 			"[-10]% [Production] [in this city] <when below [0] [Amenities]><hidden from users>","[-10]% [Science] [in this city] <when below [0] [Amenities]><hidden from users>","[-10]% [Culture] [in this city] <when below [0] [Amenities]><hidden from users>","[-10]% [Gold] [in this city] <when below [0] [Amenities]><hidden from users>","[-10]% [Faith] [in this city] <when below [0] [Amenities]><hidden from users>",
 			"[+10]% [Production] [in this city] <when above [0] [Amenities]><hidden from users>","[+10]% [Science] [in this city] <when above [0] [Amenities]><hidden from users>","[+10]% [Culture] [in this city] <when above [0] [Amenities]><hidden from users>","[+10]% [Gold] [in this city] <when above [0] [Amenities]><hidden from users>","[+10]% [Faith] [in this city] <when above [0] [Amenities]><hidden from users>",
@@ -60,6 +59,7 @@
 		"uniques": [
 			"Indicates the capital city",
 			"Provides [+1] [Amenities]<in this city>",
+			"Provides [+1] [Specialisation Slot]<in this city>",
 			"Provides [2] [Manpower]",
 			"Provides [2] [Sailors] <in [Coastal] cities>",
 			"Consumes [1] [Manpower] <for every [10] [Manpower]>",
@@ -129,13 +129,19 @@
 	},
 	{
 		"name": "Town Hall","science": 1,"culture": 1,"maintenance": 1,"specialistSlots": {"Bureaucrat": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Archives","requiredTech": "Printing Press",
-		"uniques": ["[+2 Happiness] from every specialist [in this city]"],
+		"uniques": ["[+2 Happiness] from every [Bureaucrat]",],
 	},
 	{
 		"name": "Administrative Office","science": 1,"culture": 1,"maintenance": 1,"specialistSlots": {"Bureaucrat": 2},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Archives","requiredTech": "Electricity",
-		"uniques": ["[+1 Science, +1 Culture] from every specialist [in this city]"],
+		"uniques": ["[+1 Science, +1 Culture] from every [Bureaucrat]",],
 	},
 	//Commercial Specialisation
+	//Maritime Specialisation
+	//Entertainment Specialisation
+	{
+		"name": "Archives","science": 1,"culture": 1,"maintenance": 1,"specialistSlots": {"Bureaucrat": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Calendar",
+		"uniques": [],
+	},
 	//Infrastructure Buildings
 	//Ancient Era Infrastructure Buildings
 	//Classical Era Infrastructure Buildings
