@@ -136,10 +136,22 @@
 		"uniques": ["[+1 Science, +1 Culture] from every [Bureaucrat]",],
 	},
 	//Commercial Specialisation
+	{
+		"name": "Market","gold": 4,"maintenance": 1,"specialistSlots": {"Merchant": 1},"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Drama and Poetry",
+		"uniques": [],
+	},
+	{
+		"name": "Bank","gold": 4,"maintenance": 1,"specialistSlots": {"Merchant": 1},"hurryCostModifier": 40,"requiredBuilding": "Arena","requiredTech": "Square Rigging",
+		"uniques": ["[+1 Gold] per [3] population [in this city]",],
+	},
 	//Maritime Specialisation
 	//Entertainment Specialisation
 	{
-		"name": "Archives","science": 1,"culture": 1,"maintenance": 1,"specialistSlots": {"Bureaucrat": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Calendar",
+		"name": "Arena","happiness": 3,"maintenance": 1,"specialistSlots": {"Entertainer": 1},"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Drama and Poetry",
+		"uniques": [],
+	},
+	{
+		"name": "Zoo","happiness": 6,"maintenance": 2,"hurryCostModifier": 40,"requiredBuilding": "Arena","requiredTech": "Square Rigging",
 		"uniques": [],
 	},
 	//Infrastructure Buildings
