@@ -74,7 +74,7 @@
 	},
 	{
 		"name": "Temple","faith": 2,"maintenance": 1,"specialistSlots": {"Priest": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Shrine","requiredTech": "Theology",
-		"uniques": ["Only available <in cities without a [Monastery]>","[+1 Faith] from every [Priest]",],
+		"uniques": ["Only available <in cities without a [Monastery]>","[+1 Faith] from every [Priest] <in this city>",],
 	},
 	{
 		"name": "Monastery","faith": 2,"maintenance": 1,"specialistSlots": {"Priest": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Shrine","requiredTech": "Theology",
@@ -86,7 +86,7 @@
 	},
 	{
 		"name": "Hospitium","faith": 3,"maintenance": 1,"specialistSlots": {"Priest": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Shrine","requiredTech": "Medicine",
-		"uniques": ["Only available <in cities without a [Parochial School]>","Provides [+1] [Amenities] <in this city>","[+1 Food, +1 Faith] from every [Priest]",],
+		"uniques": ["Only available <in cities without a [Parochial School]>","Provides [+1] [Amenities] <in this city>","[+1 Food, +1 Faith] from every [Priest] <in this city>",],
 	},
 	//Scientific Specialisation
 	{
@@ -95,11 +95,11 @@
 	},
 	{
 		"name": "University","science": 2,"maintenance": 1,"specialistSlots": {"Scientist": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Library","requiredTech": "Education",
-		"uniques": ["Only available <in cities without a [Academy]>","[+1 Science] from every [Scientist]",],
+		"uniques": ["Only available <in cities without a [Academy]>","[+1 Science] from every [Scientist] <in this city>",],
 	},
 	{
 		"name": "Academy","science": 2,"maintenance": 1,"specialistSlots": {"Scientist": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Library","requiredTech": "Education",
-		"uniques": ["Only available <in cities without a [University]>","[+1 Production] from every [Scientist]",],
+		"uniques": ["Only available <in cities without a [University]>","[+1 Production] from every [Scientist] <in this city>",],
 	},
 	{
 		"name": "Public School","science": 3,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Library","requiredTech": "Scientific Method",
@@ -107,7 +107,7 @@
 	},
 	{
 		"name": "Laboratory","science": 3,"maintenance": 1,"specialistSlots": {"Scientist": 2},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Library","requiredTech": "Computers",
-		"uniques": ["Only available <in cities without a [Institute]>","[+1 Science] from every specialist [in this city]"],
+		"uniques": ["Only available <in cities without a [Institute]>","[+1 Science] from every specialist [in this city] <in this city>"],
 	},
 	{
 		"name": "Institute","science": 3,"maintenance": 1,"specialistSlots": {"Scientist": 2},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Library","requiredTech": "Computers",
@@ -129,11 +129,11 @@
 	},
 	{
 		"name": "Town Hall","science": 1,"culture": 1,"maintenance": 1,"specialistSlots": {"Bureaucrat": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Archives","requiredTech": "Printing Press",
-		"uniques": ["[+2 Happiness] from every [Bureaucrat]",],
+		"uniques": ["[+2 Happiness] from every [Bureaucrat] <in this city>",],
 	},
 	{
 		"name": "Administrative Office","science": 1,"culture": 1,"maintenance": 1,"specialistSlots": {"Bureaucrat": 2},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Archives","requiredTech": "Electricity",
-		"uniques": ["[+1 Science, +1 Culture] from every [Bureaucrat]",],
+		"uniques": ["[+1 Science, +1 Culture] from every [Bureaucrat] <in this city>",],
 	},
 	//Commercial Specialisation
 	{
@@ -150,7 +150,7 @@
 	},
 	{
 		"name": "Marketing Agency","gold": 8,"maintenance": 1,"specialistSlots": {"Merchant": 2},"hurryCostModifier": 40,"requiredBuilding": "Market","requiredTech": "Satellites",
-		"uniques": ["[+4 Gold] from every [Bureaucrat]",],
+		"uniques": ["[+4 Gold] from every [Merchant] <in this city>",],
 	},
 	//Maritime Specialisation
 	//Entertainment Specialisation
