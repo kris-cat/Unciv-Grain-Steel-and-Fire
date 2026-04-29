@@ -70,7 +70,7 @@
 	//Religious Specialisation
 	{
 		"name": "Shrine","faith": 2,"maintenance": 1,"specialistSlots": {"Priest": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Calendar",
-		"uniques": [],
+		"uniques": ["[+1 Faith] from [Mountain] tiles [in this city]",],
 	},
 	{
 		"name": "Temple","faith": 2,"maintenance": 1,"specialistSlots": {"Priest": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Shrine","requiredTech": "Theology",
@@ -91,7 +91,7 @@
 	//Scientific Specialisation
 	{
 		"name": "Library","science": 2,"maintenance": 1,"specialistSlots": {"Scientist": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Writing",
-		"uniques": [],
+		"uniques": ["[+1 Science] per [4] population [in this city]",],
 	},
 	{
 		"name": "University","science": 2,"maintenance": 1,"specialistSlots": {"Scientist": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Library","requiredTech": "Education",
@@ -107,7 +107,7 @@
 	},
 	{
 		"name": "Laboratory","science": 3,"maintenance": 1,"specialistSlots": {"Scientist": 2},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Library","requiredTech": "Computers",
-		"uniques": ["Only available <in cities without a [Institute]>","[+1 Science] from every specialist [in this city] <in this city>"],
+		"uniques": ["Only available <in cities without a [Institute]>","[+1 Science] from every [Scientist] <in this city>",],
 	},
 	{
 		"name": "Institute","science": 3,"maintenance": 1,"specialistSlots": {"Scientist": 2},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Library","requiredTech": "Computers",
@@ -117,28 +117,28 @@
 	//Bureaucratic Specialisation
 	{
 		"name": "Archives","science": 1,"culture": 1,"maintenance": 1,"specialistSlots": {"Bureaucrat": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Calendar",
-		"uniques": [],
+		"uniques": ["[-10]% maintenance cost for [all] buildings [in this city]",],
 	},
 	{
 		"name": "Assembly","science": 1,"culture": 1,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Archives","requiredTech": "Code of Laws",
-		"uniques": ["Only available <in cities without a [Cabinet]>","[-10]% Unhappiness from [Population] [in this city]"],
+		"uniques": ["Only available <in cities without a [Cabinet]>","[+1 Happiness] from every [Bureaucrat] <in this city>"],
 	},
 	{
 		"name": "Cabinet","science": 1,"culture": 1,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Archives","requiredTech": "Code of Laws",
-		"uniques": ["Only available <in cities without a [Assembly]>","[-15]% maintenance cost for [all] buildings [in this city]",],
+		"uniques": ["Only available <in cities without a [Assembly]>","[-10]% Unhappiness from [Population] [in this city]"],
 	},
 	{
 		"name": "Town Hall","science": 1,"culture": 1,"maintenance": 1,"specialistSlots": {"Bureaucrat": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Archives","requiredTech": "Printing Press",
-		"uniques": ["[+2 Happiness] from every [Bureaucrat] <in this city>",],
+		"uniques": ["[+1 Science, +1 Culture] from every [Bureaucrat] <in this city>",],
 	},
 	{
 		"name": "Administrative Office","science": 1,"culture": 1,"maintenance": 1,"specialistSlots": {"Bureaucrat": 2},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Archives","requiredTech": "Electricity",
-		"uniques": ["[+1 Science, +1 Culture] from every [Bureaucrat] <in this city>",],
+		"uniques": ["[-15]% maintenance cost for [all] buildings [in this city]",],
 	},
 	//Commercial Specialisation
 	{
 		"name": "Market","gold": 4,"maintenance": 0,"specialistSlots": {"Merchant": 1},"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "The Wheel",
-		"uniques": [],
+		"uniques": ["[+1 Gold] from [Luxury Resource] tiles [in this city]",],
 	},
 	{
 		"name": "Bank","gold": 4,"maintenance": 0,"specialistSlots": {"Merchant": 1},"hurryCostModifier": 40,"requiredBuilding": "Market","requiredTech": "Banking",
@@ -153,14 +153,38 @@
 		"uniques": ["[+4 Gold] from every [Merchant] <in this city>",],
 	},
 	//Maritime Specialisation
-	//Entertainment Specialisation
 	{
-		"name": "Arena","happiness": 3,"maintenance": 1,"specialistSlots": {"Entertainer": 1},"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Drama and Poetry",
-		"uniques": [],
+		"name": "Lighthouse","food": 1,"gold": 2,"maintenance": 0,"specialistSlots": {"Shipmaster": 1},"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Shipbuilding",
+		"uniques": ["[+1 Food] from [Water] tiles [in this city]","Must be next to [Coast]"],
 	},
 	{
-		"name": "Zoo","happiness": 6,"maintenance": 1,"hurryCostModifier": 40,"requiredBuilding": "Arena","requiredTech": "Square Rigging",
-		"uniques": [],
+		"name": "Harbour","gold": 4,"maintenance": 0,"specialistSlots": {"Shipmaster": 1},"hurryCostModifier": 40,"requiredBuilding": "Lighthouse","requiredTech": "Maritime Industry",
+		"uniques": ["[+1 Gold] from [Water] tiles [in this city]","Connects trade routes over water",],
+	},
+	{
+		"name": "Seaport","production": 1,"gold": 2,"maintenance": 0,"specialistSlots": {"Shipmaster": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Archives","requiredTech": "Square Rigging",
+		"uniques": ["Only available <in cities without a [Entreport]>","[+1 Production] from [Water resource] tiles [in this city]",],
+	},
+	{
+		"name": "Entreport","gold": 4,"maintenance": 0,"specialistSlots": {"Shipmaster": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Archives","requiredTech": "Square Rigging",
+		"uniques": ["Only available <in cities without a [Seaport]>","[+2 Gold] from [Water resource] tiles [in this city]",],
+	},
+	{
+		"name": "Shipyard","production": 1,"gold": 2,"maintenance": 0,"specialistSlots": {"Shipmaster": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Archives","requiredTech": "Replaceable Parts",
+		"uniques": ["Only available <in cities without a [Entreport]>","[+1 Production] from [Water] tiles [in this city]",],
+	},
+	{
+		"name": "Dockyard","production": 1,"gold": 2,"maintenance": 0,"specialistSlots": {"Shipmaster": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Archives","requiredTech": "Replaceable Parts",
+		"uniques": ["Only available <in cities without a [Seaport]>","[+2 Production] from every [Shipmaster] <in this city>",],
+	},
+	//Entertainment Specialisation
+	{
+		"name": "Arena","happiness": 2,"maintenance": 1,"specialistSlots": {"Entertainer": 1},"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Drama and Poetry",
+		"uniques": ["Provides [+1] [Amenities]<in this city>",],
+	},
+	{
+		"name": "Zoo","happiness": 4,"maintenance": 1,"hurryCostModifier": 40,"requiredBuilding": "Arena","requiredTech": "Square Rigging",
+		"uniques": ["Provides [+1] [Amenities]<in this city>",],
 	},
 	//Infrastructure Buildings
 	//Ancient Era Infrastructure Buildings
