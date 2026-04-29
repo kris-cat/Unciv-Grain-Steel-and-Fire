@@ -129,7 +129,7 @@
 		"uniques": ["Only available <in cities without a [Assembly]>","[-10]% Unhappiness from [Population] [in this city]"],
 	},
 	{
-		"name": "Town Hall","science": 1,"culture": 1,"maintenance": 1,"specialistSlots": {"Bureaucrat": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Archives","requiredTech": "Printing Press",
+		"name": "Town Hall","science": 1,"culture": 1,"maintenance": 1,"specialistSlots": {"Bureaucrat": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Archives","requiredTech": "Civil Service",
 		"uniques": ["[+1 Science, +1 Culture] from every [Bureaucrat] <in this city>",],
 	},
 	{
@@ -188,7 +188,31 @@
 		"uniques": ["Provides [+1] [Amenities]<in this city>",],
 	},
 	//Preservation Specialisation
+	{
+		"name": "Grove","science": 1,"faith": 1,"maintenance": 0,"specialistSlots": {"Steward": 1},"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Irrigation",
+		"uniques": ["Only available <in cities without a [Garden]>","Provides [+1] [Amenities]<in this city>","[+1 Faith] from every [{unimproved} {Hill} {Land}]","[+1 Faith] from every [{unimproved} {Coastal} {Land} {Vegetation}]","[+1 Science] from every [{unimproved} {Coastal} {Land} {Vegetation}]","[+1 Science] from every [{unimproved} {Hill} {Land} {Vegetation}]",],
+	},
+	{
+		"name": "Reserves","science": 1,"faith": 1,"maintenance": 0,"hurryCostModifier": 40,"requiredBuilding": "Grove","requiredTech": "Feudalism",
+		"uniques": ["[+4 Gold] from every [Steward] <in this city>",],
+	},
+	{
+		"name": "Sanctuary","science": 1,"faith": 1,"maintenance": 0,"specialistSlots": {"Steward": 1},"hurryCostModifier": 40,"requiredBuilding": "Grove","requiredTech": "Civil Engineering",
+		"uniques": ["Provides [+1] [Amenities]<in this city>","[+1 Faith] from every [{unimproved} {Hill} {Land}]","[+1 Faith] from every [{unimproved} {Coastal} {Land} {Vegetation}]","[+1 Science] from every [{unimproved}{Land} {Vegetation}]"],
+	},
 	//Landscaping Specialisation
+	{
+		"name": "Garden","culture": 1,"gold": 2,"maintenance": 0,"specialistSlots": {"Gardener": 1},"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Irrigation",
+		"uniques": ["Only available <in cities without a [Grove]>","Provides [+1] [Amenities]<in this city>","[+10]% Great Person generation [in this city]",],
+	},
+	{
+		"name": "Pavilion","culture": 1,"gold": 2,"maintenance": 0,"hurryCostModifier": 40,"requiredBuilding": "Garden","requiredTech": "Civil Service",
+		"uniques": ["[+10]% Great Person generation [in this city]",],
+	},
+	{
+		"name": "Botanical Garden","culture": 1,"gold": 2,"maintenance": 0,"specialistSlots": {"Gardener": 1},"hurryCostModifier": 40,"requiredBuilding": "Garden","requiredTech": "Civil Engineering",
+		"uniques": ["Provides [+1] [Amenities]<in this city>","[+1 Culture, +2 Gold] from every [Gardener] <in this city>",],
+	},
 	//Light Industrial Specialisation
 	//Heavy Industrial Specialisation
 	//Martial Specialisation
