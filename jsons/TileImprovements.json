@@ -102,7 +102,7 @@
 	},
 	{
 		"name": "Oasis Farm","terrainsCanBeBuiltOn": ["Oasis"],
-		"food": 2,"gold": 1,"turnsToBuild": 5,"techRequired": "Calendar",
+		"food": 1,"gold": 1,"turnsToBuild": 5,"techRequired": "Calendar",
 		"uniques": [
             "Pillaging this improvement yields approximately [+25 Gold]",
 			"Cannot be built on [Water] tiles",
