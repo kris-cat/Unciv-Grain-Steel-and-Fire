@@ -303,7 +303,7 @@
 	},
 	//Miscellaneous Infrastructure Buildings
 	{
-		"name": "Solar Panels","production": 2,"maintenance": 2,"hurryCostModifier": 40,"requiredTech": "Renewable Energy",
+		"name": "Solar Plant","production": 2,"maintenance": 2,"hurryCostModifier": 40,"requiredTech": "Renewable Energy",
 		"uniques": ["Infrastructure Building","[+3 Production] in cities on [Desert] tiles","[+15]% [Production]"],
 	},
 	//Defensive Buildings
