@@ -206,7 +206,11 @@
 	},
 	{
 		"name": "Sanctuary","science": 1,"faith": 1,"maintenance": 0,"specialistSlots": {"Steward": 1},"hurryCostModifier": 40,"requiredBuilding": "Grove","requiredTech": "Civil Engineering",
-		"uniques": ["Provides [+1] [Amenities]<in this city>","[+1 Faith] from every [{unimproved} {Hill} {Land}]","[+1 Faith] from every [{unimproved} {Coastal} {Land} {Vegetation}]","[+1 Science] from every [{unimproved}{Land} {Vegetation}]"],
+		"uniques": ["Provides [+1] [Amenities]<in this city>","[+1 Faith] from every [{unimproved} {Hill} {Land}]","[+1 Faith] from every [{unimproved} {Coastal} {Land} {Vegetation}]","[+1 Science] from every [{unimproved} {Coastal} {Land} {Vegetation}]","[+1 Science] from every [{unimproved} {Hill} {Land} {Vegetation}]",],
+	},
+	{
+		"name": "National Park","science": 2,"faith": 2,"maintenance": 0,"specialistSlots": {"Steward": 1},"hurryCostModifier": 40,"requiredBuilding": "Grove","requiredTech": "Archeology",
+		"uniques": ["Provides [+2] [Amenities]<in this city>","[+2 Faith] from every [{unimproved} {Hill} {Land}]","[+2 Faith] from every [{unimproved} {Coastal} {Land} {Vegetation}]","[+2 Science] from every [{unimproved} {Coastal} {Land} {Vegetation}]","[+2 Science] from every [{unimproved} {Hill} {Land} {Vegetation}]",],
 	},
 	//Landscaping Specialisation
 	{
@@ -215,11 +219,15 @@
 	},
 	{
 		"name": "Pavilion","culture": 1,"gold": 2,"maintenance": 0,"hurryCostModifier": 40,"requiredBuilding": "Garden","requiredTech": "Civil Service",
-		"uniques": ["[+10]% Great Person generation [in this city]",],
+		"uniques": ["[+15]% Great Person generation [in this city]",],
 	},
 	{
 		"name": "Botanical Garden","culture": 1,"gold": 2,"maintenance": 0,"specialistSlots": {"Gardener": 1},"hurryCostModifier": 40,"requiredBuilding": "Garden","requiredTech": "Civil Engineering",
 		"uniques": ["Provides [+1] [Amenities]<in this city>","[+1 Culture, +2 Gold] from every [Gardener] <in this city>",],
+	},
+	{
+		"name": "Open Air Theatre","culture": 2,"gold": 4,"maintenance": 0,"specialistSlots": {"Gardener": 1},"hurryCostModifier": 40,"requiredBuilding": "Garden","requiredTech": "Ecology",
+		"uniques": ["Provides [+2] [Amenities]<in this city>","[+25]% Great Person generation [in this city]",],
 	},
 	//Light Industrial Specialisation
 	//Heavy Industrial Specialisation
