@@ -1,0 +1,5 @@
+//Building Tags
+"'Specialisation Building'"
+"'Infrastructure Building'"
+"'Defensive Building'"
+"'Industry Building'"
