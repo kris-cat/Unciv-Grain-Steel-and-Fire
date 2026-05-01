@@ -14,52 +14,73 @@
 		]
 	},
 	{
-		"name": "12Population Milestone - 3","cost": 0,"maintenance": 0,
+		"name": "12Population Milestone - 4","cost": 0,"maintenance": 0,
 		"uniques": [
 			"Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
-			"Only available <in cities with at least [3] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
+			"Only available <in cities with at least [4] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
 		]
 	},
 	{
-		"name": "13Population Milestone - 6","cost": 0,"maintenance": 0,
+		"name": "13Population Milestone - 8","cost": 0,"maintenance": 0,
 		"uniques": [
 			"Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
-			"Only available <in cities with at least [6] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
+			"Only available <in cities with at least [8] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
 		]
 	},
 	{
-		"name": "14Population Milestone - 9","cost": 0,"maintenance": 0,
-		"uniques": [
-			"Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
-			"Only available <in cities with at least [9] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
-		]
-	},
-	{
-		"name": "15Population Milestone - 12","cost": 0,"maintenance": 0,
+		"name": "14Population Milestone - 12","cost": 0,"maintenance": 0,
 		"uniques": [
 			"Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
 			"Only available <in cities with at least [12] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
 		]
 	},
 	{
-		"name": "16Population Milestone - 15","cost": 0,"maintenance": 0,
+		"name": "15Population Milestone - 16","cost": 0,"maintenance": 0,
 		"uniques": [
 			"Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
-			"Only available <in cities with at least [15] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
+			"Only available <in cities with at least [16] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
 		]
 	},
 	{
-		"name": "17Population Milestone - 18","cost": 0,"maintenance": 0,
+		"name": "16Population Milestone - 20","cost": 0,"maintenance": 0,
 		"uniques": [
 			"Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
-			"Only available <in cities with at least [18] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
+			"Only available <in cities with at least [20] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
 		]
 	},
 	{
-		"name": "18Population Milestone - 21","cost": 0,"maintenance": 0,
+		"name": "17Population Milestone - 24","cost": 0,"maintenance": 0,
 		"uniques": [
 			"Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
-			"Only available <in cities with at least [21] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
+			"Only available <in cities with at least [24] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "18Population Milestone - 28","cost": 0,"maintenance": 0,
+		"uniques": [
+			"Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
+			"Only available <in cities with at least [28] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "19Population Milestone - 32","cost": 0,"maintenance": 0,
+		"uniques": [
+			"Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
+			"Only available <in cities with at least [32] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "20Population Milestone - 36","cost": 0,"maintenance": 0,
+		"uniques": [
+			"Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
+			"Only available <in cities with at least [36] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "20Population Milestone - 40","cost": 0,"maintenance": 0,
+		"uniques": [
+			"Provides [-1] [Amenities]<in this city>","Provides [1] [Industry Slot]<in this city>","Provides [1] [Specialisation Slot]<in this city>",
+			"Only available <in cities with at least [40] [Population]>","Automatically built in all cities where it is buildable","Destroyed when the city is captured"
 		]
 	},
 	// Palace buildings
