@@ -139,7 +139,7 @@
 	//Commercial Specialisation
 	{
 		"name": "Market","gold": 4,"maintenance": 0,"specialistSlots": {"Merchant": 1},"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "The Wheel",
-		"uniques": ["[+1 Gold] from [Luxury Resource] tiles [in this city]",],
+		"uniques": ["[+1 Gold] from [Luxury resource] tiles [in this city]",],
 	},
 	{
 		"name": "Bank","gold": 4,"maintenance": 0,"specialistSlots": {"Merchant": 1},"hurryCostModifier": 40,"requiredBuilding": "Market","requiredTech": "Banking",
@@ -304,7 +304,7 @@
 	//Miscellaneous Infrastructure Buildings
 	{
 		"name": "Solar Plant","production": 2,"maintenance": 2,"hurryCostModifier": 40,"requiredTech": "Renewable Energy",
-		"uniques": ["Infrastructure Building","[+3 Production] in cities on [Desert] tiles","[+15]% [Production]"],
+		"uniques": ["Infrastructure Building","[+3 Production] in cities on [Arid] tiles","[+15]% [Production]"],
 	},
 	//Defensive Buildings
 	{
