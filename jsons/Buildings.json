@@ -272,15 +272,15 @@
 		"uniques": ["Provides [+1] [Industry Slot]<in this city>",],
 	},
 	{
-		"name": "Counting House","production": 1,"gold": 1,"maintenance": 0,"specialistSlots": {"Engineer": 1},"hurryCostModifier": 40,"requiredBuilding": "Builders Quarters","requiredTech": "Artisanship",
+		"name": "Counting House","production": 1,"gold": 1,"maintenance": 0,"specialistSlots": {"Engineer": 1},"hurryCostModifier": 40,"requiredBuilding": "Craftsmen Quarters","requiredTech": "Artisanship",
 		"uniques": ["Provides [+1] [Industry Slot]<in this city>",],
 	},
 	{
-		"name": "Emporium","production": 1,"gold": 1,"maintenance": 0,"specialistSlots": {"Engineer": 1},"hurryCostModifier": 40,"requiredBuilding": "Builders Quarters","requiredTech": "Manufacturing",
+		"name": "Emporium","production": 1,"gold": 1,"maintenance": 0,"specialistSlots": {"Engineer": 1},"hurryCostModifier": 40,"requiredBuilding": "Craftsmen Quarters","requiredTech": "Manufacturing",
 		"uniques": ["Provides [+1] [Industry Slot]<in this city>",],
 	},
 	{
-		"name": "Commodity Exchange","production": 1,"gold": 1,"maintenance": 0,"specialistSlots": {"Engineer": 1},"hurryCostModifier": 40,"requiredBuilding": "Builder Quarters","requiredTech": "Internet",
+		"name": "Commodity Exchange","production": 1,"gold": 1,"maintenance": 0,"specialistSlots": {"Engineer": 1},"hurryCostModifier": 40,"requiredBuilding": "Craftsmen Quarters","requiredTech": "Internet",
 		"uniques": ["Provides [+1] [Industry Slot]<in this city>",],
 	},
 	//Heavy Industrial Specialisation
@@ -289,7 +289,7 @@
 		"uniques": ["Provides [+1] [Industry Slot]<in this city>",],
 	},
 	{
-		"name": "Chemical Plant","production": 2,"maintenance": 1,"specialistSlots": {"Engineer": 1},"hurryCostModifier": 40,"requiredBuilding": "Builders Quarters","requiredTech": "Chemistry",
+		"name": "Chemical Plant","production": 2,"maintenance": 1,"specialistSlots": {"Engineer": 1},"hurryCostModifier": 40,"requiredBuilding": "Builder Quarters","requiredTech": "Chemistry",
 		"uniques": ["Provides [+1] [Industry Slot]<in this city>",],
 	},
 	{
