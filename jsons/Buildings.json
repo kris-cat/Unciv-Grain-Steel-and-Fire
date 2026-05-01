@@ -127,15 +127,15 @@
 	},
 	//Scientific Specialisation
 	{
-		"name": "Library","science": 2,"maintenance": 1,"specialistSlots": {"Scientist": 1},"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Writing",
+		"name": "Library","science": 2,"maintenance": 1,"cost": 40,"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Writing",
 		"uniques": ["[+1 Science] per [3] population [in this city]",],
 	},
 	{
-		"name": "University","science": 2,"maintenance": 1,"specialistSlots": {"Scientist": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Library","requiredTech": "Education",
+		"name": "University","science": 2,"maintenance": 1,"specialistSlots": {"Scientist": 2},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Library","requiredTech": "Education",
 		"uniques": ["Only available <in cities without a [Academy]>","[+1 Science] from every [Scientist] <in this city>",],
 	},
 	{
-		"name": "Academy","science": 2,"maintenance": 1,"specialistSlots": {"Scientist": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Library","requiredTech": "Education",
+		"name": "Academy","science": 2,"maintenance": 1,"specialistSlots": {"Scientist": 2},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Library","requiredTech": "Education",
 		"uniques": ["Only available <in cities without a [University]>","[+1 Production] from every [Scientist] <in this city>",],
 	},
 	{
@@ -170,20 +170,20 @@
 		"uniques": ["[+1 Happiness] from every [Bureaucrat] <in this city>",],
 	},
 	{
-		"name": "Administrative Office","science": 1,"culture": 1,"maintenance": 1,"specialistSlots": {"Bureaucrat": 2},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Archives","requiredTech": "Electricity",
+		"name": "Administrative Office","science": 2,"culture": 2,"maintenance": 1,"specialistSlots": {"Bureaucrat": 2},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Archives","requiredTech": "Electricity",
 		"uniques": ["[-15]% maintenance cost for [all] buildings [in this city]",],
 	},
 	//Commercial Specialisation
 	{
-		"name": "Market","gold": 4,"maintenance": 0,"specialistSlots": {"Merchant": 1},"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "The Wheel",
+		"name": "Market","gold": 3,"maintenance": 0,"specialistSlots": {"Merchant": 1},"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "The Wheel",
 		"uniques": ["[+1 Gold] from [Luxury resource] tiles [in this city]",],
 	},
 	{
-		"name": "Bank","gold": 4,"maintenance": 0,"specialistSlots": {"Merchant": 1},"hurryCostModifier": 40,"requiredBuilding": "Market","requiredTech": "Banking",
+		"name": "Bank","gold": 3,"maintenance": 0,"specialistSlots": {"Merchant": 1},"hurryCostModifier": 40,"requiredBuilding": "Market","requiredTech": "Banking",
 		"uniques": ["[+1 Gold] per [3] population [in this city]",],
 	},
 	{
-		"name": "Stock Exchange","gold": 6,"maintenance": 0,"specialistSlots": {"Merchant": 1},"hurryCostModifier": 40,"requiredBuilding": "Market","requiredTech": "Economics",
+		"name": "Stock Exchange","gold": 3,"maintenance": 0,"specialistSlots": {"Merchant": 1},"hurryCostModifier": 40,"requiredBuilding": "Market","requiredTech": "Economics",
 		"uniques": ["[+25]% [Gold]",],
 	},
 	{
@@ -196,7 +196,7 @@
 		"uniques": ["[+1 Food] from [Water] tiles [in this city]","Must be next to [Coast]"],
 	},
 	{
-		"name": "Harbour","gold": 4,"maintenance": 0,"specialistSlots": {"Shipmaster": 1},"hurryCostModifier": 40,"requiredBuilding": "Lighthouse","requiredTech": "Maritime Industry",
+		"name": "Harbour","gold": 3,"maintenance": 0,"specialistSlots": {"Shipmaster": 1},"hurryCostModifier": 40,"requiredBuilding": "Lighthouse","requiredTech": "Maritime Industry",
 		"uniques": ["[+1 Gold] from [Water] tiles [in this city]","Connects trade routes over water",],
 	},
 	{
@@ -204,7 +204,7 @@
 		"uniques": ["Only available <in cities without a [Entreport]>","[+1 Production] from [Water resource] tiles [in this city]",],
 	},
 	{
-		"name": "Entreport","gold": 4,"maintenance": 0,"specialistSlots": {"Shipmaster": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Lighthouse","requiredTech": "Square Rigging",
+		"name": "Entreport","food": 1,"gold": 2,"maintenance": 0,"specialistSlots": {"Shipmaster": 1},"cost": 40,"hurryCostModifier": 40,"requiredBuilding": "Lighthouse","requiredTech": "Square Rigging",
 		"uniques": ["Only available <in cities without a [Seaport]>","[+2 Gold] from [Water resource] tiles [in this city]",],
 	},
 	{
@@ -267,11 +267,52 @@
 		"uniques": ["Provides [+2] [Amenities]<in this city>","[+25]% Great Person generation [in this city]",],
 	},
 	//Light Industrial Specialisation
-	
+	{
+		"name": "Craftsmen Quarters","production": 1,"gold": 1,"maintenance": 0,"specialistSlots": {"Engineer": 1},"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Craftsmanship",
+		"uniques": ["Provides [+1] [Industry Slot]<in this city>",],
+	},
+	{
+		"name": "Counting House","production": 1,"gold": 1,"maintenance": 0,"specialistSlots": {"Engineer": 1},"hurryCostModifier": 40,"requiredBuilding": "Builders Quarters","requiredTech": "Artisanship",
+		"uniques": ["Provides [+1] [Industry Slot]<in this city>",],
+	},
+	{
+		"name": "Emporium","production": 1,"gold": 1,"maintenance": 0,"specialistSlots": {"Engineer": 1},"hurryCostModifier": 40,"requiredBuilding": "Builders Quarters","requiredTech": "Manufacturing",
+		"uniques": ["Provides [+1] [Industry Slot]<in this city>",],
+	},
+	{
+		"name": "Commodity Exchange","production": 1,"gold": 1,"maintenance": 0,"specialistSlots": {"Engineer": 1},"hurryCostModifier": 40,"requiredBuilding": "Builder Quarters","requiredTech": "Internet",
+		"uniques": ["Provides [+1] [Industry Slot]<in this city>",],
+	},
 	//Heavy Industrial Specialisation
-	
+	{
+		"name": "Builder Quarters","production": 2,"maintenance": 1,"specialistSlots": {"Engineer": 1},"hurryCostModifier": 40,"requiredResource": "Specialisation Slot","requiredTech": "Construction",
+		"uniques": ["Provides [+1] [Industry Slot]<in this city>",],
+	},
+	{
+		"name": "Chemical Plant","production": 2,"maintenance": 1,"specialistSlots": {"Engineer": 1},"hurryCostModifier": 40,"requiredBuilding": "Builders Quarters","requiredTech": "Chemistry",
+		"uniques": ["Provides [+1] [Industry Slot]<in this city>",],
+	},
+	{
+		"name": "Logistics Center","production": 4,"maintenance": 1,"specialistSlots": {"Engineer": 1},"hurryCostModifier": 40,"requiredBuilding": "Builder Quarters","requiredTech": "Automation",
+		"uniques": ["Provides [+1] [Industry Slot]<in this city>",],
+	},
 	//Martial Specialisation
-	
+	{
+		"name": "Barracks","production": 1,"maintenance": 1,"specialistSlots": {"Commander": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredTech": "Fortifications","requiredResource": "Specialisation Slot",
+		"uniques": ["[+15]% Production when constructing [{Land} {Military}] units [in this city]","Provides [1] [Manpower]","Provides [1] [Manpower] <in cities with at least [5] [Population]>","Provides [1] [Manpower] <in cities with at least [10] [Population]>",],
+	},
+	{
+		"name": "Armoury","production": 1,"maintenance": 1,"specialistSlots": {"Commander": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredBuilding": "Barracks","requiredTech": "Pike Tactics",
+		"uniques": ["Provides [1] [Manpower]","Provides [1] [Manpower] <in cities with at least [10] [Population]>","Provides [1] [Manpower] <in cities with at least [20] [Population]>",],
+	},
+	{
+		"name": "Military Academy","production": 1,"maintenance": 1,"specialistSlots": {"Commander": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredBuilding": "Barracks","requiredTech": "Military Science",
+		"uniques": ["Provides [1] [Manpower]","Provides [1] [Manpower]","Provides [1] [Manpower] <in cities with at least [5] [Population]>","Provides [1] [Manpower] <in cities with at least [10] [Population]>","Provides [1] [Manpower]","Provides [1] [Manpower] <in cities with at least [15] [Population]>","Provides [1] [Manpower] <in cities with at least [20] [Population]>",],
+	},
+	{
+		"name": "Military Base","production": 1,"maintenance": 1,"specialistSlots": {"Commander": 1},"cost": 40,"hurryCostModifier": 40,"maintenance": 1,"requiredBuilding": "Barracks","requiredTech": "Combined Arms",
+		"uniques": ["Provides [1] [Manpower]","Provides [1] [Manpower] <in cities with at least [30] [Population]>","Provides [1] [Manpower] <in cities with at least [40] [Population]>",],
+	},
 	//Naval Specialisation
 	
 	//Aerial Specialisation
